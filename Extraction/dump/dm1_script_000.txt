@@ -1,0 +1,1844 @@
+//GAME NAME:		Yu-Gi-Oh: Duel Monsters
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+
+//BLOCK #000 NAME:		Card Names
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($46ED, $52A4) // Jump to insertion point
+#HDR($-0) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $440F - STRING #0 @ $46ED
+#W16($440F)
+//ブルーアイズ・ホワイトドラゴン
+// current address: $46FC
+
+//POINTER #1 @ $4411 - STRING #1 @ $46FC
+#W16($4411)
+//ホーりー・エルフ
+// current address: $4704
+
+//POINTER #2 @ $4413 - STRING #2 @ $4704
+#W16($4413)
+//サイクロプス
+// current address: $470A
+
+//POINTER #3 @ $4415 - STRING #3 @ $470A
+#W16($4415)
+//ベビードラゴン
+// current address: $4711
+
+//POINTER #4 @ $4417 - STRING #4 @ $4711
+#W16($4417)
+//ガーゴイル
+// current address: $4716
+
+//POINTER #5 @ $4419 - STRING #5 @ $4716
+#W16($4419)
+//グレムりン
+// current address: $471B
+
+//POINTER #6 @ $441B - STRING #6 @ $471B
+#W16($441B)
+//とりでをまもるよくりゅう
+// current address: $4727
+
+//POINTER #7 @ $441D - STRING #7 @ $4727
+#W16($441D)
+//きのこマン
+// current address: $472C
+
+//POINTER #8 @ $441F - STRING #8 @ $472C
+#W16($441F)
+//へルバウンド
+// current address: $4732
+
+//POINTER #9 @ $4421 - STRING #9 @ $4732
+#W16($4421)
+//あんこくのドラゴン
+// current address: $473B
+
+//POINTER #10 @ $4423 - STRING #10 @ $473B
+#W16($4423)
+//ソードドラゴン
+// current address: $4742
+
+//POINTER #11 @ $4425 - STRING #11 @ $4742
+#W16($4425)
+//バーバりアン２ごう
+// current address: $474B
+
+//POINTER #12 @ $4427 - STRING #12 @ $474B
+#W16($4427)
+//タイホーン
+// current address: $4750
+
+//POINTER #13 @ $4429 - STRING #13 @ $4750
+#W16($4429)
+//ぎゅうまじん
+// current address: $4756
+
+//POINTER #14 @ $442B - STRING #14 @ $4756
+#W16($442B)
+//ほのおのけんし
+// current address: $475D
+
+//POINTER #15 @ $442D - STRING #15 @ $475D
+#W16($442D)
+//ときのまじゅつし
+// current address: $4765
+
+//POINTER #16 @ $442F - STRING #16 @ $4765
+#W16($442F)
+//ふういんされしもののみぎあし
+// current address: $4773
+
+//POINTER #17 @ $4431 - STRING #17 @ $4773
+#W16($4431)
+//ふういんされしもののひだりあし
+// current address: $4782
+
+//POINTER #18 @ $4433 - STRING #18 @ $4782
+#W16($4433)
+//ふういんされしもののみぎうで
+// current address: $4790
+
+//POINTER #19 @ $4435 - STRING #19 @ $4790
+#W16($4435)
+//ふういんされしもののひだりうで
+// current address: $479F
+
+//POINTER #20 @ $4437 - STRING #20 @ $479F
+#W16($4437)
+//ふういんされしエクゾディア
+// current address: $47AC
+
+//POINTER #21 @ $4439 - STRING #21 @ $47AC
+#W16($4439)
+//デーモンのしょうかん
+// current address: $47B6
+
+//POINTER #22 @ $443B - STRING #22 @ $47B6
+#W16($443B)
+//じゃあくなるワーム・ビースト
+// current address: $47C4
+
+//POINTER #23 @ $443D - STRING #23 @ $47C4
+#W16($443D)
+//ワイト
+// current address: $47C7
+
+//POINTER #24 @ $443F - STRING #24 @ $47C7
+#W16($443F)
+//インプ
+// current address: $47CA
+
+//POINTER #25 @ $4441 - STRING #25 @ $47CA
+#W16($4441)
+//ミノタウルス
+// current address: $47D0
+
+//POINTER #26 @ $4443 - STRING #26 @ $47D0
+#W16($4443)
+//ルイーズ
+// current address: $47D4
+
+//POINTER #27 @ $4445 - STRING #27 @ $47D4
+#W16($4445)
+//がんくつまじんオーガ・ロック
+// current address: $47E2
+
+//POINTER #28 @ $4447 - STRING #28 @ $47E2
+#W16($4447)
+//マウンテン・ウォーりアー
+// current address: $47EE
+
+//POINTER #29 @ $4449 - STRING #29 @ $47EE
+#W16($4449)
+//アンデット・ウォーりアー
+// current address: $47FA
+
+//POINTER #30 @ $444B - STRING #30 @ $47FA
+#W16($444B)
+//デビル・ドラゴン
+// current address: $4802
+
+//POINTER #31 @ $444D - STRING #31 @ $4802
+#W16($444D)
+//にとうをもつキング・レックス
+// current address: $4810
+
+//POINTER #32 @ $444F - STRING #32 @ $4810
+#W16($444F)
+//ジャッジ・マン
+// current address: $4817
+
+//POINTER #33 @ $4451 - STRING #33 @ $4817
+#W16($4451)
+//やみ・どうけしのサギー
+// current address: $4822
+
+//POINTER #34 @ $4453 - STRING #34 @ $4822
+#W16($4453)
+//ブラック・マジシャン
+// current address: $482C
+
+//POINTER #35 @ $4455 - STRING #35 @ $482C
+#W16($4455)
+//メデューサのぼうれい
+// current address: $4836
+
+//POINTER #36 @ $4457 - STRING #36 @ $4836
+#W16($4457)
+//りゅうきしガイア
+// current address: $483E
+
+//POINTER #37 @ $4459 - STRING #37 @ $483E
+#W16($4459)
+//あんこくきしガイア
+// current address: $4847
+
+//POINTER #38 @ $445B - STRING #38 @ $4847
+#W16($445B)
+//カース・オブ・ドラゴン
+// current address: $4852
+
+//POINTER #39 @ $445D - STRING #39 @ $4852
+#W16($445D)
+//つぼまじん
+// current address: $4857
+
+//POINTER #40 @ $445F - STRING #40 @ $4857
+#W16($445F)
+//エルフのけんし
+// current address: $485E
+
+//POINTER #41 @ $4461 - STRING #41 @ $485E
+#W16($4461)
+//イりュージョニスト・ノー・フェイス
+// current address: $486F
+
+//POINTER #42 @ $4463 - STRING #42 @ $486F
+#W16($4463)
+//カルボナーラせんし
+// current address: $4878
+
+//POINTER #43 @ $4465 - STRING #43 @ $4878
+#W16($4465)
+//ホーりー・ドール
+// current address: $4880
+
+//POINTER #44 @ $4467 - STRING #44 @ $4880
+#W16($4467)
+//エレキッズ
+// current address: $4885
+
+//POINTER #45 @ $4469 - STRING #45 @ $4885
+#W16($4469)
+//グりフォール
+// current address: $488B
+
+//POINTER #46 @ $446B - STRING #46 @ $488B
+#W16($446B)
+//サイガー
+// current address: $488F
+
+//POINTER #47 @ $446D - STRING #47 @ $488F
+#W16($446D)
+//クりッター
+// current address: $4894
+
+//POINTER #48 @ $446F - STRING #48 @ $4894
+#W16($446F)
+//ビック・アント
+// current address: $489B
+
+//POINTER #49 @ $4471 - STRING #49 @ $489B
+#W16($4471)
+//ベーシック・インセクト
+// current address: $48A6
+
+//POINTER #50 @ $4473 - STRING #50 @ $48A6
+#W16($4473)
+//アーマー・りザード
+// current address: $48AF
+
+//POINTER #51 @ $4475 - STRING #51 @ $48AF
+#W16($4475)
+//へラクレス・ビートル
+// current address: $48B9
+
+//POINTER #52 @ $4477 - STRING #52 @ $48B9
+#W16($4477)
+//キラー・ビー
+// current address: $48BF
+
+//POINTER #53 @ $4479 - STRING #53 @ $48BF
+#W16($4479)
+//ゴキボール
+// current address: $48C4
+
+//POINTER #54 @ $447B - STRING #54 @ $48C4
+#W16($447B)
+//きゅうけつノミ
+// current address: $48CB
+
+//POINTER #55 @ $447D - STRING #55 @ $48CB
+#W16($447D)
+//ラーバモス
+// current address: $48D0
+
+//POINTER #56 @ $447F - STRING #56 @ $48D0
+#W16($447F)
+//グレートモス
+// current address: $48D6
+
+//POINTER #57 @ $4481 - STRING #57 @ $48D6
+#W16($4481)
+//クりボー
+// current address: $48DA
+
+//POINTER #58 @ $4483 - STRING #58 @ $48DA
+#W16($4483)
+//マンモスのはかば
+// current address: $48E2
+
+//POINTER #59 @ $4485 - STRING #59 @ $48E2
+#W16($4485)
+//グレート・ホワイト
+// current address: $48EB
+
+//POINTER #60 @ $4487 - STRING #60 @ $48EB
+#W16($4487)
+//オオカミ
+// current address: $48EF
+
+//POINTER #61 @ $4489 - STRING #61 @ $48EF
+#W16($4489)
+//ハーピィ・レディ
+// current address: $48F7
+
+//POINTER #62 @ $448B - STRING #62 @ $48F7
+#W16($448B)
+//ハーピィ・レディ　さんしまい
+// current address: $4905
+
+//POINTER #63 @ $448D - STRING #63 @ $4905
+#W16($448D)
+//タイガー・アックス
+// current address: $490E
+
+//POINTER #64 @ $448F - STRING #64 @ $490E
+#W16($448F)
+//シルバー・フォング
+// current address: $4917
+
+//POINTER #65 @ $4491 - STRING #65 @ $4917
+#W16($4491)
+//まもののかりうど
+// current address: $491F
+
+//POINTER #66 @ $4493 - STRING #66 @ $491F
+#W16($4493)
+//かんぜんきゅうきょくたいグレートモス
+// current address: $4931
+
+//POINTER #67 @ $4495 - STRING #67 @ $4931
+#W16($4495)
+//ガルーザス
+// current address: $4936
+
+//POINTER #68 @ $4497 - STRING #68 @ $4936
+#W16($4497)
+//サウザンド・ドラゴン
+// current address: $4940
+
+//POINTER #69 @ $4499 - STRING #69 @ $4940
+#W16($4499)
+//デビル・クラーケン
+// current address: $4949
+
+//POINTER #70 @ $449B - STRING #70 @ $4949
+#W16($449B)
+//ジェりーフィッシュ
+// current address: $4952
+
+//POINTER #71 @ $449D - STRING #71 @ $4952
+#W16($449D)
+//しんかのまゆ
+// current address: $4958
+
+//POINTER #72 @ $449F - STRING #72 @ $4958
+#W16($449F)
+//りバイアサン
+// current address: $495E
+
+//POINTER #73 @ $44A1 - STRING #73 @ $495E
+#W16($44A1)
+//がんせきのきょへい
+// current address: $4967
+
+//POINTER #74 @ $44A3 - STRING #74 @ $4967
+#W16($44A3)
+//ひとくいしょくぶつ
+// current address: $4970
+
+//POINTER #75 @ $44A5 - STRING #75 @ $4970
+#W16($44A5)
+//クロコダイラス
+// current address: $4977
+
+//POINTER #76 @ $44A7 - STRING #76 @ $4977
+#W16($44A7)
+//グラップラー
+// current address: $497D
+
+//POINTER #77 @ $44A9 - STRING #77 @ $497D
+#W16($44A9)
+//アックス・レイダー
+// current address: $4986
+
+//POINTER #78 @ $44AB - STRING #78 @ $4986
+#W16($44AB)
+//メガザウラー
+// current address: $498C
+
+//POINTER #79 @ $44AD - STRING #79 @ $498C
+#W16($44AD)
+//ワイルド・ラプター
+// current address: $4995
+
+//POINTER #80 @ $44AF - STRING #80 @ $4995
+#W16($44AF)
+//しかばねをむさぼるりゅう
+// current address: $49A1
+
+//POINTER #81 @ $44B1 - STRING #81 @ $49A1
+#W16($44B1)
+//レッドアイズ・ブラックドラゴン
+// current address: $49B0
+
+//POINTER #82 @ $44B3 - STRING #82 @ $49B0
+#W16($44B3)
+//やみくらましのしろ
+// current address: $49B9
+
+//POINTER #83 @ $44B5 - STRING #83 @ $49B9
+#W16($44B5)
+//カードをかるしにがみ
+// current address: $49C3
+
+//POINTER #84 @ $44B7 - STRING #84 @ $49C3
+#W16($44B7)
+//やみまかいのはおう
+// current address: $49CC
+
+//POINTER #85 @ $44B9 - STRING #85 @ $49CC
+#W16($44B9)
+//バロックス
+// current address: $49D1
+
+//POINTER #86 @ $44BB - STRING #86 @ $49D1
+#W16($44BB)
+//ダーク・キメラ
+// current address: $49D8
+
+//POINTER #87 @ $44BD - STRING #87 @ $49D8
+#W16($44BD)
+//メタル・ガーディアン
+// current address: $49E2
+
+//POINTER #88 @ $44BF - STRING #88 @ $49E2
+#W16($44BF)
+//カタパルト・タートル
+// current address: $49EC
+
+//POINTER #89 @ $44C1 - STRING #89 @ $49EC
+#W16($44C1)
+//ぎゃくてんのめがみ
+// current address: $49F5
+
+//POINTER #90 @ $44C3 - STRING #90 @ $49F5
+#W16($44C3)
+//ケンタウロス
+// current address: $49FB
+
+//POINTER #91 @ $44C5 - STRING #91 @ $49FB
+#W16($44C5)
+//ミノケンタウロス
+// current address: $4A03
+
+//POINTER #92 @ $44C7 - STRING #92 @ $4A03
+#W16($44C7)
+//よろいむしゃザンキ
+// current address: $4A0C
+
+//POINTER #93 @ $44C9 - STRING #93 @ $4A0C
+#W16($44C9)
+//ちをはうドラゴン
+// current address: $4A14
+
+//POINTER #94 @ $44CB - STRING #94 @ $4A14
+#W16($44CB)
+//マーダーサーカス
+// current address: $4A1C
+
+//POINTER #95 @ $44CD - STRING #95 @ $4A1C
+#W16($44CD)
+//よろいむしゃゾンビ
+// current address: $4A25
+
+//POINTER #96 @ $44CF - STRING #96 @ $4A25
+#W16($44CF)
+//ドラゴン・ゾンビ
+// current address: $4A2D
+
+//POINTER #97 @ $44D1 - STRING #97 @ $4A2D
+#W16($44D1)
+//マーダーサーカス・ゾンビ
+// current address: $4A39
+
+//POINTER #98 @ $44D3 - STRING #98 @ $4A39
+#W16($44D3)
+//ゴーストおう　ーパンプキングー
+// current address: $4A48
+
+//POINTER #99 @ $44D5 - STRING #99 @ $4A48
+#W16($44D5)
+//かくとうせんしアルティメーター
+// current address: $4A57
+
+//POINTER #100 @ $44D7 - STRING #100 @ $4A57
+#W16($44D7)
+//じゃえんのつばさ
+// current address: $4A5F
+
+//POINTER #101 @ $44D9 - STRING #101 @ $4A5F
+#W16($44D9)
+//やみのかめん
+// current address: $4A65
+
+//POINTER #102 @ $44DB - STRING #102 @ $4A65
+#W16($44DB)
+//てんしょくのまきょう
+// current address: $4A6F
+
+//POINTER #103 @ $44DD - STRING #103 @ $4A6F
+#W16($44DD)
+//くろまぞくのカーテン
+// current address: $4A79
+
+//POINTER #104 @ $44DF - STRING #104 @ $4A79
+#W16($44DF)
+//トモザウルス
+// current address: $4A7F
+
+//POINTER #105 @ $44E1 - STRING #105 @ $4A7F
+#W16($44E1)
+//かぜのせいれい
+// current address: $4A86
+
+//POINTER #106 @ $44E3 - STRING #106 @ $4A86
+#W16($44E3)
+//シャドウ・ファイター
+// current address: $4A90
+
+//POINTER #107 @ $44E5 - STRING #107 @ $4A90
+#W16($44E5)
+//てまねきするはかば
+// current address: $4A99
+
+//POINTER #108 @ $44E7 - STRING #108 @ $4A99
+#W16($44E7)
+//しんがんのめがみ
+// current address: $4AA1
+
+//POINTER #109 @ $44E9 - STRING #109 @ $4AA1
+#W16($44E9)
+//とうほうのえいゆう
+// current address: $4AAA
+
+//POINTER #110 @ $44EB - STRING #110 @ $4AAA
+#W16($44EB)
+//しのちんもくのてんし　ドマ
+// current address: $4AB7
+
+//POINTER #111 @ $44ED - STRING #111 @ $4AB7
+#W16($44ED)
+//いのちをしょくするもの
+// current address: $4AC2
+
+//POINTER #112 @ $44EF - STRING #112 @ $4AC2
+#W16($44EF)
+//ダーク・グレイ
+// current address: $4AC9
+
+//POINTER #113 @ $44F1 - STRING #113 @ $4AC9
+#W16($44F1)
+//ホワイト・シーフ
+// current address: $4AD1
+
+//POINTER #114 @ $44F3 - STRING #114 @ $4AD1
+#W16($44F3)
+//カオス・ウィザード
+// current address: $4ADA
+
+//POINTER #115 @ $44F5 - STRING #115 @ $4ADA
+#W16($44F5)
+//ナイトメア・スコーピオン
+// current address: $4AE6
+
+//POINTER #116 @ $44F7 - STRING #116 @ $4AE6
+#W16($44F7)
+//ほんのせいれい　ホーク・ビショップ
+// current address: $4AF7
+
+//POINTER #117 @ $44F9 - STRING #117 @ $4AF7
+#W16($44F9)
+//ものかげのきょうりょくしゃ
+// current address: $4B04
+
+//POINTER #118 @ $44FB - STRING #118 @ $4B04
+#W16($44FB)
+//じごくのさいばん
+// current address: $4B0C
+
+//POINTER #119 @ $44FD - STRING #119 @ $4B0C
+#W16($44FD)
+//ドりーム・ピエロ
+// current address: $4B14
+
+//POINTER #120 @ $44FF - STRING #120 @ $4B14
+#W16($44FF)
+//ねむれるシシ
+// current address: $4B1A
+
+//POINTER #121 @ $4501 - STRING #121 @ $4B1A
+#W16($4501)
+//ヤマタノドラゴンえまき
+// current address: $4B25
+
+//POINTER #122 @ $4503 - STRING #122 @ $4B25
+#W16($4503)
+//ダーク・プラント
+// current address: $4B2D
+
+//POINTER #123 @ $4505 - STRING #123 @ $4B2D
+#W16($4505)
+//アイアン・ハート
+// current address: $4B35
+
+//POINTER #124 @ $4507 - STRING #124 @ $4B35
+#W16($4507)
+//セイント・バード
+// current address: $4B3D
+
+//POINTER #125 @ $4509 - STRING #125 @ $4B3D
+#W16($4509)
+//たたかいのかみ　オりオン
+// current address: $4B49
+
+//POINTER #126 @ $450B - STRING #126 @ $4B49
+#W16($450B)
+//アサシン
+// current address: $4B4D
+
+//POINTER #127 @ $450D - STRING #127 @ $4B4D
+#W16($450D)
+//ラムーン
+// current address: $4B51
+
+//POINTER #128 @ $450F - STRING #128 @ $4B51
+#W16($450F)
+//ねむりこ
+// current address: $4B55
+
+//POINTER #129 @ $4511 - STRING #129 @ $4B55
+#W16($4511)
+//ウェザー・コントロール
+// current address: $4B60
+
+//POINTER #130 @ $4513 - STRING #130 @ $4B60
+#W16($4513)
+//オクトバーサー
+// current address: $4B67
+
+//POINTER #131 @ $4515 - STRING #131 @ $4B67
+#W16($4515)
+//１３にんめのまいそうしゃ
+// current address: $4B73
+
+//POINTER #132 @ $4517 - STRING #132 @ $4B73
+#W16($4517)
+//ほのおのきし　キラー
+// current address: $4B7D
+
+//POINTER #133 @ $4519 - STRING #133 @ $4B7D
+#W16($4519)
+//せいなるくさり
+// current address: $4B84
+
+//POINTER #134 @ $451B - STRING #134 @ $4B84
+#W16($451B)
+//ししゃのうで
+// current address: $4B8A
+
+//POINTER #135 @ $451D - STRING #135 @ $4B8A
+#W16($451D)
+//まじん　デスサタン
+// current address: $4B93
+
+//POINTER #136 @ $451F - STRING #136 @ $4B93
+#W16($451F)
+//なぞのて
+// current address: $4B97
+
+//POINTER #137 @ $4521 - STRING #137 @ $4B97
+#W16($4521)
+//ドラゴン・ソウル・スタチュー
+// current address: $4BA5
+
+//POINTER #138 @ $4523 - STRING #138 @ $4BA5
+#W16($4523)
+//ブルーアイド・シルバーゾンビ
+// current address: $4BB3
+
+//POINTER #139 @ $4525 - STRING #139 @ $4BB3
+#W16($4525)
+//トードマスター
+// current address: $4BBA
+
+//POINTER #140 @ $4527 - STRING #140 @ $4BBA
+#W16($4527)
+//デビルツムり
+// current address: $4BC0
+
+//POINTER #141 @ $4529 - STRING #141 @ $4BC0
+#W16($4529)
+//ほのおをあやつるもの
+// current address: $4BCA
+
+//POINTER #142 @ $452B - STRING #142 @ $4BCA
+#W16($452B)
+//ときのまじん　ネクロランサ
+// current address: $4BD7
+
+//POINTER #143 @ $452D - STRING #143 @ $4BD7
+#W16($452D)
+//かぜのばんにん　ジン
+// current address: $4BE1
+
+//POINTER #144 @ $452F - STRING #144 @ $4BE1
+#W16($452F)
+//みわくのかいとう
+// current address: $4BE9
+
+//POINTER #145 @ $4531 - STRING #145 @ $4BE9
+#W16($4531)
+//ドクロのじいん
+// current address: $4BF0
+
+//POINTER #146 @ $4533 - STRING #146 @ $4BF0
+#W16($4533)
+//モンスター・エッグ
+// current address: $4BF9
+
+//POINTER #147 @ $4535 - STRING #147 @ $4BF9
+#W16($4535)
+//やみをつかさどるかげ
+// current address: $4C03
+
+//POINTER #148 @ $4537 - STRING #148 @ $4C03
+#W16($4537)
+//ランプのまじん
+// current address: $4C0A
+
+//POINTER #149 @ $4539 - STRING #149 @ $4C0A
+#W16($4539)
+//カクタス
+// current address: $4C0E
+
+//POINTER #150 @ $453B - STRING #150 @ $4C0E
+#W16($453B)
+//あかきけんのライムンドス
+// current address: $4C1A
+
+//POINTER #151 @ $453D - STRING #151 @ $4C1A
+#W16($453D)
+//とろけるあかきかげ
+// current address: $4C23
+
+//POINTER #152 @ $453F - STRING #152 @ $4C23
+#W16($453F)
+//しにがみのドクロイゾ
+// current address: $4C2D
+
+//POINTER #153 @ $4541 - STRING #153 @ $4C2D
+#W16($4541)
+//ファイヤー・デビル
+// current address: $4C36
+
+//POINTER #154 @ $4543 - STRING #154 @ $4C36
+#W16($4543)
+//ラーバス
+// current address: $4C3A
+
+//POINTER #155 @ $4545 - STRING #155 @ $4C3A
+#W16($4545)
+//ハードアーマー
+// current address: $4C41
+
+//POINTER #156 @ $4547 - STRING #156 @ $4C41
+#W16($4547)
+//かえんそう
+// current address: $4C46
+
+//POINTER #157 @ $4549 - STRING #157 @ $4C46
+#W16($4549)
+//マンイーター
+// current address: $4C4C
+
+//POINTER #158 @ $454B - STRING #158 @ $4C4C
+#W16($454B)
+//ディッグ・ビーク
+// current address: $4C54
+
+//POINTER #159 @ $454D - STRING #159 @ $4C54
+#W16($454D)
+//マグネッツ１ごう
+// current address: $4C5C
+
+//POINTER #160 @ $454F - STRING #160 @ $4C5C
+#W16($454F)
+//マグネッツ２ごう
+// current address: $4C64
+
+//POINTER #161 @ $4551 - STRING #161 @ $4C64
+#W16($4551)
+//あくまのちえ
+// current address: $4C6A
+
+//POINTER #162 @ $4553 - STRING #162 @ $4C6A
+#W16($4553)
+//サファイヤ・りサーク
+// current address: $4C74
+
+//POINTER #163 @ $4555 - STRING #163 @ $4C74
+#W16($4555)
+//ゼミアのかみ
+// current address: $4C7A
+
+//POINTER #164 @ $4557 - STRING #164 @ $4C7A
+#W16($4557)
+//ジャジメント・ザ・ハンド
+// current address: $4C86
+
+//POINTER #165 @ $4559 - STRING #165 @ $4C86
+#W16($4559)
+//なぞのくぐつし
+// current address: $4C8D
+
+//POINTER #166 @ $455B - STRING #166 @ $4C8D
+#W16($455B)
+//たいこのつぼ
+// current address: $4C93
+
+//POINTER #167 @ $455D - STRING #167 @ $4C93
+#W16($455D)
+//あんこくかえんりゅう
+// current address: $4C9D
+
+//POINTER #168 @ $455F - STRING #168 @ $4C9D
+#W16($455F)
+//しんえんのめいおう
+// current address: $4CA6
+
+//POINTER #169 @ $4561 - STRING #169 @ $4CA6
+#W16($4561)
+//ハープのせい
+// current address: $4CAC
+
+//POINTER #170 @ $4563 - STRING #170 @ $4CAC
+#W16($4563)
+//だいおうめだま
+// current address: $4CB3
+
+//POINTER #171 @ $4565 - STRING #171 @ $4CB3
+#W16($4565)
+//アーメイル
+// current address: $4CB8
+
+//POINTER #172 @ $4567 - STRING #172 @ $4CB8
+#W16($4567)
+//ダーク・プりズナー
+// current address: $4CC1
+
+//POINTER #173 @ $4569 - STRING #173 @ $4CC1
+#W16($4569)
+//ハりケル
+// current address: $4CC5
+
+//POINTER #174 @ $456B - STRING #174 @ $4CC5
+#W16($456B)
+//まてんろう
+// current address: $4CCA
+
+//POINTER #175 @ $456D - STRING #175 @ $4CCA
+#W16($456D)
+//ファイヤー・アイ
+// current address: $4CD2
+
+//POINTER #176 @ $456F - STRING #176 @ $4CD2
+#W16($456F)
+//モンスタートル
+// current address: $4CD9
+
+//POINTER #177 @ $4571 - STRING #177 @ $4CD9
+#W16($4571)
+//キラー・ザ・クロー
+// current address: $4CE2
+
+//POINTER #178 @ $4573 - STRING #178 @ $4CE2
+#W16($4573)
+//サターナ
+// current address: $4CE6
+
+//POINTER #179 @ $4575 - STRING #179 @ $4CE6
+#W16($4575)
+//アルラウネ
+// current address: $4CEB
+
+//POINTER #180 @ $4577 - STRING #180 @ $4CEB
+#W16($4577)
+//ダーク・シェイド
+// current address: $4CF3
+
+//POINTER #181 @ $4579 - STRING #181 @ $4CF3
+#W16($4579)
+//かめんどうけ
+// current address: $4CF9
+
+//POINTER #182 @ $457B - STRING #182 @ $4CF9
+#W16($457B)
+//ホーりー・パワー
+// current address: $4D01
+
+//POINTER #183 @ $457D - STRING #183 @ $4D01
+#W16($457D)
+//ジャグラー
+// current address: $4D06
+
+//POINTER #184 @ $457F - STRING #184 @ $4D06
+#W16($457F)
+//コピックス
+// current address: $4D0B
+
+//POINTER #185 @ $4581 - STRING #185 @ $4D0B
+#W16($4581)
+//ミラージュ
+// current address: $4D10
+
+//POINTER #186 @ $4583 - STRING #186 @ $4D10
+#W16($4583)
+//へルゲート・ディーグ
+// current address: $4D1A
+
+//POINTER #187 @ $4585 - STRING #187 @ $4D1A
+#W16($4585)
+//ファランクス
+// current address: $4D20
+
+//POINTER #188 @ $4587 - STRING #188 @ $4D20
+#W16($4587)
+//フュージョニスト
+// current address: $4D28
+
+//POINTER #189 @ $4589 - STRING #189 @ $4D28
+#W16($4589)
+//レッド・エース
+// current address: $4D2F
+
+//POINTER #190 @ $458B - STRING #190 @ $4D2F
+#W16($458B)
+//ララ・ライウーン
+// current address: $4D37
+
+//POINTER #191 @ $458D - STRING #191 @ $4D37
+#W16($458D)
+//キーメイス
+// current address: $4D3C
+
+//POINTER #192 @ $458F - STRING #192 @ $4D3C
+#W16($458F)
+//タートル・タイガー
+// current address: $4D45
+
+//POINTER #193 @ $4591 - STRING #193 @ $4D45
+#W16($4591)
+//まじん　テラ
+// current address: $4D4B
+
+//POINTER #194 @ $4593 - STRING #194 @ $4D4B
+#W16($4593)
+//ドローン
+// current address: $4D4F
+
+//POINTER #195 @ $4595 - STRING #195 @ $4D4F
+#W16($4595)
+//アンモ・ナイト
+// current address: $4D56
+
+//POINTER #196 @ $4597 - STRING #196 @ $4D56
+#W16($4597)
+//ゾンビランプ
+// current address: $4D5C
+
+//POINTER #197 @ $4599 - STRING #197 @ $4D5C
+#W16($4599)
+//ハッピー・ラヴァー
+// current address: $4D65
+
+//POINTER #198 @ $459B - STRING #198 @ $4D65
+#W16($459B)
+//ペンギン・ナイト
+// current address: $4D6D
+
+//POINTER #199 @ $459D - STRING #199 @ $4D6D
+#W16($459D)
+//プチりュウ
+// current address: $4D72
+
+//POINTER #200 @ $459F - STRING #200 @ $4D72
+#W16($459F)
+//キラーパンダ
+// current address: $4D78
+
+//POINTER #201 @ $45A1 - STRING #201 @ $4D78
+#W16($45A1)
+//デーモン・ビーバー
+// current address: $4D81
+
+//POINTER #202 @ $45A3 - STRING #202 @ $4D81
+#W16($45A3)
+//ゴースト
+// current address: $4D85
+
+//POINTER #203 @ $45A5 - STRING #203 @ $4D85
+#W16($45A5)
+//マキャノン
+// current address: $4D8A
+
+//POINTER #204 @ $45A7 - STRING #204 @ $4D8A
+#W16($45A7)
+//ドローバ
+// current address: $4D8E
+
+//POINTER #205 @ $45A9 - STRING #205 @ $4D8E
+#W16($45A9)
+//グロス
+// current address: $4D91
+
+//POINTER #206 @ $45AB - STRING #206 @ $4D91
+#W16($45AB)
+//スピック
+// current address: $4D95
+
+//POINTER #207 @ $45AD - STRING #207 @ $4D95
+#W16($45AD)
+//プチテンシ
+// current address: $4D9A
+
+//POINTER #208 @ $45AF - STRING #208 @ $4D9A
+#W16($45AF)
+//ダークキラー
+// current address: $4DA0
+
+//POINTER #209 @ $45B1 - STRING #209 @ $4DA0
+#W16($45B1)
+//スティング
+// current address: $4DA5
+
+//POINTER #210 @ $45B3 - STRING #210 @ $4DA5
+#W16($45B3)
+//サンダー・キッズ
+// current address: $4DAD
+
+//POINTER #211 @ $45B5 - STRING #211 @ $4DAD
+#W16($45B5)
+//バビロン
+// current address: $4DB1
+
+//POINTER #212 @ $45B7 - STRING #212 @ $4DB1
+#W16($45B7)
+//アクア・マドール
+// current address: $4DB9
+
+//POINTER #213 @ $45B9 - STRING #213 @ $4DB9
+#W16($45B9)
+//シエンのかげむしゃ
+// current address: $4DC2
+
+//POINTER #214 @ $45BB - STRING #214 @ $4DC2
+#W16($45BB)
+//フレイム・ゴースト
+// current address: $4DCB
+
+//POINTER #215 @ $45BD - STRING #215 @ $4DCB
+#W16($45BD)
+//ドりアード
+// current address: $4DD0
+
+//POINTER #216 @ $45BF - STRING #216 @ $4DD0
+#W16($45BF)
+//ブラック・デーモンズ・ドラゴン
+// current address: $4DDF
+
+//POINTER #217 @ $45C1 - STRING #217 @ $4DDF
+#W16($45C1)
+//ツーマウス・ダークルーラー
+// current address: $4DEC
+
+//POINTER #218 @ $45C3 - STRING #218 @ $4DEC
+#W16($45C3)
+//ソりテュード
+// current address: $4DF2
+
+//POINTER #219 @ $45C5 - STRING #219 @ $4DF2
+#W16($45C5)
+//かめんまどうし
+// current address: $4DF9
+
+//POINTER #220 @ $45C7 - STRING #220 @ $4DF9
+#W16($45C7)
+//クモおとこ
+// current address: $4DFE
+
+//POINTER #221 @ $45C9 - STRING #221 @ $4DFE
+#W16($45C9)
+//ミッドナイト・デビル
+// current address: $4E08
+
+//POINTER #222 @ $45CB - STRING #222 @ $4E08
+#W16($45CB)
+//とどろきのおおうみへび
+// current address: $4E13
+
+//POINTER #223 @ $45CD - STRING #223 @ $4E13
+#W16($45CD)
+//トラップ・マスター
+// current address: $4E1C
+
+//POINTER #224 @ $45CF - STRING #224 @ $4E1C
+#W16($45CF)
+//のろわれしまけん
+// current address: $4E24
+
+//POINTER #225 @ $45D1 - STRING #225 @ $4E24
+#W16($45D1)
+//デス・ストーカー
+// current address: $4E2C
+
+//POINTER #226 @ $45D3 - STRING #226 @ $4E2C
+#W16($45D3)
+//ヒトデンチャク
+// current address: $4E33
+
+//POINTER #227 @ $45D5 - STRING #227 @ $4E33
+#W16($45D5)
+//もりのしかばね
+// current address: $4E3A
+
+//POINTER #228 @ $45D7 - STRING #228 @ $4E3A
+#W16($45D7)
+//いのちのすなどけい
+// current address: $4E43
+
+//POINTER #229 @ $45D9 - STRING #229 @ $4E43
+#W16($45D9)
+//レア・フィッシュ
+// current address: $4E4B
+
+//POINTER #230 @ $45DB - STRING #230 @ $4E4B
+#W16($45DB)
+//ウッド・ジョーカー
+// current address: $4E54
+
+//POINTER #231 @ $45DD - STRING #231 @ $4E54
+#W16($45DD)
+//マジンガン
+// current address: $4E59
+
+//POINTER #232 @ $45DF - STRING #232 @ $4E59
+#W16($45DF)
+//あんこくまじん　ナイトメア
+// current address: $4E66
+
+//POINTER #233 @ $45E1 - STRING #233 @ $4E66
+#W16($45E1)
+//ざんしゅのびじょ
+// current address: $4E6E
+
+//POINTER #234 @ $45E3 - STRING #234 @ $4E6E
+#W16($45E3)
+//もりのじゅうにん　ウダン
+// current address: $4E7A
+
+//POINTER #235 @ $45E5 - STRING #235 @ $4E7A
+#W16($45E5)
+//めいかいのばんにん
+// current address: $4E83
+
+//POINTER #236 @ $45E7 - STRING #236 @ $4E83
+#W16($45E7)
+//はにわ
+// current address: $4E86
+
+//POINTER #237 @ $45E9 - STRING #237 @ $4E86
+#W16($45E9)
+//ヤシのき
+// current address: $4E8A
+
+//POINTER #238 @ $45EB - STRING #238 @ $4E8A
+#W16($45EB)
+//ヴィシュワ・ランディー
+// current address: $4E95
+
+//POINTER #239 @ $45ED - STRING #239 @ $4E95
+#W16($45ED)
+//デス・フット
+// current address: $4E9B
+
+//POINTER #240 @ $45EF - STRING #240 @ $4E9B
+#W16($45EF)
+//やみのあんさつしゃ
+// current address: $4EA4
+
+//POINTER #241 @ $45F1 - STRING #241 @ $4EA4
+#W16($45F1)
+//うんめいのろうそく
+// current address: $4EAD
+
+//POINTER #242 @ $45F3 - STRING #242 @ $4EAD
+#W16($45F3)
+//ウォーター・エレメント
+// current address: $4EB8
+
+//POINTER #243 @ $45F5 - STRING #243 @ $4EB8
+#W16($45F5)
+//マグマン
+// current address: $4EBC
+
+//POINTER #244 @ $45F7 - STRING #244 @ $4EBC
+#W16($45F7)
+//ダーク・ナポレオン
+// current address: $4EC5
+
+//POINTER #245 @ $45F9 - STRING #245 @ $4EC5
+#W16($45F9)
+//たましいをかるもの
+// current address: $4ECE
+
+//POINTER #246 @ $45FB - STRING #246 @ $4ECE
+#W16($45FB)
+//ルート・ウォーター
+// current address: $4ED7
+
+//POINTER #247 @ $45FD - STRING #247 @ $4ED7
+#W16($45FD)
+//マスター・アン・エキスパート
+// current address: $4EE5
+
+//POINTER #248 @ $45FF - STRING #248 @ $4EE5
+#W16($45FF)
+//みずのおどりこ
+// current address: $4EEC
+
+//POINTER #249 @ $4601 - STRING #249 @ $4EEC
+#W16($4601)
+//ヒョウ
+// current address: $4EEF
+
+//POINTER #250 @ $4603 - STRING #250 @ $4EEF
+#W16($4603)
+//こうこつのマーメイド
+// current address: $4EF9
+
+//POINTER #251 @ $4605 - STRING #251 @ $4EF9
+#W16($4605)
+//キャッツ・フェアりー
+// current address: $4F03
+
+//POINTER #252 @ $4607 - STRING #252 @ $4F03
+#W16($4607)
+//エンジェル・まじょ
+// current address: $4F0C
+
+//POINTER #253 @ $4609 - STRING #253 @ $4F0C
+#W16($4609)
+//みじゅくなあくま
+// current address: $4F14
+
+//POINTER #254 @ $460B - STRING #254 @ $4F14
+#W16($460B)
+//プりヴェント・ラット
+// current address: $4F1E
+
+//POINTER #255 @ $460D - STRING #255 @ $4F1E
+#W16($460D)
+//いじげんのせんし
+// current address: $4F26
+
+//POINTER #256 @ $460F - STRING #256 @ $4F26
+#W16($460F)
+//ストーン・アルマジラー
+// current address: $4F31
+
+//POINTER #257 @ $4611 - STRING #257 @ $4F31
+#W16($4611)
+//ぬまちのまじゅうおう
+// current address: $4F3B
+
+//POINTER #258 @ $4613 - STRING #258 @ $4F3B
+#W16($4613)
+//こだいまどうし
+// current address: $4F42
+
+//POINTER #259 @ $4615 - STRING #259 @ $4F42
+#W16($4615)
+//つきのめがみ　エルザェム
+// current address: $4F4E
+
+//POINTER #260 @ $4617 - STRING #260 @ $4F4E
+#W16($4617)
+//デーモンズ・ミラー
+// current address: $4F57
+
+//POINTER #261 @ $4619 - STRING #261 @ $4F57
+#W16($4619)
+//アイルのこびとけんし
+// current address: $4F61
+
+//POINTER #262 @ $461B - STRING #262 @ $4F61
+#W16($461B)
+//ウォー・アース
+// current address: $4F68
+
+//POINTER #263 @ $461D - STRING #263 @ $4F68
+#W16($461D)
+//ウィング・エッグ・エルフ
+// current address: $4F74
+
+//POINTER #264 @ $461F - STRING #264 @ $4F74
+#W16($461F)
+//いかりのかいおう
+// current address: $4F7C
+
+//POINTER #265 @ $4621 - STRING #265 @ $4F7C
+#W16($4621)
+//つるぎのじょおう
+// current address: $4F84
+
+//POINTER #266 @ $4623 - STRING #266 @ $4F84
+#W16($4623)
+//あくのむめいせんし
+// current address: $4F8D
+
+//POINTER #267 @ $4625 - STRING #267 @ $4F8D
+#W16($4625)
+//やみにしたがうもの
+// current address: $4F96
+
+//POINTER #268 @ $4627 - STRING #268 @ $4F96
+#W16($4627)
+//はかいしん　ヴァサーゴ
+// current address: $4FA1
+
+//POINTER #269 @ $4629 - STRING #269 @ $4FA1
+#W16($4629)
+//ウェザ
+// current address: $4FA4
+
+//POINTER #270 @ $462B - STRING #270 @ $4FA4
+#W16($462B)
+//メギラス・ライト
+// current address: $4FAC
+
+//POINTER #271 @ $462D - STRING #271 @ $4FAC
+#W16($462D)
+//マブラス
+// current address: $4FB0
+
+//POINTER #272 @ $462F - STRING #272 @ $4FB0
+#W16($462F)
+//さとりのろうじゅ
+// current address: $4FB8
+
+//POINTER #273 @ $4631 - STRING #273 @ $4FB8
+#W16($4631)
+//りょくじゅのれいおう
+// current address: $4FC2
+
+//POINTER #274 @ $4633 - STRING #274 @ $4FC2
+#W16($4633)
+//りくせんがた　バグロス
+// current address: $4FCD
+
+//POINTER #275 @ $4635 - STRING #275 @ $4FCD
+#W16($4635)
+//きたかぜとたいよう
+// current address: $4FD6
+
+//POINTER #276 @ $4637 - STRING #276 @ $4FD6
+#W16($4637)
+//ゴーゴン・エッグ
+// current address: $4FDE
+
+//POINTER #277 @ $4639 - STRING #277 @ $4FDE
+#W16($4639)
+//プチモス
+// current address: $4FE2
+
+//POINTER #278 @ $463B - STRING #278 @ $4FE2
+#W16($463B)
+//キング・スモーク
+// current address: $4FEA
+
+//POINTER #279 @ $463D - STRING #279 @ $4FEA
+#W16($463D)
+//おうざのしゅごしゃ
+// current address: $4FF3
+
+//POINTER #280 @ $463F - STRING #280 @ $4FF3
+#W16($463F)
+//バーサーカー
+// current address: $4FF9
+
+//POINTER #281 @ $4641 - STRING #281 @ $4FF9
+#W16($4641)
+//スりーピィ
+// current address: $4FFE
+
+//POINTER #282 @ $4643 - STRING #282 @ $4FFE
+#W16($4643)
+//ホログラー
+// current address: $5003
+
+//POINTER #283 @ $4645 - STRING #283 @ $5003
+#W16($4645)
+//おんみょうし　タオ
+// current address: $500C
+
+//POINTER #284 @ $4647 - STRING #284 @ $500C
+#W16($4647)
+//デビル・スネーク
+// current address: $5014
+
+//POINTER #285 @ $4649 - STRING #285 @ $5014
+#W16($4649)
+//ゲート・キーパー
+// current address: $501C
+
+//POINTER #286 @ $464B - STRING #286 @ $501C
+#W16($464B)
+//くろいかげのオーガ
+// current address: $5025
+
+//POINTER #287 @ $464D - STRING #287 @ $5025
+#W16($464D)
+//ダーク・アーティスト
+// current address: $502F
+
+//POINTER #288 @ $464F - STRING #288 @ $502F
+#W16($464F)
+//チェンジ・スライム
+// current address: $5038
+
+//POINTER #289 @ $4651 - STRING #289 @ $5038
+#W16($4651)
+//つきのししゃ
+// current address: $503E
+
+//POINTER #290 @ $4653 - STRING #290 @ $503E
+#W16($4653)
+//ほのおのまじん
+// current address: $5045
+
+//POINTER #291 @ $4655 - STRING #291 @ $5045
+#W16($4655)
+//サイコ・カッパー
+// current address: $504D
+
+//POINTER #292 @ $4657 - STRING #292 @ $504D
+#W16($4657)
+//でんせつのけんごう　マサキ
+// current address: $505A
+
+//POINTER #293 @ $4659 - STRING #293 @ $505A
+#W16($4659)
+//まそうきし　ドラゴネス
+// current address: $5065
+
+//POINTER #294 @ $465B - STRING #294 @ $5065
+#W16($465B)
+//バイオ・プラント
+// current address: $506D
+
+//POINTER #295 @ $465D - STRING #295 @ $506D
+#W16($465D)
+//ワンアイド・シールドドラゴン
+// current address: $507B
+
+//POINTER #296 @ $465F - STRING #296 @ $507B
+#W16($465F)
+//まかいのきかいへい
+// current address: $5084
+
+//POINTER #297 @ $4661 - STRING #297 @ $5084
+#W16($4661)
+//まとうをもつじゃりゅう
+// current address: $508F
+
+//POINTER #298 @ $4663 - STRING #298 @ $508F
+#W16($4663)
+//オトメ
+// current address: $5092
+
+//POINTER #299 @ $4665 - STRING #299 @ $5092
+#W16($4665)
+//ドレイク
+// current address: $5096
+
+//POINTER #300 @ $4667 - STRING #300 @ $5096
+#W16($4667)
+//でんせつのけん
+// current address: $509D
+
+//POINTER #301 @ $4669 - STRING #301 @ $509D
+#W16($4669)
+//やみのはしんけん
+// current address: $50A5
+
+//POINTER #302 @ $466B - STRING #302 @ $50A5
+#W16($466B)
+//やみ・エネルギー
+// current address: $50AD
+
+//POINTER #303 @ $466D - STRING #303 @ $50AD
+#W16($466D)
+//デーモンのおの
+// current address: $50B4
+
+//POINTER #304 @ $466F - STRING #304 @ $50B4
+#W16($466F)
+//レーザーキャノンアーマー
+// current address: $50C0
+
+//POINTER #305 @ $4671 - STRING #305 @ $50C0
+#W16($4671)
+//かきつきインセクトアーマー
+// current address: $50CD
+
+//POINTER #306 @ $4673 - STRING #306 @ $50CD
+#W16($4673)
+//エルフのひかり
+// current address: $50D4
+
+//POINTER #307 @ $4675 - STRING #307 @ $50D4
+#W16($4675)
+//もうじゅうのは
+// current address: $50DB
+
+//POINTER #308 @ $4677 - STRING #308 @ $50DB
+#W16($4677)
+//はがねのこうら
+// current address: $50E2
+
+//POINTER #309 @ $4679 - STRING #309 @ $50E2
+#W16($4679)
+//まきん
+// current address: $50E5
+
+//POINTER #310 @ $467B - STRING #310 @ $50E5
+#W16($467B)
+//ブラック・ペンダント
+// current address: $50EF
+
+//POINTER #311 @ $467D - STRING #311 @ $50EF
+#W16($467D)
+//ぎんのゆみや
+// current address: $50F5
+
+//POINTER #312 @ $467F - STRING #312 @ $50F5
+#W16($467F)
+//ひかりのつの
+// current address: $50FB
+
+//POINTER #313 @ $4681 - STRING #313 @ $50FB
+#W16($4681)
+//いっかくじゅうのホーン
+// current address: $5106
+
+//POINTER #314 @ $4683 - STRING #314 @ $5106
+#W16($4683)
+//ドラゴンのひほう
+// current address: $510E
+
+//POINTER #315 @ $4685 - STRING #315 @ $510E
+#W16($4685)
+//でんげきむち
+// current address: $5114
+
+//POINTER #316 @ $4687 - STRING #316 @ $5114
+#W16($4687)
+//サイバー・ボンテージ
+// current address: $511E
+
+//POINTER #317 @ $4689 - STRING #317 @ $511E
+#W16($4689)
+//まんげきょう　ーかれいなるぶんしんー
+// current address: $5130
+
+//POINTER #318 @ $468B - STRING #318 @ $5130
+#W16($468B)
+//ましょうのつき
+// current address: $5137
+
+//POINTER #319 @ $468D - STRING #319 @ $5137
+#W16($468D)
+//しゅびふうじ
+// current address: $513D
+
+//POINTER #320 @ $468F - STRING #320 @ $513D
+#W16($468F)
+//あくまのくちづけ
+// current address: $5145
+
+//POINTER #321 @ $4691 - STRING #321 @ $5145
+#W16($4691)
+//むらさきすいしょう
+// current address: $514E
+
+//POINTER #322 @ $4693 - STRING #322 @ $514E
+#W16($4693)
+//ひじゅつのしょ
+// current address: $5155
+
+//POINTER #323 @ $4695 - STRING #323 @ $5155
+#W16($4695)
+//かくせい
+// current address: $5159
+
+//POINTER #324 @ $4697 - STRING #324 @ $5159
+#W16($4697)
+//きかいかいぞうこうじょう
+// current address: $5165
+
+//POINTER #325 @ $4699 - STRING #325 @ $5165
+#W16($4699)
+//たいおんのじょうしょう
+// current address: $5170
+
+//POINTER #326 @ $469B - STRING #326 @ $5170
+#W16($469B)
+//フォロー・ウィンド
+// current address: $5179
+
+//POINTER #327 @ $469D - STRING #327 @ $5179
+#W16($469D)
+//ポセイドンのちから
+// current address: $5182
+
+//POINTER #328 @ $469F - STRING #328 @ $5182
+#W16($469F)
+//ドラゴンぞく・ふういんのつぼ
+// current address: $5190
+
+//POINTER #329 @ $46A1 - STRING #329 @ $5190
+#W16($46A1)
+//もり
+// current address: $5192
+
+//POINTER #330 @ $46A3 - STRING #330 @ $5192
+#W16($46A3)
+//こうや
+// current address: $5195
+
+//POINTER #331 @ $46A5 - STRING #331 @ $5195
+#W16($46A5)
+//やま
+// current address: $5197
+
+//POINTER #332 @ $46A7 - STRING #332 @ $5197
+#W16($46A7)
+//そうげん
+// current address: $519B
+
+//POINTER #333 @ $46A9 - STRING #333 @ $519B
+#W16($46A9)
+//うみ
+// current address: $519D
+
+//POINTER #334 @ $46AB - STRING #334 @ $519D
+#W16($46AB)
+//やみ
+// current address: $519F
+
+//POINTER #335 @ $46AD - STRING #335 @ $519F
+#W16($46AD)
+//ブラック・ホール
+// current address: $51A7
+
+//POINTER #336 @ $46AF - STRING #336 @ $51A7
+#W16($46AF)
+//サンダー・ボルト
+// current address: $51AF
+
+//POINTER #337 @ $46B1 - STRING #337 @ $51AF
+#W16($46B1)
+//モウヤンのカレー
+// current address: $51B7
+
+//POINTER #338 @ $46B3 - STRING #338 @ $51B7
+#W16($46B3)
+//レッド・ポーション
+// current address: $51C0
+
+//POINTER #339 @ $46B5 - STRING #339 @ $51C0
+#W16($46B5)
+//ゴブりンのひやく
+// current address: $51C8
+
+//POINTER #340 @ $46B7 - STRING #340 @ $51C8
+#W16($46B7)
+//てんしのいきち
+// current address: $51CF
+
+//POINTER #341 @ $46B9 - STRING #341 @ $51CF
+#W16($46B9)
+//ちりょうのかみ　ディアン・ケト
+// current address: $51DE
+
+//POINTER #342 @ $46BB - STRING #342 @ $51DE
+#W16($46BB)
+//ひのこ
+// current address: $51E1
+
+//POINTER #343 @ $46BD - STRING #343 @ $51E1
+#W16($46BD)
+//ファイヤー・ボール
+// current address: $51EA
+
+//POINTER #344 @ $46BF - STRING #344 @ $51EA
+#W16($46BF)
+//ひあぶりのけい
+// current address: $51F1
+
+//POINTER #345 @ $46C1 - STRING #345 @ $51F1
+#W16($46C1)
+//ちゅうやのおおかじ
+// current address: $51FA
+
+//POINTER #346 @ $46C3 - STRING #346 @ $51FA
+#W16($46C3)
+//かえんじごく
+// current address: $5200
+
+//POINTER #347 @ $46C5 - STRING #347 @ $5200
+#W16($46C5)
+//ひかりのごふうけん
+// current address: $5209
+
+//POINTER #348 @ $46C7 - STRING #348 @ $5209
+#W16($46C7)
+//ろくぼうせいのじゅばく
+// current address: $5214
+
+//POINTER #349 @ $46C9 - STRING #349 @ $5214
+#W16($46C9)
+//やみをかきけすひかり
+// current address: $521E
+
+//POINTER #350 @ $46CB - STRING #350 @ $521E
+#W16($46CB)
+//ヤランゾ
+// current address: $5222
+
+//POINTER #351 @ $46CD - STRING #351 @ $5222
+#W16($46CD)
+//おんなけんし　カナン
+// current address: $522C
+
+//POINTER #352 @ $46CF - STRING #352 @ $522C
+#W16($46CF)
+//タクりミノス
+// current address: $5232
+
+//POINTER #353 @ $46D1 - STRING #353 @ $5232
+#W16($46D1)
+//くいぐるみ
+// current address: $5237
+
+//POINTER #354 @ $46D3 - STRING #354 @ $5237
+#W16($46D3)
+//メガソニック・アイ
+// current address: $5240
+
+//POINTER #355 @ $46D5 - STRING #355 @ $5240
+#W16($46D5)
+//スーパー・ウォー・ライオン
+// current address: $524D
+
+//POINTER #356 @ $46D7 - STRING #356 @ $524D
+#W16($46D7)
+//ヤマドラン
+// current address: $5252
+
+//POINTER #357 @ $46D9 - STRING #357 @ $5252
+#W16($46D9)
+//ホーりー・ナイト・ドラゴン
+// current address: $525F
+
+//POINTER #358 @ $46DB - STRING #358 @ $525F
+#W16($46DB)
+//２にん３きゃくゾンビ
+// current address: $5269
+
+//POINTER #359 @ $46DD - STRING #359 @ $5269
+#W16($46DD)
+//ゼラ
+// current address: $526B
+
+//POINTER #360 @ $46DF - STRING #360 @ $526B
+#W16($46DF)
+//トビペンギン
+// current address: $5271
+
+//POINTER #361 @ $46E1 - STRING #361 @ $5271
+#W16($46E1)
+//せんねんのたて
+// current address: $5278
+
+//POINTER #362 @ $46E3 - STRING #362 @ $5278
+#W16($46E3)
+//ようせいのおくりもの
+// current address: $5282
+
+//POINTER #363 @ $46E5 - STRING #363 @ $5282
+#W16($46E5)
+//カオス・ソルジャー
+// current address: $528B
+
+//POINTER #364 @ $46E7 - STRING #364 @ $528B
+#W16($46E7)
+//デビルズ・ミラ
+// current address: $5292
+
+//POINTER #365 @ $46E9 - STRING #365 @ $5293
+#W16($46E9)
+// current address: $5293
+
+//POINTER #366 @ $46EB - STRING #366 @ $52A5
+#W16($46EB)
+// current address: $52A5

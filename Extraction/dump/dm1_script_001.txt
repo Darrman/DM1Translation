@@ -1,0 +1,1836 @@
+//GAME NAME:		Yu-Gi-Oh: Duel Monsters
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+
+//BLOCK #001 NAME:		Card Descriptions
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($F033A, $F368C) // Jump to insertion point
+#HDR($EC000) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $F0060 - STRING #0 @ $F033A
+#W16($F0060)
+//こうげき　しゅびがさいこうの　なか　なかてにはいらない　ちょうレアカード
+// current address: $F035E
+
+//POINTER #1 @ $F0062 - STRING #1 @ $F035E
+#W16($F0062)
+//かよわいエルフだが　せいなるちからでみをまもり　とてもしゅびがたかい　　
+// current address: $F0382
+
+//POINTER #2 @ $F0064 - STRING #2 @ $F0382
+#W16($F0064)
+//１つめの　きょじん　ふとい　うでで　なぐりかかってくる　ようちゅうい　　
+// current address: $F03A6
+
+//POINTER #3 @ $F0066 - STRING #3 @ $F03A6
+#W16($F0066)
+//こどもドラゴンとあなどってはいけないうちにひめるちからは　はかりしれない
+// current address: $F03CA
+
+//POINTER #4 @ $F0068 - STRING #4 @ $F03CA
+#W16($F0068)
+//せきぞうとおもわせ　やみのなかから　こうげきをする　にげあしもすばやい　
+// current address: $F03EE
+
+//POINTER #5 @ $F006A - STRING #5 @ $F03EE
+#W16($F006A)
+//いたずらずきの　ちいさなあくま　　　くらやみからおそってくる　きをつけろ
+// current address: $F0412
+
+//POINTER #6 @ $F006C - STRING #6 @ $F0412
+#W16($F006C)
+//やまのとりでをまもるりゅう　てんくうからきゅうこうかして　てきをこうげき
+// current address: $F0436
+
+//POINTER #7 @ $F006E - STRING #7 @ $F0436
+#W16($F006E)
+//ジメジメしたところで　ちからをはっきかさから　きんしをふりまき　こうげき
+// current address: $F045A
+
+//POINTER #8 @ $F0070 - STRING #8 @ $F045A
+#W16($F0070)
+//こうやにあらわれる　けもののぼうれいかずがあつまると　やっかいなカード　
+// current address: $F047E
+
+//POINTER #9 @ $F0072 - STRING #9 @ $F047E
+#W16($F0072)
+//くらやみの　おくふかくにせいそくするドラゴン　めはあまりよくない　　　　
+// current address: $F04A2
+
+//POINTER #10 @ $F0074 - STRING #10 @ $F04A2
+#W16($F0074)
+//ぜんしんに　カタナのとげがついた　　きょうりゅう　とっしんこうげきをする
+// current address: $F04C6
+
+//POINTER #11 @ $F0076 - STRING #11 @ $F04C6
+#W16($F0076)
+//トゲつきこんぼうで　あらゆるものを　はかいする　なぜ２ごうかはふめい　　
+// current address: $F04EA
+
+//POINTER #12 @ $F0078 - STRING #12 @ $F04EA
+#W16($F0078)
+//くちからほうだんをうちだし　とおくをこうげき　やまでのほうげきはつよい　
+// current address: $F050E
+
+//POINTER #13 @ $F007A - STRING #13 @ $F050E
+#W16($F007A)
+//もりにすむ　うしのまじん　つのを　　つきだし　とっしんしてこうげき　　　
+// current address: $F0532
+
+//POINTER #14 @ $F007C - STRING #14 @ $F0532
+#W16($F007C)
+//ほのおのちからを　あわせもつ　せんしほのおを　はなつけんで　こうげきする
+// current address: $F0556
+
+//POINTER #15 @ $F007E - STRING #15 @ $F0556
+#W16($F007E)
+//じかんをじゆうにあやつる　まじゅつしどうみてもよわいが　かなりやくにたつ
+// current address: $F057A
+
+//POINTER #16 @ $F0080 - STRING #16 @ $F057A
+#W16($F0080)
+//ふういんされたみぎあし　ふういんを　とくと　むげんのちからをえられる　　
+// current address: $F059E
+
+//POINTER #17 @ $F0082 - STRING #17 @ $F059E
+#W16($F0082)
+//ふういんされたひだりあし　ふういんをとくと　むげんのちからをえられる　　
+// current address: $F05C2
+
+//POINTER #18 @ $F0084 - STRING #18 @ $F05C2
+#W16($F0084)
+//ふういんされたみぎうで　ふういんを　とくと　むげんのちからをえられる　　
+// current address: $F05E6
+
+//POINTER #19 @ $F0086 - STRING #19 @ $F05E6
+#W16($F0086)
+//ふういんされたひだりうで　ふういんをとくと　むげんのちからをえられる　　
+// current address: $F060A
+
+//POINTER #20 @ $F0088 - STRING #20 @ $F060A
+#W16($F0088)
+//くさりでしばられた　うでとあしを　　すべてあつめると　ふういんがとける　
+// current address: $F062E
+
+//POINTER #21 @ $F008A - STRING #21 @ $F062E
+#W16($F008A)
+//やみのちからで　こころをまどわす　　あくまぞくでは　かなりのレアカード　
+// current address: $F0652
+
+//POINTER #22 @ $F008C - STRING #22 @ $F0652
+#W16($F008C)
+//やみのちからで　ミミズがモンスターかじめんから　とつぜんあらわれこうげき
+// current address: $F0676
+
+//POINTER #23 @ $F008E - STRING #23 @ $F0676
+#W16($F008E)
+//どこにでもでてくる　ガイコツのおばけこうげきはよわいがあつまるとたいへん
+// current address: $F069A
+
+//POINTER #24 @ $F0090 - STRING #24 @ $F069A
+#W16($F0090)
+//やみにすむ　ちいさなオニ　こうげきはいがいにつよい　つのにはちゅうい　　
+// current address: $F06BE
+
+//POINTER #25 @ $F0092 - STRING #25 @ $F06BE
+#W16($F0092)
+//すごいちからをもつ　ウシのかいぶつ　オノひとふりで　なんでもなぎたおす　
+// current address: $F06E2
+
+//POINTER #26 @ $F0094 - STRING #26 @ $F06E2
+#W16($F0094)
+//からだはちいさいが　そうげんでの　　しゅびりょくは　かなりつよい　　　　
+// current address: $F0706
+
+//POINTER #27 @ $F0096 - STRING #27 @ $F0706
+#W16($F0096)
+//からだがいわのため　しゅびはたかい　ふというでの　ひとふりにちゅうい　　
+// current address: $F072A
+
+//POINTER #28 @ $F0098 - STRING #28 @ $F072A
+#W16($F0098)
+//あしばのわるいところでも　ガンガン　うごきまわる　がんじょうなせんし　　
+// current address: $F074E
+
+//POINTER #29 @ $F009A - STRING #29 @ $F074E
+#W16($F009A)
+//ガイコツせんし　よわそうにみえるが　すばやく　するどいこうげきをくりだす
+// current address: $F0772
+
+//POINTER #30 @ $F009C - STRING #30 @ $F0772
+#W16($F009C)
+//きょうあくなドラゴン　じゃあくな　　ほのおをはき　こころをじゃあくにする
+// current address: $F0796
+
+//POINTER #31 @ $F009E - STRING #31 @ $F0796
+#W16($F009E)
+//きょうりゅうぞく　さいきょうのレア　カード　２つのあたまでどうじこうげき
+// current address: $F07BA
+
+//POINTER #32 @ $F00A0 - STRING #32 @ $F07BA
+#W16($F00A0)
+//かちまけのない　しょうぶが　きらいなせんし　こんぼうのこうげきはつよいぞ
+// current address: $F07DE
+
+//POINTER #33 @ $F00A2 - STRING #33 @ $F07DE
+#W16($F00A2)
+//どこからともなくあらわれる　どうけしふしぎなうごきで　こうげきをかわす　
+// current address: $F0802
+
+//POINTER #34 @ $F00A4 - STRING #34 @ $F0802
+#W16($F00A4)
+//まほうつかいとしては　こうげきりょくしゅびりょくともに　さいこうクラス　
+// current address: $F0826
+
+//POINTER #35 @ $F00A6 - STRING #35 @ $F0826
+#W16($F00A6)
+//どくへビの　あたまをもつ　モンスターめをあわせると　いしにされてしまう　
+// current address: $F084A
+
+//POINTER #36 @ $F00A8 - STRING #36 @ $F084A
+#W16($F00A8)
+//ドラゴンのスピードに　きしのちからがくわわり　はげしいこうげきをしかける
+// current address: $F086E
+
+//POINTER #37 @ $F00AA - STRING #37 @ $F086E
+#W16($F00AA)
+//かぜよりも　はやくはしるウマにのったきし　とっしんこうげきに　ちゅうい　
+// current address: $F0892
+
+//POINTER #38 @ $F00AC - STRING #38 @ $F0892
+#W16($F00AC)
+//じゃあくなドラゴン　やみのちからを　つかったこうげきは　きょうりょくだ　
+// current address: $F08B6
+
+//POINTER #39 @ $F00AE - STRING #39 @ $F08B6
+#W16($F00AE)
+//きみょうな　もようが　かかれたつぼ　しゅびりょくは　かなりのものがある　
+// current address: $F08DA
+
+//POINTER #40 @ $F00B0 - STRING #40 @ $F08DA
+#W16($F00B0)
+//けんじゅつを　まなんだエルフ　　　　すばやいうごきで　てきをほんろうする
+// current address: $F08FE
+
+//POINTER #41 @ $F00B2 - STRING #41 @ $F08FE
+#W16($F00B2)
+//げんえいをみせ　ひらりとこうげきを　かわす　まぼろしのレアカード　　　　
+// current address: $F0922
+
+//POINTER #42 @ $F00B4 - STRING #42 @ $F0922
+#W16($F00B4)
+//みためは　ふつうのせんしだが　　　　つよい　こうげきりょくを　もっている
+// current address: $F0946
+
+//POINTER #43 @ $F00B6 - STRING #43 @ $F0946
+#W16($F00B6)
+//せいなるちからを　あやつるにんぎょうやみでのこうげきは　きょうりょくだ　
+// current address: $F096A
+
+//POINTER #44 @ $F00B8 - STRING #44 @ $F096A
+#W16($F00B8)
+//かみなりこうげきは　いがいとつよい　あまくみると　かんでんするぞ　　　　
+// current address: $F098E
+
+//POINTER #45 @ $F00BA - STRING #45 @ $F098E
+#W16($F00BA)
+//かたいからだで　まもることがとくい　はんぱなこうげきは　はじきかえす　　
+// current address: $F09B2
+
+//POINTER #46 @ $F00BC - STRING #46 @ $F09B2
+#W16($F00BC)
+//しゅびは　みためほど　たかくないが　つのによるこうげきは　きょうりょくだ
+// current address: $F09D6
+
+//POINTER #47 @ $F00BE - STRING #47 @ $F09D6
+#W16($F00BE)
+//３つめの　こがたあくま　やみのなかでちからを　はっきすることができる　　
+// current address: $F09FA
+
+//POINTER #48 @ $F00C0 - STRING #48 @ $F09FA
+#W16($F00C0)
+//みつりんにすむきょだいアり　こうげきしゅびともに　いがいとつよい　　　　
+// current address: $F0A1E
+
+//POINTER #49 @ $F00C2 - STRING #49 @ $F0A1E
+#W16($F00C2)
+//むれをなしてくらす　こんちゅう　　　もりのなかは　かれらの　らくえんだ　
+// current address: $F0A42
+
+//POINTER #50 @ $F00C4 - STRING #50 @ $F0A42
+#W16($F00C4)
+//かたいからだのトカゲ　おおきなくちでかみつかれたら　ひとたまりもないぞ　
+// current address: $F0A66
+
+//POINTER #51 @ $F00C6 - STRING #51 @ $F0A66
+#W16($F00C6)
+//きょだいカブトムシ　つのこうげきと　かたいからだの　まもりはきょうりょく
+// current address: $F0A8A
+
+//POINTER #52 @ $F00C8 - STRING #52 @ $F0A8A
+#W16($F00C8)
+//おおきなハチ　いがいにつよいこうげきをする　むれでおそわれると　たいへん
+// current address: $F0AAE
+
+//POINTER #53 @ $F00CA - STRING #53 @ $F0AAE
+#W16($F00CA)
+//まるいゴキブり　ゴロゴロころがって　こうげき　しゅびが　いがいとたかいぞ
+// current address: $F0AD2
+
+//POINTER #54 @ $F00CC - STRING #54 @ $F0AD2
+#W16($F00CC)
+//ちをすう　きょだいノミ　こうげきは　かなりつよい　ノミとあなどるときけん
+// current address: $F0AF6
+
+//POINTER #55 @ $F00CE - STRING #55 @ $F0AF6
+#W16($F00CE)
+//ようちゅうのため　かなりよわいが　　せいちょうすると　きょだいなガになる
+// current address: $F0B1A
+
+//POINTER #56 @ $F00D0 - STRING #56 @ $F0B1A
+#W16($F00D0)
+//きょだいなガ　りんぷんをまきちらしてこうげき　もりではかなりきょうりょく
+// current address: $F0B3E
+
+//POINTER #57 @ $F00D2 - STRING #57 @ $F0B3E
+#W16($F00D2)
+//ちいさなあくま　くらやみで　いっぱいでてくると　とっても　じゃまだ　　　
+// current address: $F0B62
+
+//POINTER #58 @ $F00D4 - STRING #58 @ $F0B62
+#W16($F00D4)
+//なかまの　おはかをまもる　マンモス　はかあらしを　ようしゃなく　こうげき
+// current address: $F0B86
+
+//POINTER #59 @ $F00D6 - STRING #59 @ $F0B86
+#W16($F00D6)
+//きょだいな　しろいサメ　おおきな　　くちでかみつかれたら　のがれられない
+// current address: $F0BAA
+
+//POINTER #60 @ $F00D8 - STRING #60 @ $F0BAA
+#W16($F00D8)
+//いまでは　あまりみかけない　オオカミよくきくはなで　えものをさがす　　　
+// current address: $F0BCE
+
+//POINTER #61 @ $F00DA - STRING #61 @ $F0BCE
+#W16($F00DA)
+//ひとにはねのはえたけもの　うつくしくかれいにまい　するどくこうげきをする
+// current address: $F0BF2
+
+//POINTER #62 @ $F00DC - STRING #62 @ $F0BF2
+#W16($F00DC)
+//チームワークのよい　さんしまい　　　やすむまもなく　こうげきをしかける　
+// current address: $F0C16
+
+//POINTER #63 @ $F00DE - STRING #63 @ $F0C16
+#W16($F00DE)
+//オノをてにしたじゅうせんし　すばやいうごきから　くりだすこうげきはつよい
+// current address: $F0C3A
+
+//POINTER #64 @ $F00E0 - STRING #64 @ $F0C3A
+#W16($F00E0)
+//はくぎんにかがやくオオカミ　みためはうつくしいが　せいかくはきょうぼう　
+// current address: $F0C5E
+
+//POINTER #65 @ $F00E2 - STRING #65 @ $F0C5E
+#W16($F00E2)
+//ひとをかる　きょうあくな　かりうど　いわをもくだく　つよいちからをもつ　
+// current address: $F0C82
+
+//POINTER #66 @ $F00E4 - STRING #66 @ $F0C82
+#W16($F00E4)
+//こんちゅうぞくさいきょうのモンスターグレートモスのさいしゅうけいたいだ！
+// current address: $F0CA6
+
+//POINTER #67 @ $F00E6 - STRING #67 @ $F0CA6
+#W16($F00E6)
+//りゅうのあたまをもつ　じゅうせんし　オノのこうげきは　かなりきょうりょく
+// current address: $F0CCA
+
+//POINTER #68 @ $F00E8 - STRING #68 @ $F0CCA
+#W16($F00E8)
+//ドラゴンが　いくせんねんもの　　　　ときをへて　せいちょうしたすがた　　
+// current address: $F0CEE
+
+//POINTER #69 @ $F00EA - STRING #69 @ $F0CEE
+#W16($F00EA)
+//うみにひそむきょだいイカ　かいちゅうからとつぜんあらわれ　こうげきをする
+// current address: $F0D12
+
+//POINTER #70 @ $F00EC - STRING #70 @ $F0D12
+#W16($F00EC)
+//うみをただようクラゲ　はんとうめいのからだで　すがたをかくにんしにくい　
+// current address: $F0D36
+
+//POINTER #71 @ $F00EE - STRING #71 @ $F0D36
+#W16($F00EE)
+//ようちゅうをとりこみ　せいちゅうに　しんかさせることができる　　　　　　
+// current address: $F0D5A
+
+//POINTER #72 @ $F00F0 - STRING #72 @ $F0D5A
+#W16($F00F0)
+//うみのぬしとよばれる　うみのドラゴンつなみをおこして　すべてをのみこむ　
+// current address: $F0D7E
+
+//POINTER #73 @ $F00F2 - STRING #73 @ $F0D7E
+#W16($F00F2)
+//がんせきのきょじんへい　ふというでのこうげきは　だいちをゆるがす　　　　
+// current address: $F0DA2
+
+//POINTER #74 @ $F00F4 - STRING #74 @ $F0DA2
+#W16($F00F4)
+//きれいなはなとおもわせ　ちかづくひとをパクりとたべる　にくしょくのはな　
+// current address: $F0DC6
+
+//POINTER #75 @ $F00F6 - STRING #75 @ $F0DC6
+#W16($F00F6)
+//ちえをもち　さらにきょうぼうかした　ワニ　かたいうろこでこうげきをはじく
+// current address: $F0DEA
+
+//POINTER #76 @ $F00F8 - STRING #76 @ $F0DEA
+#W16($F00F8)
+//ずるがしこいへビ　ふとくてながい　　からだでしめつけるこうげきにちゅうい
+// current address: $F0E0E
+
+//POINTER #77 @ $F00FA - STRING #77 @ $F0E0E
+#W16($F00FA)
+//オノをもつせんし　かたてでオノを　　ふりまわすこうげきは　かなりつよい　
+// current address: $F0E32
+
+//POINTER #78 @ $F00FC - STRING #78 @ $F0E32
+#W16($F00FC)
+//ぜんしんに　つののはえたきょうりゅうとつげきこうげきは　きょうれつだ　　
+// current address: $F0E56
+
+//POINTER #79 @ $F00FE - STRING #79 @ $F0E56
+#W16($F00FE)
+//はしることが　とくいなきょうりゅう　するどいかぎづめで　こうげきする　　
+// current address: $F0E7A
+
+//POINTER #80 @ $F0100 - STRING #80 @ $F0E7A
+#W16($F0100)
+//なんでも　かみくだく　くちをもつ　　きょうりゅう　そのこうげきはつよい　
+// current address: $F0E9E
+
+//POINTER #81 @ $F0102 - STRING #81 @ $F0E9E
+#W16($F0102)
+//こうげきりょくは　じょうきゅうレベルまぼろしの　ちょうレアカードだ！　　
+// current address: $F0EC2
+
+//POINTER #82 @ $F0104 - STRING #82 @ $F0EC2
+#W16($F0104)
+//つねに　やみをうみだし　すべての　　ものを　おおいかくしてしまう　　　　
+// current address: $F0EE6
+
+//POINTER #83 @ $F0106 - STRING #83 @ $F0EE6
+#W16($F0106)
+//おおきなカマをふりかざし　すべてを　きりさく　しゅびりょくはかなりたかい
+// current address: $F0F0A
+
+//POINTER #84 @ $F0108 - STRING #84 @ $F0F0A
+#W16($F0108)
+//きょうだいな　やみのちからをつかい　まわりのものを　すべてはかいする　　
+// current address: $F0F2E
+
+//POINTER #85 @ $F010A - STRING #85 @ $F0F2E
+#W16($F010A)
+//くらやみのなかを　とびまわり　けむくじゃらの　ながいうでで　なぐりかかる
+// current address: $F0F52
+
+//POINTER #86 @ $F010C - STRING #86 @ $F0F52
+#W16($F010C)
+//まかいに　せいそくする　モンスター　やみのほのおをはき　こうげきする　　
+// current address: $F0F76
+
+//POINTER #87 @ $F010E - STRING #87 @ $F0F76
+#W16($F010E)
+//まかいのたからを　しゅごするあくま　くらやみでのしゅびは　そうとうかたい
+// current address: $F0F9A
+
+//POINTER #88 @ $F0110 - STRING #88 @ $F0F9A
+#W16($F0110)
+//カタパルトから　いろいろなものを　　とばし　こうらで　こうげきをはじく　
+// current address: $F0FBE
+
+//POINTER #89 @ $F0112 - STRING #89 @ $F0FBE
+#W16($F0112)
+//せいなるちからで　よわきものをまもりぎゃくてんのちからを　あたえるめがみ
+// current address: $F0FE2
+
+//POINTER #90 @ $F0114 - STRING #90 @ $F0FE2
+#W16($F0114)
+//ひととウマが　ひとつになったばけものはしるのがはやく　だれもおいつけない
+// current address: $F1006
+
+//POINTER #91 @ $F0116 - STRING #91 @ $F1006
+#W16($F0116)
+//ウシとウマがいったいとなったばけものきょうりょくなこうげきをしかけてくる
+// current address: $F102A
+
+//POINTER #92 @ $F0118 - STRING #92 @ $F102A
+#W16($F0118)
+//いっきうちをこのむ　いっしゅんの　　すきをついて　いあいぬきでこうげき　
+// current address: $F104E
+
+//POINTER #93 @ $F011A - STRING #93 @ $F104E
+#W16($F011A)
+//ちからがよわり　そらをとべなくなったドラゴン　しかしまだこうげきはつよい
+// current address: $F1072
+
+//POINTER #94 @ $F011C - STRING #94 @ $F1072
+#W16($F011C)
+//やみのサーカスでおどるピエロ　その　おどりをみていると　ちからがぬける　
+// current address: $F1096
+
+//POINTER #95 @ $F011E - STRING #95 @ $F1096
+#W16($F011E)
+//おんねんにより　よみがえったむしゃ　やみくもにふりまわすカタナにちゅうい
+// current address: $F10BA
+
+//POINTER #96 @ $F0120 - STRING #96 @ $F10BA
+#W16($F0120)
+//まりょくにより　よみがえったドラゴンはくいきはふれるものをふしょくさせる
+// current address: $F10DE
+
+//POINTER #97 @ $F0122 - STRING #97 @ $F10DE
+#W16($F0122)
+//やみのちからで　いきかえったピエロ　フラフラとしたおどりでしへといざなう
+// current address: $F1102
+
+//POINTER #98 @ $F0124 - STRING #98 @ $F1102
+#W16($F0124)
+//おばけカボチャのおうさま　しょくしゅをふっておそってくる　かなりてごわい
+// current address: $F1126
+
+//POINTER #99 @ $F0126 - STRING #99 @ $F1126
+#W16($F0126)
+//ぶきをいっさいつかわず　すでで　　　たたかいぬく　かくとうせんし　　　　
+// current address: $F114A
+
+//POINTER #100 @ $F0128 - STRING #100 @ $F114A
+#W16($F0128)
+//あかぐろくもえるつばさ　ぜんしんからほのおをふきだし　こうげきする　　　
+// current address: $F116E
+
+//POINTER #101 @ $F012A - STRING #101 @ $F116E
+#W16($F012A)
+//やみのまじゅつしがつくりあげたかめんめにみえない　やみのちからでこうげき
+// current address: $F1192
+
+//POINTER #102 @ $F012C - STRING #102 @ $F1192
+#W16($F012C)
+//あくまのかがみ　こうげきをうけても　われずに　ダメージをふせいでくれる　
+// current address: $F11B6
+
+//POINTER #103 @ $F012E - STRING #103 @ $F11B6
+#W16($F012E)
+//まじゅつしが　つくりだしたカーテン　まほうつかいのちからが　あがるという
+// current address: $F11DA
+
+//POINTER #104 @ $F0130 - STRING #104 @ $F11DA
+#W16($F0130)
+//ちいさいが　せいかくは　きょうぼう　なかまどうしで　あらそいだす　　　　
+// current address: $F11FE
+
+//POINTER #105 @ $F0132 - STRING #105 @ $F11FE
+#W16($F0132)
+//きままに　とびまわる　かぜのせいれいきげんがわるいと　あらしになる　　　
+// current address: $F1222
+
+//POINTER #106 @ $F0134 - STRING #106 @ $F1222
+#W16($F0134)
+//じったいと　かげにわかれて　おそってくる　ゆだんすると　はさまれるぞ　　
+// current address: $F1246
+
+//POINTER #107 @ $F0136 - STRING #107 @ $F1246
+#W16($F0136)
+//ししゃに　さらなる　ちからをあたえ　いけるものを　しへとさそう　はかば　
+// current address: $F126A
+
+//POINTER #108 @ $F0138 - STRING #108 @ $F126A
+#W16($F0138)
+//ひたいにある　かみのめで　すべてを　みとおすことができるめがみ　　　　　
+// current address: $F128E
+
+//POINTER #109 @ $F013A - STRING #109 @ $F128E
+#W16($F013A)
+//はるかひがしのくにからきたといわれるサムライ　てにするカタナはよくきれる
+// current address: $F12B2
+
+//POINTER #110 @ $F013C - STRING #110 @ $F12B2
+#W16($F013C)
+//しをつかさどるてんし　こいつに　　　にらまれたら　しからのがれられない　
+// current address: $F12D6
+
+//POINTER #111 @ $F013E - STRING #111 @ $F12D6
+#W16($F013E)
+//あらゆるいきものの　たましいをくい　おのれのエネルギーとするあくま　　　
+// current address: $F12FA
+
+//POINTER #112 @ $F0140 - STRING #112 @ $F12FA
+#W16($F0140)
+//からだがはいいろのけもの　あまり　　みかけない　きちょうないきもの　　　
+// current address: $F131E
+
+//POINTER #113 @ $F0142 - STRING #113 @ $F131E
+#W16($F0142)
+//しろいタキシード　しろいシルクハットぜんしんが　まっしろなシーフ　　　　
+// current address: $F1342
+
+//POINTER #114 @ $F0144 - STRING #114 @ $F1342
+#W16($F0144)
+//こんとんをあやつる　まほうつかい　　おおきなカマの　こうげきはつよい　　
+// current address: $F1366
+
+//POINTER #115 @ $F0146 - STRING #115 @ $F1366
+#W16($F0146)
+//あくむをみせ　うなされているあいだに３ぼんもある　どくのしっぽをさす　　
+// current address: $F138A
+
+//POINTER #116 @ $F0148 - STRING #116 @ $F138A
+#W16($F0148)
+//ほんのせいれい　とてもたかいちえを　もち　たさいなこうげきをしかけてくる
+// current address: $F13AE
+
+//POINTER #117 @ $F014A - STRING #117 @ $F13AE
+#W16($F014A)
+//ものかげから　こっそりときょうりょくしてくれる　かわいらしいこびと　　　
+// current address: $F13D2
+
+//POINTER #118 @ $F014C - STRING #118 @ $F13D2
+#W16($F014C)
+//てきを　かんおけにとじこめ　じごくのつかいが　グサりとはんけつをくだす　
+// current address: $F13F6
+
+//POINTER #119 @ $F014E - STRING #119 @ $F13F6
+#W16($F014E)
+//あまいおどりで　えいえんにさめない　ゆめのなかへ　さそいこむ　　　　　　
+// current address: $F141A
+
+//POINTER #120 @ $F0150 - STRING #120 @ $F141A
+#W16($F0150)
+//ふだん　ねむっている　もうじゅう　　めをさますと　てがつけられない　　　
+// current address: $F143E
+
+//POINTER #121 @ $F0152 - STRING #121 @ $F143E
+#W16($F0152)
+//えまきのドラゴンが　じったいかして　こうげきする　しゅびはかなりひくい　
+// current address: $F1462
+
+//POINTER #122 @ $F0154 - STRING #122 @ $F1462
+#W16($F0154)
+//おせんされたつちと　やみのちからで　そだてられたはな　とてもきょうぼう　
+// current address: $F1486
+
+//POINTER #123 @ $F0156 - STRING #123 @ $F1486
+#W16($F0156)
+//こだいぶんめいの　いせきでみつかったはかいだけを　もくてきとした　きかい
+// current address: $F14AA
+
+//POINTER #124 @ $F0158 - STRING #124 @ $F14AA
+#W16($F0158)
+//ひじょうに　おのながいとり　ぜんしんから　せいなるひかりをはっする　　　
+// current address: $F14CE
+
+//POINTER #125 @ $F015A - STRING #125 @ $F14CE
+#W16($F015A)
+//たたかいのかみ　といわれているてんしそのたたかいをみたものはだれもいない
+// current address: $F14F2
+
+//POINTER #126 @ $F015C - STRING #126 @ $F14F2
+#W16($F015C)
+//やみのなかを　おともたてず　あいてにしのびよる　あんさつせんもんのせんし
+// current address: $F1516
+
+//POINTER #127 @ $F015E - STRING #127 @ $F1516
+#W16($F015E)
+//つきにすむまほうつかい　つきのもつ　まりょくで　あいてをみりょうする　　
+// current address: $F153A
+
+//POINTER #128 @ $F0160 - STRING #128 @ $F153A
+#W16($F0160)
+//こどもだが　すいまをあやつり　２どとさめることのない　ねむりをさそう　　
+// current address: $F155E
+
+//POINTER #129 @ $F0162 - STRING #129 @ $F155E
+#W16($F0162)
+//てんきをじゆうにあやつれる　やまの　てんきがかわりやすいのはコイツのせい
+// current address: $F1582
+
+//POINTER #130 @ $F0164 - STRING #130 @ $F1582
+#W16($F0164)
+//サカナのあたま　タコのあし　とってもふしぎないきもの　ヤりでこうげきする
+// current address: $F15A6
+
+//POINTER #131 @ $F0166 - STRING #131 @ $F15A6
+#W16($F0166)
+//だれもいないはずの　１３ばんめのはかから　とつぜんあらわれたゾンビ　　　
+// current address: $F15CA
+
+//POINTER #132 @ $F0168 - STRING #132 @ $F15CA
+#W16($F0168)
+//ほのおのなかでも　びくともしない　　かっちゅうに　みをつつんでいるきし　
+// current address: $F15EE
+
+//POINTER #133 @ $F016A - STRING #133 @ $F15EE
+#W16($F016A)
+//せいなるちからで　うごきをふうじる　ことができる　といわれているくさり　
+// current address: $F1612
+
+//POINTER #134 @ $F016C - STRING #134 @ $F1612
+#W16($F016C)
+//こんとんのぬまから　うでをのばし　　いけるものを　なかへとひきずりこむ　
+// current address: $F1636
+
+//POINTER #135 @ $F016E - STRING #135 @ $F1636
+#W16($F016E)
+//やみにとけこむ　くろのタキシードに　みをつつんだ　しをつかさどるあくま　
+// current address: $F165A
+
+//POINTER #136 @ $F0170 - STRING #136 @ $F165A
+#W16($F0170)
+//くうかんをゆがませ　じげんのはざま　からうでをのばし　こうげきをしかける
+// current address: $F167E
+
+//POINTER #137 @ $F0172 - STRING #137 @ $F167E
+#W16($F0172)
+//ドラゴンのたましいをもつ　せきぞうのせんし　じまんのけんでてきをきりさく
+// current address: $F16A2
+
+//POINTER #138 @ $F0174 - STRING #138 @ $F16A2
+#W16($F0174)
+//めからだす　かいこうせんで　あいてをゾンビにかえてしまうといわれている　
+// current address: $F16C6
+
+//POINTER #139 @ $F0176 - STRING #139 @ $F16C6
+#W16($F0176)
+//なんぜんねんもいきている　カエルの　せんにん　おたまじゃくしでこうげき　
+// current address: $F16EA
+
+//POINTER #140 @ $F0178 - STRING #140 @ $F16EA
+#W16($F0178)
+//やみのちからで　しんかしたカタツムりてやあしがあり　はやくうごける　　　
+// current address: $F170E
+
+//POINTER #141 @ $F017A - STRING #141 @ $F170E
+#W16($F017A)
+//ほのおのうみや　ほのおのかべを　　　じざいにつくりだし　こうげきする　　
+// current address: $F1732
+
+//POINTER #142 @ $F017C - STRING #142 @ $F1732
+#W16($F017C)
+//すきなところへいけるという　じくう　りングからでてくる　１つめのまじん　
+// current address: $F1756
+
+//POINTER #143 @ $F017E - STRING #143 @ $F1756
+#W16($F017E)
+//かぜをあやつり　たつまきやとっぷうをおこし　しゅういのものをふきとばす　
+// current address: $F177A
+
+//POINTER #144 @ $F0180 - STRING #144 @ $F177A
+#W16($F0180)
+//くろいマントをはおる　キザなかいとうつえをふって　あいてをみりょうする　
+// current address: $F179E
+
+//POINTER #145 @ $F0182 - STRING #145 @ $F179E
+#W16($F0182)
+//ドクロとほねばかりの　きみのわるい　おてら　ちかづくものをすいこむ　　　
+// current address: $F17C2
+
+//POINTER #146 @ $F0184 - STRING #146 @ $F17C2
+#W16($F0184)
+//たまごのからに　みをつつんだ　なぞのせんし　からをとばしてこうげきする　
+// current address: $F17E6
+
+//POINTER #147 @ $F0186 - STRING #147 @ $F17E6
+#W16($F0186)
+//くらやみのなかに　とけこむかげ　　　かなしばりで　てきのうごきをふうじる
+// current address: $F180A
+
+//POINTER #148 @ $F0188 - STRING #148 @ $F180A
+#W16($F0188)
+//まほうのランプからあらわれる　まじんよびだしたものに　ふくじゅうする　　
+// current address: $F182E
+
+//POINTER #149 @ $F018A - STRING #149 @ $F182E
+#W16($F018A)
+//すいちゅうにひそんでいる　えたいの　しれないかっこうをした　ばけもの　　
+// current address: $F1852
+
+//POINTER #150 @ $F018C - STRING #150 @ $F1852
+#W16($F018C)
+//あかき　ほのおのけんを　もったせんしほのおのそくばくで　うごきをふうじる
+// current address: $F1876
+
+//POINTER #151 @ $F018E - STRING #151 @ $F1876
+#W16($F018E)
+//からだをとかして　あしもとのかげに　もぐり　てきのましたからこうげきする
+// current address: $F189A
+
+//POINTER #152 @ $F0190 - STRING #152 @ $F189A
+#W16($F0190)
+//じごくのいちげきで　たましいを　　　うばおうとする　しにがみ　　　　　　
+// current address: $F18BE
+
+//POINTER #153 @ $F0192 - STRING #153 @ $F18BE
+#W16($F0192)
+//ほのおのやをてにするしにがみ　その　やにあたると　ひだるまになるぞ　　　
+// current address: $F18E2
+
+//POINTER #154 @ $F0194 - STRING #154 @ $F18E2
+#W16($F0194)
+//すばやくうごくとりのばけもの　ほそくながいうでをからませ　しめあげる　　
+// current address: $F1906
+
+//POINTER #155 @ $F0196 - STRING #155 @ $F1906
+#W16($F0196)
+//こころのあるよろい　かたいからだで　ソルジャータックルをしかけてくる　　
+// current address: $F192A
+
+//POINTER #156 @ $F0198 - STRING #156 @ $F192A
+#W16($F0198)
+//かざんのちかくに　せいそくするくさ　はなからかえんをふき　こうげきする　
+// current address: $F194E
+
+//POINTER #157 @ $F019A - STRING #157 @ $F194E
+#W16($F019A)
+//ひとくいじんめんか　どくのある　　　しょくしゅで　こうげきしてくる　　　
+// current address: $F1972
+
+//POINTER #158 @ $F019C - STRING #158 @ $F1972
+#W16($F019C)
+//へびのように　ながいからだをまるめ　かいてんしながら　くちばしでこうげき
+// current address: $F1996
+
+//POINTER #159 @ $F019E - STRING #159 @ $F1996
+#W16($F019E)
+//コンビプレーがとくいなせんし　つよいじりょくをはっし　だれもにげられない
+// current address: $F19BA
+
+//POINTER #160 @ $F01A0 - STRING #160 @ $F19BA
+#W16($F01A0)
+//コンビプレーがとくいなせんし　でんじコーティングされたよろいはがんじょう
+// current address: $F19DE
+
+//POINTER #161 @ $F01A2 - STRING #161 @ $F19DE
+#W16($F01A2)
+//しょくしゅをつきさし　のうさいぼうをみずからのものとする　あくののうみそ
+// current address: $F1A02
+
+//POINTER #162 @ $F01A4 - STRING #162 @ $F1A02
+#W16($F01A4)
+//サファイヤのめをもつけもの　げんえいをみせ　こんらんしたところをこうげき
+// current address: $F1A26
+
+//POINTER #163 @ $F01A6 - STRING #163 @ $F1A26
+#W16($F01A6)
+//あいてをだまして　はめつのみちへと　いざなうことをとくいとするじゃしん　
+// current address: $F1A4A
+
+//POINTER #164 @ $F01A8 - STRING #164 @ $F1A4A
+#W16($F01A8)
+//かみがやどったてで　さいごのしんぱんをくだし　はげしいこうげきをくわえる
+// current address: $F1A6E
+
+//POINTER #165 @ $F01AA - STRING #165 @ $F1A6E
+#W16($F01AA)
+//あいてを　おもいどおりに　あやつる　にんぎょうつかい　　　　　　　　　　
+// current address: $F1A92
+
+//POINTER #166 @ $F01AC - STRING #166 @ $F1A92
+#W16($F01AC)
+//とてもこわれやすい　おおむかしのつぼなかに　なにかが　ひそんでいるらしい
+// current address: $F1AB6
+
+//POINTER #167 @ $F01AE - STRING #167 @ $F1AB6
+#W16($F01AE)
+//まかいの　しゃくねつの　ほのおは　　あらゆるものを　いっしゅんでけしさる
+// current address: $F1ADA
+
+//POINTER #168 @ $F01B0 - STRING #168 @ $F1ADA
+#W16($F01B0)
+//めいかいのおう　かつて　やみをすべてしはいするほどのちからがあったという
+// current address: $F1AFE
+
+//POINTER #169 @ $F01B2 - STRING #169 @ $F1AFE
+#W16($F01B2)
+//てんかいで　ハープをかなでるせいれいそのねいろはまわりのこころをなごます
+// current address: $F1B22
+
+//POINTER #170 @ $F01B4 - STRING #170 @ $F1B22
+#W16($F01B4)
+//ぜんしん　めだまだらけの　ばけもの　たくさんのめでさいみんじゅつをかける
+// current address: $F1B46
+
+//POINTER #171 @ $F01B6 - STRING #171 @ $F1B46
+#W16($F01B6)
+//つるぎじょうのおをもつかわったせんしりょうてとおで　３れんこうげきをする
+// current address: $F1B6A
+
+//POINTER #172 @ $F01B8 - STRING #172 @ $F1B6A
+#W16($F01B8)
+//ひかりのはんしゃを　たくみにあやつりじぶんのすがたを　かくすことができる
+// current address: $F1B8E
+
+//POINTER #173 @ $F01BA - STRING #173 @ $F1B8E
+#W16($F01BA)
+//こうやで　あれくるうたつまき　　　　かぜのやいばで　あいてをきりきざむ　
+// current address: $F1BB2
+
+//POINTER #174 @ $F01BC - STRING #174 @ $F1BB2
+#W16($F01BC)
+//てんかいから　ついほうされただてんしやみでのたたかいに　すぐれている　　
+// current address: $F1BD6
+
+//POINTER #175 @ $F01BE - STRING #175 @ $F1BD6
+#W16($F01BE)
+//ほのおにつつまれためだま　はねを　　はばたかせ　ほのおのかぜをおこす　　
+// current address: $F1BFA
+
+//POINTER #176 @ $F01C0 - STRING #176 @ $F1BFA
+#W16($F01C0)
+//とげのついた　こうらをみにつけたカメとてもきょうぼうで　ひとになつかない
+// current address: $F1C1E
+
+//POINTER #177 @ $F01C2 - STRING #177 @ $F1C1E
+#W16($F01C2)
+//うでをじゆうにのばし　するどいつめであいてをくしざしにすることができる　
+// current address: $F1C42
+
+//POINTER #178 @ $F01C4 - STRING #178 @ $F1C42
+#W16($F01C4)
+//てきをのろい　うごきをとめることが　できるまほうつかい　　　　　　　　　
+// current address: $F1C66
+
+//POINTER #179 @ $F01C6 - STRING #179 @ $F1C66
+#W16($F01C6)
+//はなのなかのじょせいが　どくかふん　をまきちらす　ちかづいてはいけない　
+// current address: $F1C8A
+
+//POINTER #180 @ $F01C8 - STRING #180 @ $F1C8A
+#W16($F01C8)
+//クりスタルから　きょうれつなひかり　をはっして　こうげきする　　　　　　
+// current address: $F1CAE
+
+//POINTER #181 @ $F01CA - STRING #181 @ $F1CAE
+#W16($F01CA)
+//しのおどりをおどりながら　てにする　かまで　てきをきりきざむせんし　　　
+// current address: $F1CD2
+
+//POINTER #182 @ $F01CC - STRING #182 @ $F1CD2
+#W16($F01CC)
+//ひょろひょろとしているが　　　　　　せいなるちからに　まもられている　　
+// current address: $F1CF6
+
+//POINTER #183 @ $F01CE - STRING #183 @ $F1CF6
+#W16($F01CE)
+//てじなのようなまほうで　てきをたおすハトをだしてこうげきもする　　　　　
+// current address: $F1D1A
+
+//POINTER #184 @ $F01D0 - STRING #184 @ $F1D1A
+#W16($F01D0)
+//いろんなやつにへんしんして　あいてをだましながらたたかうせんし　　　　　
+// current address: $F1D3E
+
+//POINTER #185 @ $F01D2 - STRING #185 @ $F1D3E
+#W16($F01D2)
+//てにするかがみから　なかまをよびだすことのできる　とりのけもの　　　　　
+// current address: $F1D62
+
+//POINTER #186 @ $F01D4 - STRING #186 @ $F1D62
+#W16($F01D4)
+//おなかにじごくへつうじるとびらがありしょうかんもできるぶきみなモンスター
+// current address: $F1D86
+
+//POINTER #187 @ $F01D6 - STRING #187 @ $F1D86
+#W16($F01D6)
+//うえにもしたにもあたまがある　きもちわるいやつ　くちからはレーザーをはく
+// current address: $F1DAA
+
+//POINTER #188 @ $F01D8 - STRING #188 @ $F1DAA
+#W16($F01D8)
+//てんしのようなはねと　とてもながい　しっぽをもっている　ばけねこ　　　　
+// current address: $F1DCE
+
+//POINTER #189 @ $F01DA - STRING #189 @ $F1DCE
+#W16($F01DA)
+//しののろいをかけてくる　まほうつかいじゅもんをきくと　きがとおくなる　　
+// current address: $F1DF2
+
+//POINTER #190 @ $F01DC - STRING #190 @ $F1DF2
+#W16($F01DC)
+//でんきをおびた　くもがたのモンスターなんでもとかすきけんなあめをふらせる
+// current address: $F1E16
+
+//POINTER #191 @ $F01DE - STRING #191 @ $F1E16
+#W16($F01DE)
+//とてもちいさなてんし　かわいらしさにまけ　だれでもこころをひらいてしまう
+// current address: $F1E3A
+
+//POINTER #192 @ $F01E0 - STRING #192 @ $F1E3A
+#W16($F01E0)
+//こうらをもったトラ　かたいこうらで　みをまもり　するどいきばでこうげき　
+// current address: $F1E5E
+
+//POINTER #193 @ $F01E2 - STRING #193 @ $F1E5E
+#W16($F01E2)
+//ぬまちにすむ　あくまのてさき　みためほど　つよくないが　ゆだんはきんもつ
+// current address: $F1E82
+
+//POINTER #194 @ $F01E4 - STRING #194 @ $F1E82
+#W16($F01E4)
+//ドロローンとぶんしんして　はさみうちこうげきをしかけてくる　ゆだんするな
+// current address: $F1EA6
+
+//POINTER #195 @ $F01E6 - STRING #195 @ $F1EA6
+#W16($F01E6)
+//おおむかしから　うみをがいてきから　まもっている　アンモナイトのせんし　
+// current address: $F1ECA
+
+//POINTER #196 @ $F01E8 - STRING #196 @ $F1ECA
+#W16($F01E8)
+//うでをロケットのように　とばして　　こうげきする　アンデットモンスター　
+// current address: $F1EEE
+
+//POINTER #197 @ $F01EA - STRING #197 @ $F1EEE
+#W16($F01EA)
+//あたまからハートビームをだし　てきをしあわせにする　ちいさなてんし　　　
+// current address: $F1F12
+
+//POINTER #198 @ $F01EC - STRING #198 @ $F1F12
+#W16($F01EC)
+//おおきなけんをもったペンギン　はらですべりながら　てきにむかってとつげき
+// current address: $F1F36
+
+//POINTER #199 @ $F01EE - STRING #199 @ $F1F36
+#W16($F01EE)
+//とてもちいさなドラゴン　ちいさな　　からだをいっぱいにつかいこうげきする
+// current address: $F1F5A
+
+//POINTER #200 @ $F01F0 - STRING #200 @ $F1F5A
+#W16($F01F0)
+//つねにふといたけをいっぽんもっておりせいかくはひじょうにきょうぼうである
+// current address: $F1F7E
+
+//POINTER #201 @ $F01F2 - STRING #201 @ $F1F7E
+#W16($F01F2)
+//あくまのつのと　つばさをもつビーバーどんぐりをなげつけて　こうげきする　
+// current address: $F1FA2
+
+//POINTER #202 @ $F01F4 - STRING #202 @ $F1FA2
+#W16($F01F4)
+//このよの　じょうぶつできない　れいがあつまってできた　おんりょう　　　　
+// current address: $F1FC6
+
+//POINTER #203 @ $F01F6 - STRING #203 @ $F1FC6
+#W16($F01F6)
+//たいほうのようなあくま　めにみえないはやさで　めだまのたまをはっしゃする
+// current address: $F1FEA
+
+//POINTER #204 @ $F01F8 - STRING #204 @ $F1FEA
+#W16($F01F8)
+//ドロドロした　きもちわるいモンスターもうどくガスをはき　こうげきをする　
+// current address: $F200E
+
+//POINTER #205 @ $F01FA - STRING #205 @ $F200E
+#W16($F01FA)
+//むちのようにながいうでで　すこし　　はなれたところでも　こうげきできる　
+// current address: $F2032
+
+//POINTER #206 @ $F01FC - STRING #206 @ $F2032
+#W16($F01FC)
+//くちばしがとてもおおきく　おおごえでなき　きのよわいあいてをおどろかせる
+// current address: $F2056
+
+//POINTER #207 @ $F01FE - STRING #207 @ $F2056
+#W16($F01FE)
+//ちょこまかうごき　こうげきがなかなかあたらない　とてもちいさなてんし　　
+// current address: $F207A
+
+//POINTER #208 @ $F0200 - STRING #208 @ $F207A
+#W16($F0200)
+//かまのように　はったつしたうでを　　ふりまわし　こうげきをしてくる　　　
+// current address: $F209E
+
+//POINTER #209 @ $F0202 - STRING #209 @ $F209E
+#W16($F0202)
+//ものすごくあつい　ほのおのかたまり　そのからだで　たいあたりしてくる　　
+// current address: $F20C2
+
+//POINTER #210 @ $F0204 - STRING #210 @ $F20C2
+#W16($F0204)
+//かみなりを　からだのなかに　ちくでんさせている　なかせたときはきけん　　
+// current address: $F20E6
+
+//POINTER #211 @ $F0206 - STRING #211 @ $F20E6
+#W16($F0206)
+//ひとつめのきょだいなかいぶつ　めだまからビームをはっしゃしてこうげきする
+// current address: $F210A
+
+//POINTER #212 @ $F0208 - STRING #212 @ $F210A
+#W16($F0208)
+//みずをあやつるまほうつかい　ぶあついみずのかべをつくり　てきをおしつぶす
+// current address: $F212E
+
+//POINTER #213 @ $F020A - STRING #213 @ $F212E
+#W16($F020A)
+//シエンにつかえる　かげむしゃ　　　　するどいきれあじの　めいとうをもつ　
+// current address: $F2152
+
+//POINTER #214 @ $F020C - STRING #214 @ $F2152
+#W16($F020C)
+//からだをやかれ　しんだもののぼうれいまわりのほのおは　すべてをやきつくす
+// current address: $F2176
+
+//POINTER #215 @ $F020E - STRING #215 @ $F2176
+#W16($F020E)
+//もりのせいれい　くさきのちからを　　かりて　あいてのうごきをふうじる　　
+// current address: $F219A
+
+//POINTER #216 @ $F0210 - STRING #216 @ $F219A
+#W16($F0210)
+//レアなあくまとドラゴンのゆうごうで　うまれる　ちょうレアなあくまりゅう　
+// current address: $F21BE
+
+//POINTER #217 @ $F0212 - STRING #217 @ $F21BE
+#W16($F0212)
+//くちが２つあるきょうりゅう　つのに　ちくでんし　せなかのくちからほうでん
+// current address: $F21E2
+
+//POINTER #218 @ $F0214 - STRING #218 @ $F21E2
+#W16($F0214)
+//かはんしんがシカで　たましいをすうという　おおかまをもった　けものせんし
+// current address: $F2206
+
+//POINTER #219 @ $F0216 - STRING #219 @ $F2206
+#W16($F0216)
+//かめんをかぶり　すがおをかくしているまどうし　すがおをみたものはいない　
+// current address: $F222A
+
+//POINTER #220 @ $F0218 - STRING #220 @ $F222A
+#W16($F0218)
+//きょだいクモが　ちえをつけたすがた　いとをはき　うごきをふうじこめる　　
+// current address: $F224E
+
+//POINTER #221 @ $F021A - STRING #221 @ $F224E
+#W16($F021A)
+//しんやにあらわれる　とりのばけもの　よびだすにはいけにえがひつようという
+// current address: $F2272
+
+//POINTER #222 @ $F021C - STRING #222 @ $F2272
+#W16($F021C)
+//あらしにあらわれる　おおうみへび　　おおつなみをおこし　すべてをのみこむ
+// current address: $F2296
+
+//POINTER #223 @ $F021E - STRING #223 @ $F2296
+#W16($F021E)
+//トラップをしかけるのがとくいなせんしそこなしのおとしあなが　とくいわざ　
+// current address: $F22BA
+
+//POINTER #224 @ $F0220 - STRING #224 @ $F22BA
+#W16($F0220)
+//みにつけ　のろいに　うちかつことが　できたものは　ちからをえられるという
+// current address: $F22DE
+
+//POINTER #225 @ $F0222 - STRING #225 @ $F22DE
+#W16($F0222)
+//すばやくうごき　あいてを　はさみで　とらえ　どくばりをさす　サソりせんし
+// current address: $F2302
+
+//POINTER #226 @ $F0224 - STRING #226 @ $F2302
+#W16($F0224)
+//おせんされたみずで　きょうぼうかしたヒトデ　くちからようかいえきをはく　
+// current address: $F2326
+
+//POINTER #227 @ $F0226 - STRING #227 @ $F2326
+#W16($F0226)
+//もりのぬしが　たおれたあと　あしき　もののてにより　よみがえったしかばね
+// current address: $F234A
+
+//POINTER #228 @ $F0228 - STRING #228 @ $F234A
+#W16($F0228)
+//いのちをつかさどるてんし　いのちを　みじかくするかわり　ちからをあたえる
+// current address: $F236E
+
+//POINTER #229 @ $F022A - STRING #229 @ $F236E
+#W16($F022A)
+//けもののあたまをもつ　めずらしい　　さかな　せいかくはとてもきょうぼう　
+// current address: $F2392
+
+//POINTER #230 @ $F022C - STRING #230 @ $F2392
+#W16($F022C)
+//いやなえみをうかべたあくま　てにするカマで　きようにこうげきをかわす　　
+// current address: $F23B6
+
+//POINTER #231 @ $F022E - STRING #231 @ $F23B6
+#W16($F022E)
+//くちから　たまをはっしゃして　　　　こうげきする　せいぶつへいき　　　　
+// current address: $F23DA
+
+//POINTER #232 @ $F0230 - STRING #232 @ $F23DA
+#W16($F0230)
+//ゆめのなかに　ひそむといわれるあくまねているあいだに　いのちをうばう　　
+// current address: $F23FE
+
+//POINTER #233 @ $F0232 - STRING #233 @ $F23FE
+#W16($F0232)
+//そのびぼうとはうらはらに　カタナで　かずおおくの　くびをはねてきたおんな
+// current address: $F2422
+
+//POINTER #234 @ $F0234 - STRING #234 @ $F2422
+#W16($F0234)
+//むかしから　もりにすんでいるせんし　もりのしょくぶつをあやつり　こうげき
+// current address: $F2446
+
+//POINTER #235 @ $F0236 - STRING #235 @ $F2446
+#W16($F0236)
+//めいかいへの　いりぐちをまもるせんしきょかのないものは　ようしゃなくきる
+// current address: $F246A
+
+//POINTER #236 @ $F0238 - STRING #236 @ $F246A
+#W16($F0238)
+//こだいおうの　はかのなかにある　　　たからものをまもる　つちにんぎょう　
+// current address: $F248E
+
+//POINTER #237 @ $F023A - STRING #237 @ $F248E
+#W16($F023A)
+//いしをもつヤシのき　みをおとして　　こうげき　みのなかのミルクはおいしい
+// current address: $F24B2
+
+//POINTER #238 @ $F023C - STRING #238 @ $F24B2
+#W16($F023C)
+//やみにつかえるおんなせんし　あいてをちまつりにあげることがいきがい　　　
+// current address: $F24D6
+
+//POINTER #239 @ $F023E - STRING #239 @ $F24D6
+#W16($F023E)
+//めだまにあしのはえたばけもの　たかくジャンプして　かぎづめでこうげき　　
+// current address: $F24FA
+
+//POINTER #240 @ $F0240 - STRING #240 @ $F24FA
+#W16($F0240)
+//サイコソードとよばれる　けんをもち　まかいに　くんりんする　あんさつしゃ
+// current address: $F251E
+
+//POINTER #241 @ $F0242 - STRING #241 @ $F251E
+#W16($F0242)
+//ゆびさきの　ほのおがきえたとき　　　あいてのうんめいが　けっていする　　
+// current address: $F2542
+
+//POINTER #242 @ $F0244 - STRING #242 @ $F2542
+#W16($F0244)
+//みずにすんでいるせいれい　まわりを　きりでつつみこみ　しかいをうばう　　
+// current address: $F2566
+
+//POINTER #243 @ $F0246 - STRING #243 @ $F2566
+#W16($F0246)
+//マグマのなかから　うまれたモンスターものすごいねつでちかづくものはとける
+// current address: $F258A
+
+//POINTER #244 @ $F0248 - STRING #244 @ $F258A
+#W16($F0248)
+//こころのあしきものがつくっためだまのあくま　ダークボムで　ばくはこうげき
+// current address: $F25AE
+
+//POINTER #245 @ $F024A - STRING #245 @ $F25AE
+#W16($F024A)
+//けんで　きりつけられたものは　　　　たましいを　ぬかれてしまう　　　　　
+// current address: $F25D2
+
+//POINTER #246 @ $F024C - STRING #246 @ $F25D2
+#W16($F024C)
+//うみにひそむはんぎょじん　あんこくのおおつなみをおこして　こうげきする　
+// current address: $F25F6
+
+//POINTER #247 @ $F024E - STRING #247 @ $F25F6
+#W16($F024E)
+//けものつかいのたつじんと　しゅじんにちゅうじつなけもの　コンビはかんぺき
+// current address: $F261A
+
+//POINTER #248 @ $F0250 - STRING #248 @ $F261A
+#W16($F0250)
+//かめから　つぎつぎとあふれでるみずをりゅうにかえて　こうげきしてくる　　
+// current address: $F263E
+
+//POINTER #249 @ $F0252 - STRING #249 @ $F263E
+#W16($F0252)
+//ぜんしんが　こおりでできているせんしふれるものをなんでもこおらせてしまう
+// current address: $F2662
+
+//POINTER #250 @ $F0254 - STRING #250 @ $F2662
+#W16($F0254)
+//うみをこうかいするものをゆうわくしておぼれさせる　うつくしいにんぎょ　　
+// current address: $F2686
+
+//POINTER #251 @ $F0256 - STRING #251 @ $F2686
+#W16($F0256)
+//ネコのようせい　あいらしいすがたとはうらはらに　すばやくてきをひっかく　
+// current address: $F26AA
+
+//POINTER #252 @ $F0258 - STRING #252 @ $F26AA
+#W16($F0258)
+//てんしになるうんめいをせおっていたがあこがれのまじょになったてんし　　　
+// current address: $F26CE
+
+//POINTER #253 @ $F025A - STRING #253 @ $F26CE
+#W16($F025A)
+//かんぜんたいになれなかった　みにくいあくま　はらのあなはなんでもすいこむ
+// current address: $F26F2
+
+//POINTER #254 @ $F025C - STRING #254 @ $F26F2
+#W16($F025C)
+//けがあつまり　かたいかわのように　　なっている　しゅびはかなりたかい　　
+// current address: $F2716
+
+//POINTER #255 @ $F025E - STRING #255 @ $F2716
+#W16($F025E)
+//くうかんをきりさいてできた　いじげんくうかんにあいてをとじこめる　　　　
+// current address: $F273A
+
+//POINTER #256 @ $F0260 - STRING #256 @ $F273A
+#W16($F0260)
+//からだが　いしのようにかたい　けで　おおわれており　まもりがかたい　　　
+// current address: $F275E
+
+//POINTER #257 @ $F0262 - STRING #257 @ $F275E
+#W16($F0262)
+//あしもとをそこなしのぬまにかえて　　あいてをジワジワとひきずりこむ　　　
+// current address: $F2782
+
+//POINTER #258 @ $F0264 - STRING #258 @ $F2782
+#W16($F0264)
+//かずおおくのつえをもち　それぞれを　つかいわけ　たさいなこうげきをする　
+// current address: $F27A6
+
+//POINTER #259 @ $F0266 - STRING #259 @ $F27A6
+#W16($F0266)
+//つきをしゅごするきれいなめがみ　つきあかりのカーテンでこうげきをふせぐ　
+// current address: $F27CA
+
+//POINTER #260 @ $F0268 - STRING #260 @ $F27CA
+#W16($F0268)
+//かがみにうつるものにさいみんじゅつをかけ　こうげきをよけるあくまのかがみ
+// current address: $F27EE
+
+//POINTER #261 @ $F026A - STRING #261 @ $F27EE
+#W16($F026A)
+//たびびとアイルにつきしたがうこびと　トカゲにまたがり　たたかうせんし　　
+// current address: $F2812
+
+//POINTER #262 @ $F026C - STRING #262 @ $F2812
+#W16($F026C)
+//がんせきが　あつまってできたゴーレムあいてをせきかして　はかいする　　　
+// current address: $F2836
+
+//POINTER #263 @ $F026E - STRING #263 @ $F2836
+#W16($F026E)
+//たまごのからに　みをつつむてんし　　おおきなはねで　こうげきをふせぐ　　
+// current address: $F285A
+
+//POINTER #264 @ $F0270 - STRING #264 @ $F285A
+#W16($F0270)
+//いだいなうみのおう　おわることのないおおつなみをよび　てきをのみこむ　　
+// current address: $F287E
+
+//POINTER #265 @ $F0272 - STRING #265 @ $F287E
+#W16($F0272)
+//おおくのつるぎをつかいこなすじょおうそのつるぎさばきは　かなりのうでまえ
+// current address: $F28A2
+
+//POINTER #266 @ $F0274 - STRING #266 @ $F28A2
+#W16($F0274)
+//すばやいうごきで　しんくうをつくり　だし　あいてをきりきざむせんし　　　
+// current address: $F28C6
+
+//POINTER #267 @ $F0276 - STRING #267 @ $F28C6
+#W16($F0276)
+//やみをすうはいするまほうつかい　まのてをよびだし　くらやみへひきずりこむ
+// current address: $F28EA
+
+//POINTER #268 @ $F0278 - STRING #268 @ $F28EA
+#W16($F0278)
+//やみのなかからうまれた　はかいのかみはかいのあらしをよびだして　こうげき
+// current address: $F290E
+
+//POINTER #269 @ $F027A - STRING #269 @ $F290E
+#W16($F027A)
+//あめをあやつるせいれい　たいふうを　よびだし　さまざまなものをふきとばす
+// current address: $F2932
+
+//POINTER #270 @ $F027C - STRING #270 @ $F2932
+#W16($F027C)
+//ブキミなめから　あしきひかりを　　　はなち　あいてにダメージをあたえる　
+// current address: $F2956
+
+//POINTER #271 @ $F027E - STRING #271 @ $F2956
+#W16($F027E)
+//こうざんにすむ　ひのとりのなかま　　くちからほのおをはき　まわりをやく　
+// current address: $F297A
+
+//POINTER #272 @ $F0280 - STRING #272 @ $F297A
+#W16($F0280)
+//ありとあらゆる　ちしきをくしして　　さまざまな　こうげきをふせぐ　　　　
+// current address: $F299E
+
+//POINTER #273 @ $F0282 - STRING #273 @ $F299E
+#W16($F0282)
+//あおあおとおいしげる　きにかこまれてくらす　もりをおさめる　わかきおう　
+// current address: $F29C2
+
+//POINTER #274 @ $F0284 - STRING #274 @ $F29C2
+#W16($F0284)
+//りくじょうせんとうロボット　いまは　ダメだが　うみでもつかえたらしい　　
+// current address: $F29E6
+
+//POINTER #275 @ $F0286 - STRING #275 @ $F29E6
+#W16($F0286)
+//なかのよい　きたかぜとたいよう　　　かまいたちと　ねつこうせんでこうげき
+// current address: $F2A0A
+
+//POINTER #276 @ $F0288 - STRING #276 @ $F2A0A
+#W16($F0288)
+//ゴーゴンがうんだたまご　おおきなめにうつったものがうまれるといわれている
+// current address: $F2A2E
+
+//POINTER #277 @ $F028A - STRING #277 @ $F2A2E
+#W16($F028A)
+//せいちょうしたら　どんなムシになるかわからない　ちいさな　ようちゅう　　
+// current address: $F2A52
+
+//POINTER #278 @ $F028C - STRING #278 @ $F2A52
+#W16($F028C)
+//けむりのなかにひそむあくま　まわりをけむりでおおい　みえなくしてしまう　
+// current address: $F2A76
+
+//POINTER #279 @ $F028E - STRING #279 @ $F2A76
+#W16($F028E)
+//おうがるすのあいだ　おうざをがいてきからまもるおうひ　しゅびはかたい　　
+// current address: $F2A9A
+
+//POINTER #280 @ $F0290 - STRING #280 @ $F2A9A
+#W16($F0290)
+//くるったちからをつかい　こうげきするそのぼうそうは　だれにもとめられない
+// current address: $F2ABE
+
+//POINTER #281 @ $F0292 - STRING #281 @ $F2ABE
+#W16($F0292)
+//しっぽのながいひつじ　しっぽをつかいさいみんじゅつをかけ　すいまをさそう
+// current address: $F2AE2
+
+//POINTER #282 @ $F0294 - STRING #282 @ $F2AE2
+#W16($F0294)
+//さまざまなげんそうをみせ　そのスキをついて　こうげきしてくるきかい　　　
+// current address: $F2B06
+
+//POINTER #283 @ $F0296 - STRING #283 @ $F2B06
+#W16($F0296)
+//いんとようのちからを　しんしょくさせゆがんだちからを　うみだすまどうし　
+// current address: $F2B2A
+
+//POINTER #284 @ $F0298 - STRING #284 @ $F2B2A
+#W16($F0298)
+//めが１つしかないへビ　れいきを　　　はきだし　あいてをこおりづけにする　
+// current address: $F2B4E
+
+//POINTER #285 @ $F029A - STRING #285 @ $F2B4E
+#W16($F029A)
+//いりぐちをまもるために　つくられた　きかい　こわすのは　たいへんだ　　　
+// current address: $F2B72
+
+//POINTER #286 @ $F029C - STRING #286 @ $F2B72
+#W16($F029C)
+//くろいかげに　とりつかれたオーガ　　すごいスピードで　とつげきしてくる　
+// current address: $F2B96
+
+//POINTER #287 @ $F029E - STRING #287 @ $F2B96
+#W16($F029E)
+//あくのげいじゅつか　つぎつぎとつくりだすオブジェで　てきをおしつぶす　　
+// current address: $F2BBA
+
+//POINTER #288 @ $F02A0 - STRING #288 @ $F2BBA
+#W16($F02A0)
+//かたちをじゆうにかえ　さまざまな　　ものにへんしんするスライム　　　　　
+// current address: $F2BDE
+
+//POINTER #289 @ $F02A2 - STRING #289 @ $F2BDE
+#W16($F02A2)
+//つきのめがみに　つかえるせんし　　　みかづきのような　ほこでこうげき　　
+// current address: $F2C02
+
+//POINTER #290 @ $F02A4 - STRING #290 @ $F2C02
+#W16($F02A4)
+//ほのおにつつまれたまじん　まわりの　ほのおをじざいにあやつりこうげきする
+// current address: $F2C26
+
+//POINTER #291 @ $F02A6 - STRING #291 @ $F2C26
+#W16($F02A6)
+//いろいろな　ちょうのうりょくをつかいこうげきのダメージを　ふせぐカッパ　
+// current address: $F2C4A
+
+//POINTER #292 @ $F02A8 - STRING #292 @ $F2C4A
+#W16($F02A8)
+//ひゃくにんぎりを　なしとげたと　　　いわれる　でんせつのけんごう　　　　
+// current address: $F2C6E
+
+//POINTER #293 @ $F02AA - STRING #293 @ $F2C6E
+#W16($F02AA)
+//ドラゴンのそうびで　ちからをえたきしそらから　てきをなんどもきりつける　
+// current address: $F2C92
+
+//POINTER #294 @ $F02AC - STRING #294 @ $F2C92
+#W16($F02AC)
+//ちかけんきゅうじょでの　じっけんで　だいしっぱいして　うまれたばけもの　
+// current address: $F2CB6
+
+//POINTER #295 @ $F02AE - STRING #295 @ $F2CB6
+#W16($F02AE)
+//みにつけたたては　みをまもるだけで　なく　とつげきにもつかえる　　　　　
+// current address: $F2CDA
+
+//POINTER #296 @ $F02B0 - STRING #296 @ $F2CDA
+#W16($F02B0)
+//やみのちからでつくられた　きかいへいくるったように　てきをはかいする　　
+// current address: $F2CFE
+
+//POINTER #297 @ $F02B2 - STRING #297 @ $F2CFE
+#W16($F02B2)
+//もうひとつの　あたまをもつドラゴン　ふたつのくちで　てきをかみくだく　　
+// current address: $F2D22
+
+//POINTER #298 @ $F02B4 - STRING #298 @ $F2D22
+#W16($F02B4)
+//おとをあつかうのが　とくいなオトメ　おんぷの　かまをつかい　こうげきする
+// current address: $F2D46
+
+//POINTER #299 @ $F02B6 - STRING #299 @ $F2D46
+#W16($F02B6)
+//しっぽが　ながいとり　そのしっぽで　くうちゅうから　こうげきする　　　　
+// current address: $F2D6A
+
+//POINTER #300 @ $F02B8 - STRING #300 @ $F2D6A
+#W16($F02B8)
+//せんしのもつ　かくれたちからを　ひきだせるけん　やみのものにはつかえない
+// current address: $F2D8E
+
+//POINTER #301 @ $F02BA - STRING #301 @ $F2D8E
+#W16($F02BA)
+//あくにこころをうったせんしが　やみのちからをえて　パワーアップできる　　
+// current address: $F2DB2
+
+//POINTER #302 @ $F02BC - STRING #302 @ $F2DB2
+#W16($F02BC)
+//あくまなど　やみのモンスターは　　　６０パーセントパワーアップするぞ！　
+// current address: $F2DD6
+
+//POINTER #303 @ $F02BE - STRING #303 @ $F2DD6
+#W16($F02BE)
+//デーモンや　じゅうせんしなどは　　　つねにさいこうのちからをはっきできる
+// current address: $F2DFA
+
+//POINTER #304 @ $F02C0 - STRING #304 @ $F2DFA
+#W16($F02C0)
+//こんちゅうなどに　そうびさせると　　きょうりょくなレーザーをうてる　　　
+// current address: $F2E1E
+
+//POINTER #305 @ $F02C2 - STRING #305 @ $F2E1E
+#W16($F02C2)
+//しゃくねつの　ほのおを　ほうしゃするこんちゅうなどが　そうびかのう　　　
+// current address: $F2E42
+
+//POINTER #306 @ $F02C4 - STRING #306 @ $F2E42
+#W16($F02C4)
+//エルフたちが　パワーアップできる　　せいれいのはなつ　せいなるひかり　　
+// current address: $F2E66
+
+//POINTER #307 @ $F02C6 - STRING #307 @ $F2E66
+#W16($F02C6)
+//けものなど　キバをもつものは　パワーアップして　ちからをはっきできる　　
+// current address: $F2E8A
+
+//POINTER #308 @ $F02C8 - STRING #308 @ $F2E8A
+#W16($F02C8)
+//こうらパワーでパワーアップ　こうらをもたないものには　こうかがないという
+// current address: $F2EAE
+
+//POINTER #309 @ $F02CA - STRING #309 @ $F2EAE
+#W16($F02CA)
+//あくまがつくる　さいきんで　もりの　しょくぶつたちは　パワーアップだ！　
+// current address: $F2ED2
+
+//POINTER #310 @ $F02CC - STRING #310 @ $F2ED2
+#W16($F02CC)
+//このペンダントをみにつけると　やみのまほうつかいなどは　パワーアップする
+// current address: $F2EF6
+
+//POINTER #311 @ $F02CE - STRING #311 @ $F2EF6
+#W16($F02CE)
+//てんしなどが　そうびすると　パワー　アップできる　ぎんのゆみや　　　　　
+// current address: $F2F1A
+
+//POINTER #312 @ $F02D0 - STRING #312 @ $F2F1A
+#W16($F02D0)
+//つのをもつものが　パワーアップ　　　やみのモンスターには　こうかがないぞ
+// current address: $F2F3E
+
+//POINTER #313 @ $F02D2 - STRING #313 @ $F2F3E
+#W16($F02D2)
+//あたまに　つのをもつ　　　　　　　　やみのモンスターが　パワーアップだ！
+// current address: $F2F62
+
+//POINTER #314 @ $F02D4 - STRING #314 @ $F2F62
+#W16($F02D4)
+//どんなドラゴンでも　パワーアップ　　できるという　でんせつのたからもの　
+// current address: $F2F86
+
+//POINTER #315 @ $F02D6 - STRING #315 @ $F2F86
+#W16($F02D6)
+//あいてをしびれさせるむち　じょせい　などが　そうびするとパワーアップだ！
+// current address: $F2FAA
+
+//POINTER #316 @ $F02D8 - STRING #316 @ $F2FAA
+#W16($F02D8)
+//じょせいモンスターが　みにつけると　せいかくがかわってパワーアップするぞ
+// current address: $F2FCE
+
+//POINTER #317 @ $F02DA - STRING #317 @ $F2FCE
+#W16($F02DA)
+//ハーピィ・レディにつかうと　３たいにぶんしんして　こうげきをかけられるぞ
+// current address: $F2FF2
+
+//POINTER #318 @ $F02DC - STRING #318 @ $F2FF2
+#W16($F02DC)
+//つきのひかりがもつまりょくで　けものなどは　パワーアップしてきょうぼうか
+// current address: $F3016
+
+//POINTER #319 @ $F02DE - STRING #319 @ $F3016
+#W16($F02DE)
+//あいてのカードを　つねにこうげき　　ひょうじにして　しゅびにできなくする
+// current address: $F303A
+
+//POINTER #320 @ $F02E0 - STRING #320 @ $F303A
+#W16($F02E0)
+//じょせいや　やみのモンスターが　　　あくまのちからでパワーアップする　　
+// current address: $F305E
+
+//POINTER #321 @ $F02E2 - STRING #321 @ $F305E
+#W16($F02E2)
+//すいしょうにひめられたまりょくによりアンデットなどは　パワーアップする　
+// current address: $F3082
+
+//POINTER #322 @ $F02E4 - STRING #322 @ $F3082
+#W16($F02E4)
+//まほうつかいのちからを　アップできるほん　こころのあしきものはよめない　
+// current address: $F30A6
+
+//POINTER #323 @ $F02E6 - STRING #323 @ $F30A6
+#W16($F02E6)
+//いかずち　がんせき　ほのお　などの　モンスターは　パワーアップするゾ！　
+// current address: $F30CA
+
+//POINTER #324 @ $F02E8 - STRING #324 @ $F30CA
+#W16($F02E8)
+//ありとあらゆるきかいを　チューン　　アップしてくれる　かいぞうこうじょう
+// current address: $F30EE
+
+//POINTER #325 @ $F02EA - STRING #325 @ $F30EE
+#W16($F02EA)
+//たいようからエネルギーをきゅうしゅうきょうりゅうなどは　パワーアップ！　
+// current address: $F3112
+
+//POINTER #326 @ $F02EC - STRING #326 @ $F3112
+#W16($F02EC)
+//ちょうじゅうなど　そらをとぶものは　かぜのえんごをうけて　パワーアップ　
+// current address: $F3136
+
+//POINTER #327 @ $F02EE - STRING #327 @ $F3136
+#W16($F02EE)
+//みず　さかな　かいりゅうぞくなどは　ポセイドンのちからで　パワーアップだ
+// current address: $F315A
+
+//POINTER #328 @ $F02F0 - STRING #328 @ $F315A
+#W16($F02F0)
+//フィールドにいる　すべてのドラゴン　ぞくのモンスターをふういんしてしまう
+// current address: $F317E
+
+//POINTER #329 @ $F02F2 - STRING #329 @ $F317E
+#W16($F02F2)
+//こんちゅう　けものがとくいとする　　みどりいっぱいのフィールドにチェンジ
+// current address: $F31A2
+
+//POINTER #330 @ $F02F4 - STRING #330 @ $F31A2
+#W16($F02F4)
+//きょうりゅう　アンデットがつよくなるあれはてたフィールドにチェンジだ！　
+// current address: $F31C6
+
+//POINTER #331 @ $F02F6 - STRING #331 @ $F31C6
+#W16($F02F6)
+//ドラゴン　ちょうじゅうがとくいとするだいさんみゃくにフィールドチェンジ！
+// current address: $F31EA
+
+//POINTER #332 @ $F02F8 - STRING #332 @ $F31EA
+#W16($F02F8)
+//みわたすかぎりそうげんのフィールドにチェンジ　せんしたちがパワーアップ！
+// current address: $F320E
+
+//POINTER #333 @ $F02FA - STRING #333 @ $F320E
+#W16($F02FA)
+//フィールドをおおうなばらにチェンジ　みずのモンスターがパワーアップだ！　
+// current address: $F3232
+
+//POINTER #334 @ $F02FC - STRING #334 @ $F3232
+#W16($F02FC)
+//あくま　まほうつかいがとくいとする　くらやみのフィールドにチェンジ！　　
+// current address: $F3256
+
+//POINTER #335 @ $F02FE - STRING #335 @ $F3256
+#W16($F02FE)
+//フィールドにそんざいする　すべての　モンスターをようしゃなくすいこむ！　
+// current address: $F327A
+
+//POINTER #336 @ $F0300 - STRING #336 @ $F327A
+#W16($F0300)
+//あいてのモンスターすべてに　でんげきをくらわせ　ぜんめつさせる！　　　　
+// current address: $F329E
+
+//POINTER #337 @ $F0302 - STRING #337 @ $F329E
+#W16($F0302)
+//ライフポイントが２００かいふく　　　とってもおいしい　ビーフカレーだ　　
+// current address: $F32C2
+
+//POINTER #338 @ $F0304 - STRING #338 @ $F32C2
+#W16($F0304)
+//まほうつかいがちょうごうした　ライフポイントを５００かいふくできるくすり
+// current address: $F32E6
+
+//POINTER #339 @ $F0306 - STRING #339 @ $F32E6
+#W16($F0306)
+//ライフポイントを１０００かいふく　　するといわれる　ゴブりンのもつくすり
+// current address: $F330A
+
+//POINTER #340 @ $F0308 - STRING #340 @ $F330A
+#W16($F0308)
+//てんしがみずからきずつけあつめた　ちライフポイントを２０００かいふくする
+// current address: $F332E
+
+//POINTER #341 @ $F030A - STRING #341 @ $F332E
+#W16($F030A)
+//どんなきずもいやしてくれる　かみさまライフポイントが５０００もかいふく！
+// current address: $F3352
+
+//POINTER #342 @ $F030C - STRING #342 @ $F3352
+#W16($F030C)
+//ひのこをふらせて　あいてのライフ　　ポイントに２００のダメージをあたえる
+// current address: $F3376
+
+//POINTER #343 @ $F030E - STRING #343 @ $F3376
+#W16($F030E)
+//ひのたまをなげつけ　あいてのライフ　ポイントに５００のダメージをあたえる
+// current address: $F339A
+
+//POINTER #344 @ $F0310 - STRING #344 @ $F339A
+#W16($F0310)
+//ひあぶりのけいにかけ　あいてのライフを１０００ポイントげんしょうさせる　
+// current address: $F33BE
+
+//POINTER #345 @ $F0312 - STRING #345 @ $F33BE
+#W16($F0312)
+//１にちもえつづけるおおかじで　あいてのライフポイントに２０００のダメージ
+// current address: $F33E2
+
+//POINTER #346 @ $F0314 - STRING #346 @ $F33E2
+#W16($F0314)
+//あいてのライフポイントを５０００も　うばう　しゃくねつじごくをはっせい　
+// current address: $F3406
+
+//POINTER #347 @ $F0316 - STRING #347 @ $F3406
+#W16($F0316)
+//てきのモンスターが　みえるようになりさらに　てきは３ターンうごけない！　
+// current address: $F342A
+
+//POINTER #348 @ $F0318 - STRING #348 @ $F342A
+#W16($F0318)
+//ろくぼうせいの　のろいで　あいての　モンスターは　すべてパワーダウン　　
+// current address: $F344E
+
+//POINTER #349 @ $F031A - STRING #349 @ $F344E
+#W16($F031A)
+//まばゆいひかりで　フィールドの　　　モンスターが　すべてみえるようになる
+// current address: $F3472
+
+//POINTER #350 @ $F031C - STRING #350 @ $F3472
+#W16($F031C)
+//たからばこの　ふたをあけようとする　とうぞくを　はこからとびだしおそう　
+// current address: $F3496
+
+//POINTER #351 @ $F031E - STRING #351 @ $F3496
+#W16($F031E)
+//チョウようにまい　ハチのようにさす　けんとたてをてにした　おんなせんし　
+// current address: $F34BA
+
+//POINTER #352 @ $F0320 - STRING #352 @ $F34BA
+#W16($F0320)
+//からだにヒレをもち　すいちゅうでも　じゆうにうごける　かいりゅうのなかま
+// current address: $F34DE
+
+//POINTER #353 @ $F0322 - STRING #353 @ $F34DE
+#W16($F0322)
+//かわいらしいぬいぐるみ　とおもわせ　チャックのくちで　ガブりとかみつく　
+// current address: $F3502
+
+//POINTER #354 @ $F0324 - STRING #354 @ $F3502
+#W16($F0324)
+//うちゅうのはてからやってきた　さつじんマシン　なぞのきんぞくでできている
+// current address: $F3526
+
+//POINTER #355 @ $F0326 - STRING #355 @ $F3526
+#W16($F0326)
+//とてもきょうぼうなライオン　するどくのびたかぎづめで　あいてをひきさく　
+// current address: $F354A
+
+//POINTER #356 @ $F0328 - STRING #356 @ $F354A
+#W16($F0328)
+//３つのあたまで　つぎつぎほのおをはきあたりいちめんをほのおのうみにする！
+// current address: $F356E
+
+//POINTER #357 @ $F032A - STRING #357 @ $F356E
+#W16($F032A)
+//せいなるほのおで　あしきものをやきはらう　しんせいなちからをもつドラゴン
+// current address: $F3592
+
+//POINTER #358 @ $F032C - STRING #358 @ $F3592
+#W16($F032C)
+//ほそっちょと　でぶっちょの　なかよしガイコツ２ふたりぐみ　あるきにくそう
+// current address: $F35B6
+
+//POINTER #359 @ $F032E - STRING #359 @ $F35B6
+#W16($F032E)
+//おおきなからだと　かぎづめでこうげきかなりつよい　きょうあくなモンスター
+// current address: $F35DA
+
+//POINTER #360 @ $F0330 - STRING #360 @ $F35DA
+#W16($F0330)
+//みみのようにもみえる　あたまについたはねでそらをとぶ　めずらしいペンギン
+// current address: $F35FE
+
+//POINTER #361 @ $F0332 - STRING #361 @ $F35FE
+#W16($F0332)
+//せんねんアイテムのひとつ　どんなに　つよいこうげきでも　ふせげるという　
+// current address: $F3622
+
+//POINTER #362 @ $F0334 - STRING #362 @ $F3622
+#W16($F0334)
+//だれもが　しあわせになれるという　　まほうをふりまきながら　とびまわる　
+// current address: $F3646
+
+//POINTER #363 @ $F0336 - STRING #363 @ $F3646
+#W16($F0336)
+//ブルーアイズホワイトドラゴンとおなじのうりょくをもつ　さいきょうのせんし
+// current address: $F366A
+
+//POINTER #364 @ $F0338 - STRING #364 @ $F366A
+#W16($F0338)
+//あくのかがみ　うつるものをすべてを　かがみのなかのせかいへすいこむ　　
+// current address: $F368D
