@@ -1,0 +1,380 @@
+//GAME NAME:		Yu-Gi-Oh: Duel Monsters
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+
+//BLOCK #002 NAME:		Duel Messages
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($149DA, $14F59) // Jump to insertion point
+#HDR($10000) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $14980 - STRING #0 @ $149DA
+#W16($14980)
+//あなたのターンです[Page]
+//[Exit]
+//
+// current address: $149E5
+
+//POINTER #1 @ $14982 - STRING #1 @ $149E5
+#W16($14982)
+//コンピューターのターンです[Page]
+//[Exit]
+//
+// current address: $149F4
+
+//POINTER #2 @ $14984 - STRING #2 @ $149F4
+#W16($14984)
+//つうしんちゅうです[Page]
+//[Exit]
+//
+// current address: $149FF
+
+//POINTER #3 @ $14986 - STRING #3 @ $149FF
+#W16($14986)
+//てふだから　１まい　えらんでください[Line]
+//[Page]
+//[Exit]
+//
+// current address: $14A14
+
+//POINTER #4 @ $14988 - STRING #4 @ $14A14
+#W16($14988)
+//ターンしゅうりょうです[Page]
+//[Exit]
+//
+// current address: $14A21
+
+//POINTER #5 @ $1498A - STRING #5 @ $14A21
+#W16($1498A)
+//つうしんエラーです[Line]
+//もういちど　やりなおしてください[Page]
+//[Exit]
+//
+// current address: $14A3D
+
+//POINTER #6 @ $1498C - STRING #6 @ $14A3D
+#W16($1498C)
+//デッキが４０まい　そろっていません[Page]
+//[Exit]
+//
+// current address: $14A50
+
+//POINTER #7 @ $1498E - STRING #7 @ $14A50
+#W16($1498E)
+//トレードはしゅうりょうしました[Page]
+//[Exit]
+//
+// current address: $14A61
+
+//POINTER #8 @ $14990 - STRING #8 @ $14A61
+#W16($14990)
+//たいせんあいてが　そうさちゅうです[Exit]
+//
+// current address: $14A73
+
+//POINTER #9 @ $14992 - STRING #9 @ $14A73
+#W16($14992)
+//つうしんゆうごうがはっせいした[Page]
+//[CardNum]になった[Page]
+//[Exit]
+//
+// current address: $14A8A
+
+//POINTER #10 @ $14994 - STRING #10 @ $14A8A
+#W16($14994)
+//[CardNum]は　[CardName]にしんかした[Page]
+//[Exit]
+//
+// current address: $14A96
+
+//POINTER #11 @ $14996 - STRING #11 @ $14A96
+#W16($14996)
+//[CardNum]は　[CardName]にしんかした[Page]
+//[Exit]
+//
+// current address: $14AA2
+
+//POINTER #12 @ $14998 - STRING #12 @ $14AA2
+#W16($14998)
+//[CardNum]は　[CardName]にしんかした[Page]
+//[Exit]
+//
+// current address: $14AAE
+
+//POINTER #13 @ $1499A - STRING #13 @ $14AAE
+#W16($1499A)
+//[CardNum]は　[CardName]にしんかした[Page]
+//[Exit]
+//
+// current address: $14ABA
+
+//POINTER #14 @ $1499C - STRING #14 @ $14ABA
+#W16($1499C)
+//ひかりのごふうけん　のこうかは[Line]
+//まだ　つづいている[Page]
+//[Exit]
+//
+// current address: $14AD5
+
+//POINTER #15 @ $1499E - STRING #15 @ $14AD5
+#W16($1499E)
+//ひかりのごふうけん　のこうかが[Line]
+//なくなった[Page]
+//[Exit]
+//
+// current address: $14AEC
+
+//POINTER #16 @ $149A0 - STRING #16 @ $14AEC
+#W16($149A0)
+//でんせつのけんをつかった[Line]
+//モンスターはパワーアップした[Page]
+//[Exit]
+//
+// current address: $14B09
+
+//POINTER #17 @ $149A2 - STRING #17 @ $14B09
+#W16($149A2)
+//[CardNum]をつかった[Page]
+//[CardName]はぶんしんして　<$B7>になった[Page]
+//[Exit]
+//
+// current address: $14B20
+
+//POINTER #18 @ $149A4 - STRING #18 @ $14B20
+#W16($149A4)
+//しゅびふうじをつかった[Line]
+//あいては　こうげきしかできない[Page]
+//[Exit]
+//
+// current address: $14B3D
+
+//POINTER #19 @ $149A6 - STRING #19 @ $14B3D
+#W16($149A6)
+//ドラゴンぞく・ふういんのつぼを[Line]
+//つかった[Page]
+//フィールドにいた　ドラゴンぞくは[Line]
+//つぼにふういんされた[Page]
+//[Exit]
+//
+// current address: $14B6F
+
+//POINTER #20 @ $149A8 - STRING #20 @ $14B6F
+#W16($149A8)
+//もりカードをつかった[Line]
+//フィールドはもりにへんかした[Page]
+//じゅうせんし　けもの　こんちゅう[Line]
+//しょくぶつはフィールドパワーをえる[Page]
+//[Exit]
+//
+// current address: $14BAD
+
+//POINTER #21 @ $149AA - STRING #21 @ $14BAD
+#W16($149AA)
+//こうやカードをつかった[Line]
+//フィールドはこうやにへんかした[Page]
+//アンデット　きょうりゅう　がんせき[Line]
+//はフィールドパワーをえる[Page]
+//[Exit]
+//
+// current address: $14BE9
+
+//POINTER #22 @ $149AC - STRING #22 @ $14BE9
+#W16($149AC)
+//やまカードをつかった[Line]
+//フィールドはやまにへんかした[Page]
+//ドラゴン　ちょうじゅう　いかずち[Line]
+//は　フィールドパワーをえる[Page]
+//[Exit]
+//
+// current address: $14C23
+
+//POINTER #23 @ $149AE - STRING #23 @ $14C23
+#W16($149AE)
+//そうげんカードをつかった[Line]
+//フィールドはそうげんにへんかした[Page]
+//せんし　じゅうせんし　は　フィールド[Line]
+//パワーをえる[Page]
+//[Exit]
+//
+// current address: $14C5C
+
+//POINTER #24 @ $149B0 - STRING #24 @ $14C5C
+#W16($149B0)
+//うみカードをつかった[Line]
+//フィールドはうみにへんかした[Page]
+//さかな　かいりゅう　いかずち　みず[Line]
+//は　パワーアップ[Page]
+//きかい　ほのお　は　パワーダウン[Page]
+//[Exit]
+//
+// current address: $14CA3
+
+//POINTER #25 @ $149B2 - STRING #25 @ $14CA3
+#W16($149B2)
+//やみカードをつかった[Line]
+//フィールドはやみにへんかした[Page]
+//まほうつかい　あくま　はパワーアップ[Line]
+//てんし　はパワーダウン[Page]
+//[Exit]
+//
+// current address: $14CDD
+
+//POINTER #26 @ $149B4 - STRING #26 @ $14CDD
+#W16($149B4)
+//ブラック・ホールをつかった[Page]
+//フィールドのモンスターは　すべて[Line]
+//きえさってしまう[Page]
+//[Exit]
+//
+// current address: $14D06
+
+//POINTER #27 @ $149B6 - STRING #27 @ $14D06
+#W16($149B6)
+//サンダー・ボルトをつかった[Page]
+//てきのフィールドモンスターは[Line]
+//きえさってしまう[Page]
+//[Exit]
+//
+// current address: $14D2D
+
+//POINTER #28 @ $149B8 - STRING #28 @ $14D2D
+#W16($149B8)
+//モウヤンのカレーをつかった[Line]
+//ライフポイントが　かいふく[Page]
+//[Exit]
+//
+// current address: $14D4A
+
+//POINTER #29 @ $149BA - STRING #29 @ $14D4A
+#W16($149BA)
+//レッドポーションをつかった[Line]
+//ライフポイントが　かいふく[Page]
+//[Exit]
+//
+// current address: $14D67
+
+//POINTER #30 @ $149BC - STRING #30 @ $14D67
+#W16($149BC)
+//ゴブりンのひやくをつかった[Line]
+//ライフポイントが　かいふく[Page]
+//[Exit]
+//
+// current address: $14D84
+
+//POINTER #31 @ $149BE - STRING #31 @ $14D84
+#W16($149BE)
+//てんしのいきちをつかった[Line]
+//ライフポイントが　かいふくした[Page]
+//[Exit]
+//
+// current address: $14DA2
+
+//POINTER #32 @ $149C0 - STRING #32 @ $14DA2
+#W16($149C0)
+//ちりょうのかみ　ディアン・ケトを[Line]
+//つかった[Page]
+//ライフポイントが　かいふくした[Page]
+//[Exit]
+//
+// current address: $14DC9
+
+//POINTER #33 @ $149C2 - STRING #33 @ $14DC9
+#W16($149C2)
+//ひのこ　をつかった[Line]
+//あいてのライフポイントにダメージ[Page]
+//[Exit]
+//
+// current address: $14DE5
+
+//POINTER #34 @ $149C4 - STRING #34 @ $14DE5
+#W16($149C4)
+//ファイアーボール　をつかった[Line]
+//あいてのライフポイントにダメージ[Page]
+//[Exit]
+//
+// current address: $14E06
+
+//POINTER #35 @ $149C6 - STRING #35 @ $14E06
+#W16($149C6)
+//ひあぶりのけい　をつかった[Line]
+//あいてのライフポイントにダメージ[Page]
+//[Exit]
+//
+// current address: $14E26
+
+//POINTER #36 @ $149C8 - STRING #36 @ $14E26
+#W16($149C8)
+//ちゅうやのおおかじ　をつかった[Line]
+//あいてのライフポイントにダメージ[Page]
+//[Exit]
+//
+// current address: $14E48
+
+//POINTER #37 @ $149CA - STRING #37 @ $14E48
+#W16($149CA)
+//かえんじごく　をつかった[Line]
+//あいてのライフポイントにダメージ[Page]
+//[Exit]
+//
+// current address: $14E67
+
+//POINTER #38 @ $149CC - STRING #38 @ $14E67
+#W16($149CC)
+//ひかりのごふうけん　をつかった[Line]
+//あいては　３ターンこうげきできない[Page]
+//フィールドにいるモンスターは[Line]
+//ひかりによってはんべつされた[Page]
+//[Exit]
+//
+// current address: $14EA8
+
+//POINTER #39 @ $149CE - STRING #39 @ $14EA8
+#W16($149CE)
+//ろくぼうせいのじゅばく　をつかった[Page]
+//フィールドにいるてきのモンスターは[Line]
+//パワーダウン[Page]
+//[Exit]
+//
+// current address: $14ED4
+
+//POINTER #40 @ $149D0 - STRING #40 @ $14ED4
+#W16($149D0)
+//やみをかきけすひかり　をつかった[Page]
+//フィールドにいるモンスターは[Line]
+//ひかりによってはんべつされた[Page]
+//[Exit]
+//
+// current address: $14F04
+
+//POINTER #41 @ $149D2 - STRING #41 @ $14F04
+#W16($149D2)
+//つうしんエラー　バッファがあふれました[Page]
+//[Exit]
+//
+// current address: $14F19
+
+//POINTER #42 @ $149D4 - STRING #42 @ $14F19
+#W16($149D4)
+//[CardNum]と　[CardName]は[Page]
+//ゆうごうして　<$B7>になった[Page]
+//[Exit]
+//
+// current address: $14F2D
+
+//POINTER #43 @ $149D6 - STRING #43 @ $14F2D
+#W16($149D6)
+//[CardNum]をつかった[Page]
+//[CardName]はパワーアップした[Page]
+//[Exit]
+//
+// current address: $14F40
+
+//POINTER #44 @ $149D8 - STRING #44 @ $14F40
+#W16($149D8)
+//[CardNum]をつかった[Page]
+//しかし　パワーアップはできなかった[Page]
+//[Exit]
+//
+// current address: $14F5A
