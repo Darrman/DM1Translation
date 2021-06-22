@@ -1,0 +1,856 @@
+//GAME NAME:		Yu-Gi-Oh: Duel Monsters
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+
+//BLOCK #001 NAME:		Dialogue
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($3C15D, $3D240) // Jump to insertion point
+#HDR($38000) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $3C09D - STRING #0 @ $3C15D
+#W16($3C09D)
+//つうしんエラーです[Line]
+//もういちど　やりなおしてください[Page]
+//[Exit]
+//
+// current address: $3C179
+
+//POINTER #1 @ $3C09F - STRING #1 @ $3C179
+#W16($3C09F)
+//ヒョヒョー　オレは　インセクターはが[Line]
+//オレを　５かい　たおさないかぎり[Line]
+//ここから　さきには　すすませないぜ[Page]
+//[Exit]
+//
+// current address: $3C1B0
+
+//POINTER #2 @ $3C0A1 - STRING #2 @ $3C1B0
+#W16($3C0A1)
+//あたしのなまえは　くじゃくまい[Line]
+//フフ⋯　シロートのボーヤに　わたしを[Line]
+//５かいも　たおせるかしら？[Page]
+//[Exit]
+//
+// current address: $3C1E2
+
+//POINTER #3 @ $3C0A3 - STRING #3 @ $3C1E2
+#W16($3C0A3)
+//ワイは　ダイナソーりゅうざき　や！[Line]
+//ダイナソーカードで　ふみつぶしたる[Line]
+//５かいも　ワイにかてるかな[Page]
+//[Exit]
+//
+// current address: $3C215
+
+//POINTER #4 @ $3C0A5 - STRING #4 @ $3C215
+#W16($3C0A5)
+//オレは　カジキりょうた　うみの[Line]
+//デュエりストじゃ！　そうかんたんに[Line]
+//オレは　５かいも　まけないぜよ[Page]
+//[Exit]
+//
+// current address: $3C248
+
+//POINTER #5 @ $3C0A7 - STRING #5 @ $3C248
+#W16($3C0A7)
+//オレは　やみ・ゆうぎ　むとうゆうぎの[Line]
+//なかに　そんざいする　もうひとりの[Line]
+//ゆうぎ　だ[Page]
+//[Exit]
+//
+// current address: $3C274
+
+//POINTER #6 @ $3C0A9 - STRING #6 @ $3C274
+#W16($3C0A9)
+//ボクは　むとうゆうぎ　よろしくね[Line]
+//ボクたちと　デュエルをして　５かい[Line]
+//ずつ　かつと　さきにすすめるよ[Page]
+//[Exit]
+//
+// current address: $3C2A8
+
+//POINTER #7 @ $3C0AB - STRING #7 @ $3C2A8
+#W16($3C0AB)
+//オレは　ここうのデュエりストを[Line]
+//めざすおとこ　じょうのうち　だ！！[Line]
+//さきにいくには　オレを５かいたおせ[Page]
+//[Exit]
+//
+// current address: $3C2DD
+
+//POINTER #8 @ $3C0AD - STRING #8 @ $3C2DD
+#W16($3C0AD)
+//オレのなまえは　かいばせと　オレの[Line]
+//ブルーアイズに　５かい　かつことなど[Line]
+//ふかのうだ　あきらめろ　ハハハ⋯[Page]
+//[Exit]
+//
+// current address: $3C314
+
+//POINTER #9 @ $3C0AF - STRING #9 @ $3C314
+#W16($3C0AF)
+//オレは　かいばモクバ　かいばコーポ[Line]
+//レーションの　ふくしゃちょうだ[Line]
+//５かい　かてれば　さきにすすめるぜ[Page]
+//[Exit]
+//
+// current address: $3C349
+
+//POINTER #10 @ $3C0B1 - STRING #10 @ $3C349
+#W16($3C0B1)
+//オレは　にっぽんのほし　ほんだ　だ[Line]
+//オレたち　４にんに　５かいずつかてば[Line]
+//さらにさきへ　すすめるようになるぜ[Page]
+//[Exit]
+//
+// current address: $3C381
+
+//POINTER #11 @ $3C0B3 - STRING #11 @ $3C381
+#W16($3C0B3)
+//ボクのなまえは　ばくらりょう[Line]
+//ボクたちと　デュエルをして　５かい[Line]
+//ずつ　かつと　さきにすすめるよ[Page]
+//[Exit]
+//
+// current address: $3C3B3
+
+//POINTER #12 @ $3C0B5 - STRING #12 @ $3C3B3
+#W16($3C0B5)
+//きさまをたおすために　おくりこまれた[Line]
+//しかく　ししゃのふくわじゅつし　だ[Line]
+//オレに　５かいかてるかね　キキキ⋯[Page]
+//[Exit]
+//
+// current address: $3C3EB
+
+//POINTER #13 @ $3C0B7 - STRING #13 @ $3C3EB
+#W16($3C0B7)
+//オレは　やみのプレイヤーキラー[Line]
+//きさまは　にげばのない　もうもくの[Line]
+//えもの！　オレに５かい　かてるか！[Page]
+//[Exit]
+//
+// current address: $3C420
+
+//POINTER #14 @ $3C0B9 - STRING #14 @ $3C420
+#W16($3C0B9)
+//オレは　キース・ハワード　ひとは[Line]
+//バンデット・キース　とよんでいる[Line]
+//このオレに　５かいもかてるわけねえ[Page]
+//[Exit]
+//
+// current address: $3C455
+
+//POINTER #15 @ $3C0BB - STRING #15 @ $3C455
+#W16($3C0BB)
+//わたしは　ペガサス・ジェイ・[Line]
+//クロフォード　マジックのうみのおやの[Line]
+//わたしに　５かいも　かてますカー？[Page]
+//[Exit]
+//
+// current address: $3C48A
+
+//POINTER #16 @ $3C0BD - STRING #16 @ $3C48A
+#W16($3C0BD)
+//ワシは　シモン・ムーラン　やまおくに[Line]
+//すむ　せんにんじゃ　おぬしは　ワシを[Line]
+//５かい　たおせるかの？[Page]
+//[Exit]
+//
+// current address: $3C4BD
+
+//POINTER #17 @ $3C0BF - STRING #17 @ $3C4BD
+#W16($3C0BF)
+//このバトルを　せいするのは　オレだ！[Line]
+//インセクトぐんだんで　フィールドを[Line]
+//うめつくしてやるよ！！[Page]
+//[Exit]
+//
+// current address: $3C4EF
+
+//POINTER #18 @ $3C0C1 - STRING #18 @ $3C4EF
+#W16($3C0C1)
+//あたしのまえに　たちはだかるものは[Line]
+//みんなようしゃしない⋯[Line]
+//つぶすわよ！[Page]
+//[Exit]
+//
+// current address: $3C515
+
+//POINTER #19 @ $3C0C3 - STRING #19 @ $3C515
+#W16($3C0C3)
+//ワイのダイナソーカードで[Line]
+//おまえをふみつぶしたるわ！[Page]
+//[Exit]
+//
+// current address: $3C531
+
+//POINTER #20 @ $3C0C5 - STRING #20 @ $3C531
+#W16($3C0C5)
+//デュエルじゃ　おまえをしとめてやる！[Line]
+//これから　うみのおそろしさを[Line]
+//あじあわせてやるぜよ！！[Page]
+//[Exit]
+//
+// current address: $3C561
+
+//POINTER #21 @ $3C0C7 - STRING #21 @ $3C561
+#W16($3C0C7)
+//ふふっ⋯[Line]
+//オレから　にげなかったのは[Line]
+//ほめてやるぜ！[Page]
+//[Exit]
+//
+// current address: $3C57D
+
+//POINTER #22 @ $3C0C9 - STRING #22 @ $3C57D
+#W16($3C0C9)
+//ボクは　じーちゃんと　やくそくを[Line]
+//したんだ！　このカードで　きみを[Line]
+//たおすって！！[Page]
+//[Exit]
+//
+// current address: $3C5A8
+
+//POINTER #23 @ $3C0CB - STRING #23 @ $3C5A8
+#W16($3C0CB)
+//おとこ　じょうのうち！[Line]
+//せいせいどうどうと　しょうぶするぜ！[Line]
+//かかってこいや！！[Page]
+//[Exit]
+//
+// current address: $3C5D2
+
+//POINTER #24 @ $3C0CD - STRING #24 @ $3C5D2
+#W16($3C0CD)
+//フッ⋯　オレに　えんりょはするな！[Line]
+//さいこうのデッキで　いどんでこい！[Page]
+//[Exit]
+//
+// current address: $3C5F7
+
+//POINTER #25 @ $3C0CF - STRING #25 @ $3C5F7
+#W16($3C0CF)
+//にいさまには　わるいが⋯[Line]
+//オレが　おまえをたおす！！[Page]
+//[Exit]
+//
+// current address: $3C613
+
+//POINTER #26 @ $3C0D1 - STRING #26 @ $3C613
+#W16($3C0D1)
+//そのデュエル　うけてたつぜ！！[Line]
+//にっぽんのほしの　いじをみせてやる！[Line]
+//[Page]
+//[Exit]
+//
+// current address: $3C638
+
+//POINTER #27 @ $3C0D3 - STRING #27 @ $3C638
+#W16($3C0D3)
+//さあ　デュエルかいしだ！[Line]
+//いまのうちに　デュエルのコツを[Line]
+//つかめるように　がんばろう[Page]
+//[Exit]
+//
+// current address: $3C664
+
+//POINTER #28 @ $3C0D5 - STRING #28 @ $3C664
+#W16($3C0D5)
+//キキキ⋯　きょうこそ　おまえを[Line]
+//たおしてやる！！[Page]
+//[Exit]
+//
+// current address: $3C67E
+
+//POINTER #29 @ $3C0D7 - STRING #29 @ $3C67E
+#W16($3C0D7)
+//デュエルのじかんだ⋯　フフフフ⋯[Line]
+//やみ　こそが　オレのカードに[Line]
+//パワーをあたえるのだ！！[Page]
+//[Exit]
+//
+// current address: $3C6AC
+
+//POINTER #30 @ $3C0D9 - STRING #30 @ $3C6AC
+#W16($3C0D9)
+//てっていてきに　たたきのめし[Line]
+//デュエルのきょうふ　ってやつを[Line]
+//そのからだに　おぼえさせてやる！[Page]
+//[Exit]
+//
+// current address: $3C6DD
+
+//POINTER #31 @ $3C0DB - STRING #31 @ $3C6DD
+#W16($3C0DB)
+//ユーは　わたしには　かてない⋯[Line]
+//ユーの　マインドは　わたしに[Line]
+//スキャニング　されているのですから[Page]
+//[Exit]
+//
+// current address: $3C70F
+
+//POINTER #32 @ $3C0DD - STRING #32 @ $3C70F
+#W16($3C0DD)
+//ホホホ⋯　ゲームマスターを　めざす[Line]
+//ならば　１まい　１まいのカードを[Line]
+//たいせつにすることじゃ⋯[Page]
+//[Exit]
+//
+// current address: $3C740
+
+//POINTER #33 @ $3C0DF - STRING #33 @ $3C740
+#W16($3C0DF)
+//ヒョヒョー　おまえごとき[Line]
+//オレのてきじゃないんだよ！！[Line]
+//デッキをくみなおして　でなおしな！[Page]
+//[Exit]
+//
+// current address: $3C76F
+
+//POINTER #34 @ $3C0E1 - STRING #34 @ $3C76F
+#W16($3C0E1)
+//あははは　そのていどのカードでは[Line]
+//わたしの　ハーピィは[Line]
+//たおせないわよ！！[Page]
+//[Exit]
+//
+// current address: $3C796
+
+//POINTER #35 @ $3C0E3 - STRING #35 @ $3C796
+#W16($3C0E3)
+//むりむりー！　ワイのダイナソー[Line]
+//カードを　たおそう　おもうなら[Line]
+//ひょうがきにでも　せなむりやで！！[Page]
+//[Exit]
+//
+// current address: $3C7C9
+
+//POINTER #36 @ $3C0E5 - STRING #36 @ $3C7C9
+#W16($3C0E5)
+//ワハハハ！　そんなカードじゃ[Line]
+//うみを　こうりゃくすることなんぞ[Line]
+//できはせんぞよ！！[Page]
+//[Exit]
+//
+// current address: $3C7F4
+
+//POINTER #37 @ $3C0E7 - STRING #37 @ $3C7F4
+#W16($3C0E7)
+//ゲームの　こころえ　ってもんが[Line]
+//わかったら　またあいてに[Line]
+//してやるぜ！！　でなおしてきな！！[Page]
+//[Exit]
+//
+// current address: $3C824
+
+//POINTER #38 @ $3C0E9 - STRING #38 @ $3C824
+#W16($3C0E9)
+//やったー！　ボクの　かちだー！！[Line]
+//ボクに　まけるようじゃ　まだまだだね[Line]
+//なんどでも　ちょうせん　まってるよ[Page]
+//[Exit]
+//
+// current address: $3C85B
+
+//POINTER #39 @ $3C0EB - STRING #39 @ $3C85B
+#W16($3C0EB)
+//おっしゃあ　！　いけるぜ！！[Line]
+//なんどでも　かかってきやがれ！！[Line]
+//（なんとか　じりきで　かてたぜ⋯）[Page]
+//[Exit]
+//
+// current address: $3C88E
+
+//POINTER #40 @ $3C0ED - STRING #40 @ $3C88E
+#W16($3C0ED)
+//なんて　レベルのひくい　たたかい[Line]
+//なんだ⋯　きさまには　じめんを[Line]
+//はいつくばるすがたが　おにあいだ！[Page]
+//[Exit]
+//
+// current address: $3C8C2
+
+//POINTER #41 @ $3C0EF - STRING #41 @ $3C8C2
+#W16($3C0EF)
+//おまえは　みじめやろうだぜ[Line]
+//ギャハハハー！[Page]
+//[Exit]
+//
+// current address: $3C8D9
+
+//POINTER #42 @ $3C0F1 - STRING #42 @ $3C8D9
+#W16($3C0F1)
+//オッシャ！　オレの　かちだぜ！！[Line]
+//しょしんしゃのオレに　まけるとは[Line]
+//あんたは　ちょうしょしんしゃだな！[Page]
+//[Exit]
+//
+// current address: $3C90E
+
+//POINTER #43 @ $3C0F3 - STRING #43 @ $3C90E
+#W16($3C0F3)
+//どうやら　ボクのかちのようだね[Line]
+//デュエルにかてば　カードがもらえるよ[Line]
+//めげずに　なんどもデュエルをしてね[Page]
+//[Exit]
+//
+// current address: $3C944
+
+//POINTER #44 @ $3C0F5 - STRING #44 @ $3C944
+#W16($3C0F5)
+//ククク⋯　あきらめろ！[Line]
+//おまえにかちめはない！[Page]
+//[Exit]
+//
+// current address: $3C95D
+
+//POINTER #45 @ $3C0F7 - STRING #45 @ $3C95D
+#W16($3C0F7)
+//ざんねんだったな！　やみくもに[Line]
+//こうげきしても　オレのモンスターを[Line]
+//たおすことはできんぞ！[Page]
+//[Exit]
+//
+// current address: $3C98C
+
+//POINTER #46 @ $3C0F9 - STRING #46 @ $3C98C
+#W16($3C0F9)
+//たしょうは　たおしがいの　あるやつ[Line]
+//かと　おもったが　こんなこんじょうの[Line]
+//ねえ　やろうだとはなあ⋯[Page]
+//[Exit]
+//
+// current address: $3C9BF
+
+//POINTER #47 @ $3C0FB - STRING #47 @ $3C9BF
+#W16($3C0FB)
+//ミレニアム・アイの　ちからで[Line]
+//わたしには　ユーのせんりゃくが[Line]
+//てにとるように　わかりマース！[Page]
+//[Exit]
+//
+// current address: $3C9EF
+
+//POINTER #48 @ $3C0FD - STRING #48 @ $3C9EF
+#W16($3C0FD)
+//ほんとうに　たいせつなカードには[Line]
+//こころがやどるんじゃよ　なにものにも[Line]
+//かえられない　こころがの！[Page]
+//[Exit]
+//
+// current address: $3CA22
+
+//POINTER #49 @ $3C0FF - STRING #49 @ $3CA22
+#W16($3C0FF)
+//ギョエエエ⋯　インセクトぐんだん[Line]
+//ぜんめつー　オレのせんりゃくの[Line]
+//うらをかいていたのか⋯[Page]
+//[Exit]
+//
+// current address: $3CA50
+
+//POINTER #50 @ $3C101 - STRING #50 @ $3CA50
+#W16($3C101)
+//まけたの⋯　わたしが！！[Line]
+//しろうとの　まぐれよネ！[Line]
+//つぎはまけないわ　かくごしなさい！[Page]
+//[Exit]
+//
+// current address: $3CA7D
+
+//POINTER #51 @ $3C103 - STRING #51 @ $3CA7D
+#W16($3C103)
+//なっ⋯　なんやと！　ワイの[Line]
+//ダイナソーカードがやられた⋯！[Line]
+//つぎは　まけんで！　かくごしいや！[Page]
+//[Exit]
+//
+// current address: $3CAAE
+
+//POINTER #52 @ $3C105 - STRING #52 @ $3CAAE
+#W16($3C105)
+//うみには　かみがすんでいるんじゃ！[Line]
+//おこらせたら　とんでもないめに[Line]
+//あうんじゃあ！　つぎはまけんぜよ！[Page]
+//[Exit]
+//
+// current address: $3CAE3
+
+//POINTER #53 @ $3C107 - STRING #53 @ $3CAE3
+#W16($3C107)
+//くそ！[Line]
+//まだ　ゲームはおわってないぜ！[Page]
+//[Exit]
+//
+// current address: $3CAF8
+
+//POINTER #54 @ $3C109 - STRING #54 @ $3CAF8
+#W16($3C109)
+//こんどこそ　ボクは　じーちゃんに[Line]
+//もらった　このカードを　しんじて⋯[Line]
+//かならず　かってみせるよ！！[Page]
+//[Exit]
+//
+// current address: $3CB2B
+
+//POINTER #55 @ $3C10B - STRING #55 @ $3CB2B
+#W16($3C10B)
+//くそっ　テメーいつか　アワふかせて[Line]
+//やっからな！　おぼえとけ！！[Page]
+//[Exit]
+//
+// current address: $3CB4D
+
+//POINTER #56 @ $3C10D - STRING #56 @ $3CB4D
+#W16($3C10D)
+//オレたちにかわって　うんめいを[Line]
+//きめるのは⋯　カードのみ！！[Line]
+//つぎはかならずかつ！[Page]
+//[Exit]
+//
+// current address: $3CB78
+
+//POINTER #57 @ $3C10F - STRING #57 @ $3CB78
+#W16($3C10F)
+//まて⋯！[Line]
+//オレはしんじないぞ！[Line]
+//オレがまけるわけないんだ！！[Page]
+//[Exit]
+//
+// current address: $3CB98
+
+//POINTER #58 @ $3C111 - STRING #58 @ $3CB98
+#W16($3C111)
+//くそー！　オレのまけだ！！[Line]
+//もう１かい　やろうぜ！！[Page]
+//[Exit]
+//
+// current address: $3CBB4
+
+//POINTER #59 @ $3C113 - STRING #59 @ $3CBB4
+#W16($3C113)
+//あれ　ボクのまけだね　このちょうしで[Line]
+//どんどん　カードをふやして　じぶん[Line]
+//だけの　デッキを　くみたてよう[Page]
+//[Exit]
+//
+// current address: $3CBEA
+
+//POINTER #60 @ $3C115 - STRING #60 @ $3CBEA
+#W16($3C115)
+//まさか⋯　やられるとは[Line]
+//なあに　きせきは　２どもおこらんさ[Page]
+//[Exit]
+//
+// current address: $3CC09
+
+//POINTER #61 @ $3C117 - STRING #61 @ $3CC09
+#W16($3C117)
+//こんどこそ　やみのちからで[Line]
+//かくじつに　きさまを　しとめる！！[Page]
+//[Exit]
+//
+// current address: $3CC2A
+
+//POINTER #62 @ $3C119 - STRING #62 @ $3CC2A
+#W16($3C119)
+//カード・プロフェッサーとよばれた[Line]
+//オレの　かんぺきな　せんじゅつが[Line]
+//やぶられるとは⋯[Page]
+//[Exit]
+//
+// current address: $3CC56
+
+//POINTER #63 @ $3C11B - STRING #63 @ $3CC56
+#W16($3C11B)
+//オーノー！！　イッツァ[Line]
+//アクシデーント！！　ユーとは[Line]
+//ふたたび　たたかうよかんがします⋯[Page]
+//[Exit]
+//
+// current address: $3CC84
+
+//POINTER #64 @ $3C11D - STRING #64 @ $3CC84
+#W16($3C11D)
+//カードのつかいかたは　まだまだだが[Line]
+//なかなかやりおるな　このつぎは[Line]
+//まけはせんぞ⋯[Page]
+//[Exit]
+//
+// current address: $3CCAF
+
+//POINTER #65 @ $3C11F - STRING #65 @ $3CCAF
+#W16($3C11F)
+//くそー⋯　もう５かいも　まけたぜ[Line]
+//つぎこそは　こうかいさせてやるっ！[Line]
+//オレをほんきにさせたことをなっ！！[Page]
+//[Exit]
+//
+// current address: $3CCE5
+
+//POINTER #66 @ $3C121 - STRING #66 @ $3CCE5
+#W16($3C121)
+//ウソ⋯　５かいも　まけたの？　この[Line]
+//わたしが！　でも　いずれあなたとは[Line]
+//けっちゃくをつけるわよ！[Page]
+//[Exit]
+//
+// current address: $3CD17
+
+//POINTER #67 @ $3C123 - STRING #67 @ $3CD17
+#W16($3C123)
+//ワイが　５かいも　まけたやとー！！[Line]
+//ちっ⋯　まずいで⋯　ちょっと[Line]
+//ちょうし　づかしてもうたワ⋯[Page]
+//[Exit]
+//
+// current address: $3CD48
+
+//POINTER #68 @ $3C125 - STRING #68 @ $3CD48
+#W16($3C125)
+//くあーっ！　５かいめの　まけじゃあ！[Line]
+//また　いちから　やりなおしじゃ！[Line]
+//これからも　デュエルしてくれよな[Page]
+//[Exit]
+//
+// current address: $3CD7E
+
+//POINTER #69 @ $3C127 - STRING #69 @ $3CD7E
+#W16($3C127)
+//くそ！[Line]
+//まだ　ゲームはおわってないぜ！[Page]
+//[Exit]
+//
+// current address: $3CD93
+
+//POINTER #70 @ $3C129 - STRING #70 @ $3CD93
+#W16($3C129)
+//あららー　もう５かいも　まけちゃった[Line]
+//よわいからって　ムシしないで[Line]
+//これからも　ボクとデュエルしてね[Page]
+//[Exit]
+//
+// current address: $3CDC7
+
+//POINTER #71 @ $3C12B - STRING #71 @ $3CDC7
+#W16($3C12B)
+//くっそー　もう５かいも　まけちまった[Line]
+//いつかけっちゃく　つけてやるかんなー[Line]
+//おぼえてろ！！[Page]
+//[Exit]
+//
+// current address: $3CDF6
+
+//POINTER #72 @ $3C12D - STRING #72 @ $3CDF6
+#W16($3C12D)
+//くっ　オ⋯　オレの　ブルーアイズが⋯[Line]
+//もう５かいも　まけただとっ！　バカな[Line]
+//オレは　まだデュエルできるぜ！[Page]
+//[Exit]
+//
+// current address: $3CE2D
+
+//POINTER #73 @ $3C12F - STRING #73 @ $3CE2D
+#W16($3C12F)
+//まけた⋯！[Line]
+//このオレが　５かいも⋯！！[Line]
+//くっ⋯　ウソだ　ウソだ！！[Page]
+//[Exit]
+//
+// current address: $3CE50
+
+//POINTER #74 @ $3C131 - STRING #74 @ $3CE50
+#W16($3C131)
+//くそー！　もう５かい　まけちまったぜ[Line]
+//これからも　なんどでも　あいてを[Line]
+//してくれよな！！[Page]
+//[Exit]
+//
+// current address: $3CE7E
+
+//POINTER #75 @ $3C133 - STRING #75 @ $3CE7E
+#W16($3C133)
+//５かい　まけちゃったね[Line]
+//レアなカードをもとめて　どんどん[Line]
+//デュエルをしてくれると　うれしいな[Page]
+//[Exit]
+//
+// current address: $3CEAE
+
+//POINTER #76 @ $3C135 - STRING #76 @ $3CEAE
+#W16($3C135)
+//まさか⋯　もう５かいも　まけたのか[Line]
+//な⋯　なぜ⋯　なぜだ　⋯[Page]
+//[Exit]
+//
+// current address: $3CECE
+
+//POINTER #77 @ $3C137 - STRING #77 @ $3CECE
+#W16($3C137)
+//くそっ！　もう５かい　まけたのか！[Line]
+//この　やみ　があるかぎり[Line]
+//オレは　むてきのはずだっ！！[Page]
+//[Exit]
+//
+// current address: $3CEFD
+
+//POINTER #78 @ $3C139 - STRING #78 @ $3CEFD
+#W16($3C139)
+//ふはいでんせつを　うちたてた　この[Line]
+//バンデット・キースさまが　５かいも[Line]
+//まけただとっ⋯　そんなバカなっ！[Page]
+//[Exit]
+//
+// current address: $3CF33
+
+//POINTER #79 @ $3C13B - STRING #79 @ $3CF33
+#W16($3C13B)
+//この　ミレニアム・アイの　ちから[Line]
+//マインド・スキャンを　５かいも[Line]
+//みやぶられるとは⋯[Page]
+//[Exit]
+//
+// current address: $3CF5F
+
+//POINTER #80 @ $3C13D - STRING #80 @ $3CF5F
+#W16($3C13D)
+//なんと⋯　ワシの５かいめのまけじゃ⋯[Line]
+//さきにすすむがよい　これからも[Line]
+//カードを　たいせつにするんじゃぞ[Page]
+//[Exit]
+//
+// current address: $3CF94
+
+//POINTER #81 @ $3C13F - STRING #81 @ $3CF94
+#W16($3C13F)
+//もっているカードが　５０まいよりすく[Line]
+//ないみたいだわ[Page]
+//５０まいいじょうカードをあつめたら[Line]
+//またえらんでね[Page]
+//[Exit]
+//
+// current address: $3CFCA
+
+//POINTER #82 @ $3C141 - STRING #82 @ $3CFCA
+#W16($3C141)
+//い[Pause]か[Pause]り[Pause]の[Pause]ご[Pause]う[Pause]か[Line]
+//[Pause][Pause][Pause]エ[Pause][Pause]ク[Pause][Pause]ゾ[Pause][Pause]ー[Pause][Pause]ド[Pause][Pause]・[Pause][Pause]フ[Pause][Pause]レ[Pause][Pause]イ[Pause][Pause]ム[Pause][Pause][Page]
+//[Exit]
+//
+// current address: $3CFFB
+
+//POINTER #83 @ $3C143 - STRING #83 @ $3CFFB
+#W16($3C143)
+//ゆうぎおうデュエルモンスターズ　の[Line]
+//せかいへようこそ！[Page]
+//ゲームをはじめるまえに　きみの[Line]
+//デュエルネームをおしえてもらおう[Page]
+//このせかいでの　きみのデュエりスト[Line]
+//としてのなまえだ[Page]
+//いちどきめたら　かえられないから[Line]
+//しんちょうに　きめてくれよな[Page]
+//[Exit]
+//
+// current address: $3D074
+
+//POINTER #84 @ $3C145 - STRING #84 @ $3D074
+#W16($3C145)
+//ここは　パスワードにゅうりょく[Line]
+//モード[Page]
+//これからパスワードをにゅうりょくしてもらう[Page]
+//パスワードをにゅうりょくしたら　おわりをえらんでくれよな[Page]
+//[Exit]
+//
+// current address: $3D0BC
+
+//POINTER #85 @ $3C147 - STRING #85 @ $3D0BC
+#W16($3C147)
+//パスワードはただしいようだ[Line]
+//きみにカードをプレゼントしよう[Page]
+//[Exit]
+//
+// current address: $3D0DB
+
+//POINTER #86 @ $3C149 - STRING #86 @ $3D0DB
+#W16($3C149)
+//パスワードはただしいようだが[Line]
+//そのパスワードは　まえにかいせき[Line]
+//されているようだね[Page]
+//[Exit]
+//
+// current address: $3D106
+
+//POINTER #87 @ $3C14B - STRING #87 @ $3D106
+#W16($3C14B)
+//パスワードはちがっているようだ[Line]
+//パスワードはただしく　にゅうりょく[Line]
+//してくれよ[Page]
+//[Exit]
+//
+// current address: $3D12F
+
+//POINTER #88 @ $3C14D - STRING #88 @ $3D12F
+#W16($3C14D)
+//パスワードはちがっているようだ[Line]
+//パスワードはただしく　にゅうりょく[Line]
+//してくれよ　[Page]
+//[Exit]
+//
+// current address: $3D159
+
+//POINTER #89 @ $3C14F - STRING #89 @ $3D159
+#W16($3C14F)
+//デュエルにかったね　あいてから[CardNum][CardName]をうばいとったよ[Page]
+//[Exit]
+//
+// current address: $3D174
+
+//POINTER #90 @ $3C151 - STRING #90 @ $3D174
+#W16($3C151)
+//あなたのまけね[CardNum][CardName]をあいてにとられたわ[Page]
+//[Exit]
+//
+// current address: $3D189
+
+//POINTER #91 @ $3C153 - STRING #91 @ $3D189
+#W16($3C153)
+//デュエルにかったので[CardNum][CardName]をてにいれたよ[Page]
+//つぎのデュエルも　がんばってね[Page]
+//[Exit]
+//
+// current address: $3D1AE
+
+//POINTER #92 @ $3C155 - STRING #92 @ $3D1AE
+#W16($3C155)
+//デュエルにかちつづけたので　とくべつに[CardNum][CardName]をプレゼントするね[Page]
+//どんどん　かちつづけてね[Page]
+//[Exit]
+//
+// current address: $3D1DB
+
+//POINTER #93 @ $3C157 - STRING #93 @ $3D1DB
+#W16($3C157)
+//たくさんのひとと　つうしんたいせん[Line]
+//をしたので　とくべつに[CardNum][CardName]をあげるね[Page]
+//これからも　たくさんのひととデュエルしてね[Page]
+//[Exit]
+//
+// current address: $3D217
+
+//POINTER #94 @ $3C159 - STRING #94 @ $3D217
+#W16($3C159)
+//スーパーゲームボーイ２では　つうしんたいせん　トレードはできません[Page]
+//[Exit]
+//
+// current address: $3D23A
+
+//POINTER #95 @ $3C15B - STRING #95 @ $3D23A
+#W16($3C15B)
+//テストだよ[Page]
+//[Exit]
+//
+// current address: $3D241
