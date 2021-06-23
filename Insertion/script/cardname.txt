@@ -7,7 +7,10 @@
 //BLOCK #000 NAME:		Card Names
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($46ED, $52A4) // Jump to insertion point
+//#JMP($46ED, $52A4) // Jump to insertion point
+#JMP($6E80, $7FFF) //Moving to free space
+//Free space is not sufficient, running out of space within the last five cards
+//Well, that's a lie, there's the secret ones, but I can accept them being blank
 #HDR($-0) // Difference between ROM and RAM addresses for pointer value calculations
 
 //Most menus cut off at eight, original Japanese breaks this often, don't worry
@@ -229,7 +232,7 @@ Beaver Warrior
 #W16($4445)
 //がんくつまじんオーガ・ロック
 //JP: Cavern Djinn: Ogre Rock
-//EN: Rock Ogre Grotto No. 1
+//EN: Rock Ogre Grotto #1
 Rock Ogre Grotto1
 // current address: $47E2
 
@@ -361,8 +364,8 @@ Rogue Doll
 #W16($4467)
 //エレキッズ
 //JP: Eleckids
-//EN: Oscillo Hero No. 2/Wattkid
-Oscillo Hero #2
+//EN: Oscillo Hero #2/Wattkid
+Oscillo Hero
 // current address: $4885
 
 //POINTER #45 @ $4469 - STRING #45 @ $4885
@@ -627,7 +630,7 @@ Uraby
 #W16($44AF)
 //しかばねをむさぼるりゅう
 //JP: Corpse-Devouring Dragon
-//EN: Crawling Dragon No. 2
+//EN: Crawling Dragon #2
 Crawling Dragon
 // current address: $49A1
 
@@ -1578,7 +1581,7 @@ Dorover
 //グロス
 //JP: Gross
 //EN: Twin Long Rods #1
-Twin Long Rods #1
+Twin Long Rods
 // current address: $4D91
 
 //POINTER #206 @ $45AB - STRING #206 @ $4D91
@@ -2157,7 +2160,7 @@ Mystic Clown
 //スりーピィ
 //JP: Sleepy
 //EN: Mystical Sheep #2
-Mystical Sheep #2
+Mystical Sheep
 // current address: $4FFE
 
 //POINTER #282 @ $4643 - STRING #282 @ $4FFE
