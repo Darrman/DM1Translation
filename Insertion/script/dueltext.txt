@@ -2,26 +2,32 @@
 
 // Define required TABLE variables and load the corresponding tables
 #VAR(Table_0, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+#ADDTBL("text.tbl", Table_0)
 
 //BLOCK #002 NAME:		Duel Messages
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($149DA, $14F59) // Jump to insertion point
+//#JMP($149DA, $14F59) // Jump to insertion point
+//Original space not sufficient
+#JMP($15400, $17FFF)
 #HDR($10000) // Difference between ROM and RAM addresses for pointer value calculations
 
 //POINTER #0 @ $14980 - STRING #0 @ $149DA
 #W16($14980)
+//Your turn
 //あなたのターンです[Page]
 //[Exit]
 //
+It's your turn.[Page][Exit]
 // current address: $149E5
 
 //POINTER #1 @ $14982 - STRING #1 @ $149E5
 #W16($14982)
+//Enemy's turn
 //コンピューターのターンです[Page]
 //[Exit]
 //
+Computer's turn.[Page][Exit]
 // current address: $149F4
 
 //POINTER #2 @ $14984 - STRING #2 @ $149F4
@@ -29,6 +35,7 @@
 //つうしんちゅうです[Page]
 //[Exit]
 //
+Communicating...[Page][Exit]
 // current address: $149FF
 
 //POINTER #3 @ $14986 - STRING #3 @ $149FF
@@ -37,74 +44,96 @@
 //[Page]
 //[Exit]
 //
+Pointer 3[Page][Exit]
 // current address: $14A14
 
 //POINTER #4 @ $14988 - STRING #4 @ $14A14
 #W16($14988)
+//End of turn
 //ターンしゅうりょうです[Page]
 //[Exit]
 //
+The turn is over.[Page][Exit]
 // current address: $14A21
 
 //POINTER #5 @ $1498A - STRING #5 @ $14A21
 #W16($1498A)
+//Communication error
 //つうしんエラーです[Line]
 //もういちど　やりなおしてください[Page]
 //[Exit]
 //
+Communication[Line]
+error. Try again.[Page][Exit]
 // current address: $14A3D
 
 //POINTER #6 @ $1498C - STRING #6 @ $14A3D
 #W16($1498C)
+//Not enough cards
 //デッキが４０まい　そろっていません[Page]
 //[Exit]
 //
+Your deck must[Line]
+have 40 cards.[Page][Exit]
 // current address: $14A50
 
 //POINTER #7 @ $1498E - STRING #7 @ $14A50
 #W16($1498E)
+//Trade complete.
 //トレードはしゅうりょうしました[Page]
 //[Exit]
 //
+Trade complete.[Page][Exit]
 // current address: $14A61
 
 //POINTER #8 @ $14990 - STRING #8 @ $14A61
 #W16($14990)
+//Opponent thinking?
 //たいせんあいてが　そうさちゅうです[Exit]
 //
+Enemy is thinking[Page][Exit]
 // current address: $14A73
 
 //POINTER #9 @ $14992 - STRING #9 @ $14A73
 #W16($14992)
+//Communication fusion
 //つうしんゆうごうがはっせいした[Page]
 //[CardNum]になった[Page]
 //[Exit]
 //
+Card became[Page]
+[CardNum][Page][Exit]
 // current address: $14A8A
 
 //POINTER #10 @ $14994 - STRING #10 @ $14A8A
 #W16($14994)
+#W16($14996)
+#W16($14998)
+#W16($1499A)
+//More fusion? Various dupe pointers.
 //[CardNum]は　[CardName]にしんかした[Page]
 //[Exit]
 //
+Fusion:[CardNum][Line]
+[CardName][Page][Exit]
 // current address: $14A96
 
 //POINTER #11 @ $14996 - STRING #11 @ $14A96
-#W16($14996)
+//#W16($14996)
 //[CardNum]は　[CardName]にしんかした[Page]
 //[Exit]
 //
 // current address: $14AA2
 
 //POINTER #12 @ $14998 - STRING #12 @ $14AA2
-#W16($14998)
+//#W16($14998)
 //[CardNum]は　[CardName]にしんかした[Page]
 //[Exit]
 //
 // current address: $14AAE
 
 //POINTER #13 @ $1499A - STRING #13 @ $14AAE
-#W16($1499A)
+//#W16($1499A)
 //[CardNum]は　[CardName]にしんかした[Page]
 //[Exit]
 //
@@ -112,96 +141,140 @@
 
 //POINTER #14 @ $1499C - STRING #14 @ $14ABA
 #W16($1499C)
+//Swords of Revealing Light
 //ひかりのごふうけん　のこうかは[Line]
 //まだ　つづいている[Page]
 //[Exit]
 //
+Swords of Reveal-[Line]
+ing Light active[Page][Exit]
 // current address: $14AD5
 
 //POINTER #15 @ $1499E - STRING #15 @ $14AD5
 #W16($1499E)
+//Swords gone
 //ひかりのごふうけん　のこうかが[Line]
 //なくなった[Page]
 //[Exit]
 //
+Swords of Reveal-[Line]
+ing Light wore off[Page][Exit]
 // current address: $14AEC
 
 //POINTER #16 @ $149A0 - STRING #16 @ $14AEC
 #W16($149A0)
+//Legendary Sword
 //でんせつのけんをつかった[Line]
 //モンスターはパワーアップした[Page]
 //[Exit]
 //
+Used Legendary[Line]
+Sword.[Page]
+Monster powered[Line]
+up.[Page][Exit]
+
 // current address: $14B09
 
 //POINTER #17 @ $149A2 - STRING #17 @ $14B09
 #W16($149A2)
+//Elegant Egotist?
 //[CardNum]をつかった[Page]
 //[CardName]はぶんしんして　<$B7>になった[Page]
 //[Exit]
 //
+Used[CardNum].[Line]
+[CardName] is[Page]
+now <$B7>.[Exit]
 // current address: $14B20
 
 //POINTER #18 @ $149A4 - STRING #18 @ $14B20
 #W16($149A4)
+//Stop Defence
 //しゅびふうじをつかった[Line]
 //あいては　こうげきしかできない[Page]
 //[Exit]
 //
+Used Stop Defence.[Line]
+You must attack.[Page][Exit]
 // current address: $14B3D
 
 //POINTER #19 @ $149A6 - STRING #19 @ $14B3D
 #W16($149A6)
+//Dragon Capture Jar
 //ドラゴンぞく・ふういんのつぼを[Line]
 //つかった[Page]
 //フィールドにいた　ドラゴンぞくは[Line]
 //つぼにふういんされた[Page]
 //[Exit]
 //
+Used Dragon[Line]
+Capture Jar.[Page]
+All dragons were[Line]
+sealed within.[Page][Exit]
 // current address: $14B6F
 
 //POINTER #20 @ $149A8 - STRING #20 @ $14B6F
 #W16($149A8)
+//Forest
 //もりカードをつかった[Line]
 //フィールドはもりにへんかした[Page]
 //じゅうせんし　けもの　こんちゅう[Line]
 //しょくぶつはフィールドパワーをえる[Page]
 //[Exit]
 //
+Used Forest.[Line]
+Field now Forest.[Page]
+Insects and beasts[Line]
+power up.[Page][Exit]
 // current address: $14BAD
 
 //POINTER #21 @ $149AA - STRING #21 @ $14BAD
 #W16($149AA)
+//Wasteland
 //こうやカードをつかった[Line]
 //フィールドはこうやにへんかした[Page]
 //アンデット　きょうりゅう　がんせき[Line]
 //はフィールドパワーをえる[Page]
 //[Exit]
 //
+Used Wasteland.[Line]
+Field now Desert.[Page]
+Zombies,dinosaurs,[Line]
+rocks power up.[Page][Exit]
 // current address: $14BE9
 
 //POINTER #22 @ $149AC - STRING #22 @ $14BE9
 #W16($149AC)
+//Mountain
 //やまカードをつかった[Line]
 //フィールドはやまにへんかした[Page]
 //ドラゴン　ちょうじゅう　いかずち[Line]
 //は　フィールドパワーをえる[Page]
 //[Exit]
 //
+Used Mountain.[Line]
+Field now Mount.[Page]
+Dragons, winged[Line]
+beasts power up.[Page][Exit]
 // current address: $14C23
 
 //POINTER #23 @ $149AE - STRING #23 @ $14C23
 #W16($149AE)
+//Sogen
 //そうげんカードをつかった[Line]
 //フィールドはそうげんにへんかした[Page]
 //せんし　じゅうせんし　は　フィールド[Line]
 //パワーをえる[Page]
 //[Exit]
 //
+Used Sogen.[Line]
+Field now Plain.[Page]
+Warriors power up.[Page][Exit]
 // current address: $14C5C
 
 //POINTER #24 @ $149B0 - STRING #24 @ $14C5C
 #W16($149B0)
+//Umi
 //うみカードをつかった[Line]
 //フィールドはうみにへんかした[Page]
 //さかな　かいりゅう　いかずち　みず[Line]
@@ -209,172 +282,258 @@
 //きかい　ほのお　は　パワーダウン[Page]
 //[Exit]
 //
+Used Umi.[Line]
+Field now Sea.[Page]
+Fish, sea serpent,[Line]
+thunder, aqua[Page]
+power up. Machine,[Line]
+pyro power down.[Page][Exit]
 // current address: $14CA3
 
 //POINTER #25 @ $149B2 - STRING #25 @ $14CA3
 #W16($149B2)
+//Yami
 //やみカードをつかった[Line]
 //フィールドはやみにへんかした[Page]
 //まほうつかい　あくま　はパワーアップ[Line]
 //てんし　はパワーダウン[Page]
 //[Exit]
 //
+Used Yami.[Line]
+Field now Dark.[Page]
+Fiend, spellcaster[Line]
+power up.[Page][Exit]
 // current address: $14CDD
 
 //POINTER #26 @ $149B4 - STRING #26 @ $14CDD
 #W16($149B4)
+//Dark Hole
 //ブラック・ホールをつかった[Page]
 //フィールドのモンスターは　すべて[Line]
 //きえさってしまう[Page]
 //[Exit]
 //
+Used Dark Hole.[Page]
+Destroyed every[Line]
+monster on field.[Page][Exit]
 // current address: $14D06
 
 //POINTER #27 @ $149B6 - STRING #27 @ $14D06
 #W16($149B6)
+//Raigeki
 //サンダー・ボルトをつかった[Page]
 //てきのフィールドモンスターは[Line]
 //きえさってしまう[Page]
 //[Exit]
 //
+Used Raigeki.[Page]
+All enemy monsters[Line]
+are destroyed.[Page][Exit]
 // current address: $14D2D
 
 //POINTER #28 @ $149B8 - STRING #28 @ $14D2D
 #W16($149B8)
+//Mooyan Curry
 //モウヤンのカレーをつかった[Line]
 //ライフポイントが　かいふく[Page]
 //[Exit]
 //
+Used Mooyan Curry.[Line]
+LP restored.[Page][Exit]
 // current address: $14D4A
 
 //POINTER #29 @ $149BA - STRING #29 @ $14D4A
 #W16($149BA)
+//Red Medicine
 //レッドポーションをつかった[Line]
 //ライフポイントが　かいふく[Page]
 //[Exit]
 //
+Used Red Medicine.[Line]
+LP restored.[Page][Exit]
 // current address: $14D67
 
 //POINTER #30 @ $149BC - STRING #30 @ $14D67
 #W16($149BC)
+//Goblin's Secret Remedy
 //ゴブりンのひやくをつかった[Line]
 //ライフポイントが　かいふく[Page]
 //[Exit]
 //
+Used Goblin's[Line]
+Secret Remedy.[Page]
+LP restored.[Page][Exit]
 // current address: $14D84
 
 //POINTER #31 @ $149BE - STRING #31 @ $14D84
 #W16($149BE)
+//Soul of the Pure
 //てんしのいきちをつかった[Line]
 //ライフポイントが　かいふくした[Page]
 //[Exit]
 //
+Used Soul of the[Line]
+Pure. LP restored.[Page][Exit]
 // current address: $14DA2
 
 //POINTER #32 @ $149C0 - STRING #32 @ $14DA2
 #W16($149C0)
+//Dian Keto the Cure Master
 //ちりょうのかみ　ディアン・ケトを[Line]
 //つかった[Page]
 //ライフポイントが　かいふくした[Page]
 //[Exit]
 //
+Used Dian Keto the[Line]
+Cure Master.[Page]
+LP restored.[Page][Exit]
 // current address: $14DC9
 
 //POINTER #33 @ $149C2 - STRING #33 @ $14DC9
 #W16($149C2)
+//Sparks
 //ひのこ　をつかった[Line]
 //あいてのライフポイントにダメージ[Page]
 //[Exit]
 //
+Used Sparks.[Line]
+Attacked enemy LP.[Page][Exit]
 // current address: $14DE5
 
 //POINTER #34 @ $149C4 - STRING #34 @ $14DE5
 #W16($149C4)
+//Hinotama
 //ファイアーボール　をつかった[Line]
 //あいてのライフポイントにダメージ[Page]
 //[Exit]
 //
+Used Hinotama.[Line]
+Attacked enemy LP.[Page][Exit]
 // current address: $14E06
 
 //POINTER #35 @ $149C6 - STRING #35 @ $14E06
 #W16($149C6)
+//Final Flame
 //ひあぶりのけい　をつかった[Line]
 //あいてのライフポイントにダメージ[Page]
 //[Exit]
 //
+Used Final Flame.[Line]
+Attacked enemy LP.[Page][Exit]
 // current address: $14E26
 
 //POINTER #36 @ $149C8 - STRING #36 @ $14E26
 #W16($149C8)
+//Ookazi
 //ちゅうやのおおかじ　をつかった[Line]
 //あいてのライフポイントにダメージ[Page]
 //[Exit]
 //
+Used Ookazi.[Line]
+Attacked enemy LP.[Page][Exit]
 // current address: $14E48
 
 //POINTER #37 @ $149CA - STRING #37 @ $14E48
 #W16($149CA)
+//Tremendous Fire
 //かえんじごく　をつかった[Line]
 //あいてのライフポイントにダメージ[Page]
 //[Exit]
 //
+Used Tremendous[Line]
+Fire. Attacked[Page]
+enemy LP.[Page][Exit]
 // current address: $14E67
 
 //POINTER #38 @ $149CC - STRING #38 @ $14E67
 #W16($149CC)
+//Swords of Revealing Light
 //ひかりのごふうけん　をつかった[Line]
 //あいては　３ターンこうげきできない[Page]
 //フィールドにいるモンスターは[Line]
 //ひかりによってはんべつされた[Page]
 //[Exit]
 //
+Used Swords of[Line]
+Revealing Light.[Page]
+Enemy monsters[Line]
+are revealed, and[Page]
+can't attack for[Line]
+three turns.[Page][Exit]
 // current address: $14EA8
 
 //POINTER #39 @ $149CE - STRING #39 @ $14EA8
 #W16($149CE)
+//Spellbinding Circle
 //ろくぼうせいのじゅばく　をつかった[Page]
 //フィールドにいるてきのモンスターは[Line]
 //パワーダウン[Page]
 //[Exit]
 //
+Used Spellbinding[Line]
+Circle.[Page]
+Powers down all[Line]
+enemy monsters.[Page][Exit]
 // current address: $14ED4
 
 //POINTER #40 @ $149D0 - STRING #40 @ $14ED4
 #W16($149D0)
+//Dark-Piercing Light
 //やみをかきけすひかり　をつかった[Page]
 //フィールドにいるモンスターは[Line]
 //ひかりによってはんべつされた[Page]
 //[Exit]
 //
+Used Dark-Piercing[Line]
+Light.[Page]
+All monsters are[Line]
+revealed.[Page][Exit]
 // current address: $14F04
 
 //POINTER #41 @ $149D2 - STRING #41 @ $14F04
 #W16($149D2)
+//Buffer overflow
 //つうしんエラー　バッファがあふれました[Page]
 //[Exit]
 //
+Communication[Line]
+error:bufr.ovrflow[Page][Exit]
 // current address: $14F19
 
 //POINTER #42 @ $149D4 - STRING #42 @ $14F19
 #W16($149D4)
+//Fusion
 //[CardNum]と　[CardName]は[Page]
 //ゆうごうして　<$B7>になった[Page]
 //[Exit]
 //
+[CardNum]&[Line]
+[CardName][Page]
+fuse into[Line]
+<$B7>[Page][Exit]
 // current address: $14F2D
 
 //POINTER #43 @ $149D6 - STRING #43 @ $14F2D
 #W16($149D6)
+//Generic equip
 //[CardNum]をつかった[Page]
 //[CardName]はパワーアップした[Page]
 //[Exit]
 //
+Used[Line]
+[CardNum].[Page]
+[CardName][Line]
+powered up.[Page][Exit]
 // current address: $14F40
 
 //POINTER #44 @ $149D8 - STRING #44 @ $14F40
 #W16($149D8)
+//Failed equip
 //[CardNum]をつかった[Page]
 //しかし　パワーアップはできなかった[Page]
 //[Exit]
 //
+Used[Line]
+[CardNum].[Page]
+Couldn't power up.[Page][Exit]
 // current address: $14F5A

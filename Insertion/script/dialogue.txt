@@ -693,7 +693,7 @@ Simon defeated[Page][Exit]
 //オレをほんきにさせたことをなっ！！[Page]
 //[Exit]
 //
-Weevil 5x win[Line][Page]
+Weevil 5x win[Page][Exit]
 // current address: $3CCE5
 
 //POINTER #66 @ $3C121 - STRING #66 @ $3CCE5
@@ -703,7 +703,7 @@ Weevil 5x win[Line][Page]
 //けっちゃくをつけるわよ！[Page]
 //[Exit]
 //
-Mai 5x win[Line][Page]
+Mai 5x win[Page][Exit]
 // current address: $3CD17
 
 //POINTER #67 @ $3C123 - STRING #67 @ $3CD17
@@ -713,7 +713,7 @@ Mai 5x win[Line][Page]
 //ちょうし　づかしてもうたワ⋯[Page]
 //[Exit]
 //
-Rex 5x win[Line][Page]
+Rex 5x win[Page][Exit]
 // current address: $3CD48
 
 //POINTER #68 @ $3C125 - STRING #68 @ $3CD48
@@ -723,7 +723,7 @@ Rex 5x win[Line][Page]
 //これからも　デュエルしてくれよな[Page]
 //[Exit]
 //
-Mako 5x win[Line][Page]
+Mako 5x win[Page][Exit]
 // current address: $3CD7E
 
 //POINTER #69 @ $3C127 - STRING #69 @ $3CD7E
@@ -732,7 +732,7 @@ Mako 5x win[Line][Page]
 //まだ　ゲームはおわってないぜ！[Page]
 //[Exit]
 //
-Yami 5x win[Line][Page]
+Yami 5x win[Page][Exit]
 // current address: $3CD93
 
 //POINTER #70 @ $3C129 - STRING #70 @ $3CD93
@@ -742,7 +742,7 @@ Yami 5x win[Line][Page]
 //これからも　ボクとデュエルしてね[Page]
 //[Exit]
 //
-Yugi 5x win[Line][Page]
+Yugi 5x win[Page][Exit]
 // current address: $3CDC7
 
 //POINTER #71 @ $3C12B - STRING #71 @ $3CDC7
@@ -752,7 +752,7 @@ Yugi 5x win[Line][Page]
 //おぼえてろ！！[Page]
 //[Exit]
 //
-Joey 5x win[Line][Page]
+Joey 5x win[Page][Exit]
 // current address: $3CDF6
 
 //POINTER #72 @ $3C12D - STRING #72 @ $3CDF6
@@ -762,7 +762,7 @@ Joey 5x win[Line][Page]
 //オレは　まだデュエルできるぜ！[Page]
 //[Exit]
 //
-Kaiba 5x win[Line][Page]
+Kaiba 5x win[Page][Exit]
 // current address: $3CE2D
 
 //POINTER #73 @ $3C12F - STRING #73 @ $3CE2D
@@ -772,7 +772,7 @@ Kaiba 5x win[Line][Page]
 //くっ⋯　ウソだ　ウソだ！！[Page]
 //[Exit]
 //
-Mokuba 5x win[Line][Page]
+Mokuba 5x win[Page][Exit]
 // current address: $3CE50
 
 //POINTER #74 @ $3C131 - STRING #74 @ $3CE50
@@ -782,7 +782,7 @@ Mokuba 5x win[Line][Page]
 //してくれよな！！[Page]
 //[Exit]
 //
-Tristan 5x win[Line][Page]
+Tristan 5x win[Page][Exit]
 // current address: $3CE7E
 
 //POINTER #75 @ $3C133 - STRING #75 @ $3CE7E
@@ -792,7 +792,7 @@ Tristan 5x win[Line][Page]
 //デュエルをしてくれると　うれしいな[Page]
 //[Exit]
 //
-Bakura 5x win[Line][Page]
+Bakura 5x win[Page][Exit]
 // current address: $3CEAE
 
 //POINTER #76 @ $3C135 - STRING #76 @ $3CEAE
@@ -801,7 +801,7 @@ Bakura 5x win[Line][Page]
 //な⋯　なぜ⋯　なぜだ　⋯[Page]
 //[Exit]
 //
-Puppeteer 5x win[Line][Page]
+Puppeteer 5x win[Page][Exit]
 // current address: $3CECE
 
 //POINTER #77 @ $3C137 - STRING #77 @ $3CECE
@@ -811,7 +811,7 @@ Puppeteer 5x win[Line][Page]
 //オレは　むてきのはずだっ！！[Page]
 //[Exit]
 //
-Panik 5x win[Line][Page]
+Panik 5x win[Page][Exit]
 // current address: $3CEFD
 
 //POINTER #78 @ $3C139 - STRING #78 @ $3CEFD
@@ -821,7 +821,7 @@ Panik 5x win[Line][Page]
 //まけただとっ⋯　そんなバカなっ！[Page]
 //[Exit]
 //
-Keith 5x win[Line][Page]
+Keith 5x win[Page][Exit]
 // current address: $3CF33
 
 //POINTER #79 @ $3C13B - STRING #79 @ $3CF33
@@ -831,7 +831,7 @@ Keith 5x win[Line][Page]
 //みやぶられるとは⋯[Page]
 //[Exit]
 //
-Pegasus 5x win[Line][Page]
+Pegasus 5x win[Page][Exit]
 // current address: $3CF5F
 
 //POINTER #80 @ $3C13D - STRING #80 @ $3CF5F
@@ -841,7 +841,7 @@ Pegasus 5x win[Line][Page]
 //カードを　たいせつにするんじゃぞ[Page]
 //[Exit]
 //
-Simon 5x win[Line][Page]
+Simon 5x win[Page][Exit]
 // current address: $3CF94
 
 //POINTER #81 @ $3C13F - STRING #81 @ $3CF94
