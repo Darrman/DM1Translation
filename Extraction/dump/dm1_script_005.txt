@@ -1,0 +1,14 @@
+//GAME NAME:		Yu-Gi-Oh: Duel Monsters
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+
+//BLOCK #005 NAME:		Character Names
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($5457, $54D5) // Jump to insertion point
+
+//Block Range: $5457 - $54D6
+//インセクターはがくじゃくまい　　りゅうざき　　　カジキりょうた　かいばせと　　　かいばモクバ　　ふくわじゅつし　やみつかい　　　キース　　　　　むとうゆうぎ　　ほんだヒロト　　じょうのうち　　ばくらりょう　　シモン・ムーランペガサス　　　　やみ・ゆうぎ　
+// current address: $54D6

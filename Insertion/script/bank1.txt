@@ -1,0 +1,146 @@
+//GAME NAME:		Yu-Gi-Oh: Duel Monsters
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("text.tbl", Table_0)
+
+//Limit 8 for all these.
+//Strings fixed, pad out if need be.
+
+//BLOCK #004 NAME:		Card Types
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($538E, $5435) // Jump to insertion point
+
+//Block Range: $538E - $5435
+//ドラゴン　　　
+Dragon  
+//まほうつかい
+Magician
+//アンデット
+Zombie  
+//せんし　　
+Warrior 
+//じゅうせんし
+BWarrior
+//けもの　　
+Beast   
+//ちょうじゅう
+WinBeast
+//あくま　　
+Fiend   
+//てんし　　
+Fairy   
+//こんちゅう
+Insect  
+//きょうりゅう
+Dinosaur
+//はちゅうるい
+Reptile 
+//さかな　　
+Fish    
+//かいりゅう
+SSerpent
+//きかい　　　　　
+Machine 
+//いかずち　　　　
+Thunder 
+//みず　　　　　　
+Aqua    
+//ほのお　　
+Pyro    
+//がんせき　　　　
+Rock    
+//しょくぶつ　　　
+Plant   
+//まほう　　　　
+Magic   
+// current address: $5436
+
+//BLOCK #005 NAME:		Character Names
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($5457, $54D7) // Jump to insertion point
+
+//Block Range: $5457 - $54D8
+//インセクターはが
+//Insector Haga
+//Weevil Underwood
+Weevil  
+//くじゃくまい　　
+//Mai Kujaku
+//Mai Valentine
+Mai     
+//りゅうざき　　　
+//Dinosaur Ryukazi
+//Rex Raptor
+Rex     
+//カジキりょうた　
+//Ryota Kajiki
+//Mako Tsunami
+Mako    
+//かいばせと
+//Seto Kaiba
+Kaiba   
+//かいばモクバ
+//Mokuba Kaiba
+Mokuba  
+//ふくわじゅつし　
+//Ventriloquist of the Dead
+//Puppeteer of Doom
+Puppeter
+//やみつかい　　　
+//Player Killer of Darkness
+//PaniK
+PaniK   
+//キース　　　　　
+//Bandit Keith
+Keith   
+//むとうゆうぎ　　
+//Yugi Muto
+Yugi    
+//ほんだヒロト　　
+//Hiroto Honda
+//Tristan Taylor
+Tristan 
+//じょうのうち　　
+//Katsuya Jonouchi
+//Joey Wheeler
+Joey    
+//ばくらりょう　　
+//Ryou Bakura
+Bakura  
+//シモン・ムーラン
+//Simon Muran
+Simon   
+//ペガサス　　　　
+//Pegasus J. Crawford
+//Maximillion Pegasus
+Pegasus 
+//やみ・ゆうぎ　
+//Dark Yugi
+YamiYugi
+// current address: $54D8
+
+//BLOCK #006 NAME:		Terrain Names
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($439C, $43D3) // Jump to insertion point
+
+//These right-align in Japanese.
+//Block Range: $439C - $43D3
+//　かくとうじょう
+   Arena
+//　　　　　　もり
+  Forest
+//　　　　　こうや
+  Desert
+//　　　　　　やま
+Mountain
+//　　　　そうげん
+  Plains
+//　　　　　　うみ
+     Sea
+//　　　　　　やみ
+Darkness
+// current address: $43D4

@@ -975,8 +975,9 @@ was obtained.[Page][Exit]
 //どんどん　かちつづけてね[Page]
 //[Exit]
 //
-Pointer 92: [CardNum][Line]
-[CardName][Page][Exit]
+Victory bonus![CardNum][Line]
+[CardName][Line]
+was obtained.[Page][Exit]
 // current address: $3D1DB
 
 //POINTER #93 @ $3C157 - STRING #93 @ $3D1DB
