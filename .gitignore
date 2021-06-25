@@ -1,4 +1,6 @@
 *.gb
+*.sav
+*.sn*
 *.bak
 *.log
 *.exe

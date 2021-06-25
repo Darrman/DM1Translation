@@ -60,9 +60,9 @@ Magic
 //BLOCK #005 NAME:		Character Names
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($5457, $54D7) // Jump to insertion point
+#JMP($5457, $54ED) // Jump to insertion point
 
-//Block Range: $5457 - $54D8
+//Block Range: $5457 - $54EE
 //インセクターはが
 //Insector Haga
 //Weevil Underwood
@@ -120,7 +120,16 @@ Pegasus
 //やみ・ゆうぎ　
 //Dark Yugi
 YamiYugi
-// current address: $54D8
+//Not character names but same table
+//つうしんたいせん
+//"communication match"
+LinkDuel
+//たいせんにんずう
+//opponents faced
+Dueled  
+//なまえ　　　　
+Name   
+// current address: $54EE
 
 //BLOCK #006 NAME:		Terrain Names
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
