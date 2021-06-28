@@ -2,10 +2,12 @@
 
 // Define required TABLE variables and load the corresponding tables
 #VAR(Table_0, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/credits.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_1)
 
 //BLOCK #001 NAME:		Dialogue
-#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
 
 #JMP($3C15D, $3D240) // Jump to insertion point
 #HDR($38000) // Difference between ROM and RAM addresses for pointer value calculations
