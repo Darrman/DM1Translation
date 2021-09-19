@@ -10,11 +10,17 @@
 #JMP($F033A, $F368C) // Jump to insertion point
 #HDR($EC000) // Difference between ROM and RAM addresses for pointer value calculations
 
+//All translations taken from Yugipedia and its users.
+//Credit is assigned by whoever added the translation to the page.
+//I then cut them down to fit limitations myself.
+
 //POINTER #0 @ $F0060 - STRING #0 @ $F033A
 #W16($F0060)
 //Blue-Eyes White Dragon
 //こうげき　しゅびがさいこうの　なか　
 //なかてにはいらない　ちょうレアカード
+//TL: Deltaneos
+//An incredibly rare and difficult-to-obtain card with the highest ATK and DEF.
 // current address: $F035E
 
 //POINTER #1 @ $F0062 - STRING #1 @ $F035E
@@ -22,6 +28,8 @@
 //Mystical Elf
 //かよわいエルフだが　せいなるちからで
 //みをまもり　とてもしゅびがたかい　　
+//TL: Konami
+//A delicate elf that lacks offense, but has a terrific defense backed by mystical power.
 // current address: $F0382
 
 //POINTER #2 @ $F0064 - STRING #2 @ $F0382
@@ -29,6 +37,8 @@
 //Hitotsu-Me Giant
 //１つめの　きょじん　ふとい　うでで　
 //なぐりかかってくる　ようちゅうい　　
+//TL: Konami
+//A one-eyed behemoth with thick, powerful arms made for delivering punishing blows.
 // current address: $F03A6
 
 //POINTER #3 @ $F0066 - STRING #3 @ $F03A6
@@ -36,6 +46,8 @@
 //Baby Dragon
 //こどもドラゴンとあなどってはいけない
 //うちにひめるちからは　はかりしれない
+//TL: Konami
+//Much more than just a child, this dragon is gifted with untapped power.
 // current address: $F03CA
 
 //POINTER #4 @ $F0068 - STRING #4 @ $F03CA
@@ -43,6 +55,8 @@
 //Ryu-Kishin
 //せきぞうとおもわせ　やみのなかから　
 //こうげきをする　にげあしもすばやい　
+//TL: Konami
+//A very elusive creature that looks like a harmless statue until it attacks.
 // current address: $F03EE
 
 //POINTER #5 @ $F006A - STRING #5 @ $F03EE
@@ -50,6 +64,8 @@
 //Feral Imp
 //いたずらずきの　ちいさなあくま　　　
 //くらやみからおそってくる　きをつけろ
+//TL: Konami
+//A playful little fiend that lurks in the dark, waiting to attack an unwary enemy.
 // current address: $F0412
 
 //POINTER #6 @ $F006C - STRING #6 @ $F0412
@@ -57,6 +73,8 @@
 //Winged Dragon, Guardian of the Fortress #1
 //やまのとりでをまもるりゅう　てんくう
 //からきゅうこうかして　てきをこうげき
+//TL: Konami
+//A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue.
 // current address: $F0436
 
 //POINTER #7 @ $F006E - STRING #7 @ $F0436
@@ -64,6 +82,8 @@
 //Mushroom Man
 //ジメジメしたところで　ちからをはっき
 //かさから　きんしをふりまき　こうげき
+//TL: Konami
+//Found in humid regions, this creature attacks enemies with a lethal rain of poison spores.
 // current address: $F045A
 
 //POINTER #8 @ $F0070 - STRING #8 @ $F045A
@@ -71,6 +91,8 @@
 //Shadow Spectre
 //こうやにあらわれる　けもののぼうれい
 //かずがあつまると　やっかいなカード　
+//TL: Konami
+//Powerful in groups, this animal spirit can be found in the wastelands.
 // current address: $F047E
 
 //POINTER #9 @ $F0072 - STRING #9 @ $F047E
@@ -78,6 +100,8 @@
 //Blackland Fire Dragon
 //くらやみの　おくふかくにせいそくする
 //ドラゴン　めはあまりよくない　　　　
+//TL: Konami
+//A dragon that dwells in the depths of darkness, its vulnerability lies in its poor eyesight.
 // current address: $F04A2
 
 //POINTER #10 @ $F0074 - STRING #10 @ $F04A2
@@ -85,6 +109,8 @@
 //Sword Arm of Dragon
 //ぜんしんに　カタナのとげがついた　　
 //きょうりゅう　とっしんこうげきをする
+//TL: Deltaneos
+//With a body covered in sword-like thorns, nothing dares stand in the way of this charging monster.
 // current address: $F04C6
 
 //POINTER #11 @ $F0076 - STRING #11 @ $F04C6
@@ -92,6 +118,8 @@
 //Swamp Battleguard
 //トゲつきこんぼうで　あらゆるものを　
 //はかいする　なぜ２ごうかはふめい　　
+//TL: Deltaneos
+//Crushes all comers with his spiked club. It is not known why he is called "Number 2".
 // current address: $F04EA
 
 //POINTER #12 @ $F0078 - STRING #12 @ $F04EA
@@ -99,6 +127,8 @@
 //Tyhone
 //くちからほうだんをうちだし　とおくを
 //こうげき　やまでのほうげきはつよい　
+//TL: Konami
+//Capable of firing cannonballs from its mouth for long-range attacks, this creature is particularly effective in mountain battles.
 // current address: $F050E
 
 //POINTER #13 @ $F007A - STRING #13 @ $F050E
@@ -106,6 +136,8 @@
 //Battle Steer
 //もりにすむ　うしのまじん　つのを　　
 //つきだし　とっしんしてこうげき　　　
+//TL: Konami
+//A bull monster often found in the woods, it charges enemy monsters with a pair of deadly horns.
 // current address: $F0532
 
 //POINTER #14 @ $F007C - STRING #14 @ $F0532
@@ -113,6 +145,8 @@
 //Flame Swordsman
 //ほのおのちからを　あわせもつ　せんし
 //ほのおを　はなつけんで　こうげきする
+//TL: Deltaneos
+//A fighter gifted with the power of fire. Attacks enemies with a sword that launches flames.
 // current address: $F0556
 
 //POINTER #15 @ $F007E - STRING #15 @ $F0556
@@ -120,6 +154,8 @@
 //Time Wizard
 //じかんをじゆうにあやつる　まじゅつし
 //どうみてもよわいが　かなりやくにたつ
+//TL: Deltaneos
+//A sorcerer capable of bending time to his will. Though not powerful at first glance, appearances can be deceiving.
 // current address: $F057A
 
 //POINTER #16 @ $F0080 - STRING #16 @ $F057A
@@ -127,6 +163,8 @@
 //Right Leg of the Forbidden One
 //ふういんされたみぎあし　ふういんを　
 //とくと　むげんのちからをえられる　　
+//TL: Konami
+//A forbidden right leg sealed by magic. Whosoever breaks this seal will know infinite power.
 // current address: $F059E
 
 //POINTER #17 @ $F0082 - STRING #17 @ $F059E
@@ -134,6 +172,8 @@
 //Left Leg of the Forbidden One
 //ふういんされたひだりあし　ふういんを
 //とくと　むげんのちからをえられる　　
+//TL: Konami
+//A forbidden left leg sealed by magic. Whosoever breaks this seal will know infinite power.
 // current address: $F05C2
 
 //POINTER #18 @ $F0084 - STRING #18 @ $F05C2
@@ -141,6 +181,8 @@
 //Right Arm of the Forbidden One
 //ふういんされたみぎうで　ふういんを　
 //とくと　むげんのちからをえられる　　
+//TL: Konami
+//A forbidden right arm sealed by magic. Whosoever breaks this seal will know infinite power.
 // current address: $F05E6
 
 //POINTER #19 @ $F0086 - STRING #19 @ $F05E6
@@ -148,6 +190,8 @@
 //Left Arm of the Forbidden One
 //ふういんされたひだりうで　ふういんを
 //とくと　むげんのちからをえられる　　
+//TL: Konami
+//A forbidden left arm sealed by magic. Whosoever breaks this seal will know infinite power.
 // current address: $F060A
 
 //POINTER #20 @ $F0088 - STRING #20 @ $F060A
@@ -155,6 +199,8 @@
 //Exodia the Forbidden One
 //くさりでしばられた　うでとあしを　　
 //すべてあつめると　ふういんがとける　
+//TL: Deltaneos
+//If all five cards gather in the hand of the player, they win.
 // current address: $F062E
 
 //POINTER #21 @ $F008A - STRING #21 @ $F062E
@@ -162,6 +208,8 @@
 //Summoned Skull
 //やみのちからで　こころをまどわす　　
 //あくまぞくでは　かなりのレアカード　
+//TL: Deltaneos
+//Among the Fiend class of monsters, this is a pretty rare card.
 // current address: $F0652
 
 //POINTER #22 @ $F008C - STRING #22 @ $F0652
@@ -169,6 +217,8 @@
 //The Wicked Worm Beast
 //やみのちからで　ミミズがモンスターか
 //じめんから　とつぜんあらわれこうげき
+//TL: Deltaneos
+//A monster worm created by the darkness. It appears suddenly.
 // current address: $F0676
 
 //POINTER #23 @ $F008E - STRING #23 @ $F0676
@@ -176,6 +226,8 @@
 //Skull Servant
 //どこにでもでてくる　ガイコツのおばけ
 //こうげきはよわいがあつまるとたいへん
+//TL: Konami
+//A skeletal ghost that isn't strong but can mean trouble in large numbers.
 // current address: $F069A
 
 //POINTER #24 @ $F0090 - STRING #24 @ $F069A
@@ -183,6 +235,8 @@
 //Horn Imp
 //やみにすむ　ちいさなオニ　こうげきは
 //いがいにつよい　つのにはちゅうい　　
+//TL: Konami
+//A small fiend that dwells in the dark, its single horn makes it a formidable opponent.
 // current address: $F06BE
 
 //POINTER #25 @ $F0092 - STRING #25 @ $F06BE
@@ -190,6 +244,8 @@
 //JP: Minotaurus
 //すごいちからをもつ　ウシのかいぶつ　
 //オノひとふりで　なんでもなぎたおす　
+//TL: Konami
+//A monster with tremendous power, it destroys enemies with a swing of its axe.
 // current address: $F06E2
 
 //POINTER #26 @ $F0094 - STRING #26 @ $F06E2
@@ -197,6 +253,8 @@
 //Beaver Warrior
 //からだはちいさいが　そうげんでの　　
 //しゅびりょくは　かなりつよい　　　　
+//TL: Deltaneos
+//What this creature lacks in size it makes up for in defense when battling in the meadow.
 // current address: $F0706
 
 //POINTER #27 @ $F0096 - STRING #27 @ $F0706
@@ -204,6 +262,8 @@
 //Rock Ogre Grotto #1
 //からだがいわのため　しゅびはたかい　
 //ふというでの　ひとふりにちゅうい　　
+//TL: Konami
+//Protected by a solid body of rock, this monster throws a bone-shattering punch.
 // current address: $F072A
 
 //POINTER #28 @ $F0098 - STRING #28 @ $F072A
@@ -211,6 +271,8 @@
 //Mountain Warrior
 //あしばのわるいところでも　ガンガン　
 //うごきまわる　がんじょうなせんし　　
+//TL: Deltaneos
+//A solid warrior that can move swiftly over rough terrain.
 // current address: $F074E
 
 //POINTER #29 @ $F009A - STRING #29 @ $F074E
@@ -218,6 +280,8 @@
 //Zombie Warrior
 //ガイコツせんし　よわそうにみえるが　
 //すばやく　するどいこうげきをくりだす
+//TL: Deltaneos
+//It appears weak, but it strikes with quick, sharp stabs.
 // current address: $F0772
 
 //POINTER #30 @ $F009C - STRING #30 @ $F0772
@@ -225,6 +289,8 @@
 //Koumori Dragon
 //きょうあくなドラゴン　じゃあくな　　
 //ほのおをはき　こころをじゃあくにする
+//TL: Konami
+//A vicious, fire-breathing dragon whose wicked flame corrupts the souls of its victims.
 // current address: $F0796
 
 //POINTER #31 @ $F009E - STRING #31 @ $F0796
@@ -232,6 +298,8 @@
 //Two-Headed King Rex
 //きょうりゅうぞく　さいきょうのレア　
 //カード　２つのあたまでどうじこうげき
+//TL: Deltaneos
+//An unusual and rarely seen two-headed dragon.
 // current address: $F07BA
 
 //POINTER #32 @ $F00A0 - STRING #32 @ $F07BA
@@ -239,6 +307,8 @@
 //Judge Man
 //かちまけのない　しょうぶが　きらいな
 //せんし　こんぼうのこうげきはつよいぞ
+//TL: Deltaneos
+//A warrior that detests battles without a clear outcome. A blow from its huge club is extremely powerful.
 // current address: $F07DE
 
 //POINTER #33 @ $F00A2 - STRING #33 @ $F07DE
@@ -253,6 +323,8 @@
 //Dark Magician
 //まほうつかいとしては　こうげきりょく
 //しゅびりょくともに　さいこうクラス　
+//TL: Konami
+//The ultimate wizard in terms of attack and defense.
 // current address: $F0826
 
 //POINTER #35 @ $F00A6 - STRING #35 @ $F0826
@@ -274,6 +346,8 @@
 //Gaia the Fierce Knight
 //かぜよりも　はやくはしるウマにのった
 //きし　とっしんこうげきに　ちゅうい　
+//TL: Konami
+//A knight whose horse travels faster than the wind. His battle-charge is a force to be reckoned with.
 // current address: $F0892
 
 //POINTER #38 @ $F00AC - STRING #38 @ $F0892
@@ -281,6 +355,8 @@
 //Curse of Dragon
 //じゃあくなドラゴン　やみのちからを　
 //つかったこうげきは　きょうりょくだ　
+//TL: Konami
+//A wicked dragon that taps into dark forces to execute a powerful attack.
 // current address: $F08B6
 
 //POINTER #39 @ $F00AE - STRING #39 @ $F08B6
@@ -295,6 +371,8 @@
 //Celtic Guardian
 //けんじゅつを　まなんだエルフ　　　　
 //すばやいうごきで　てきをほんろうする
+//TL: Konami
+//An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks.
 // current address: $F08FE
 
 //POINTER #41 @ $F00B2 - STRING #41 @ $F08FE
@@ -316,6 +394,8 @@
 //Rogue Doll
 //せいなるちからを　あやつるにんぎょう
 //やみでのこうげきは　きょうりょくだ　
+//TL: Konami
+//A deadly doll gifted with mystical power, it is particularly powerful when attacking against dark forces.
 // current address: $F096A
 
 //POINTER #44 @ $F00B8 - STRING #44 @ $F096A
@@ -323,6 +403,8 @@
 //Oscillo Hero #2/Wattkid
 //かみなりこうげきは　いがいとつよい　
 //あまくみると　かんでんするぞ　　　　
+//TL: Konami
+//A creature that electrocutes opponents with bolts of lightning.
 // current address: $F098E
 
 //POINTER #45 @ $F00BA - STRING #45 @ $F098E
@@ -330,6 +412,8 @@
 //Griffore
 //かたいからだで　まもることがとくい　
 //はんぱなこうげきは　はじきかえす　　
+//TL: Konami
+//This monster's tough hide deflects almost any attack.
 // current address: $F09B2
 
 //POINTER #46 @ $F00BC - STRING #46 @ $F09B2
@@ -358,6 +442,8 @@
 //Basic Insect
 //むれをなしてくらす　こんちゅう　　　
 //もりのなかは　かれらの　らくえんだ　
+//TL: Konami
+//Usually found traveling in swarms, this creature's ideal environment is the forest.
 // current address: $F0A42
 
 //POINTER #50 @ $F00C4 - STRING #50 @ $F0A42
@@ -365,6 +451,8 @@
 //Armoured Lizard
 //かたいからだのトカゲ　おおきなくちで
 //かみつかれたら　ひとたまりもないぞ　
+//TL: Konami
+//A lizard with a very tough hide and a vicious bite.
 // current address: $F0A66
 
 //POINTER #51 @ $F00C6 - STRING #51 @ $F0A66
@@ -372,6 +460,8 @@
 //Hercules Beetle
 //きょだいカブトムシ　つのこうげきと　
 //かたいからだの　まもりはきょうりょく
+//TL: Konami
+//A massive beetle with a tough carapace and a dangerous horn.
 // current address: $F0A8A
 
 //POINTER #52 @ $F00C8 - STRING #52 @ $F0A8A
@@ -379,6 +469,8 @@
 //Killer Needle
 //おおきなハチ　いがいにつよいこうげき
 //をする　むれでおそわれると　たいへん
+//TL: Konami
+//A huge bee with exceptional strength that's particularly dangerous in a swarm.
 // current address: $F0AAE
 
 //POINTER #53 @ $F00CA - STRING #53 @ $F0AAE
@@ -386,6 +478,8 @@
 //Gokibore
 //まるいゴキブり　ゴロゴロころがって　
 //こうげき　しゅびが　いがいとたかいぞ
+//TL: Konami
+//A large, spherical roach that attacks its enemies by rolling over them.
 // current address: $F0AD2
 
 //POINTER #54 @ $F00CC - STRING #54 @ $F0AD2
@@ -393,6 +487,8 @@
 //Giant Flea
 //ちをすう　きょだいノミ　こうげきは　
 //かなりつよい　ノミとあなどるときけん
+//TL: Konami
+//A massive flea that feeds on the blood of its enemies.
 // current address: $F0AF6
 
 //POINTER #55 @ $F00CE - STRING #55 @ $F0AF6
@@ -421,6 +517,8 @@
 //Mammoth Graveyard
 //なかまの　おはかをまもる　マンモス　
 //はかあらしを　ようしゃなく　こうげき
+//TL: Konami
+//A mammoth that protects the graves of its pack and is absolutely merciless when facing grave-robbers.
 // current address: $F0B86
 
 //POINTER #59 @ $F00D6 - STRING #59 @ $F0B86
@@ -428,6 +526,8 @@
 //Great White
 //きょだいな　しろいサメ　おおきな　　
 //くちでかみつかれたら　のがれられない
+//TL: Konami
+//A giant white shark with razor-sharp teeth.
 // current address: $F0BAA
 
 //POINTER #60 @ $F00D8 - STRING #60 @ $F0BAA
@@ -442,6 +542,8 @@
 //Harpie Lady
 //ひとにはねのはえたけもの　うつくしく
 //かれいにまい　するどくこうげきをする
+//TL: Konami
+//This human-shaped animal with wings is beautiful to watch but deadly in battle.
 // current address: $F0BF2
 
 //POINTER #62 @ $F00DC - STRING #62 @ $F0BF2
@@ -456,6 +558,8 @@
 //Tiger Axe
 //オノをてにしたじゅうせんし　すばやい
 //うごきから　くりだすこうげきはつよい
+//TL: Konami
+//A fast and powerful axe-wielding beast-warrior.
 // current address: $F0C3A
 
 //POINTER #64 @ $F00E0 - STRING #64 @ $F0C3A
@@ -463,6 +567,8 @@
 //Silver Fang
 //はくぎんにかがやくオオカミ　みためは
 //うつくしいが　せいかくはきょうぼう　
+//TL: Konami
+//A snow wolf that's beautiful to the eye, but absolutely vicious in battle.
 // current address: $F0C5E
 
 //POINTER #65 @ $F00E2 - STRING #65 @ $F0C5E
@@ -470,6 +576,8 @@
 //Kojikocy
 //ひとをかる　きょうあくな　かりうど　
 //いわをもくだく　つよいちからをもつ　
+//TL: Konami
+//A man-hunter with powerful arms that can crush boulders.
 // current address: $F0C82
 
 //POINTER #66 @ $F00E4 - STRING #66 @ $F0C82
@@ -484,6 +592,8 @@
 //Garoozis
 //りゅうのあたまをもつ　じゅうせんし　
 //オノのこうげきは　かなりきょうりょく
+//TL: Konami
+//An axe-swinging beast-warrior with the head of a dragon.
 // current address: $F0CCA
 
 //POINTER #68 @ $F00E8 - STRING #68 @ $F0CCA
@@ -505,6 +615,8 @@
 //Jellyfish
 //うみをただようクラゲ　はんとうめいの
 //からだで　すがたをかくにんしにくい　
+//TL: Konami
+//An almost invisible, semi-transparent jellyfish that drifts in the sea.
 // current address: $F0D36
 
 //POINTER #71 @ $F00EE - STRING #71 @ $F0D36
@@ -519,6 +631,8 @@
 //Kairyu-Shin
 //うみのぬしとよばれる　うみのドラゴン
 //つなみをおこして　すべてをのみこむ　
+//TL: Konami
+//A sea dragon known as the King of the Ocean, it attacks its enemies with huge tidal waves.
 // current address: $F0D7E
 
 //POINTER #73 @ $F00F2 - STRING #73 @ $F0D7E
@@ -526,6 +640,8 @@
 //Giant Soldier of Stone
 //がんせきのきょじんへい　ふというでの
 //こうげきは　だいちをゆるがす　　　　
+//TL: Konami
+//A giant warrior made of stone. A punch from this creature has earth-shaking results.
 // current address: $F0DA2
 
 //POINTER #74 @ $F00F4 - STRING #74 @ $F0DA2
@@ -533,6 +649,8 @@
 //Man-Eating Plant
 //きれいなはなとおもわせ　ちかづくひと
 //をパクりとたべる　にくしょくのはな　
+//TL: Konami
+//A meat-eating plant that is attractive to the eye but dangerous when approached.
 // current address: $F0DC6
 
 //POINTER #75 @ $F00F6 - STRING #75 @ $F0DC6
@@ -547,6 +665,8 @@
 //Grappler
 //ずるがしこいへビ　ふとくてながい　　
 //からだでしめつけるこうげきにちゅうい
+//TL: Konami
+//A devious snake with a thick body that wraps around an enemy monster and squeezes the life out of it.
 // current address: $F0E0E
 
 //POINTER #77 @ $F00FA - STRING #77 @ $F0E0E
@@ -554,6 +674,8 @@
 //Axe Raider
 //オノをもつせんし　かたてでオノを　　
 //ふりまわすこうげきは　かなりつよい　
+//TL: Konami
+//An axe-wielding monster of tremendous strength and agility.
 // current address: $F0E32
 
 //POINTER #78 @ $F00FC - STRING #78 @ $F0E32
@@ -561,6 +683,8 @@
 //Megazowler
 //ぜんしんに　つののはえたきょうりゅう
 //とつげきこうげきは　きょうれつだ　　
+//TL: Konami
+//Nothing stands in the way of this spike-covered dinosaur!
 // current address: $F0E56
 
 //POINTER #79 @ $F00FE - STRING #79 @ $F0E56
@@ -568,6 +692,8 @@
 //Uraby
 //はしることが　とくいなきょうりゅう　
 //するどいかぎづめで　こうげきする　　
+//TL: Konami
+//Fast on its feet, this dinosaur rips enemies to shreds with its sharp claws.
 // current address: $F0E7A
 
 //POINTER #80 @ $F0100 - STRING #80 @ $F0E7A
@@ -575,6 +701,8 @@
 //Crawling Dragon #2
 //なんでも　かみくだく　くちをもつ　　
 //きょうりゅう　そのこうげきはつよい　
+//TL: Konami
+//A powerful dragon with teeth that can grind almost anything to dust.
 // current address: $F0E9E
 
 //POINTER #81 @ $F0102 - STRING #81 @ $F0E9E
@@ -603,6 +731,8 @@
 //King of Yamimakai
 //きょうだいな　やみのちからをつかい　
 //まわりのものを　すべてはかいする　　
+//TL: Konami
+//Wields the power of darkness to destroy its enemies.
 // current address: $F0F2E
 
 //POINTER #85 @ $F010A - STRING #85 @ $F0F2E
@@ -617,6 +747,8 @@
 //Dark Chimera
 //まかいに　せいそくする　モンスター　
 //やみのほのおをはき　こうげきする　　
+//TL: Konami
+//A fire-breathing monster that dwells in the netherworld.
 // current address: $F0F76
 
 //POINTER #87 @ $F010E - STRING #87 @ $F0F76
@@ -624,6 +756,9 @@
 //Metal Guardian
 //まかいのたからを　しゅごするあくま　
 //くらやみでのしゅびは　そうとうかたい
+//TL: Konami
+//A fiend guarding the treasures of the netherworld, it's most at home in the dark.
+//
 // current address: $F0F9A
 
 //POINTER #88 @ $F0110 - STRING #88 @ $F0F9A
@@ -645,6 +780,8 @@
 //Mystic Horseman
 //ひととウマが　ひとつになったばけもの
 //はしるのがはやく　だれもおいつけない
+//TL: Konami
+//Half man and half horse, this monster is known for its extreme speed.
 // current address: $F1006
 
 //POINTER #91 @ $F0116 - STRING #91 @ $F1006
@@ -666,6 +803,8 @@
 //Crawling Dragon
 //ちからがよわり　そらをとべなくなった
 //ドラゴン　しかしまだこうげきはつよい
+//TL: Konami
+//This weakened dragon can no longer fly, but is still a deadly force to be reckoned with.
 // current address: $F1072
 
 //POINTER #94 @ $F011C - STRING #94 @ $F1072
@@ -687,6 +826,8 @@
 //Dragon Zombie
 //まりょくにより　よみがえったドラゴン
 //はくいきはふれるものをふしょくさせる
+//TL: Konami
+//A dragon revived by sorcery. Its breath is highly corrosive.
 // current address: $F10DE
 
 //POINTER #97 @ $F0122 - STRING #97 @ $F10DE
@@ -694,6 +835,8 @@
 //Clown Zombie
 //やみのちからで　いきかえったピエロ　
 //フラフラとしたおどりでしへといざなう
+//TL: Konami
+//A clown revived by the powers of darkness. Its deadly dance has sent many monsters to their graves.
 // current address: $F1102
 
 //POINTER #98 @ $F0124 - STRING #98 @ $F1102
@@ -729,6 +872,8 @@
 //Job-Change Mirror
 //あくまのかがみ　こうげきをうけても　
 //われずに　ダメージをふせいでくれる　
+//TL: Konami
+//A wicked mirror that blocks off the damaging effects of an attack.
 // current address: $F11B6
 
 //POINTER #103 @ $F012E - STRING #103 @ $F11B6
@@ -743,6 +888,8 @@
 //Tomosaurus
 //ちいさいが　せいかくは　きょうぼう　
 //なかまどうしで　あらそいだす　　　　
+//TL: Konami
+//Small but vicious, this monster even attacks its own kind.
 // current address: $F11FE
 
 //POINTER #105 @ $F0132 - STRING #105 @ $F11FE
@@ -750,6 +897,8 @@
 //Spirit of the Winds
 //きままに　とびまわる　かぜのせいれい
 //きげんがわるいと　あらしになる　　　
+//TL: Konami
+//A free-spirited wind elemental that flits about as it desires. It brings storms when it becomes upset.
 // current address: $F1222
 
 //POINTER #106 @ $F0134 - STRING #106 @ $F1222
@@ -799,6 +948,8 @@
 //Dark Grey
 //からだがはいいろのけもの　あまり　　
 //みかけない　きちょうないきもの　　　
+//TL: Konami
+//Entirely gray, this beast has rarely been seen by mortal eyes.
 // current address: $F131E
 
 //POINTER #113 @ $F0142 - STRING #113 @ $F131E
@@ -841,6 +992,8 @@
 //Trial of Nightmare
 //てきを　かんおけにとじこめ　じごくの
 //つかいが　グサりとはんけつをくだす　
+//TL: Konami
+//This fiend passes judgment on enemies that are locked in coffins.
 // current address: $F13F6
 
 //POINTER #119 @ $F014E - STRING #119 @ $F13F6
@@ -883,6 +1036,8 @@
 //Faith Bird
 //ひじょうに　おのながいとり　ぜんしん
 //から　せいなるひかりをはっする　　　
+//TL: Konami
+//This long-tailed bird blinds its enemies with mystical light.
 // current address: $F14CE
 
 //POINTER #125 @ $F015A - STRING #125 @ $F14CE
@@ -897,6 +1052,8 @@
 //Ansatsu
 //やみのなかを　おともたてず　あいてに
 //しのびよる　あんさつせんもんのせんし
+//TL: Konami
+//A silent and deadly warrior specializing in assassinations.
 // current address: $F1516
 
 //POINTER #127 @ $F015E - STRING #127 @ $F1516
@@ -911,6 +1068,8 @@
 //Nemuriko
 //こどもだが　すいまをあやつり　２どと
 //さめることのない　ねむりをさそう　　
+//TL: Konami
+//A child-like creature that controls a sleep fiend to beckon enemies into eternal slumber.
 // current address: $F155E
 
 //POINTER #129 @ $F0162 - STRING #129 @ $F155E
@@ -918,6 +1077,8 @@
 //Weather Control
 //てんきをじゆうにあやつれる　やまの　
 //てんきがかわりやすいのはコイツのせい
+//TL: Konami
+//This creature controls weather and is often the cause of mountain storms.
 // current address: $F1582
 
 //POINTER #130 @ $F0164 - STRING #130 @ $F1582
@@ -925,6 +1086,8 @@
 //Octoberser
 //サカナのあたま　タコのあし　とっても
 //ふしぎないきもの　ヤりでこうげきする
+//TL: Konami
+//With the head of a fish and the legs of an octopus, this strange creature attacks enemies by flinging spears.
 // current address: $F15A6
 
 //POINTER #131 @ $F0166 - STRING #131 @ $F15A6
@@ -932,6 +1095,8 @@
 //The 13th Grave
 //だれもいないはずの　１３ばんめのはか
 //から　とつぜんあらわれたゾンビ　　　
+//TL: Konami
+//A zombie that suddenly appeared from plot #13 - an empty grave.
 // current address: $F15CA
 
 //POINTER #132 @ $F0168 - STRING #132 @ $F15CA
@@ -953,6 +1118,8 @@
 //Fiend's Hand
 //こんとんのぬまから　うでをのばし　　
 //いけるものを　なかへとひきずりこむ　
+//TL: ???
+//Arms that reach out from the Swamp of Chaos to drag down the damned.
 // current address: $F1636
 
 //POINTER #135 @ $F016E - STRING #135 @ $F1636
@@ -960,6 +1127,8 @@
 //Witty Phantom
 //やみにとけこむ　くろのタキシードに　
 //みをつつんだ　しをつかさどるあくま　
+//TL: Konami
+//Dressed in a night-black tuxedo, this creature presides over the darkness.
 // current address: $F165A
 
 //POINTER #136 @ $F0170 - STRING #136 @ $F165A
@@ -967,6 +1136,8 @@
 //Mystery Hand
 //くうかんをゆがませ　じげんのはざま　
 //からうでをのばし　こうげきをしかける
+//TL: Konami
+//This monster twists reality and reaches between dimensions to attack its enemies.
 // current address: $F167E
 
 //POINTER #137 @ $F0172 - STRING #137 @ $F167E
@@ -1030,6 +1201,8 @@
 //Temple of Skulls
 //ドクロとほねばかりの　きみのわるい　
 //おてら　ちかづくものをすいこむ　　　
+//TL: Konami
+//A mysterious temple of skulls and bones that pulls in unsuspecting enemies.
 // current address: $F17C2
 
 //POINTER #146 @ $F0184 - STRING #146 @ $F17C2
@@ -1037,6 +1210,8 @@
 //Monster Egg
 //たまごのからに　みをつつんだ　なぞの
 //せんし　からをとばしてこうげきする　
+//TL: Konami
+//A warrior hidden within an egg that attacks enemies by flinging eggshells.
 // current address: $F17E6
 
 //POINTER #147 @ $F0186 - STRING #147 @ $F17E6
@@ -1044,6 +1219,8 @@
 //The Shadow who Controls the Dark
 //くらやみのなかに　とけこむかげ　　　
 //かなしばりで　てきのうごきをふうじる
+//TL: Konami
+//A shadow that dwells in the dark, paralyzing its opponents and rendering them harmless.
 // current address: $F180A
 
 //POINTER #148 @ $F0188 - STRING #148 @ $F180A
@@ -1051,6 +1228,8 @@
 //Lord of the Lamp
 //まほうのランプからあらわれる　まじん
 //よびだしたものに　ふくじゅうする　　
+//TL: Konami
+//This spirit emerges from the mystic lamp and obeys the wishes of its summoner.
 // current address: $F182E
 
 //POINTER #149 @ $F018A - STRING #149 @ $F182E
@@ -1065,6 +1244,8 @@
 //Rhaimundos of the Red Sword
 //あかき　ほのおのけんを　もったせんし
 //ほのおのそくばくで　うごきをふうじる
+//TL: Konami
+//Armed with the Sword of Crimson Flames, this warrior can bind a monster with fiery restraints.
 // current address: $F1876
 
 //POINTER #151 @ $F018E - STRING #151 @ $F1876
@@ -1093,6 +1274,8 @@
 //Larvas
 //すばやくうごくとりのばけもの　ほそく
 //ながいうでをからませ　しめあげる　　
+//TL: Konami
+//A fast-moving, bird-like creature that strangles opposing monsters with its long, thin arms.
 // current address: $F1906
 
 //POINTER #155 @ $F0196 - STRING #155 @ $F1906
@@ -1100,6 +1283,8 @@
 //Hard Armour
 //こころのあるよろい　かたいからだで　
 //ソルジャータックルをしかけてくる　　
+//TL: Konami
+//A living suit of armor that attacks enemies with a bone-jarring tackle.
 // current address: $F192A
 
 //POINTER #156 @ $F0198 - STRING #156 @ $F192A
@@ -1107,6 +1292,8 @@
 //Firegrass
 //かざんのちかくに　せいそくするくさ　
 //はなからかえんをふき　こうげきする　
+//TL: Konami
+//A fire-breathing plant found growing near volcanoes.
 // current address: $F194E
 
 //POINTER #157 @ $F019A - STRING #157 @ $F194E
@@ -1114,6 +1301,8 @@
 //Man Eater
 //ひとくいじんめんか　どくのある　　　
 //しょくしゅで　こうげきしてくる　　　
+//TL: Konami
+//Man-eating plant with poison feelers for attacking enemies.
 // current address: $F1972
 
 //POINTER #158 @ $F019C - STRING #158 @ $F1972
@@ -1121,6 +1310,8 @@
 //Dig Beak
 //へびのように　ながいからだをまるめ　
 //かいてんしながら　くちばしでこうげき
+//TL: Konami
+//This beast coils like a snake, and strikes quickly with its snapping beak.
 // current address: $F1996
 
 //POINTER #159 @ $F019E - STRING #159 @ $F1996
@@ -1128,6 +1319,8 @@
 //M-Warrior #1
 //コンビプレーがとくいなせんし　つよい
 //じりょくをはっし　だれもにげられない
+//TL: Konami
+//Specializing in combination attacks, this warrior uses magnetism to block an enemy's escape.
 // current address: $F19BA
 
 //POINTER #160 @ $F01A0 - STRING #160 @ $F19BA
@@ -1135,6 +1328,8 @@
 //M-Warrior #2
 //コンビプレーがとくいなせんし　でんじ
 //コーティングされたよろいはがんじょう
+//TL: Konami
+//Specializing in combination attacks, this warrior is equipped with a tough, magnetically coated armor.
 // current address: $F19DE
 
 //POINTER #161 @ $F01A2 - STRING #161 @ $F19DE
@@ -1149,6 +1344,8 @@
 //Lisark
 //サファイヤのめをもつけもの　げんえい
 //をみせ　こんらんしたところをこうげき
+//TL: Konami
+//A creature with sapphire eyes that mesmerizes and confuses enemies.
 // current address: $F1A26
 
 //POINTER #163 @ $F01A6 - STRING #163 @ $F1A26
@@ -1156,6 +1353,8 @@
 //Lord of Zemia
 //あいてをだまして　はめつのみちへと　
 //いざなうことをとくいとするじゃしん　
+//TL: Konami
+//A wicked entity that manipulates enemies towards a path of destruction.
 // current address: $F1A4A
 
 //POINTER #164 @ $F01A8 - STRING #164 @ $F1A4A
@@ -1191,6 +1390,8 @@
 //Dark King of the Abyss
 //めいかいのおう　かつて　やみをすべて
 //しはいするほどのちからがあったという
+//TL: Konami
+//It's said that this King of the Netherworld once had the power to rule over the dark.
 // current address: $F1AFE
 
 //POINTER #169 @ $F01B2 - STRING #169 @ $F1AFE
@@ -1198,6 +1399,8 @@
 //Spirit of the Harp
 //てんかいで　ハープをかなでるせいれい
 //そのねいろはまわりのこころをなごます
+//TL: Konami
+//A spirit that soothes the soul with the music of its heavenly harp.	
 // current address: $F1B22
 
 //POINTER #170 @ $F01B4 - STRING #170 @ $F1B22
@@ -1205,6 +1408,8 @@
 //Big Eye
 //ぜんしん　めだまだらけの　ばけもの　
 //たくさんのめでさいみんじゅつをかける
+//TL: ???
+//This creature is covered with hypnotic eyes for mesmerizing its enemies.
 // current address: $F1B46
 
 //POINTER #171 @ $F01B6 - STRING #171 @ $F1B46
@@ -1212,6 +1417,8 @@
 //Armaill
 //つるぎじょうのおをもつかわったせんし
 //りょうてとおで　３れんこうげきをする
+//TL: Konami
+//A strange warrior who manipulates three deadly blades with both hands and his tail.
 // current address: $F1B6A
 
 //POINTER #172 @ $F01B8 - STRING #172 @ $F1B6A
@@ -1219,6 +1426,8 @@
 //Dark Prisoner
 //ひかりのはんしゃを　たくみにあやつり
 //じぶんのすがたを　かくすことができる
+//TL: Konami
+//This monster bends light to hide its image from the eyes of opponents.
 // current address: $F1B8E
 
 //POINTER #173 @ $F01BA - STRING #173 @ $F1B8E
@@ -1240,6 +1449,8 @@
 //Fire Eye
 //ほのおにつつまれためだま　はねを　　
 //はばたかせ　ほのおのかぜをおこす　　
+//TL: Konami
+//An eye engulfed in flames that flaps its wings to create hot blasts of air.
 // current address: $F1BFA
 
 //POINTER #176 @ $F01C0 - STRING #176 @ $F1BFA
@@ -1247,6 +1458,8 @@
 //Monsturtle
 //とげのついた　こうらをみにつけたカメ
 //とてもきょうぼうで　ひとになつかない
+//TL: Konami
+//Protected by a spiked shell, this turtle has a very nasty disposition.
 // current address: $F1C1E
 
 //POINTER #177 @ $F01C2 - STRING #177 @ $F1C1E
@@ -1261,6 +1474,8 @@
 //Phantom Dewan
 //てきをのろい　うごきをとめることが　
 //できるまほうつかい　　　　　　　　　
+//TL: Konami
+//A sorcerer that can paralyze an enemy with a single curse.
 // current address: $F1C66
 
 //POINTER #179 @ $F01C6 - STRING #179 @ $F1C66
@@ -1282,6 +1497,8 @@
 //Masked Clown
 //しのおどりをおどりながら　てにする　
 //かまで　てきをきりきざむせんし　　　
+//TL: Konami
+//This warrior's fatal dance is performed with a lethal sickle.
 // current address: $F1CD2
 
 //POINTER #182 @ $F01CC - STRING #182 @ $F1CD2
@@ -1296,6 +1513,8 @@
 //Genin
 //てじなのようなまほうで　てきをたおす
 //ハトをだしてこうげきもする　　　　　
+//TL: Konami
+//A creature that defeats its enemies using sleight-of-hand.
 // current address: $F1D1A
 
 //POINTER #184 @ $F01D0 - STRING #184 @ $F1D1A
@@ -1303,6 +1522,8 @@
 //Eyearmour
 //いろんなやつにへんしんして　あいてを
 //だましながらたたかうせんし　　　　　
+//TL: Konami
+//This warrior transforms into various creatures to confuse enemies in battle.
 // current address: $F1D3E
 
 //POINTER #185 @ $F01D2 - STRING #185 @ $F1D3E
@@ -1310,6 +1531,8 @@
 //Fiend Reflection #2
 //てにするかがみから　なかまをよびだす
 //ことのできる　とりのけもの　　　　　
+//TL: Konami
+//A bird-beast that summons reinforcements with a hand mirror.
 // current address: $F1D62
 
 //POINTER #186 @ $F01D4 - STRING #186 @ $F1D62
@@ -1317,6 +1540,8 @@
 //Gate Deeg
 //おなかにじごくへつうじるとびらがあり
 //しょうかんもできるぶきみなモンスター
+//TL: Konami
+//This weird monster has a portal in its belly that brings reinforcements from the farthest reaches of the netherworld.
 // current address: $F1D86
 
 //POINTER #187 @ $F01D6 - STRING #187 @ $F1D86
@@ -1324,6 +1549,8 @@
 //Synchar
 //うえにもしたにもあたまがある　きもち
 //わるいやつ　くちからはレーザーをはく
+//TL: Konami
+//This two-headed creature spits laser blasts at its enemies.
 // current address: $F1DAA
 
 //POINTER #188 @ $F01D8 - STRING #188 @ $F1DAA
@@ -1345,6 +1572,8 @@
 //LaLa Li-oon
 //でんきをおびた　くもがたのモンスター
 //なんでもとかすきけんなあめをふらせる
+//TL: Konami
+//An electric cloud creature, its acid rain makes it very dangerous.
 // current address: $F1E16
 
 //POINTER #191 @ $F01DE - STRING #191 @ $F1E16
@@ -1352,6 +1581,8 @@
 //Key Mace
 //とてもちいさなてんし　かわいらしさに
 //まけ　だれでもこころをひらいてしまう
+//TL: Konami
+//Enemies' hearts will melt at the sight of this small fairy's cuteness.
 // current address: $F1E3A
 
 //POINTER #192 @ $F01E0 - STRING #192 @ $F1E3A
@@ -1359,6 +1590,8 @@
 //Turtle Tiger
 //こうらをもったトラ　かたいこうらで　
 //みをまもり　するどいきばでこうげき　
+//TL: Konami
+//A tiger encased in a protective shell that attacks with razor-sharp fangs.
 // current address: $F1E5E
 
 //POINTER #193 @ $F01E2 - STRING #193 @ $F1E5E
@@ -1373,6 +1606,8 @@
 //Doron
 //ドロローンとぶんしんして　はさみうち
 //こうげきをしかけてくる　ゆだんするな
+//TL: Konami
+//This monster splits in two and attacks from opposite sides.
 // current address: $F1EA6
 
 //POINTER #195 @ $F01E6 - STRING #195 @ $F1EA6
@@ -1380,6 +1615,8 @@
 //Arma Knight
 //おおむかしから　うみをがいてきから　
 //まもっている　アンモナイトのせんし　
+//TL: Konami
+//An ammonite warrior that has protected the seas throughout history.
 // current address: $F1ECA
 
 //POINTER #196 @ $F01E8 - STRING #196 @ $F1ECA
@@ -1394,6 +1631,8 @@
 //Happy Lover
 //あたまからハートビームをだし　てきを
 //しあわせにする　ちいさなてんし　　　
+//TL: Konami
+//Enemies become overjoyed when struck by the Heart Ray emitted from the forehead of this tiny cherub.
 // current address: $F1F12
 
 //POINTER #198 @ $F01EC - STRING #198 @ $F1F12
@@ -1408,6 +1647,8 @@
 //Petit Dragon
 //とてもちいさなドラゴン　ちいさな　　
 //からだをいっぱいにつかいこうげきする
+//TL: Konami
+//A very small dragon known for its vicious attacks.
 // current address: $F1F5A
 
 //POINTER #200 @ $F01F0 - STRING #200 @ $F1F5A
@@ -1415,6 +1656,8 @@
 //Frenzied Panda
 //つねにふといたけをいっぽんもっており
 //せいかくはひじょうにきょうぼうである
+//TL: Konami
+//A savage beast that carries a big bamboo stick for beating down its enemies.
 // current address: $F1F7E
 
 //POINTER #201 @ $F01F2 - STRING #201 @ $F1F7E
@@ -1450,6 +1693,8 @@
 //Twin Long Rods #1
 //むちのようにながいうでで　すこし　　
 //はなれたところでも　こうげきできる　
+//TL: Konami
+//With whip-like arms, this creature can attack enemies from a distance.
 // current address: $F2032
 
 //POINTER #206 @ $F01FC - STRING #206 @ $F2032
@@ -1457,6 +1702,8 @@
 //Droll Bird
 //くちばしがとてもおおきく　おおごえで
 //なき　きのよわいあいてをおどろかせる
+//TL: Konami
+//This monster stuns its enemies with a massive beak and ear-piercing wails.
 // current address: $F2056
 
 //POINTER #207 @ $F01FE - STRING #207 @ $F2056
@@ -1464,6 +1711,8 @@
 //Petit Angel
 //ちょこまかうごき　こうげきがなかなか
 //あたらない　とてもちいさなてんし　　
+//TL: Konami
+//A quick-moving and tiny fairy that's very difficult to hit.
 // current address: $F207A
 
 //POINTER #208 @ $F0200 - STRING #208 @ $F207A
@@ -1485,6 +1734,8 @@
 //Kaminarikozou/Thunder Kid
 //かみなりを　からだのなかに　ちくでん
 //させている　なかせたときはきけん　　
+//TL: Konami
+//This monster stores electricity within his body, and can unleash it with catastrophic power.
 // current address: $F20E6
 
 //POINTER #211 @ $F0206 - STRING #211 @ $F20E6
@@ -1499,6 +1750,8 @@
 //Aqua Madoor
 //みずをあやつるまほうつかい　ぶあつい
 //みずのかべをつくり　てきをおしつぶす
+//TL: Konami
+//A wizard of the waters that conjures a liquid wall to crush any enemies that oppose him.
 // current address: $F212E
 
 //POINTER #213 @ $F020A - STRING #213 @ $F212E
@@ -1506,6 +1759,8 @@
 //Kagemusha of the Blue Flame
 //シエンにつかえる　かげむしゃ　　　　
 //するどいきれあじの　めいとうをもつ　
+//TL: Konami
+//Serving as a double for the Ruler of the Blue Flame, he's a master swordsman that wields a fine blade.
 // current address: $F2152
 
 //POINTER #214 @ $F020C - STRING #214 @ $F2152
@@ -1520,6 +1775,8 @@
 //Dryad
 //もりのせいれい　くさきのちからを　　
 //かりて　あいてのうごきをふうじる　　
+//TL: Konami
+//A spirit of the forest powered by the surrounding trees and wildlife.
 // current address: $F219A
 
 //POINTER #216 @ $F0210 - STRING #216 @ $F219A
@@ -1534,6 +1791,8 @@
 //Two-Mouth Darkruler
 //くちが２つあるきょうりゅう　つのに　
 //ちくでんし　せなかのくちからほうでん
+//TL: Konami
+//A dinosaur with two deadly jaws, it stores electricity in its horn and releases high voltage bolts from the mouth on its back.
 // current address: $F21E2
 
 //POINTER #218 @ $F0214 - STRING #218 @ $F21E2
@@ -1541,6 +1800,8 @@
 //Solitude
 //かはんしんがシカで　たましいをすうと
 //いう　おおかまをもった　けものせんし
+//TL: Konami
+//This beast-warrior swings a massive scythe that feeds on the souls of the slain.
 // current address: $F2206
 
 //POINTER #219 @ $F0216 - STRING #219 @ $F2206
@@ -1555,6 +1816,8 @@
 //Kuomotoko
 //きょだいクモが　ちえをつけたすがた　
 //いとをはき　うごきをふうじこめる　　
+//TL: Konami
+//A massive, intelligent spider that traps enemies with webbing.
 // current address: $F224E
 
 //POINTER #221 @ $F021A - STRING #221 @ $F224E
@@ -1562,6 +1825,8 @@
 //Midnight Fiend
 //しんやにあらわれる　とりのばけもの　
 //よびだすにはいけにえがひつようという
+//TL: Konami
+//This monster only appears when a midnight tribute is made.
 // current address: $F2272
 
 //POINTER #222 @ $F021C - STRING #222 @ $F2272
@@ -1583,6 +1848,8 @@
 //Fiend Sword
 //みにつけ　のろいに　うちかつことが　
 //できたものは　ちからをえられるという
+//TL: Konami
+//Whoever resists the curse of this blade will gain untold power.
 // current address: $F22DE
 
 //POINTER #225 @ $F0222 - STRING #225 @ $F22DE
@@ -1597,6 +1864,8 @@
 //Hitodenchak
 //おせんされたみずで　きょうぼうかした
 //ヒトデ　くちからようかいえきをはく　
+//TL: Konami
+//A rabid starfish that spits a lethal acid that can melt almost anything.
 // current address: $F2326
 
 //POINTER #227 @ $F0226 - STRING #227 @ $F2326
@@ -1604,6 +1873,8 @@
 //Wood Remains
 //もりのぬしが　たおれたあと　あしき　
 //もののてにより　よみがえったしかばね
+//TL: Konami
+//A living corpse of wood re-animated by the power of darkness.
 // current address: $F234A
 
 //POINTER #228 @ $F0228 - STRING #228 @ $F234A
@@ -1639,6 +1910,8 @@
 //Dark Titan of Terror
 //ゆめのなかに　ひそむといわれるあくま
 //ねているあいだに　いのちをうばう　　
+//TL: Konami
+//A fiend said to dwell in the world of dreams, it attacks enemies in their sleep.
 // current address: $F23FE
 
 //POINTER #233 @ $F0232 - STRING #233 @ $F23FE
@@ -1667,6 +1940,8 @@
 //Haniwa
 //こだいおうの　はかのなかにある　　　
 //たからものをまもる　つちにんぎょう　
+//TL: Konami
+//An earthen figure that protects the tomb of an ancient ruler.
 // current address: $F248E
 
 //POINTER #237 @ $F023A - STRING #237 @ $F248E
@@ -1702,6 +1977,8 @@
 //Candle of Fate
 //ゆびさきの　ほのおがきえたとき　　　
 //あいてのうんめいが　けっていする　　
+//TL: Konami
+//Decides the fate of an opponent when the candle on its fingertip burns out.
 // current address: $F2542
 
 //POINTER #242 @ $F0244 - STRING #242 @ $F2542
@@ -1709,6 +1986,8 @@
 //Water Element
 //みずにすんでいるせいれい　まわりを　
 //きりでつつみこみ　しかいをうばう　　
+//TL: Konami
+//A sea-dwelling spirit that takes away sight by clouding the area in fog.
 // current address: $F2566
 
 //POINTER #243 @ $F0246 - STRING #243 @ $F2566
@@ -1723,6 +2002,8 @@
 //Meda Bat
 //こころのあしきものがつくっためだまの
 //あくま　ダークボムで　ばくはこうげき
+//TL: Konami
+//An eyeball fiend created by a servant of the wicked, it uses "Dark Blasts" to blow away its enemies.
 // current address: $F25AE
 
 //POINTER #245 @ $F024A - STRING #245 @ $F25AE
@@ -1737,6 +2018,8 @@
 //Root Water
 //うみにひそむはんぎょじん　あんこくの
 //おおつなみをおこして　こうげきする　
+//TL: Konami
+//An amphibian capable of calling up a massive tidal wave from the dark seas to wipe out enemy monsters.
 // current address: $F25F6
 
 //POINTER #247 @ $F024E - STRING #247 @ $F25F6
@@ -1751,6 +2034,8 @@
 //Water Omotics
 //かめから　つぎつぎとあふれでるみずを
 //りゅうにかえて　こうげきしてくる　　
+//TL: Konami
+//Transforms the water overflowing from a jar into attacking dragons.
 // current address: $F263E
 
 //POINTER #249 @ $F0252 - STRING #249 @ $F263E
@@ -1765,6 +2050,8 @@
 //Enchanting Mermaid
 //うみをこうかいするものをゆうわくして
 //おぼれさせる　うつくしいにんぎょ　　
+//TL: Konami
+//A beautiful mermaid that lures voyagers to a watery grave.
 // current address: $F2686
 
 //POINTER #251 @ $F0256 - STRING #251 @ $F2686
@@ -1786,6 +2073,8 @@
 //Embryonic Beast
 //かんぜんたいになれなかった　みにくい
 //あくま　はらのあなはなんでもすいこむ
+//TL: Konami
+//An imperfect monster with a belly vortex that sucks in opponents of any size.
 // current address: $F26F2
 
 //POINTER #254 @ $F025C - STRING #254 @ $F26F2
@@ -1793,6 +2082,8 @@
 //Prevent Rat
 //けがあつまり　かたいかわのように　　
 //なっている　しゅびはかなりたかい　　
+//TL: Konami
+//This creature is shielded with a tough hide of hair and is excellent at defending itself.
 // current address: $F2716
 
 //POINTER #255 @ $F025E - STRING #255 @ $F2716
@@ -1821,6 +2112,8 @@
 //Ancient Sorcerer
 //かずおおくのつえをもち　それぞれを　
 //つかいわけ　たさいなこうげきをする　
+//TL: Konami
+//Armed with an array of magic wands, this creature is capable of multiple attacks.
 // current address: $F27A6
 
 //POINTER #259 @ $F0266 - STRING #259 @ $F27A6
@@ -1835,6 +2128,8 @@
 //Wicked Mirror/Archfiend Mirror
 //かがみにうつるものにさいみんじゅつを
 //かけ　こうげきをよけるあくまのかがみ
+//TL: Konami
+//A wicked mirror that hypnotizes enemies, diverting attacks from their intended targets.
 // current address: $F27EE
 
 //POINTER #261 @ $F026A - STRING #261 @ $F27EE
@@ -1849,6 +2144,8 @@
 //Rock Ogre Grotto #2
 //がんせきが　あつまってできたゴーレム
 //あいてをせきかして　はかいする　　　
+//TL: Konami
+//A golem formed by boulders, this monster turns its enemies to stone and crushes them to dust.
 // current address: $F2836
 
 //POINTER #263 @ $F026E - STRING #263 @ $F2836
@@ -1856,6 +2153,8 @@
 //Wing Egg Elf
 //たまごのからに　みをつつむてんし　　
 //おおきなはねで　こうげきをふせぐ　　
+//TL: Konami
+//This fairy in an eggshell uses massive wings to blow back almost any projectile attack.
 // current address: $F285A
 
 //POINTER #264 @ $F0270 - STRING #264 @ $F285A
@@ -1884,6 +2183,8 @@
 //Sectarian of Secrets
 //やみをすうはいするまほうつかい　まの
 //てをよびだし　くらやみへひきずりこむ
+//TL: Konami
+//This wizard worships the darkness, and is served by a sinister hand that drags its enemies into oblivion.
 // current address: $F28EA
 
 //POINTER #268 @ $F0278 - STRING #268 @ $F28EA
@@ -1898,6 +2199,8 @@
 //Wetha
 //あめをあやつるせいれい　たいふうを　
 //よびだし　さまざまなものをふきとばす
+//TL: Konami
+//A spirit that controls rain and is capable of summoning hurricanes to blow the enemy away.
 // current address: $F2932
 
 //POINTER #270 @ $F027C - STRING #270 @ $F2932
@@ -1905,6 +2208,8 @@
 //Megirus Light
 //ブキミなめから　あしきひかりを　　　
 //はなち　あいてにダメージをあたえる　
+//TL: Konami
+//The fatal beams from the eyes of this monster result in grim destruction.
 // current address: $F2956
 
 //POINTER #271 @ $F027E - STRING #271 @ $F2956
@@ -1926,6 +2231,8 @@
 //Green Phantom King
 //あおあおとおいしげる　きにかこまれて
 //くらす　もりをおさめる　わかきおう　
+//TL: Konami
+//This youthful king of the forests lives in a green world, abundant with trees and wildlife.
 // current address: $F29C2
 
 //POINTER #274 @ $F0284 - STRING #274 @ $F29C2
@@ -1940,6 +2247,8 @@
 //Ray and Temperature
 //なかのよい　きたかぜとたいよう　　　
 //かまいたちと　ねつこうせんでこうげき
+//TL: Konami
+//The Sun and the North Wind join hands to deliver a devastating combination of heat and gale-force winds.
 // current address: $F2A0A
 
 //POINTER #276 @ $F0288 - STRING #276 @ $F2A0A
@@ -1961,6 +2270,8 @@
 //King Fog
 //けむりのなかにひそむあくま　まわりを
 //けむりでおおい　みえなくしてしまう　
+//TL: Konami
+//A fiend that dwells in a blinding curtain of smoke.
 // current address: $F2A76
 
 //POINTER #279 @ $F028E - STRING #279 @ $F2A76
@@ -1968,6 +2279,8 @@
 //Protector of the Throne
 //おうがるすのあいだ　おうざをがいてき
 //からまもるおうひ　しゅびはかたい　　
+//TL: Konami
+//While the king is away, this queen protects his throne with a mighty defense.
 // current address: $F2A9A
 
 //POINTER #280 @ $F0290 - STRING #280 @ $F2A9A
@@ -1975,6 +2288,8 @@
 //Mystic Clown
 //くるったちからをつかい　こうげきする
 //そのぼうそうは　だれにもとめられない
+//TL: Konami
+//Nothing can stop the mad attack of this powerful creature.
 // current address: $F2ABE
 
 //POINTER #281 @ $F0292 - STRING #281 @ $F2ABE
@@ -1982,6 +2297,8 @@
 //Mystical Sheep #2
 //しっぽのながいひつじ　しっぽをつかい
 //さいみんじゅつをかけ　すいまをさそう
+//TL: Konami
+//A monstrous sheep with a long tail for hypnotizing enemies.
 // current address: $F2AE2
 
 //POINTER #282 @ $F0294 - STRING #282 @ $F2AE2
@@ -1989,6 +2306,8 @@
 //Holograh
 //さまざまなげんそうをみせ　そのスキを
 //ついて　こうげきしてくるきかい　　　
+//TL: Konami
+//This machine generates illusions that leave an enemy wide open to attacks.
 // current address: $F2B06
 
 //POINTER #283 @ $F0296 - STRING #283 @ $F2B06
@@ -2003,6 +2322,8 @@
 //Serpent Marauder
 //めが１つしかないへビ　れいきを　　　
 //はきだし　あいてをこおりづけにする　
+//TL: Konami
+//A snake with a single eye that blows an icy breath to freeze its opponents.
 // current address: $F2B4E
 
 //POINTER #285 @ $F029A - STRING #285 @ $F2B4E
@@ -2010,6 +2331,8 @@
 //Gatekeeper
 //いりぐちをまもるために　つくられた　
 //きかい　こわすのは　たいへんだ　　　
+//TL: Konami
+//An indestructible mechanoid created for the sole purpose of guarding the gateways.
 // current address: $F2B72
 
 //POINTER #286 @ $F029C - STRING #286 @ $F2B72
@@ -2031,6 +2354,8 @@
 //Change Slime
 //かたちをじゆうにかえ　さまざまな　　
 //ものにへんしんするスライム　　　　　
+//TL: Konami
+//A slime that can morph and adopt the shape and size of any monster it chooses.
 // current address: $F2BDE
 
 //POINTER #289 @ $F02A2 - STRING #289 @ $F2BDE
@@ -2045,6 +2370,8 @@
 //Fireyarou
 //ほのおにつつまれたまじん　まわりの　
 //ほのおをじざいにあやつりこうげきする
+//TL: Konami
+//A malevolent creature wrapped in flames that attacks enemies with intense fire.
 // current address: $F2C26
 
 //POINTER #291 @ $F02A6 - STRING #291 @ $F2C26
@@ -2073,6 +2400,8 @@
 //Bio Plant
 //ちかけんきゅうじょでの　じっけんで　
 //だいしっぱいして　うまれたばけもの　
+//TL: Konami
+//A monster created from a major accident in an underground lab.
 // current address: $F2CB6
 
 //POINTER #295 @ $F02AE - STRING #295 @ $F2CB6
@@ -2080,6 +2409,8 @@
 //One-Eyed Shield Dragon
 //みにつけたたては　みをまもるだけで　
 //なく　とつげきにもつかえる　　　　　
+//TL: Konami
+//This dragon wears a shield not only for its own protection, but also for ramming its enemies.
 // current address: $F2CDA
 
 //POINTER #296 @ $F02B0 - STRING #296 @ $F2CDA
@@ -2094,6 +2425,8 @@
 //Wicked Dragon with the Ersatz Head
 //もうひとつの　あたまをもつドラゴン　
 //ふたつのくちで　てきをかみくだく　　
+//TL: Konami
+//A two-headed dragon with a pair of jaws that can tear an enemy to shreds.
 // current address: $F2D22
 
 //POINTER #298 @ $F02B4 - STRING #298 @ $F2D22
@@ -2101,6 +2434,8 @@
 //Sonic Maid
 //おとをあつかうのが　とくいなオトメ　
 //おんぷの　かまをつかい　こうげきする
+//TL: Konami
+//A maiden that uses sound to her advantage, she wields a scythe that's shaped like a musical note.
 // current address: $F2D46
 
 //POINTER #299 @ $F02B6 - STRING #299 @ $F2D46
@@ -2108,6 +2443,7 @@
 //Kurama
 //しっぽが　ながいとり　そのしっぽで　
 //くうちゅうから　こうげきする　　　　
+//A vicious bird that attacks from the skies with its whip-like tail.
 // current address: $F2D6A
 
 //POINTER #300 @ $F02B8 - STRING #300 @ $F2D6A
@@ -2486,6 +2822,8 @@
 //Stuffed Animal
 //かわいらしいぬいぐるみ　とおもわせ　
 //チャックのくちで　ガブりとかみつく　
+//TL: Konami
+//It may look like a harmless stuffed animal, but its zipper mouth deals a deadly bite.
 // current address: $F3502
 
 //POINTER #354 @ $F0324 - STRING #354 @ $F3502
@@ -2493,6 +2831,8 @@
 //Megasonic Eye
 //うちゅうのはてからやってきた　さつじ
 //んマシン　なぞのきんぞくでできている
+//TL: Konami
+//Made of mysterious metal, this monster is a doomsday machine from the edge of the universe.
 // current address: $F3526
 
 //POINTER #355 @ $F0326 - STRING #355 @ $F3526
@@ -2507,6 +2847,8 @@
 //Yamadron
 //３つのあたまで　つぎつぎほのおをはき
 //あたりいちめんをほのおのうみにする！
+//TL: Konami
+//This monster has three fire-breathing heads and can form a sea of blazing flames.
 // current address: $F356E
 
 //POINTER #357 @ $F032A - STRING #357 @ $F356E
@@ -2535,6 +2877,8 @@
 //Flying Penguin
 //みみのようにもみえる　あたまについた
 //はねでそらをとぶ　めずらしいペンギン
+//TL: Konami
+//A very rare penguin that takes to the air with ears shaped like wings.
 // current address: $F35FE
 
 //POINTER #361 @ $F0332 - STRING #361 @ $F35FE
