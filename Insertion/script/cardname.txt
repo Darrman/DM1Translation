@@ -193,7 +193,7 @@ Summoned Skull
 #W16($443B)
 //じゃあくなるワーム・ビースト
 //The Wicked Worm Beast
-Wicked Worm Beast
+WickedWormBeast
 // current address: $47C4
 
 //POINTER #23 @ $443D - STRING #23 @ $47C4
@@ -365,7 +365,7 @@ Rogue Doll
 //エレキッズ
 //JP: Eleckids
 //EN: Oscillo Hero #2/Wattkid
-Oscillo Hero
+OscilloHero2
 // current address: $4885
 
 //POINTER #45 @ $4469 - STRING #45 @ $4885
@@ -499,7 +499,7 @@ Harpie Lady
 //ハーピィ・レディ　さんしまい
 //JP: Three Harpie Lady Sisters
 //EN: Harpie Lady Sisters
-HarpieLady Sisters
+HarpieLadySisters
 // current address: $4905
 
 //POINTER #63 @ $448D - STRING #63 @ $4905
@@ -528,7 +528,7 @@ Kojikocy
 #W16($4493)
 //かんぜんきゅうきょくたいグレートモス
 //Perfectly Ultimate Great Moth
-Perf.Ultim.Gr.Moth
+PerfectGreatMoth
 // current address: $4931
 
 //POINTER #67 @ $4495 - STRING #67 @ $4931
@@ -783,14 +783,14 @@ Battle Warrior
 #W16($44D7)
 //じゃえんのつばさ
 //Wings of Wicked Flame
-Wicked Flame Wings
+WickedFlameWings
 // current address: $4A5F
 
 //POINTER #101 @ $44D9 - STRING #101 @ $4A5F
 #W16($44D9)
 //やみのかめん
 //Mask of Darkness
-Mask of Darkness
+MaskOfDarkness
 // current address: $4A65
 
 //POINTER #102 @ $44DB - STRING #102 @ $4A65
@@ -820,7 +820,7 @@ Tomosaurus
 #W16($44E1)
 //かぜのせいれい
 //Spirit of the Winds
-Spirit of Winds
+SpiritOfWinds
 // current address: $4A86
 
 //POINTER #106 @ $44E3 - STRING #106 @ $4A86
@@ -837,7 +837,7 @@ Kageningen
 //JP: Beckoning Graveyard
 //EN: Graveyard and the Hand of Invitation
 //DM3: Graveyard & Hand
-Graveyard & Hand
+Graveyard&Hand
 // current address: $4A99
 
 //POINTER #108 @ $44E7 - STRING #108 @ $4A99
@@ -853,7 +853,7 @@ All-Seeing Goddess
 #W16($44E9)
 //とうほうのえいゆう
 //Hero of the East
-Hero of the East
+HeroOfTheEast
 // current address: $4AAA
 
 //POINTER #110 @ $44EB - STRING #110 @ $4AAA
@@ -922,7 +922,7 @@ Shadow Supporter
 //じごくのさいばん
 //JP: Trial of Hell
 //EN: Trial of Nightmare
-Trial of Nightmare
+TrialOfNightmare
 // current address: $4B0C
 
 //POINTER #119 @ $44FD - STRING #119 @ $4B0C
@@ -944,7 +944,7 @@ Sleeping Lion
 #W16($4501)
 //ヤマタノドラゴンえまき
 //Yamatano Dragon Scroll
-Yamatano Dr.Scroll
+Yamatano Scroll
 // current address: $4B25
 
 //POINTER #122 @ $4503 - STRING #122 @ $4B25
@@ -1114,7 +1114,7 @@ Chronolord
 //かぜのばんにん　ジン
 //Djinn the Watcher of the Wind
 //DM3: Wind Djinn
-Wind Djinn
+WindDjinn
 // current address: $4BE1
 
 //POINTER #144 @ $452F - STRING #144 @ $4BE1
@@ -1122,21 +1122,21 @@ Wind Djinn
 //みわくのかいとう
 //The Bewitching Phantom Thief
 //DM3: Phantom Thief
-Phantom Thief
+PhantomThief
 // current address: $4BE9
 
 //POINTER #145 @ $4531 - STRING #145 @ $4BE9
 #W16($4531)
 //ドクロのじいん
 //Temple of Skulls
-Temple of Skulls
+TempleOfSkulls
 // current address: $4BF0
 
 //POINTER #146 @ $4533 - STRING #146 @ $4BF0
 #W16($4533)
 //モンスター・エッグ
 //Monster Egg
-Monster Egg
+MonsterEgg
 // current address: $4BF9
 
 //POINTER #147 @ $4535 - STRING #147 @ $4BF9
@@ -1144,7 +1144,7 @@ Monster Egg
 //やみをつかさどるかげ
 //The Shadow who Controls the Dark
 //DM3: Sinister Shadow
-Sinister Shadow
+SinisterShadow
 // current address: $4C03
 
 //POINTER #148 @ $4537 - STRING #148 @ $4C03
@@ -1152,7 +1152,7 @@ Sinister Shadow
 //ランプのまじん
 //JP: Djinn of the Lamp
 //EN: Lord of the Lamp
-Lord of the Lamp
+LordOfTheLamp
 // current address: $4C0A
 
 //POINTER #149 @ $4539 - STRING #149 @ $4C0A
@@ -1167,14 +1167,14 @@ Akihiron
 #W16($453B)
 //あかきけんのライムンドス
 //Rhaimundos of the Red Sword
-Rhaimundos:Red Sw.
+RedRhaimundos
 // current address: $4C1A
 
 //POINTER #151 @ $453D - STRING #151 @ $4C1A
 #W16($453D)
 //とろけるあかきかげ
 //The Melting Red Shadow
-Melting Red Shadow
+MeltingRedShadow
 // current address: $4C23
 
 //POINTER #152 @ $453F - STRING #152 @ $4C23
@@ -1182,7 +1182,7 @@ Melting Red Shadow
 //しにがみのドクロイゾ
 //JP: Death God Dokuroizo
 //EN: Dokuroizo the Grim Reaper
-Dokuroizo: Reaper
+Dokuroizo:Reaper
 // current address: $4C2D
 
 //POINTER #153 @ $4541 - STRING #153 @ $4C2D
@@ -1190,7 +1190,7 @@ Dokuroizo: Reaper
 //ファイヤー・デビル
 //JP: Fire Devil
 //EN: Fire Reaper
-Fire Reaper
+FireReaper
 // current address: $4C36
 
 //POINTER #154 @ $4543 - STRING #154 @ $4C36
@@ -1204,7 +1204,7 @@ Larvas
 #W16($4545)
 //ハードアーマー
 //Hard Armour
-Hard Armour
+HardArmour
 // current address: $4C41
 
 //POINTER #156 @ $4547 - STRING #156 @ $4C41
@@ -1218,14 +1218,14 @@ Firegrass
 #W16($4549)
 //マンイーター
 //Man Eater
-Man Eater
+ManEater
 // current address: $4C4C
 
 //POINTER #158 @ $454B - STRING #158 @ $4C4C
 #W16($454B)
 //ディッグ・ビーク
 //Dig Beak
-Dig Beak
+DigBeak
 // current address: $4C54
 
 //POINTER #159 @ $454D - STRING #159 @ $4C54
@@ -1233,7 +1233,7 @@ Dig Beak
 //マグネッツ１ごう
 //JP: Magnets No.1
 //EN: M-Warrior #1
-M-Warrior #1
+MWarrior#1
 // current address: $4C5C
 
 //POINTER #160 @ $454F - STRING #160 @ $4C5C
@@ -1241,7 +1241,7 @@ M-Warrior #1
 //マグネッツ２ごう
 //JP: Magnets No. 2
 //EN: M-Warrior #2
-M-Warrior #2
+MWarrior#2
 // current address: $4C64
 
 //POINTER #161 @ $4551 - STRING #161 @ $4C64
@@ -1249,7 +1249,7 @@ M-Warrior #2
 //あくまのちえ
 //JP: Demon's Wisdom
 //EN: Tainted Wisdom
-Tainted Wisdom
+TaintedWisdom
 // current address: $4C6A
 
 //POINTER #162 @ $4553 - STRING #162 @ $4C6A
@@ -1265,28 +1265,28 @@ Lisark
 //ゼミアのかみ
 //JP: God of Zemia
 //EN: Lord of Zemia
-Lord of Zemia
+LordOfZemia
 // current address: $4C7A
 
 //POINTER #164 @ $4557 - STRING #164 @ $4C7A
 #W16($4557)
 //ジャジメント・ザ・ハンド
 //The Judgement Hand
-The Judgement Hand
+TheJudgementHand
 // current address: $4C86
 
 //POINTER #165 @ $4559 - STRING #165 @ $4C86
 #W16($4559)
 //なぞのくぐつし
 //Mysterious Puppeteer
-Mystery Puppeteer
+MysteryPuppeteer
 // current address: $4C8D
 
 //POINTER #166 @ $455B - STRING #166 @ $4C8D
 #W16($455B)
 //たいこのつぼ
 //Ancient Jar
-Ancient Jar
+AncientJar
 // current address: $4C93
 
 //POINTER #167 @ $455D - STRING #167 @ $4C93
@@ -1294,21 +1294,21 @@ Ancient Jar
 //あんこくかえんりゅう
 //JP: Dark Blaze Dragon
 //EN: Darkfire Dragon
-Darkfire Dragon
+DarkfireDragon
 // current address: $4C9D
 
 //POINTER #168 @ $455F - STRING #168 @ $4C9D
 #W16($455F)
 //しんえんのめいおう
 //Dark King of the Abyss
-Dark King of Abyss
+DarkKingOfAbyss
 // current address: $4CA6
 
 //POINTER #169 @ $4561 - STRING #169 @ $4CA6
 #W16($4561)
 //ハープのせい
 //Spirit of the Harp
-Spirit of the Harp
+SpiritOfTheHarp
 // current address: $4CAC
 
 //POINTER #170 @ $4563 - STRING #170 @ $4CAC
@@ -1316,7 +1316,7 @@ Spirit of the Harp
 //だいおうめだま
 //JP: Big King Eyeball
 //EN: Big Eye
-Big Eye
+BigEye
 // current address: $4CB3
 
 //POINTER #171 @ $4565 - STRING #171 @ $4CB3
@@ -1330,7 +1330,7 @@ Armaill
 #W16($4567)
 //ダーク・プりズナー
 //Dark Prisoner
-Dark Prisoner
+DarkPrisoner
 // current address: $4CC1
 
 //POINTER #173 @ $4569 - STRING #173 @ $4CC1
@@ -1345,14 +1345,14 @@ Hurricail
 //まてんろう
 //JP: Demonic Sky Elder
 //EN: Ancient Brain
-Ancient Brain
+AncientBrain
 // current address: $4CCA
 
 //POINTER #175 @ $456D - STRING #175 @ $4CCA
 #W16($456D)
 //ファイヤー・アイ
 //Fire Eye
-Fire Eye
+FireEye
 // current address: $4CD2
 
 //POINTER #176 @ $456F - STRING #176 @ $4CD2
@@ -1367,7 +1367,7 @@ Monsturtle
 //キラー・ザ・クロー
 //JP: Killer the Claw
 //EN: Claw Reacher
-Claw Reacher
+ClawReacher
 // current address: $4CE2
 
 //POINTER #178 @ $4573 - STRING #178 @ $4CE2
@@ -1375,7 +1375,7 @@ Claw Reacher
 //サターナ
 //JP: Saturner
 //EN: Phantom Dewan
-Phantom Dewan
+PhantomDewan
 // current address: $4CE6
 
 //POINTER #179 @ $4575 - STRING #179 @ $4CE6
@@ -1390,14 +1390,14 @@ Arlownay
 #W16($4577)
 //ダーク・シェイド
 //Dark Shade
-Dark Shade
+DarkShade
 // current address: $4CF3
 
 //POINTER #181 @ $4579 - STRING #181 @ $4CF3
 #W16($4579)
 //かめんどうけ
 //Masked Clown
-Masked Clown
+MaskedClown
 // current address: $4CF9
 
 //POINTER #182 @ $457B - STRING #182 @ $4CF9
@@ -1405,7 +1405,7 @@ Masked Clown
 //ホーりー・パワー
 //JP: Holy Power
 //EN: Lucky Trinket
-Lucky Trinket
+LuckyTrinket
 // current address: $4D01
 
 //POINTER #183 @ $457D - STRING #183 @ $4D01
@@ -1429,7 +1429,7 @@ Eyearmour
 //ミラージュ
 //JP: Mirage
 //EN: Fiend Reflection #2
-Fiend Reflection
+FiendReflection2
 // current address: $4D10
 
 //POINTER #186 @ $4583 - STRING #186 @ $4D10
@@ -1437,7 +1437,7 @@ Fiend Reflection
 //へルゲート・ディーグ
 //JP: Hell Gate Deeg
 //EN: Gate Deeg
-Gate Deeg
+GateDeeg
 // current address: $4D1A
 
 //POINTER #187 @ $4585 - STRING #187 @ $4D1A
@@ -1467,7 +1467,7 @@ Akakieisu
 #W16($458B)
 //ララ・ライウーン
 //LaLa Li-oon
-LaLa Li-oon
+LaLaLi-oon
 // current address: $4D37
 
 //POINTER #191 @ $458D - STRING #191 @ $4D37
@@ -1481,7 +1481,7 @@ Key Mace
 #W16($458F)
 //タートル・タイガー
 //Turtle Tiger
-Turtle Tiger
+TurtleTiger
 // current address: $4D45
 
 //POINTER #193 @ $4591 - STRING #193 @ $4D45
@@ -1489,7 +1489,7 @@ Turtle Tiger
 //まじん　テラ
 //JP: Terra the Djinn
 //EN: Terra the Terrible
-Terra the Terrible
+TerraTheTerrible
 // current address: $4D4B
 
 //POINTER #194 @ $4593 - STRING #194 @ $4D4B
@@ -1505,7 +1505,7 @@ Doron
 //アンモ・ナイト
 //JP: Ammoknight
 //EN: Arma Knight
-Arma Knight
+ArmaKnight
 // current address: $4D56
 
 //POINTER #196 @ $4597 - STRING #196 @ $4D56
@@ -1513,28 +1513,28 @@ Arma Knight
 //ゾンビランプ
 //JP: Zombie Lump
 //EN: Mech Mole Zombie
-Mech Mole Zombie
+MechMoleZombie
 // current address: $4D5C
 
 //POINTER #197 @ $4599 - STRING #197 @ $4D5C
 #W16($4599)
 //ハッピー・ラヴァー
 //Happy Lover
-Happy Lover
+HappyLover
 // current address: $4D65
 
 //POINTER #198 @ $459B - STRING #198 @ $4D65
 #W16($459B)
 //ペンギン・ナイト
 //Penguin Knight
-Penguin Knight
+PenguinKnight
 // current address: $4D6D
 
 //POINTER #199 @ $459D - STRING #199 @ $4D6D
 #W16($459D)
 //プチりュウ
 //Petit Dragon
-Petit Dragon
+PetitDragon
 // current address: $4D72
 
 //POINTER #200 @ $459F - STRING #200 @ $4D72
@@ -1542,7 +1542,7 @@ Petit Dragon
 //キラーパンダ
 //JP: Killer Panda
 //EN: Frenzied Panda
-Frenzied Panda
+FrenziedPanda
 // current address: $4D78
 
 //POINTER #201 @ $45A1 - STRING #201 @ $4D78
@@ -1558,7 +1558,7 @@ NefariousAirMarmot
 //ゴースト
 //JP: Ghost
 //EN: Phantom Ghost
-Phantom Ghost
+PhantomGhost
 // current address: $4D85
 
 //POINTER #203 @ $45A5 - STRING #203 @ $4D85
@@ -1581,7 +1581,7 @@ Dorover
 //グロス
 //JP: Gross
 //EN: Twin Long Rods #1
-Twin Long Rods
+TwinLongRods1
 // current address: $4D91
 
 //POINTER #206 @ $45AB - STRING #206 @ $4D91
@@ -1589,14 +1589,14 @@ Twin Long Rods
 //スピック
 //JP: Speak (Spike?)
 //EN: Droll Bird
-Droll Bird
+DrollBird
 // current address: $4D95
 
 //POINTER #207 @ $45AD - STRING #207 @ $4D95
 #W16($45AD)
 //プチテンシ
 //Petit Angel
-Petit Angel
+PetitAngel
 // current address: $4D9A
 
 //POINTER #208 @ $45AF - STRING #208 @ $4D9A
@@ -1604,7 +1604,7 @@ Petit Angel
 //ダークキラー
 //JP: Dark Killer
 //EN: Winged Cleaver
-Winged Cleaver
+WingedCleaver
 // current address: $4DA0
 
 //POINTER #209 @ $45B1 - STRING #209 @ $4DA0
@@ -1612,7 +1612,7 @@ Winged Cleaver
 //スティング
 //JP: Sting
 //EN: Hinotama Soul
-Hinotama Soul
+HinotamaSoul
 // current address: $4DA5
 
 //POINTER #210 @ $45B3 - STRING #210 @ $4DA5
@@ -1635,7 +1635,7 @@ Meotoko
 #W16($45B7)
 //アクア・マドール
 //Aqua Madoor
-Aqua Madoor
+AquaMadoor
 // current address: $4DB9
 
 //POINTER #213 @ $45B9 - STRING #213 @ $4DB9
@@ -1644,14 +1644,14 @@ Aqua Madoor
 //JP: Shien's Body Double
 //EN: Kagemusha of the Blue Flame
 //DM3: B. Flame Kagemusha
-B. Flame Kagemusha
+B.FlameKagemusha
 // current address: $4DC2
 
 //POINTER #214 @ $45BB - STRING #214 @ $4DC2
 #W16($45BB)
 //フレイム・ゴースト
 //Flame Ghost
-Flame Ghost
+FlameGhost
 // current address: $4DCB
 
 //POINTER #215 @ $45BD - STRING #215 @ $4DCB
@@ -1673,7 +1673,7 @@ Black Skull Dragon
 #W16($45C1)
 //ツーマウス・ダークルーラー
 //Two-Mouth Darkruler
-Two-MouthDarkruler
+2MouthDarkruler
 // current address: $4DEC
 
 //POINTER #218 @ $45C3 - STRING #218 @ $4DEC
@@ -1687,15 +1687,15 @@ Solitude
 #W16($45C5)
 //かめんまどうし
 //Masked Sorcerer
-Masked Sorcerer
+MaskedSorcerer
 // current address: $4DF9
 
 //POINTER #220 @ $45C7 - STRING #220 @ $4DF9
 #W16($45C7)
 //クモおとこ
 //JP: Spider Man
-//EN: Kuomotoko
-Kuomotoko
+//EN: Kumootoko
+Kumootoko
 // current address: $4DFE
 
 //POINTER #221 @ $45C9 - STRING #221 @ $4DFE
@@ -1703,7 +1703,7 @@ Kuomotoko
 //ミッドナイト・デビル
 //JP: Midnight Devil
 //EN: Midnight Fiend
-Midnight Fiend
+MidnightFiend
 // current address: $4E08
 
 //POINTER #222 @ $45CB - STRING #222 @ $4E08
@@ -1717,7 +1717,7 @@ RoaringOceanSnake
 #W16($45CD)
 //トラップ・マスター
 //Trap Master
-Trap Master
+TrapMaster
 // current address: $4E1C
 
 //POINTER #224 @ $45CF - STRING #224 @ $4E1C
@@ -1725,7 +1725,7 @@ Trap Master
 //のろわれしまけん
 //JP: Cursed Demon Sword
 //EN: Fiend Sword
-Fiend Sword
+FiendSword
 // current address: $4E24
 
 //POINTER #225 @ $45D1 - STRING #225 @ $4E24
@@ -1733,7 +1733,7 @@ Fiend Sword
 //デス・ストーカー
 //JP: Death Stalker
 //EN: Skull Stalker
-Skull Stalker
+SkullStalker
 // current address: $4E2C
 
 //POINTER #226 @ $45D3 - STRING #226 @ $4E2C
@@ -1748,21 +1748,21 @@ Hitodenchak
 #W16($45D5)
 //もりのしかばね
 //Wood Remains
-Wood Remains
+WoodRemains
 // current address: $4E3A
 
 //POINTER #228 @ $45D7 - STRING #228 @ $4E3A
 #W16($45D7)
 //いのちのすなどけい
 //Hourglass of Life
-Hourglass of Life
+HourglassOfLife
 // current address: $4E43
 
 //POINTER #229 @ $45D9 - STRING #229 @ $4E43
 #W16($45D9)
 //レア・フィッシュ
 //Rare Fish
-Rare Fish
+RareFish
 // current address: $4E4B
 
 //POINTER #230 @ $45DB - STRING #230 @ $4E4B
@@ -1770,7 +1770,7 @@ Rare Fish
 //ウッド・ジョーカー
 //JP: Wood Joker
 //EN: Wood Clown
-Wood Clown
+WoodClown
 // current address: $4E54
 
 //POINTER #231 @ $45DD - STRING #231 @ $4E54
@@ -1778,7 +1778,7 @@ Wood Clown
 //マジンガン
 //JP: Devil Gun
 //EN: Madjinn Gunn
-Madjinn Gunn
+MadjinnGunn
 // current address: $4E59
 
 //POINTER #232 @ $45DF - STRING #232 @ $4E59
@@ -1786,7 +1786,7 @@ Madjinn Gunn
 //あんこくまじん　ナイトメア
 //JP: Dark Demon Nightmare
 //EN: Dark Titan of Terror
-Dark Terror Titan
+DarkTerrorTitan
 // current address: $4E66
 
 //POINTER #233 @ $45E1 - STRING #233 @ $4E66
@@ -1801,7 +1801,7 @@ BeautyHeadhuntress
 #W16($45E3)
 //もりのじゅうにん　ウダン
 //Wodan the Resident of the Forest
-Wodan of Forest
+WodanOfForest
 // current address: $4E7A
 
 //POINTER #235 @ $45E5 - STRING #235 @ $4E7A
@@ -1809,7 +1809,7 @@ Wodan of Forest
 //めいかいのばんにん
 //JP: Guardian of the Underworld
 //EN: Guardian of the Labyrinth
-Labyrinth Guardian
+LabyrinthGuardian
 // current address: $4E83
 
 //POINTER #236 @ $45E7 - STRING #236 @ $4E83
@@ -1831,7 +1831,7 @@ Yashinoki
 #W16($45EB)
 //ヴィシュワ・ランディー
 //Vishwar Randi
-Vishwar Randi
+VishwarRandi
 // current address: $4E95
 
 //POINTER #239 @ $45ED - STRING #239 @ $4E95
@@ -1839,7 +1839,7 @@ Vishwar Randi
 //デス・フット
 //JP: Death Foot
 //EN: The Drdek
-The Drdek
+TheDrdek
 // current address: $4E9B
 
 //POINTER #240 @ $45EF - STRING #240 @ $4E9B
@@ -1847,7 +1847,7 @@ The Drdek
 //やみのあんさつしゃ
 //JP: Dark Assassin
 //EN: Dark Assailant
-Dark Assailant
+DarkAssailant
 // current address: $4EA4
 
 //POINTER #241 @ $45F1 - STRING #241 @ $4EA4
@@ -1855,14 +1855,14 @@ Dark Assailant
 //うんめいのろうそく
 //Candle of Fate
 //DM3: Candle of Destiny
-Candle of Destiny
+CandleOfDestiny
 // current address: $4EAD
 
 //POINTER #242 @ $45F3 - STRING #242 @ $4EAD
 #W16($45F3)
 //ウォーター・エレメント
 //Water Element
-Water Element
+WaterElement
 // current address: $4EB8
 
 //POINTER #243 @ $45F5 - STRING #243 @ $4EB8
@@ -1878,28 +1878,28 @@ Dissolverock
 //ダーク・ナポレオン
 //JP: Dark Napoleon
 //EN: Meda Bat
-Meda Bat
+MedaBat
 // current address: $4EC5
 
 //POINTER #245 @ $45F9 - STRING #245 @ $4EC5
 #W16($45F9)
 //たましいをかるもの
 //One Who Hunts Souls
-OneWho Hunts Souls
+OneWhoHuntsSouls
 // current address: $4ECE
 
 //POINTER #246 @ $45FB - STRING #246 @ $4ECE
 #W16($45FB)
 //ルート・ウォーター
 //Root Water
-Root Water
+RootWater
 // current address: $4ED7
 
 //POINTER #247 @ $45FD - STRING #247 @ $4ED7
 #W16($45FD)
 //マスター・アン・エキスパート
 //Master and Expert
-Master & Expert
+Master&Expert
 // current address: $4EE5
 
 //POINTER #248 @ $45FF - STRING #248 @ $4EE5
@@ -1907,7 +1907,7 @@ Master & Expert
 //みずのおどりこ
 //JP: Water Dancer
 //EN: Water Omotics
-Water Omotics
+WaterOmotics
 // current address: $4EEC
 
 //POINTER #249 @ $4601 - STRING #249 @ $4EEC
@@ -1922,7 +1922,7 @@ Hyo
 #W16($4603)
 //こうこつのマーメイド
 //Enchanting Mermaid
-Enchanting Mermaid
+EnchantingMermaid
 // current address: $4EF9
 
 //POINTER #251 @ $4605 - STRING #251 @ $4EF9
@@ -1946,14 +1946,14 @@ Angelwitch
 //みじゅくなあくま
 //JP: Immature Demon
 //EN: Embryonic Beast
-Embryonic Beast
+EmbryonicBeast
 // current address: $4F14
 
 //POINTER #254 @ $460B - STRING #254 @ $4F14
 #W16($460B)
 //プりヴェント・ラット
 //Prevent Rat
-Prevent Rat
+PreventRat
 // current address: $4F1E
 
 //POINTER #255 @ $460D - STRING #255 @ $4F1E
@@ -1962,14 +1962,14 @@ Prevent Rat
 //JP: Different Dimension Warrior
 //EN: Dimensional Warrior/D. D. Warrior
 //DM3: Dimensional Knight
-Dimensional Knight
+DimensionalKnight
 // current address: $4F26
 
 //POINTER #256 @ $460F - STRING #256 @ $4F26
 #W16($460F)
 //ストーン・アルマジラー
 //Stone Armadiller
-Stone Armadiller
+StoneArmadiller
 // current address: $4F31
 
 //POINTER #257 @ $4611 - STRING #257 @ $4F31
@@ -1977,14 +1977,14 @@ Stone Armadiller
 //ぬまちのまじゅうおう
 //JP: Demon Beast King of the Marshland
 //EN: Beastking of the Swamps
-Beastking: Swamps
+BeastkingOfSwamps
 // current address: $4F3B
 
 //POINTER #258 @ $4613 - STRING #258 @ $4F3B
 #W16($4613)
 //こだいまどうし
 //Ancient Sorcerer
-Ancient Sorcerer
+AncientSorcerer
 // current address: $4F42
 
 //POINTER #259 @ $4615 - STRING #259 @ $4F42
@@ -1992,7 +1992,7 @@ Ancient Sorcerer
 //つきのめがみ　エルザェム
 //JP: Lunar Goddess Elzaim
 //EN: Lunar Queen Elzaim
-Lunar Queen Elzaim
+LunarQueenElzaim
 // current address: $4F4E
 
 //POINTER #260 @ $4617 - STRING #260 @ $4F4E
@@ -2000,7 +2000,7 @@ Lunar Queen Elzaim
 //デーモンズ・ミラー
 //JP: Demon's Mirror
 //EN: Wicked Mirror/Archfiend Mirror
-Wicked Mirror
+WickedMirror
 // current address: $4F57
 
 //POINTER #261 @ $4619 - STRING #261 @ $4F57
@@ -2008,7 +2008,7 @@ Wicked Mirror
 //アイルのこびとけんし
 //JP: Dwarf Swordsman of Aile
 //EN: The Little Swordsman of Aile
-Swordsman of Aile
+SwordsmanOfAile
 // current address: $4F61
 
 //POINTER #262 @ $461B - STRING #262 @ $4F61
@@ -2016,14 +2016,14 @@ Swordsman of Aile
 //ウォー・アース
 //JP: War Earth
 //EN: Rock Ogre Grotto #2
-Rock Ogre Grotto 2
+RockOgreGrotto2
 // current address: $4F68
 
 //POINTER #263 @ $461D - STRING #263 @ $4F68
 #W16($461D)
 //ウィング・エッグ・エルフ
 //Wing Egg Elf
-Wing Egg Elf
+WingEggElf
 // current address: $4F74
 
 //POINTER #264 @ $461F - STRING #264 @ $4F74
@@ -2031,7 +2031,7 @@ Wing Egg Elf
 //いかりのかいおう
 //The Furious Sea King
 //DM3: Sea King of Fury
-Sea King of Fury
+SeaKingOfFury
 // current address: $4F7C
 
 //POINTER #265 @ $4621 - STRING #265 @ $4F7C
@@ -2047,7 +2047,7 @@ PrincessOfTsurugi
 //あくのむめいせんし
 //JP: Nameless Warrior of Evil
 //EN: Unknown Warrior of Fiend
-Unkn.Fiend Warrior
+Unkn.FiendWarrior
 // current address: $4F8D
 
 //POINTER #267 @ $4625 - STRING #267 @ $4F8D
@@ -2063,7 +2063,7 @@ SectarianOfSecrets
 //はかいしん　ヴァサーゴ
 //JP: Vassargo the Destruction God
 //EN: Versago the Destroyer
-Versago: Destroyer
+Versago:Destroyer
 // current address: $4FA1
 
 //POINTER #269 @ $4629 - STRING #269 @ $4FA1
@@ -2091,7 +2091,7 @@ Marvelus
 #W16($462F)
 //さとりのろうじゅ
 //Ancient Tree of Enlightenment
-Enlightenment Tree
+EnlightenmentTree
 // current address: $4FB8
 
 //POINTER #273 @ $4631 - STRING #273 @ $4FB8
@@ -2099,7 +2099,7 @@ Enlightenment Tree
 //りょくじゅのれいおう
 //JP: Spirit King of Greenery
 //EN: Green Phantom King
-Green Phantom King
+GreenPhantomKing
 // current address: $4FC2
 
 //POINTER #274 @ $4633 - STRING #274 @ $4FC2
@@ -2107,7 +2107,7 @@ Green Phantom King
 //りくせんがた　バグロス
 //JP: Ground Attacker Bugroth
 //EN: Terra Bugroth
-Terra Bugroth
+TerraBugroth
 // current address: $4FCD
 
 //POINTER #275 @ $4635 - STRING #275 @ $4FCD
@@ -2115,14 +2115,14 @@ Terra Bugroth
 //きたかぜとたいよう
 //JP: North Ray and Sun
 //EN: Ray and Temperature
-Ray & Temperature
+Ray&Temperature
 // current address: $4FD6
 
 //POINTER #276 @ $4637 - STRING #276 @ $4FD6
 #W16($4637)
 //ゴーゴン・エッグ
 //Gorgon Egg
-Gorgon Egg
+GorgonEgg
 // current address: $4FDE
 
 //POINTER #277 @ $4639 - STRING #277 @ $4FDE
@@ -2137,14 +2137,14 @@ Petit Moth
 //キング・スモーク
 //JP: King Smoke
 //EN: King Fog
-King Fog
+KingFog
 // current address: $4FEA
 
 //POINTER #279 @ $463D - STRING #279 @ $4FEA
 #W16($463D)
 //おうざのしゅごしゃ
 //Protector of the Throne
-Throne Protector
+ThroneProtector
 // current address: $4FF3
 
 //POINTER #280 @ $463F - STRING #280 @ $4FF3
@@ -2152,7 +2152,7 @@ Throne Protector
 //バーサーカー
 //JP: Berserker
 //EN: Mystic Clown
-Mystic Clown
+MysticClown
 // current address: $4FF9
 
 //POINTER #281 @ $4641 - STRING #281 @ $4FF9
@@ -2160,7 +2160,7 @@ Mystic Clown
 //スりーピィ
 //JP: Sleepy
 //EN: Mystical Sheep #2
-Mystical Sheep
+MysticalSheep2
 // current address: $4FFE
 
 //POINTER #282 @ $4643 - STRING #282 @ $4FFE
@@ -2175,7 +2175,7 @@ Holograh
 //おんみょうし　タオ
 //JP: Tao the Exorcist
 //EN: Tao the Chanter
-Tao the Chanter
+TaoTheChanter
 // current address: $500C
 
 //POINTER #284 @ $4647 - STRING #284 @ $500C
@@ -2183,7 +2183,7 @@ Tao the Chanter
 //デビル・スネーク
 //JP: Devil Snake
 //EN: Serpent Marauder
-Serpent Marauder
+SerpentMarauder
 // current address: $5014
 
 //POINTER #285 @ $4649 - STRING #285 @ $5014
@@ -2197,21 +2197,21 @@ Gatekeeper
 #W16($464B)
 //くろいかげのオーガ
 //Ogre of the Black Shadow
-Black Shadow Ogre
+BlackShadowOgre
 // current address: $5025
 
 //POINTER #287 @ $464D - STRING #287 @ $5025
 #W16($464D)
 //ダーク・アーティスト
 //Dark Artist
-Dark Artist
+DarkArtist
 // current address: $502F
 
 //POINTER #288 @ $464F - STRING #288 @ $502F
 #W16($464F)
 //チェンジ・スライム
 //Change Slime
-Change Slime
+ChangeSlime
 // current address: $5038
 
 //POINTER #289 @ $4651 - STRING #289 @ $5038
@@ -2234,14 +2234,14 @@ Fireyarou
 //サイコ・カッパー
 //JP: Psycho Kappa
 //EN: Psychic Kappa
-Psychic Kappa
+PsychicKappa
 // current address: $504D
 
 //POINTER #292 @ $4657 - STRING #292 @ $504D
 #W16($4657)
 //でんせつのけんごう　マサキ
 //Masaki the Legendary Swordsman
-Masaki:Leg.Swdsman
+LegendaryMasaki
 // current address: $505A
 
 //POINTER #293 @ $4659 - STRING #293 @ $505A
@@ -2249,21 +2249,21 @@ Masaki:Leg.Swdsman
 //まそうきし　ドラゴネス
 //JP: Demon-Equipped Knight Dragoness
 //EN: Dragoness the Wicked Knight
-Dragoness:Wick.Kn.
+WickedDragoness
 // current address: $5065
 
 //POINTER #294 @ $465B - STRING #294 @ $5065
 #W16($465B)
 //バイオ・プラント
 //Bio Plant
-Bio Plant
+BioPlant
 // current address: $506D
 
 //POINTER #295 @ $465D - STRING #295 @ $506D
 #W16($465D)
 //ワンアイド・シールドドラゴン
 //One-Eyed Shield Dragon
-1-EyedShieldDragon
+1EyedShieldDragon
 // current address: $507B
 
 //POINTER #296 @ $465F - STRING #296 @ $507B
@@ -2271,7 +2271,7 @@ Bio Plant
 //まかいのきかいへい
 //JP: Machine Soldier of the Demon World
 //EN: Cyber Soldier of Darkworld
-Dark Cyber Soldier
+DarkCyberSoldier
 // current address: $5084
 
 //POINTER #297 @ $4661 - STRING #297 @ $5084
@@ -2279,7 +2279,7 @@ Dark Cyber Soldier
 //まとうをもつじゃりゅう
 //JP: Evil Dragon with the Devil's Head
 //EN: Wicked Dragon with the Ersatz Head
-WickedD:ErsatzHead
+ErsatzDragon
 // current address: $508F
 
 //POINTER #298 @ $4663 - STRING #298 @ $508F
@@ -2287,7 +2287,7 @@ WickedD:ErsatzHead
 //オトメ
 //JP: Maiden
 //EN: Sonic Maid
-Sonic Maid
+SonicMaid
 // current address: $5092
 
 //POINTER #299 @ $4665 - STRING #299 @ $5092
@@ -2302,7 +2302,7 @@ Kurama
 #W16($4667)
 //でんせつのけん
 //Legendary Sword
-Legendary Sword
+LegendarySword
 // current address: $509D
 
 //POINTER #301 @ $4669 - STRING #301 @ $509D
@@ -2311,14 +2311,14 @@ Legendary Sword
 //JP: Destruction Divine Sword of Darkness
 //EN: Sword of Dark Destruction
 //DM3: Sword of Ruin
-Sword of Ruin
+SwordOfRuin
 // current address: $50A5
 
 //POINTER #302 @ $466B - STRING #302 @ $50A5
 #W16($466B)
 //やみ・エネルギー
 //Dark Energy
-Dark Energy
+DarkEnergy
 // current address: $50AD
 
 //POINTER #303 @ $466D - STRING #303 @ $50AD
@@ -2341,28 +2341,28 @@ Laser Cannon Armor
 //かきつきインセクトアーマー
 //JP: Firearms-Attached Insect Armour
 //EN: Insect Armour with Laser Cannon
-Ins.Amrw/Las.Cann.
+Insect w/Laser
 // current address: $50CD
 
 //POINTER #306 @ $4673 - STRING #306 @ $50CD
 #W16($4673)
 //エルフのひかり
 //Elf's Light
-Elf's Light
+Elf'sLight
 // current address: $50D4
 
 //POINTER #307 @ $4675 - STRING #307 @ $50D4
 #W16($4675)
 //もうじゅうのは
 //Beast Fangs
-Beast Fangs
+BeastFangs
 // current address: $50DB
 
 //POINTER #308 @ $4677 - STRING #308 @ $50DB
 #W16($4677)
 //はがねのこうら
 //Steel Shell
-Steel Shell
+SteelShell
 // current address: $50E2
 
 //POINTER #309 @ $4679 - STRING #309 @ $50E2
@@ -2370,7 +2370,7 @@ Steel Shell
 //まきん
 //JP: Devil Germs
 //EN: Vile Germs
-Vile Germs
+VileGerms
 // current address: $50E5
 
 //POINTER #310 @ $467B - STRING #310 @ $50E5
@@ -2391,7 +2391,7 @@ Silver Bow & Arrow
 #W16($467F)
 //ひかりのつの
 //Horn of Light
-Horn of Light
+HornOfLight
 // current address: $50FB
 
 //POINTER #313 @ $4681 - STRING #313 @ $50FB
@@ -2405,7 +2405,7 @@ Horn of Unicorn
 #W16($4683)
 //ドラゴンのひほう
 //Dragon Treasure
-Dragon Treasure
+DragonTreasure
 // current address: $510E
 
 //POINTER #315 @ $4685 - STRING #315 @ $510E
@@ -2420,7 +2420,7 @@ Electro-Whip
 //サイバー・ボンテージ
 //JP: Cyber Bondage
 //EN: Cyber Shield
-Cyber Shield
+CyberShield
 // current address: $511E
 
 //POINTER #317 @ $4689 - STRING #317 @ $511E
@@ -2435,7 +2435,7 @@ Elegant Egotist
 #W16($468B)
 //ましょうのつき
 //Mystical Moon
-Mystical Moon
+MysticalMoon
 // current address: $5137
 
 //POINTER #319 @ $468D - STRING #319 @ $5137
@@ -2451,7 +2451,7 @@ Stop Defence
 //あくまのくちづけ
 //JP: Demon's Kiss
 //EN: Malevolent Nuzzler
-Malevolent Nuzzler
+MalevolentNuzzler
 // current address: $5145
 
 //POINTER #321 @ $4691 - STRING #321 @ $5145
@@ -2459,14 +2459,14 @@ Malevolent Nuzzler
 //むらさきすいしょう
 //JP: Amethyst
 //EN: Violet Crystal
-Violet Crystal
+VioletCrystal
 // current address: $514E
 
 //POINTER #322 @ $4693 - STRING #322 @ $514E
 #W16($4693)
 //ひじゅつのしょ
 //Book of Secret Arts
-BookOf Secret Arts
+BookOfSecretArts
 // current address: $5155
 
 //POINTER #323 @ $4695 - STRING #323 @ $5155
@@ -2481,21 +2481,21 @@ Invigoration
 #W16($4697)
 //きかいかいぞうこうじょう
 //Machine Conversion Factory
-Mach.Convert.Fact.
+ConversionFactory
 // current address: $5165
 
 //POINTER #325 @ $4699 - STRING #325 @ $5165
 #W16($4699)
 //たいおんのじょうしょう
 //Raise Body Heat
-Raise Body Heat
+RaiseBodyHeat
 // current address: $5170
 
 //POINTER #326 @ $469B - STRING #326 @ $5170
 #W16($469B)
 //フォロー・ウィンド
 //Follow Wind
-Follow Wind
+FollowWind
 // current address: $5179
 
 //POINTER #327 @ $469D - STRING #327 @ $5179
@@ -2503,7 +2503,7 @@ Follow Wind
 //ポセイドンのちから
 //JP: Power of Poseidon
 //EN: Power of Kaishin
-Power of Kaishin
+PowerOfKaishin
 // current address: $5182
 
 //POINTER #328 @ $469F - STRING #328 @ $5182
@@ -2579,7 +2579,7 @@ Raigeki
 #W16($46B1)
 //モウヤンのカレー
 //Mooyan Curry
-Mooyan Curry
+MooyanCurry
 // current address: $51B7
 
 //POINTER #338 @ $46B3 - STRING #338 @ $51B7
@@ -2587,7 +2587,7 @@ Mooyan Curry
 //レッド・ポーション
 //JP: Red Potion
 //EN: Red Medicine
-Red Medicine
+RedMedicine
 // current address: $51C0
 
 //POINTER #339 @ $46B5 - STRING #339 @ $51C0
@@ -2602,7 +2602,7 @@ GoblinSecretRemedy
 //てんしのいきち
 //JP: Angel's Lifeblood
 //EN: Soul of the Pure
-Soul of the Pure
+SoulOfThePure
 // current address: $51CF
 
 //POINTER #341 @ $46B9 - STRING #341 @ $51CF
@@ -2633,7 +2633,7 @@ Hinotama
 //ひあぶりのけい
 //JP: Penalty of Burning at the Stake
 //EN: Final Flame
-Final Flame
+FinalFlame
 // current address: $51F1
 
 //POINTER #345 @ $46C1 - STRING #345 @ $51F1
@@ -2657,7 +2657,7 @@ Tremendous Fire
 //ひかりのごふうけん
 //JP: Protective Seal Swords of Light
 //EN: Swords of Revealing Light
-Swds.Reveal.Light
+Swords of Light
 // current address: $5209
 
 //POINTER #348 @ $46C7 - STRING #348 @ $5209
@@ -2702,21 +2702,21 @@ Takriminos
 #W16($46D1)
 //くいぐるみ
 //Stuffed Animal
-Stuffed Animal
+StuffedAnimal
 // current address: $5237
 
 //POINTER #354 @ $46D3 - STRING #354 @ $5237
 #W16($46D3)
 //メガソニック・アイ
 //Megasonic Eye
-Megasonic Eye
+MegasonicEye
 // current address: $5240
 
 //POINTER #355 @ $46D5 - STRING #355 @ $5240
 #W16($46D5)
 //スーパー・ウォー・ライオン
 //Super War-Lion
-Super War-Lion
+SuperWarLion
 // current address: $524D
 
 //POINTER #356 @ $46D7 - STRING #356 @ $524D
@@ -2739,7 +2739,7 @@ Seiyaryu
 //２にん３きゃくゾンビ
 //JP: Two-Man Three-Legged Zombie
 //EN: Three-Legged Zombies
-3-Legged Zombies
+3LeggedZombies
 // current address: $5269
 
 //POINTER #359 @ $46DD - STRING #359 @ $5269
@@ -2754,7 +2754,7 @@ Zera the Mant
 #W16($46DF)
 //トビペンギン
 //Flying Penguin
-Flying Penguin
+FlyingPenguin
 // current address: $5271
 
 //POINTER #361 @ $46E1 - STRING #361 @ $5271
@@ -2768,7 +2768,7 @@ Millennium Shield
 #W16($46E3)
 //ようせいのおくりもの
 //Fairy's Gift
-Fairy's Gift
+Fairy'sGift
 // current address: $5282
 
 //POINTER #363 @ $46E5 - STRING #363 @ $5282
@@ -2784,7 +2784,7 @@ BlackLusterSoldier
 //デビルズ・ミラ
 //JP: Devil's Mirror
 //EN: Fiend's Mirror
-Fiend's Mirror
+Fiend'sMirror
 // current address: $5292
 
 //POINTER #365 @ $46E9 - STRING #365 @ $5293
