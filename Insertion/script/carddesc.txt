@@ -19,7 +19,7 @@
 //Blue-Eyes White Dragon
 //こうげき　しゅびがさいこうの　なか　
 //なかてにはいらない　ちょうレアカード
-//TL: Deltaneos
+//TL: ???
 //An incredibly rare and difficult-to-obtain card with the highest ATK and DEF.
 // current address: $F035E
 
@@ -109,7 +109,7 @@
 //Sword Arm of Dragon
 //ぜんしんに　カタナのとげがついた　　
 //きょうりゅう　とっしんこうげきをする
-//TL: Deltaneos
+//TL: ???
 //With a body covered in sword-like thorns, nothing dares stand in the way of this charging monster.
 // current address: $F04C6
 
@@ -118,7 +118,7 @@
 //Swamp Battleguard
 //トゲつきこんぼうで　あらゆるものを　
 //はかいする　なぜ２ごうかはふめい　　
-//TL: Deltaneos
+//TL: ???
 //Crushes all comers with his spiked club. It is not known why he is called "Number 2".
 // current address: $F04EA
 
@@ -145,7 +145,7 @@
 //Flame Swordsman
 //ほのおのちからを　あわせもつ　せんし
 //ほのおを　はなつけんで　こうげきする
-//TL: Deltaneos
+//TL: ???
 //A fighter gifted with the power of fire. Attacks enemies with a sword that launches flames.
 // current address: $F0556
 
@@ -154,7 +154,7 @@
 //Time Wizard
 //じかんをじゆうにあやつる　まじゅつし
 //どうみてもよわいが　かなりやくにたつ
-//TL: Deltaneos
+//TL: ???
 //A sorcerer capable of bending time to his will. Though not powerful at first glance, appearances can be deceiving.
 // current address: $F057A
 
@@ -199,7 +199,7 @@
 //Exodia the Forbidden One
 //くさりでしばられた　うでとあしを　　
 //すべてあつめると　ふういんがとける　
-//TL: Deltaneos
+//TL: ???
 //If all five cards gather in the hand of the player, they win.
 // current address: $F062E
 
@@ -208,7 +208,7 @@
 //Summoned Skull
 //やみのちからで　こころをまどわす　　
 //あくまぞくでは　かなりのレアカード　
-//TL: Deltaneos
+//TL: ???
 //Among the Fiend class of monsters, this is a pretty rare card.
 // current address: $F0652
 
@@ -217,7 +217,7 @@
 //The Wicked Worm Beast
 //やみのちからで　ミミズがモンスターか
 //じめんから　とつぜんあらわれこうげき
-//TL: Deltaneos
+//TL: ???
 //A monster worm created by the darkness. It appears suddenly.
 // current address: $F0676
 
@@ -253,7 +253,7 @@
 //Beaver Warrior
 //からだはちいさいが　そうげんでの　　
 //しゅびりょくは　かなりつよい　　　　
-//TL: Deltaneos
+//TL: ???
 //What this creature lacks in size it makes up for in defense when battling in the meadow.
 // current address: $F0706
 
@@ -271,7 +271,7 @@
 //Mountain Warrior
 //あしばのわるいところでも　ガンガン　
 //うごきまわる　がんじょうなせんし　　
-//TL: Deltaneos
+//TL: ???
 //A solid warrior that can move swiftly over rough terrain.
 // current address: $F074E
 
@@ -280,7 +280,7 @@
 //Zombie Warrior
 //ガイコツせんし　よわそうにみえるが　
 //すばやく　するどいこうげきをくりだす
-//TL: Deltaneos
+//TL: ???
 //It appears weak, but it strikes with quick, sharp stabs.
 // current address: $F0772
 
@@ -298,7 +298,7 @@
 //Two-Headed King Rex
 //きょうりゅうぞく　さいきょうのレア　
 //カード　２つのあたまでどうじこうげき
-//TL: Deltaneos
+//TL: ???
 //An unusual and rarely seen two-headed dragon.
 // current address: $F07BA
 
@@ -307,7 +307,7 @@
 //Judge Man
 //かちまけのない　しょうぶが　きらいな
 //せんし　こんぼうのこうげきはつよいぞ
-//TL: Deltaneos
+//TL: ???
 //A warrior that detests battles without a clear outcome. A blow from its huge club is extremely powerful.
 // current address: $F07DE
 
@@ -316,6 +316,8 @@
 //Saggi the Dark Clown
 //どこからともなくあらわれる　どうけし
 //ふしぎなうごきで　こうげきをかわす　
+//TL: ???
+//A sinister clown that appears as if from nowhere silently. It deftly evades attacks using strange motions.
 // current address: $F0802
 
 //POINTER #34 @ $F00A4 - STRING #34 @ $F0802
@@ -332,6 +334,8 @@
 //The Snake Hair
 //どくへビの　あたまをもつ　モンスター
 //めをあわせると　いしにされてしまう　
+//TL: ???
+//A monster with the head of a poisonous snake. One look will turn an unwary opponent to stone.
 // current address: $F084A
 
 //POINTER #36 @ $F00A8 - STRING #36 @ $F084A
@@ -339,6 +343,8 @@
 //Gaia the Dragon Champion
 //ドラゴンのスピードに　きしのちからが
 //くわわり　はげしいこうげきをしかける
+//TL: ???
+//The knight's power and the Dragon's speed combine for best effect.
 // current address: $F086E
 
 //POINTER #37 @ $F00AA - STRING #37 @ $F086E
@@ -364,6 +370,8 @@
 //Dragon Piper
 //きみょうな　もようが　かかれたつぼ　
 //しゅびりょくは　かなりのものがある　
+//TL: ???
+//A jar carved with strange patterns. It has a particularly high defense factor.
 // current address: $F08DA
 
 //POINTER #40 @ $F00B0 - STRING #40 @ $F08DA
@@ -380,6 +388,8 @@
 //Illusionist Faceless Mage
 //げんえいをみせ　ひらりとこうげきを　
 //かわす　まぼろしのレアカード　　　　
+//TL: ???
+//Manipulates enemies attacks with the power of illusion. A very rare card.
 // current address: $F0922
 
 //POINTER #42 @ $F00B4 - STRING #42 @ $F0922
@@ -387,6 +397,8 @@
 //Karbonala Warrior
 //みためは　ふつうのせんしだが　　　　
 //つよい　こうげきりょくを　もっている
+//TL: ???
+//A very average looking fighter with an unusually high attack factor.
 // current address: $F0946
 
 //POINTER #43 @ $F00B6 - STRING #43 @ $F0946
@@ -421,6 +433,8 @@
 //Torike
 //しゅびは　みためほど　たかくないが　
 //つのによるこうげきは　きょうりょくだ
+//TL: ???
+//Not as tough as it looks in terms of defense. This monster's sharp horn gives it an edge when attacking.
 // current address: $F09D6
 
 //POINTER #47 @ $F00BE - STRING #47 @ $F09D6
@@ -428,6 +442,8 @@
 //Sangan
 //３つめの　こがたあくま　やみのなかで
 //ちからを　はっきすることができる　　
+//TL: ???
+//A small 3-eyed demon who can wield the power of darkness.
 // current address: $F09FA
 
 //POINTER #48 @ $F00C0 - STRING #48 @ $F09FA
@@ -435,6 +451,8 @@
 //Big Insect
 //みつりんにすむきょだいアり　こうげき
 //しゅびともに　いがいとつよい　　　　
+//TL: ???
+//A giant ant that dwells in the jungle. Powerful in terms of both attack and defense factor.
 // current address: $F0A1E
 
 //POINTER #49 @ $F00C2 - STRING #49 @ $F0A1E
@@ -496,6 +514,8 @@
 //Larvae Moth
 //ようちゅうのため　かなりよわいが　　
 //せいちょうすると　きょだいなガになる
+//TL: ???
+//Very weak as a larvae. However, it grows to become an enormous moth.
 // current address: $F0B1A
 
 //POINTER #56 @ $F00D0 - STRING #56 @ $F0B1A
@@ -503,6 +523,8 @@
 //Great Moth
 //きょだいなガ　りんぷんをまきちらして
 //こうげき　もりではかなりきょうりょく
+//TL: ???
+//A huge moth that attacks by scattering flurries of toxic dust. It is quite powerful when encountered in a forest.
 // current address: $F0B3E
 
 //POINTER #57 @ $F00D2 - STRING #57 @ $F0B3E
@@ -510,6 +532,8 @@
 //Kuriboh
 //ちいさなあくま　くらやみで　いっぱい
 //でてくると　とっても　じゃまだ　　　
+//TL: ???
+//By itself, this creature may not seem like much. But in the dark, it attacks in numbers as a formidable force.
 // current address: $F0B62
 
 //POINTER #58 @ $F00D4 - STRING #58 @ $F0B62
@@ -535,6 +559,8 @@
 //Wolf
 //いまでは　あまりみかけない　オオカミ
 //よくきくはなで　えものをさがす　　　
+//TL: ???
+//A rarely seen wolf with a powerful nose for catching the scent of an enemy.
 // current address: $F0BCE
 
 //POINTER #61 @ $F00DA - STRING #61 @ $F0BCE
@@ -551,6 +577,8 @@
 //Harpie Lady Sisters
 //チームワークのよい　さんしまい　　　
 //やすむまもなく　こうげきをしかける　
+//TL: ???
+//Three fierce sisters who relentlessly attack as a team.
 // current address: $F0C16
 
 //POINTER #63 @ $F00DE - STRING #63 @ $F0C16
@@ -585,6 +613,8 @@
 //Perfectly Ultimate Great Moth
 //こんちゅうぞくさいきょうのモンスター
 //グレートモスのさいしゅうけいたいだ！
+//TL: ???
+//The final incarnation of the ultimate insect, the Great Moth!
 // current address: $F0CA6
 
 //POINTER #67 @ $F00E6 - STRING #67 @ $F0CA6
@@ -601,6 +631,8 @@
 //Thousand Dragon
 //ドラゴンが　いくせんねんもの　　　　
 //ときをへて　せいちょうしたすがた　　
+//TL: ???
+//A dragon that has grown and developed over a thousand years.
 // current address: $F0CEE
 
 //POINTER #69 @ $F00EA - STRING #69 @ $F0CEE
@@ -608,6 +640,8 @@
 //Fiend Kraken
 //うみにひそむきょだいイカ　かいちゅう
 //からとつぜんあらわれ　こうげきをする
+//TL: ???
+//A massive squid that suddenly appears from the depths of the sea to attack unwary enemies.
 // current address: $F0D12
 
 //POINTER #70 @ $F00EC - STRING #70 @ $F0D12
@@ -624,6 +658,8 @@
 //Coccon of Evolution
 //ようちゅうをとりこみ　せいちゅうに　
 //しんかさせることができる　　　　　　
+//TL: ???
+//It can take in an insect larva and make it evolve into maturity.
 // current address: $F0D5A
 
 //POINTER #72 @ $F00F0 - STRING #72 @ $F0D5A
@@ -658,6 +694,8 @@
 //Krokodilus
 //ちえをもち　さらにきょうぼうかした　
 //ワニ　かたいうろこでこうげきをはじく
+//TL: ???
+//A vicious crocodile with intelligence. Hard scales from a natural armor for this creature.
 // current address: $F0DEA
 
 //POINTER #76 @ $F00F8 - STRING #76 @ $F0DEA
@@ -710,6 +748,8 @@
 //Red-Eyes Black Dragon
 //こうげきりょくは　じょうきゅうレベル
 //まぼろしの　ちょうレアカードだ！　　
+//TL: ???
+//A very rare card with high-level ATK factor.
 // current address: $F0EC2
 
 //POINTER #82 @ $F0104 - STRING #82 @ $F0EC2
@@ -717,6 +757,8 @@
 //Castle of Dark Illusions
 //つねに　やみをうみだし　すべての　　
 //ものを　おおいかくしてしまう　　　　
+//TL: ???
+//A creature that can generate darkness to envelop all that exists around it.
 // current address: $F0EE6
 
 //POINTER #83 @ $F0106 - STRING #83 @ $F0EE6
@@ -724,6 +766,8 @@
 //Reaper of the Cards
 //おおきなカマをふりかざし　すべてを　
 //きりさく　しゅびりょくはかなりたかい
+//TL: ???
+//This monster boasts a strong defense and massive scythe that cuts through almost anything.
 // current address: $F0F0A
 
 //POINTER #84 @ $F0108 - STRING #84 @ $F0F0A
@@ -740,6 +784,8 @@
 //Barox
 //くらやみのなかを　とびまわり　けむく
 //じゃらの　ながいうでで　なぐりかかる
+//TL: ???
+//A winged creature that flies about freely in full darkness. It punches foes with its long and hairy arms.
 // current address: $F0F52
 
 //POINTER #86 @ $F010C - STRING #86 @ $F0F52
@@ -766,6 +812,8 @@
 //Catapult Turtle
 //カタパルトから　いろいろなものを　　
 //とばし　こうらで　こうげきをはじく　
+//TL: ???
+//Well-protected by its shell, this monster flings projectiles from its catapult.
 // current address: $F0FBE
 
 //POINTER #89 @ $F0112 - STRING #89 @ $F0FBE
@@ -773,6 +821,8 @@
 //Gyakutenno Megami
 //せいなるちからで　よわきものをまもり
 //ぎゃくてんのちからを　あたえるめがみ
+//TL: ???
+//Uses her holy power to protect the weak. This goddess has the power of reversal.
 // current address: $F0FE2
 
 //POINTER #90 @ $F0114 - STRING #90 @ $F0FE2
@@ -789,6 +839,8 @@
 //Rabid Horseman
 //ウシとウマがいったいとなったばけもの
 //きょうりょくなこうげきをしかけてくる
+//TL: ???
+//A powerful and unstoppable combination of bull and horse.
 // current address: $F102A
 
 //POINTER #92 @ $F0118 - STRING #92 @ $F102A
@@ -796,6 +848,8 @@
 //Zanki
 //いっきうちをこのむ　いっしゅんの　　
 //すきをついて　いあいぬきでこうげき　
+//TL: ???
+//Prefers to face enemies one-on-one. His swiftly drawn blade delivers a quick and immediate finish.
 // current address: $F104E
 
 //POINTER #93 @ $F011A - STRING #93 @ $F104E
@@ -812,6 +866,8 @@
 //Crass Clown
 //やみのサーカスでおどるピエロ　その　
 //おどりをみていると　ちからがぬける　
+//TL: ???
+//A malevolent clown that dances in the circus of darkness. Those that see its dance lose energy and strength.
 // current address: $F1096
 
 //POINTER #95 @ $F011E - STRING #95 @ $F1096
@@ -819,6 +875,8 @@
 //Armoured Zombie
 //おんねんにより　よみがえったむしゃ　
 //やみくもにふりまわすカタナにちゅうい
+//TL: ???
+//A warrior raised from the beyond. Blindly swings a sharp blade with devastating force.
 // current address: $F10BA
 
 //POINTER #96 @ $F0120 - STRING #96 @ $F10BA
@@ -844,6 +902,8 @@
 //Pumpking the King of Ghosts
 //おばけカボチャのおうさま　しょくしゅ
 //をふっておそってくる　かなりてごわい
+//TL: ???
+//This pumpkin king strikes at its enemies with its long tentacles.
 // current address: $F1126
 
 //POINTER #99 @ $F0126 - STRING #99 @ $F1126
@@ -851,6 +911,8 @@
 //Battle Warrior
 //ぶきをいっさいつかわず　すでで　　　
 //たたかいぬく　かくとうせんし　　　　
+//TL: ???
+//A grappling warrior who does not use any weapons and fights with bare hands.
 // current address: $F114A
 
 //POINTER #100 @ $F0128 - STRING #100 @ $F114A
@@ -858,6 +920,8 @@
 //Wings of Wicked Flame
 //あかぐろくもえるつばさ　ぜんしんから
 //ほのおをふきだし　こうげきする　　　
+//TL: ???
+//The wings of this creature shimmer with red-black flames. It attacks by making fire erupt from all over its body.
 // current address: $F116E
 
 //POINTER #101 @ $F012A - STRING #101 @ $F116E
@@ -865,6 +929,8 @@
 //Mask of Darkness
 //やみのまじゅつしがつくりあげたかめん
 //めにみえない　やみのちからでこうげき
+//TL: ???
+//A shadow mask created by the hands of a dark mage.
 // current address: $F1192
 
 //POINTER #102 @ $F012C - STRING #102 @ $F1192
@@ -881,6 +947,8 @@
 //Curtain of the Dark Ones
 //まじゅつしが　つくりだしたカーテン　
 //まほうつかいのちからが　あがるという
+//TL: ???
+//A curtain woven by the hands of a sorcerer. It is said to enhance the power of magic users.
 // current address: $F11DA
 
 //POINTER #104 @ $F0130 - STRING #104 @ $F11DA
@@ -906,6 +974,8 @@
 //Kageningen
 //じったいと　かげにわかれて　おそって
 //くる　ゆだんすると　はさまれるぞ　　
+//TL: ???
+//Uses both physical and shadow forms to attack, making it a difficult creature to overcome.
 // current address: $F1246
 
 //POINTER #107 @ $F0136 - STRING #107 @ $F1246
@@ -913,6 +983,8 @@
 //Graveyard and the Hand of Invitation
 //ししゃに　さらなる　ちからをあたえ　
 //いけるものを　しへとさそう　はかば　
+//TL: ???
+//A final resting place that enhances the power of the doomed and drains that of the living.
 // current address: $F126A
 
 //POINTER #108 @ $F0138 - STRING #108 @ $F126A
@@ -920,6 +992,8 @@
 //Goddess with the Third Eye
 //ひたいにある　かみのめで　すべてを　
 //みとおすことができるめがみ　　　　　
+//TL: ???
+//A goddess that has a divine third eye on her forehead. The divine eye gives her all-seeing powers.
 // current address: $F128E
 
 //POINTER #109 @ $F013A - STRING #109 @ $F128E
@@ -927,6 +1001,8 @@
 //Hero of the East
 //はるかひがしのくにからきたといわれる
 //サムライ　てにするカタナはよくきれる
+//TL: ???
+//A samurai from the Far East armed with a razor-sharp sword.
 // current address: $F12B2
 
 //POINTER #110 @ $F013C - STRING #110 @ $F12B2
@@ -934,6 +1010,8 @@
 //Doma the Angel of Silence
 //しをつかさどるてんし　こいつに　　　
 //にらまれたら　しからのがれられない　
+//TL: ???
+//The angel of death. This being must never be angered. To earn its wrath is to know death.
 // current address: $F12D6
 
 //POINTER #111 @ $F013E - STRING #111 @ $F12D6
@@ -941,6 +1019,8 @@
 //That Which Feeds on Life
 //あらゆるいきものの　たましいをくい　
 //おのれのエネルギーとするあくま　　　
+//TL: ???
+//A demon that fuels its power by feeding on the souls of other creatures.
 // current address: $F12FA
 
 //POINTER #112 @ $F0140 - STRING #112 @ $F12FA
@@ -957,6 +1037,8 @@
 //White Magical Hat
 //しろいタキシード　しろいシルクハット
 //ぜんしんが　まっしろなシーフ　　　　
+//TL: ???
+//White silk hat and white tuxedo. Entire body is a pure-white thief.
 // current address: $F1342
 
 //POINTER #114 @ $F0144 - STRING #114 @ $F1342
@@ -964,6 +1046,8 @@
 //Kamionwizard
 //こんとんをあやつる　まほうつかい　　
 //おおきなカマの　こうげきはつよい　　
+//TL: ???
+//A magic-user that controls chaos and wields a mighty sickle.
 // current address: $F1366
 
 //POINTER #115 @ $F0146 - STRING #115 @ $F1366
@@ -971,6 +1055,8 @@
 //Nightmare Scorpion
 //あくむをみせ　うなされているあいだに
 //３ぼんもある　どくのしっぽをさす　　
+//TL: ???
+//A creature that generates nightmares to haunt an opponent, it attacks with three poisonous tails.
 // current address: $F138A
 
 //POINTER #116 @ $F0148 - STRING #116 @ $F138A
@@ -978,6 +1064,8 @@
 //Spirit of the Books
 //ほんのせいれい　とてもたかいちえを　
 //もち　たさいなこうげきをしかけてくる
+//TL: ???
+//A spirit of the book with infinite knowledge and an endless variety of attack strategies.
 // current address: $F13AE
 
 //POINTER #117 @ $F014A - STRING #117 @ $F13AE
@@ -985,6 +1073,8 @@
 //Supporter in the Shadows
 //ものかげから　こっそりときょうりょく
 //してくれる　かわいらしいこびと　　　
+//TL: ???
+//A cute elf that assists against enemies while remaining hidden from sight.
 // current address: $F13D2
 
 //POINTER #118 @ $F014C - STRING #118 @ $F13D2
@@ -1001,6 +1091,8 @@
 //Dream Clown
 //あまいおどりで　えいえんにさめない　
 //ゆめのなかへ　さそいこむ　　　　　　
+//TL: ???
+//Its sweet dancing lulls the viewer to an eternal sleep.
 // current address: $F141A
 
 //POINTER #120 @ $F0150 - STRING #120 @ $F141A
@@ -1008,6 +1100,8 @@
 //Sleeping Lion
 //ふだん　ねむっている　もうじゅう　　
 //めをさますと　てがつけられない　　　
+//TL: ???
+//Frequently found sleeping, it becomes uncontrollable when awakened.
 // current address: $F143E
 
 //POINTER #121 @ $F0152 - STRING #121 @ $F143E
@@ -1015,6 +1109,8 @@
 //Yamatano Dragon Scroll
 //えまきのドラゴンが　じったいかして　
 //こうげきする　しゅびはかなりひくい　
+//TL: ???
+//This dragon is conjured from a picture scroll to attack enemies. It has a pretty low defense factor.
 // current address: $F1462
 
 //POINTER #122 @ $F0154 - STRING #122 @ $F1462
@@ -1022,6 +1118,8 @@
 //Dark Plant
 //おせんされたつちと　やみのちからで　
 //そだてられたはな　とてもきょうぼう　
+//TL: ???
+//A malignant flower grown in polluted soil with dark powers. It is extremely wild and vicious.
 // current address: $F1486
 
 //POINTER #123 @ $F0156 - STRING #123 @ $F1486
@@ -1029,6 +1127,8 @@
 //Ancient Tool
 //こだいぶんめいの　いせきでみつかった
 //はかいだけを　もくてきとした　きかい
+//TL: ???
+//A machine that was found in the ruins of an ancient culture. It appears to have been made solely to destroy.
 // current address: $F14AA
 
 //POINTER #124 @ $F0158 - STRING #124 @ $F14AA
@@ -1045,6 +1145,8 @@
 //Orion the Battle King
 //たたかいのかみ　といわれているてんし
 //そのたたかいをみたものはだれもいない
+//TL: ???
+//An imposing angel that is claimed to be the god of battle. No one, however, has been witness to it in battle.
 // current address: $F14F2
 
 //POINTER #126 @ $F015C - STRING #126 @ $F14F2
@@ -1061,6 +1163,8 @@
 //LaMoon
 //つきにすむまほうつかい　つきのもつ　
 //まりょくで　あいてをみりょうする　　
+//TL: ???
+//A sorcerer who lives on the moon and attacks opponents with the power of lunar light.
 // current address: $F153A
 
 //POINTER #128 @ $F0160 - STRING #128 @ $F153A
@@ -1104,6 +1208,8 @@
 //Charubin the Fire Knight
 //ほのおのなかでも　びくともしない　　
 //かっちゅうに　みをつつんでいるきし　
+//TL: ???
+//A warrior protected by a shell that can even deflect the heat of burning flames.
 // current address: $F15EE
 
 //POINTER #133 @ $F016A - STRING #133 @ $F15EE
@@ -1111,6 +1217,8 @@
 //Mystical Capture Chain
 //せいなるちからで　うごきをふうじる　
 //ことができる　といわれているくさり　
+//TL: ???
+//A mystical chain that is believed capable of binding its enemies and preventing their attacks.
 // current address: $F1612
 
 //POINTER #134 @ $F016C - STRING #134 @ $F1612
@@ -1145,6 +1253,8 @@
 //Dragon Statue
 //ドラゴンのたましいをもつ　せきぞうの
 //せんし　じまんのけんでてきをきりさく
+//TL: ???
+//A stone statue of a warrior with the soul of a dragon. It cleaves foes with its prized sword.	
 // current address: $F16A2
 
 //POINTER #138 @ $F0174 - STRING #138 @ $F16A2
@@ -1152,6 +1262,8 @@
 //Blue-Eyed Silver Zombie
 //めからだす　かいこうせんで　あいてを
 //ゾンビにかえてしまうといわれている　
+//TL: ???
+//A creature rumored to turn enemies in to zombies with a strange ray that emanates from its eyes.
 // current address: $F16C6
 
 //POINTER #139 @ $F0176 - STRING #139 @ $F16C6
@@ -1159,6 +1271,8 @@
 //Toad Master
 //なんぜんねんもいきている　カエルの　
 //せんにん　おたまじゃくしでこうげき　
+//TL: ???
+//A frog that has lived thousands of years. It attacks with tadpoles.
 // current address: $F16EA
 
 //POINTER #140 @ $F0178 - STRING #140 @ $F16EA
@@ -1166,6 +1280,8 @@
 //Spiked Snail
 //やみのちからで　しんかしたカタツムり
 //てやあしがあり　はやくうごける　　　
+//TL: ???
+//A snail evolved with the powers of darkness. Having arms and legs, it can move very quickly.	
 // current address: $F170E
 
 //POINTER #141 @ $F017A - STRING #141 @ $F170E
@@ -1173,6 +1289,8 @@
 //Flame Manipulator
 //ほのおのうみや　ほのおのかべを　　　
 //じざいにつくりだし　こうげきする　　
+//TL: ???
+//Attacks enemies with fire-related spells, such as the "Sea of Flames" and "Wall of Fire".
 // current address: $F1732
 
 //POINTER #142 @ $F017C - STRING #142 @ $F1732
@@ -1180,6 +1298,8 @@
 //Necrolancer the Time Lord
 //すきなところへいけるという　じくう　
 //りングからでてくる　１つめのまじん　
+//TL: ???
+//The first in a line of lords that appear from a space-time ring that can appear anywhere.
 // current address: $F1756
 
 //POINTER #143 @ $F017E - STRING #143 @ $F1756
@@ -1187,6 +1307,8 @@
 //Djinn the Watcher of the Wind
 //かぜをあやつり　たつまきやとっぷうを
 //おこし　しゅういのものをふきとばす　
+//TL: ???
+//Controls the air currents to create violent winds and tornadoes to blow away anything nearby.
 // current address: $F177A
 
 //POINTER #144 @ $F0180 - STRING #144 @ $F177A
@@ -1194,6 +1316,8 @@
 //The Bewitching Phantom Thief
 //くろいマントをはおる　キザなかいとう
 //つえをふって　あいてをみりょうする　
+//TL: ???
+//A suave and debonair thief who swaddles himself in a black cape. He enchants enemies by exquisitely twirling his cape.
 // current address: $F179E
 
 //POINTER #145 @ $F0182 - STRING #145 @ $F179E
@@ -1237,6 +1361,8 @@
 //Akihiron
 //すいちゅうにひそんでいる　えたいの　
 //しれないかっこうをした　ばけもの　　
+//TL: ???
+//A mysterious creature that dwells below the sea.
 // current address: $F1852
 
 //POINTER #150 @ $F018C - STRING #150 @ $F1852
@@ -1253,6 +1379,8 @@
 //The Melting Red Shadow
 //からだをとかして　あしもとのかげに　
 //もぐり　てきのましたからこうげきする
+//TL: ???
+//A creature that melts into the earth then melds with an opponent's shadow, and attacks from below.
 // current address: $F189A
 
 //POINTER #152 @ $F0190 - STRING #152 @ $F189A
@@ -1260,6 +1388,8 @@
 //Dokuroizo the Grim Reaper
 //じごくのいちげきで　たましいを　　　
 //うばおうとする　しにがみ　　　　　　
+//TL: ???
+//A grim reaper that steals souls with hellish slashes.
 // current address: $F18BE
 
 //POINTER #153 @ $F0192 - STRING #153 @ $F18BE
@@ -1267,6 +1397,8 @@
 //Fire Reaper
 //ほのおのやをてにするしにがみ　その　
 //やにあたると　ひだるまになるぞ　　　
+//TL: ???
+//A grim reaper with flaming arrows that burn an enemies to a crisp.
 // current address: $F18E2
 
 //POINTER #154 @ $F0194 - STRING #154 @ $F18E2
@@ -1337,6 +1469,8 @@
 //Tainted Wisdom
 //しょくしゅをつきさし　のうさいぼうを
 //みずからのものとする　あくののうみそ
+//TL: ???
+//A parasite brain that preys on the knowledge and intelligence of its opponents.
 // current address: $F1A02
 
 //POINTER #162 @ $F01A4 - STRING #162 @ $F1A02
@@ -1362,6 +1496,8 @@
 //The Judgement Hand
 //かみがやどったてで　さいごのしんぱん
 //をくだし　はげしいこうげきをくわえる
+//TL: ???
+//The hand of final judgement is capable of intense attacks against the enemy.
 // current address: $F1A6E
 
 //POINTER #165 @ $F01AA - STRING #165 @ $F1A6E
@@ -1369,6 +1505,8 @@
 //Mysterious Puppeteer
 //あいてを　おもいどおりに　あやつる　
 //にんぎょうつかい　　　　　　　　　　
+//TL: ???
+//A puppet master that manipulates enemies during battle.
 // current address: $F1A92
 
 //POINTER #166 @ $F01AC - STRING #166 @ $F1A92
@@ -1376,6 +1514,8 @@
 //Ancient Jar
 //とてもこわれやすい　おおむかしのつぼ
 //なかに　なにかが　ひそんでいるらしい
+//TL: ???
+//A very fragile ancient jar. Something appears to lurk within.
 // current address: $F1AB6
 
 //POINTER #167 @ $F01AE - STRING #167 @ $F1AB6
@@ -1383,6 +1523,8 @@
 //Darkfire Dragon
 //まかいの　しゃくねつの　ほのおは　　
 //あらゆるものを　いっしゅんでけしさる
+//TL: ???
+//Intense flames of the dark world obliterates everything instantly.
 // current address: $F1ADA
 
 //POINTER #168 @ $F01B0 - STRING #168 @ $F1ADA
@@ -1435,6 +1577,8 @@
 //Hurricail
 //こうやで　あれくるうたつまき　　　　
 //かぜのやいばで　あいてをきりきざむ　
+//TL: ???
+//A possessed tornado that rages out of control in wastelands. It tears at its foes with razor-sharp winds.
 // current address: $F1BB2
 
 //POINTER #174 @ $F01BC - STRING #174 @ $F1BB2
@@ -1442,6 +1586,8 @@
 //Ancient Brain
 //てんかいから　ついほうされただてんし
 //やみでのたたかいに　すぐれている　　
+//TL: ???
+//A fallen angel that has been banished from the heavens. It is highly skilled at the use of dark powers for lighting.
 // current address: $F1BD6
 
 //POINTER #175 @ $F01BE - STRING #175 @ $F1BD6
@@ -1467,6 +1613,8 @@
 //Claw Reacher
 //うでをじゆうにのばし　するどいつめで
 //あいてをくしざしにすることができる　
+//TL: ???
+//Can freely extend its arms to skewer its foe with its sharp claws.
 // current address: $F1C42
 
 //POINTER #178 @ $F01C4 - STRING #178 @ $F1C42
@@ -1483,6 +1631,8 @@
 //Arlownay
 //はなのなかのじょせいが　どくかふん　
 //をまきちらす　ちかづいてはいけない　
+//TL: ???
+//A female being that lurks in a flower to cast toxic dust. She is very dangerous and must not be approached.
 // current address: $F1C8A
 
 //POINTER #180 @ $F01C8 - STRING #180 @ $F1C8A
@@ -1490,6 +1640,8 @@
 //Dark Shade
 //クりスタルから　きょうれつなひかり　
 //をはっして　こうげきする　　　　　　
+//TL: ???
+//It emits a powerful ray from a crystal to attack.
 // current address: $F1CAE
 
 //POINTER #181 @ $F01CA - STRING #181 @ $F1CAE
@@ -1506,6 +1658,8 @@
 //Lucky Trinket
 //ひょろひょろとしているが　　　　　　
 //せいなるちからに　まもられている　　
+//TL: ???
+//This creature may look slim and weak, but it is protected by a sacred force.
 // current address: $F1CF6
 
 //POINTER #183 @ $F01CE - STRING #183 @ $F1CF6
@@ -1558,6 +1712,8 @@
 //Fusionist
 //てんしのようなはねと　とてもながい　
 //しっぽをもっている　ばけねこ　　　　
+//TL: ???
+//A feline monster that has angelic wings and a long tail.
 // current address: $F1DCE
 
 //POINTER #189 @ $F01DA - STRING #189 @ $F1DCE
@@ -1565,6 +1721,8 @@
 //Akakieisu
 //しののろいをかけてくる　まほうつかい
 //じゅもんをきくと　きがとおくなる　　
+//TL: ???
+//A magician who places the curse of death. Anyone that listens to its spell chants grows faint.
 // current address: $F1DF2
 
 //POINTER #190 @ $F01DC - STRING #190 @ $F1DF2
@@ -1599,6 +1757,8 @@
 //Terra the Terrible
 //ぬまちにすむ　あくまのてさき　みため
 //ほど　つよくないが　ゆだんはきんもつ
+//TL: ???
+//A swamp-dwelling minion of the dark forces. While it is not as strong as it looks, don't treat it lightly.
 // current address: $F1E82
 
 //POINTER #194 @ $F01E4 - STRING #194 @ $F1E82
@@ -1624,6 +1784,8 @@
 //Mech Mole Zombie
 //うでをロケットのように　とばして　　
 //こうげきする　アンデットモンスター　
+//TL: ???
+//This undead monster attacks by launching missile-like arms.
 // current address: $F1EEE
 
 //POINTER #197 @ $F01EA - STRING #197 @ $F1EEE
@@ -1640,6 +1802,8 @@
 //Penguin Knight
 //おおきなけんをもったペンギン　はらで
 //すべりながら　てきにむかってとつげき
+//TL: ???
+//A penguin-like creature that slides on its belly to deliver a blow with its outstretched sword.
 // current address: $F1F36
 
 //POINTER #199 @ $F01EE - STRING #199 @ $F1F36
@@ -1665,6 +1829,8 @@
 //Air/Archfiend Marmot of Nefariousness
 //あくまのつのと　つばさをもつビーバー
 //どんぐりをなげつけて　こうげきする　
+//TL: ???
+//A ferocious marmot that has the horn and wings of a fiend. It attacks by hurling acorns.
 // current address: $F1FA2
 
 //POINTER #202 @ $F01F4 - STRING #202 @ $F1FA2
@@ -1672,6 +1838,8 @@
 //Phantom Ghost
 //このよの　じょうぶつできない　れいが
 //あつまってできた　おんりょう　　　　
+//TL: ???
+//A ghost made by gathering spirits unable to pass on to the next world.
 // current address: $F1FC6
 
 //POINTER #203 @ $F01F6 - STRING #203 @ $F1FC6
@@ -1679,6 +1847,8 @@
 //Mabarrel
 //たいほうのようなあくま　めにみえない
 //はやさで　めだまのたまをはっしゃする
+//TL: ???
+//This cannon-like demon fires eyeballs so fast they can't be seen.
 // current address: $F1FEA
 
 //POINTER #204 @ $F01F8 - STRING #204 @ $F1FEA
@@ -1686,6 +1856,8 @@
 //Dorover
 //ドロドロした　きもちわるいモンスター
 //もうどくガスをはき　こうげきをする　
+//TL: ???
+//A disgusting muddy monster. It attacks by spewing toxic gas.
 // current address: $F200E
 
 //POINTER #205 @ $F01FA - STRING #205 @ $F200E
@@ -1720,6 +1892,8 @@
 //Winged Cleaver
 //かまのように　はったつしたうでを　　
 //ふりまわし　こうげきをしてくる　　　
+//TL: ???
+//This creature attacks by swinging around its sickle-like arms.
 // current address: $F209E
 
 //POINTER #209 @ $F0202 - STRING #209 @ $F209E
@@ -1727,6 +1901,8 @@
 //Hinotama Soul
 //ものすごくあつい　ほのおのかたまり　
 //そのからだで　たいあたりしてくる　　
+//TL: ???
+//An intensely hot flame creature that rams anything that stands in its way.
 // current address: $F20C2
 
 //POINTER #210 @ $F0204 - STRING #210 @ $F20C2
@@ -1743,6 +1919,8 @@
 //Meotoko
 //ひとつめのきょだいなかいぶつ　めだま
 //からビームをはっしゃしてこうげきする
+//TL: ???
+//A huge monster that attacks by firing a beam from its single eye.
 // current address: $F210A
 
 //POINTER #212 @ $F0208 - STRING #212 @ $F210A
@@ -1768,6 +1946,8 @@
 //Flame Ghost
 //からだをやかれ　しんだもののぼうれい
 //まわりのほのおは　すべてをやきつくす
+//TL: ???
+//A ghost of someone who was burned to death. The flames enshrouding its body burn everything.
 // current address: $F2176
 
 //POINTER #215 @ $F020E - STRING #215 @ $F2176
@@ -1784,6 +1964,8 @@
 //Black Skull Dragon
 //レアなあくまとドラゴンのゆうごうで　
 //うまれる　ちょうレアなあくまりゅう　
+//TL: ???
+//A rare creature from the fusion of an uncommon beast and a vicious dragon.
 // current address: $F21BE
 
 //POINTER #217 @ $F0212 - STRING #217 @ $F21BE
@@ -1809,6 +1991,8 @@
 //Masked Sorcerer
 //かめんをかぶり　すがおをかくしている
 //まどうし　すがおをみたものはいない　
+//TL: ???
+//A mysterious wizard whose face remains forever hidden behind a strange mask.
 // current address: $F222A
 
 //POINTER #220 @ $F0218 - STRING #220 @ $F222A
@@ -1834,6 +2018,8 @@
 //Roaring Ocean Snake
 //あらしにあらわれる　おおうみへび　　
 //おおつなみをおこし　すべてをのみこむ
+//TL: ???
+//A gigantic sea serpent that emergens in storms. It creates towering tidal waves that swallow everything.
 // current address: $F2296
 
 //POINTER #223 @ $F021E - STRING #223 @ $F2296
@@ -1841,6 +2027,8 @@
 //Trap Master
 //トラップをしかけるのがとくいなせんし
 //そこなしのおとしあなが　とくいわざ　
+//TL: ???
+//A warrior that excels in laying traps such as bottomless pits.
 // current address: $F22BA
 
 //POINTER #224 @ $F0220 - STRING #224 @ $F22BA
@@ -1857,6 +2045,8 @@
 //Skull Stalker
 //すばやくうごき　あいてを　はさみで　
 //とらえ　どくばりをさす　サソりせんし
+//TL: ???
+//Swift and vicious, this monster grabs its victim with its pincers and attack the captive with its poison stinger.
 // current address: $F2302
 
 //POINTER #226 @ $F0224 - STRING #226 @ $F2302
@@ -1882,6 +2072,8 @@
 //Hourglass of Life
 //いのちをつかさどるてんし　いのちを　
 //みじかくするかわり　ちからをあたえる
+//TL: ???
+//An angel who controls life. This creature grants power instead of shortening life.
 // current address: $F236E
 
 //POINTER #229 @ $F022A - STRING #229 @ $F236E
@@ -1889,6 +2081,8 @@
 //Rare Fish
 //けもののあたまをもつ　めずらしい　　
 //さかな　せいかくはとてもきょうぼう　
+//TL: ???
+//An unusual and ferocious fish with the head of a beast.
 // current address: $F2392
 
 //POINTER #230 @ $F022C - STRING #230 @ $F2392
@@ -1896,6 +2090,8 @@
 //Wood Clown
 //いやなえみをうかべたあくま　てにする
 //カマで　きようにこうげきをかわす　　
+//TL: ???
+//An unpleasantly smiling demon that wields a scythe to avoid enemy blows.
 // current address: $F23B6
 
 //POINTER #231 @ $F022E - STRING #231 @ $F23B6
@@ -1903,6 +2099,8 @@
 //Madjinn Gunn
 //くちから　たまをはっしゃして　　　　
 //こうげきする　せいぶつへいき　　　　
+//TL: ???
+//A biological weapon that attacks by firing projectiles from its mouth.
 // current address: $F23DA
 
 //POINTER #232 @ $F0230 - STRING #232 @ $F23DA
@@ -1919,6 +2117,8 @@
 //Beautiful Headhuntress
 //そのびぼうとはうらはらに　カタナで　
 //かずおおくの　くびをはねてきたおんな
+//TL: ???
+//Despite her beauty, this woman's katana has claimed many heads.
 // current address: $F2422
 
 //POINTER #234 @ $F0234 - STRING #234 @ $F2422
@@ -1926,6 +2126,8 @@
 //Wodan the Resident of the Forest
 //むかしから　もりにすんでいるせんし　
 //もりのしょくぶつをあやつり　こうげき
+//TL: ???
+//A warrior that has long resided in the forest and manipulates plants of the forest to attack.
 // current address: $F2446
 
 //POINTER #235 @ $F0236 - STRING #235 @ $F2446
@@ -1933,6 +2135,8 @@
 //Guardian of the Labyrinth
 //めいかいへの　いりぐちをまもるせんし
 //きょかのないものは　ようしゃなくきる
+//TL: ???
+//A warrior that guards the entrance to the netherworld. It cuts down mercilessly anyone without the authority to pass.
 // current address: $F246A
 
 //POINTER #236 @ $F0238 - STRING #236 @ $F246A
@@ -1949,6 +2153,8 @@
 //Yashinoki
 //いしをもつヤシのき　みをおとして　　
 //こうげき　みのなかのミルクはおいしい
+//TL: ???
+//An animated palm tree. It attacks by dropping fruit that contain tasty milk.
 // current address: $F24B2
 
 //POINTER #238 @ $F023C - STRING #238 @ $F24B2
@@ -1956,6 +2162,8 @@
 //Vishwar Randi
 //やみにつかえるおんなせんし　あいてを
 //ちまつりにあげることがいきがい　　　
+//TL: ???
+//A female fighter who serves darkness. It is worth living to bring an opponent to a blood festival.
 // current address: $F24D6
 
 //POINTER #239 @ $F023E - STRING #239 @ $F24D6
@@ -1963,6 +2171,8 @@
 //The Drdek
 //めだまにあしのはえたばけもの　たかく
 //ジャンプして　かぎづめでこうげき　　
+//TL: ???
+//A monster who grew a leg in the eyeball. It can jump high and attacks with its claws.
 // current address: $F24FA
 
 //POINTER #240 @ $F0240 - STRING #240 @ $F24FA
@@ -1970,6 +2180,8 @@
 //Dark Assailant
 //サイコソードとよばれる　けんをもち　
 //まかいに　くんりんする　あんさつしゃ
+//TL: ???
+//Armed with a blade named Psycho Sword, this assassin reigns over the Dark World.
 // current address: $F251E
 
 //POINTER #241 @ $F0242 - STRING #241 @ $F251E
@@ -1995,6 +2207,8 @@
 //Dissolverock
 //マグマのなかから　うまれたモンスター
 //ものすごいねつでちかづくものはとける
+//TL: ???
+//A monster born from magma. Its intense beat melts anything that comes close.
 // current address: $F258A
 
 //POINTER #244 @ $F0248 - STRING #244 @ $F258A
@@ -2011,6 +2225,8 @@
 //One Who Hunts Souls
 //けんで　きりつけられたものは　　　　
 //たましいを　ぬかれてしまう　　　　　
+//TL: ???
+//Steals the souls of those slain by its sword.
 // current address: $F25D2
 
 //POINTER #246 @ $F024C - STRING #246 @ $F25D2
@@ -2027,6 +2243,8 @@
 //Master and Expert
 //けものつかいのたつじんと　しゅじんに
 //ちゅうじつなけもの　コンビはかんぺき
+//TL: ???
+//A beast master and its loyal servant. The combination they form is perfect.
 // current address: $F261A
 
 //POINTER #248 @ $F0250 - STRING #248 @ $F261A
@@ -2043,6 +2261,8 @@
 //Hyo
 //ぜんしんが　こおりでできているせんし
 //ふれるものをなんでもこおらせてしまう
+//TL: ???
+//A warrior whose whole body is made of ice. His touch will freeze anything.
 // current address: $F2662
 
 //POINTER #250 @ $F0254 - STRING #250 @ $F2662
@@ -2059,6 +2279,8 @@
 //Nekogal #1
 //ネコのようせい　あいらしいすがたとは
 //うらはらに　すばやくてきをひっかく　
+//TL: ???
+//A cat fairy. Despite her adorable appearance, she quickly claws on her enemies.
 // current address: $F26AA
 
 //POINTER #252 @ $F0258 - STRING #252 @ $F26AA
@@ -2066,6 +2288,8 @@
 //Fairywitch
 //てんしになるうんめいをせおっていたが
 //あこがれのまじょになったてんし　　　
+//TL: ???
+//Although destined to be an angel, this creature chose the way of the witch instead.
 // current address: $F26CE
 
 //POINTER #253 @ $F025A - STRING #253 @ $F26CE
@@ -2091,6 +2315,8 @@
 //Dimensional Warrior/D. D. Warrior
 //くうかんをきりさいてできた　いじげん
 //くうかんにあいてをとじこめる　　　　
+//TL: ???
+//A monster capable of creating dimensional rifts to trap its enemies.
 // current address: $F273A
 
 //POINTER #256 @ $F0260 - STRING #256 @ $F273A
@@ -2098,6 +2324,8 @@
 //Stone Armadiller
 //からだが　いしのようにかたい　けで　
 //おおわれており　まもりがかたい　　　
+//TL: ???
+//With a body armored by rock-hard fur, this monster features excellent defense capabilities.	
 // current address: $F275E
 
 //POINTER #257 @ $F0262 - STRING #257 @ $F275E
@@ -2105,6 +2333,8 @@
 //Beastking of the Swamps
 //あしもとをそこなしのぬまにかえて　　
 //あいてをジワジワとひきずりこむ　　　
+//TL: ???
+//This creature changes the ground at its feet into quicksand to ensnare its enemies.
 // current address: $F2782
 
 //POINTER #258 @ $F0264 - STRING #258 @ $F2782
@@ -2121,6 +2351,8 @@
 //Lunar Queen Elzaim
 //つきをしゅごするきれいなめがみ　つき
 //あかりのカーテンでこうげきをふせぐ　
+//TL: ???
+//A beautiful goddess guarded by the moon. Her lunar curtain can block attacks.
 // current address: $F27CA
 
 //POINTER #260 @ $F0268 - STRING #260 @ $F27CA
@@ -2137,6 +2369,8 @@
 //The Little Swordsman of Aile
 //たびびとアイルにつきしたがうこびと　
 //トカゲにまたがり　たたかうせんし　　
+//TL: ???
+//A dwarf who serves the traveler Aile. He rides a lizard warrior into battle.
 // current address: $F2812
 
 //POINTER #262 @ $F026C - STRING #262 @ $F2812
@@ -2162,6 +2396,8 @@
 //The Furious Sea King
 //いだいなうみのおう　おわることのない
 //おおつなみをよび　てきをのみこむ　　
+//TL: ???
+//Grand King of the Seven Seas. Able to summon massive tidal waves to drown the enemy.
 // current address: $F287E
 
 //POINTER #265 @ $F0272 - STRING #265 @ $F287E
@@ -2169,6 +2405,8 @@
 //Princess of Tsurugi
 //おおくのつるぎをつかいこなすじょおう
 //そのつるぎさばきは　かなりのうでまえ
+//TL: ???
+//A queen who is skilled at the use and handling of many swords. Her sword-fighting ability is considerable.
 // current address: $F28A2
 
 //POINTER #266 @ $F0274 - STRING #266 @ $F28A2
@@ -2176,6 +2414,8 @@
 //Unknown Warrior of Fiend
 //すばやいうごきで　しんくうをつくり　
 //だし　あいてをきりきざむせんし　　　
+//TL: ???
+//A warrior who creates a vacuum at high speed to tear at the foe.
 // current address: $F28C6
 
 //POINTER #267 @ $F0276 - STRING #267 @ $F28C6
@@ -2192,6 +2432,8 @@
 //Versago the Destroyer
 //やみのなかからうまれた　はかいのかみ
 //はかいのあらしをよびだして　こうげき
+//TL: ???
+//A dark god of destruction that was born in the realm of darkness. It attacks by summoning a destructive storm.
 // current address: $F290E
 
 //POINTER #269 @ $F027A - STRING #269 @ $F290E
@@ -2217,6 +2459,8 @@
 //Marvelus
 //こうざんにすむ　ひのとりのなかま　　
 //くちからほのおをはき　まわりをやく　
+//TL: ???
+//A type of a fiery bird that makes its home in high mountains. It sprays fire from its mouth to burn everything around it.
 // current address: $F297A
 
 //POINTER #272 @ $F0280 - STRING #272 @ $F297A
@@ -2224,6 +2468,8 @@
 //Ancient Tree of Enlightenment
 //ありとあらゆる　ちしきをくしして　　
 //さまざまな　こうげきをふせぐ　　　　
+//TL: ???
+//It uses its vast knowledge to avoid many kinds of attack.
 // current address: $F299E
 
 //POINTER #273 @ $F0282 - STRING #273 @ $F299E
@@ -2240,6 +2486,8 @@
 //Terra Bugroth
 //りくじょうせんとうロボット　いまは　
 //ダメだが　うみでもつかえたらしい　　
+//TL: ???
+//A surface battle robot. It appears to have been usable in the sea, but no longer.
 // current address: $F29E6
 
 //POINTER #275 @ $F0286 - STRING #275 @ $F29E6
@@ -2256,6 +2504,8 @@
 //Gorgon Egg
 //ゴーゴンがうんだたまご　おおきなめに
 //うつったものがうまれるといわれている
+//TL: ???
+//An egg laid by a Gorgon. It is sad that whatever is reflected in its eye is what will hatch.
 // current address: $F2A2E
 
 //POINTER #277 @ $F028A - STRING #277 @ $F2A2E
@@ -2263,6 +2513,8 @@
 //Petit Moth
 //せいちょうしたら　どんなムシになるか
 //わからない　ちいさな　ようちゅう　　
+//TL: ???
+//Nobody has any idea what creature may spawn from this mysterious larva.
 // current address: $F2A52
 
 //POINTER #278 @ $F028C - STRING #278 @ $F2A52
@@ -2315,6 +2567,8 @@
 //Tao the Chanter
 //いんとようのちからを　しんしょくさせ
 //ゆがんだちからを　うみだすまどうし　
+//TL: ???
+//A magician that merges yin and yang together to create a distorted force.
 // current address: $F2B2A
 
 //POINTER #284 @ $F0298 - STRING #284 @ $F2B2A
@@ -2340,6 +2594,8 @@
 //Ogre of the Black Shadow
 //くろいかげに　とりつかれたオーガ　　
 //すごいスピードで　とつげきしてくる　
+//TL: ???
+//An ogre that has been possessed by a black shadow. It attacks at an astounding speed.
 // current address: $F2B96
 
 //POINTER #287 @ $F029E - STRING #287 @ $F2B96
@@ -2347,6 +2603,8 @@
 //Dark Artist
 //あくのげいじゅつか　つぎつぎとつくり
 //だすオブジェで　てきをおしつぶす　　
+//TL: ???
+//An evil artist that crushes foes with artistic objects.
 // current address: $F2BBA
 
 //POINTER #288 @ $F02A0 - STRING #288 @ $F2BBA
@@ -2363,6 +2621,8 @@
 //Moon Envoy
 //つきのめがみに　つかえるせんし　　　
 //みかづきのような　ほこでこうげき　　
+//TL: ???
+//A servant of the moon goddess, this warrior wields a pike with a spectacular crescent-shaped blade.
 // current address: $F2C02
 
 //POINTER #290 @ $F02A4 - STRING #290 @ $F2C02
@@ -2379,6 +2639,8 @@
 //Psychic Kappa
 //いろいろな　ちょうのうりょくをつかい
 //こうげきのダメージを　ふせぐカッパ　
+//TL: ???
+//A kappa with a myriad of powers to shield it from enemy attacks.
 // current address: $F2C4A
 
 //POINTER #292 @ $F02A8 - STRING #292 @ $F2C4A
@@ -2386,6 +2648,8 @@
 //Masaki the Legendary Swordsman
 //ひゃくにんぎりを　なしとげたと　　　
 //いわれる　でんせつのけんごう　　　　
+//TL: ???
+//A legendary swordsman, said to have killed a hundred men.
 // current address: $F2C6E
 
 //POINTER #293 @ $F02AA - STRING #293 @ $F2C6E
@@ -2393,6 +2657,8 @@
 //Dragoness the Wicked Knight
 //ドラゴンのそうびで　ちからをえたきし
 //そらから　てきをなんどもきりつける　
+//TL: ???
+//A winged knight that gained power through dragon equipment. It hacks at foes from the sky, diving repeatedly.
 // current address: $F2C92
 
 //POINTER #294 @ $F02AC - STRING #294 @ $F2C92
@@ -2418,6 +2684,8 @@
 //Cyber Soldier of Darkworld
 //やみのちからでつくられた　きかいへい
 //くるったように　てきをはかいする　　
+//TL: ???
+//A mechanical warrior that was built with the powers of darkness. It destroys its foes with demented determination.
 // current address: $F2CFE
 
 //POINTER #297 @ $F02B2 - STRING #297 @ $F2CFE
@@ -2451,6 +2719,8 @@
 //Legendary Sword
 //せんしのもつ　かくれたちからを　ひき
 //だせるけん　やみのものにはつかえない
+//TL: ???
+//An enchanted sword that can draw out the powers of a warrior. It cannot be used by servants of the dark.
 // current address: $F2D8E
 
 //POINTER #301 @ $F02BA - STRING #301 @ $F2D8E
@@ -2458,6 +2728,8 @@
 //Sword of Dark Destruction
 //あくにこころをうったせんしが　やみの
 //ちからをえて　パワーアップできる　　
+//TL: ???
+//A warrior who has sold their soul to evil can be strengthened with the power of darkness.
 // current address: $F2DB2
 
 //POINTER #302 @ $F02BC - STRING #302 @ $F2DB2
@@ -2465,6 +2737,8 @@
 //Dark Energy
 //あくまなど　やみのモンスターは　　　
 //６０パーセントパワーアップするぞ！　
+//TL: ???
+//Fiends and other monsters of the dark power up by 60%!
 // current address: $F2DD6
 
 //POINTER #303 @ $F02BE - STRING #303 @ $F2DD6
@@ -2472,6 +2746,8 @@
 //Axe of Despair
 //デーモンや　じゅうせんしなどは　　　
 //つねにさいこうのちからをはっきできる
+//TL: ???
+//Fiends and Beast-Warriors can constantly use their maximum strength.
 // current address: $F2DFA
 
 //POINTER #304 @ $F02C0 - STRING #304 @ $F2DFA
@@ -2479,6 +2755,8 @@
 //Laser Cannon Armour
 //こんちゅうなどに　そうびさせると　　
 //きょうりょくなレーザーをうてる　　　
+//TL: ???
+//If equipped by an insect, etc. it can fire powerful beams.
 // current address: $F2E1E
 
 //POINTER #305 @ $F02C2 - STRING #305 @ $F2E1E
@@ -2486,6 +2764,8 @@
 //Insect Armour with Laser Cannon
 //しゃくねつの　ほのおを　ほうしゃする
 //こんちゅうなどが　そうびかのう　　　
+//TL: ???
+//Shoots intense flames. Can only be equipped with insects, etc.
 // current address: $F2E42
 
 //POINTER #306 @ $F02C4 - STRING #306 @ $F2E42
@@ -2493,6 +2773,8 @@
 //Elf's Light
 //エルフたちが　パワーアップできる　　
 //せいれいのはなつ　せいなるひかり　　
+//TL: ???
+//The holy light of the spirit powers up elves.
 // current address: $F2E66
 
 //POINTER #307 @ $F02C6 - STRING #307 @ $F2E66
@@ -2500,6 +2782,8 @@
 //Beast Fangs
 //けものなど　キバをもつものは　パワー
 //アップして　ちからをはっきできる　　
+//TL: ???
+//Increases the power of Beasts and other fanged monsters.
 // current address: $F2E8A
 
 //POINTER #308 @ $F02C8 - STRING #308 @ $F2E8A
@@ -2507,6 +2791,8 @@
 //Steel Shell
 //こうらパワーでパワーアップ　こうらを
 //もたないものには　こうかがないという
+//TL: ???
+//Boosts the power of shelled monsters. Said to have no effect on those without shells.
 // current address: $F2EAE
 
 //POINTER #309 @ $F02CA - STRING #309 @ $F2EAE
@@ -2514,6 +2800,8 @@
 //Vile Germs
 //あくまがつくる　さいきんで　もりの　
 //しょくぶつたちは　パワーアップだ！　
+//TL: ???
+//Vile microbes boosts the power of Plants in the woods!
 // current address: $F2ED2
 
 //POINTER #310 @ $F02CC - STRING #310 @ $F2ED2
@@ -2521,6 +2809,8 @@
 //Black Pendant
 //このペンダントをみにつけると　やみの
 //まほうつかいなどは　パワーアップする
+//TL: ???
+//Dark wizards are powered up when wearing this pendant.
 // current address: $F2EF6
 
 //POINTER #311 @ $F02CE - STRING #311 @ $F2EF6
@@ -2528,6 +2818,8 @@
 //Silver Bow and Arrow
 //てんしなどが　そうびすると　パワー　
 //アップできる　ぎんのゆみや　　　　　
+//TL: ???
+//A silver bow, when equipped can power up a fairy, etc.
 // current address: $F2F1A
 
 //POINTER #312 @ $F02D0 - STRING #312 @ $F2F1A
@@ -2535,6 +2827,8 @@
 //Horn of Light
 //つのをもつものが　パワーアップ　　　
 //やみのモンスターには　こうかがないぞ
+//TL: ???
+//Increases the power of horned creatures. Has no effect on Dark monsters.
 // current address: $F2F3E
 
 //POINTER #313 @ $F02D2 - STRING #313 @ $F2F3E
@@ -2542,6 +2836,8 @@
 //Horn of the Unicorn
 //あたまに　つのをもつ　　　　　　　　
 //やみのモンスターが　パワーアップだ！
+//TL: ???
+//Increases the power of Dark monsters with horns on their head!
 // current address: $F2F62
 
 //POINTER #314 @ $F02D4 - STRING #314 @ $F2F62
@@ -2549,6 +2845,8 @@
 //Dragon Treasure
 //どんなドラゴンでも　パワーアップ　　
 //できるという　でんせつのたからもの　
+//TL: ???
+//A legendary treasure that increases the power of dragons.
 // current address: $F2F86
 
 //POINTER #315 @ $F02D6 - STRING #315 @ $F2F86
@@ -2556,6 +2854,8 @@
 //Electro-Whip
 //あいてをしびれさせるむち　じょせい　
 //などが　そうびするとパワーアップだ！
+//TL: ???
+//A whip for paralyzing enemies. Increases power when equipped with female etc.
 // current address: $F2FAA
 
 //POINTER #316 @ $F02D8 - STRING #316 @ $F2FAA
@@ -2563,6 +2863,8 @@
 //Cyber Shield
 //じょせいモンスターが　みにつけると　
 //せいかくがかわってパワーアップするぞ
+//TL: ???
+//Increases the power of female monsters by changing their attitudes!
 // current address: $F2FCE
 
 //POINTER #317 @ $F02DA - STRING #317 @ $F2FCE
@@ -2570,6 +2872,8 @@
 //Elegant Egotist
 //ハーピィ・レディにつかうと　３たいに
 //ぶんしんして　こうげきをかけられるぞ
+//TL: ???
+//Creates the doppelgangers of Harpie Lady for three-pronged attacks.
 // current address: $F2FF2
 
 //POINTER #318 @ $F02DC - STRING #318 @ $F2FF2
@@ -2577,6 +2881,8 @@
 //Mystical Moon
 //つきのひかりがもつまりょくで　けもの
 //などは　パワーアップしてきょうぼうか
+//TL: ???
+//Magical powers of the moonlight increases the power of Beasts and makes them savage.
 // current address: $F3016
 
 //POINTER #319 @ $F02DE - STRING #319 @ $F3016
@@ -2584,6 +2890,8 @@
 //Stop Defence
 //あいてのカードを　つねにこうげき　　
 //ひょうじにして　しゅびにできなくする
+//TL: ???
+//Forces an opponent's Defense Position monster into Attack Position.
 // current address: $F303A
 
 //POINTER #320 @ $F02E0 - STRING #320 @ $F303A
@@ -2591,6 +2899,8 @@
 //Malevolent Nuzzler
 //じょせいや　やみのモンスターが　　　
 //あくまのちからでパワーアップする　　
+//TL: ???
+//Female and Dark monsters are powered up by demonic forces.
 // current address: $F305E
 
 //POINTER #321 @ $F02E2 - STRING #321 @ $F305E
@@ -2598,6 +2908,8 @@
 //Violet Crystal
 //すいしょうにひめられたまりょくにより
 //アンデットなどは　パワーアップする　
+//TL: ???
+//Mystic forces from the crystal increase the power of Zombies.
 // current address: $F3082
 
 //POINTER #322 @ $F02E4 - STRING #322 @ $F3082
@@ -2605,6 +2917,8 @@
 //Book of Secret Arts
 //まほうつかいのちからを　アップできる
 //ほん　こころのあしきものはよめない　
+//TL: ???
+//A magic book for increasing the power of magicians. It cannot be read by anyone with evil in their heart.
 // current address: $F30A6
 
 //POINTER #323 @ $F02E6 - STRING #323 @ $F30A6
@@ -2612,6 +2926,8 @@
 //Invigoration
 //いかずち　がんせき　ほのお　などの　
 //モンスターは　パワーアップするゾ！　
+//TL: ???
+//Increases the power of Thunder, Rock and Pyro monsters!
 // current address: $F30CA
 
 //POINTER #324 @ $F02E8 - STRING #324 @ $F30CA
@@ -2619,6 +2935,8 @@
 //Machine Conversion Factory
 //ありとあらゆるきかいを　チューン　　
 //アップしてくれる　かいぞうこうじょう
+//TL: ???
+//A manufacturing facility that tunes up all Machine monsters.
 // current address: $F30EE
 
 //POINTER #325 @ $F02EA - STRING #325 @ $F30EE
@@ -2626,6 +2944,8 @@
 //Raise Body Heat
 //たいようからエネルギーをきゅうしゅう
 //きょうりゅうなどは　パワーアップ！　
+//TL: ???
+//Absorbs the sun's energy to increase the power of Dinosaurs!
 // current address: $F3112
 
 //POINTER #326 @ $F02EC - STRING #326 @ $F3112
@@ -2633,6 +2953,8 @@
 //Follow Wind
 //ちょうじゅうなど　そらをとぶものは　
 //かぜのえんごをうけて　パワーアップ　
+//TL: ???
+//The winds provide support to increase the power of Winged Beasts and other flying monsters!
 // current address: $F3136
 
 //POINTER #327 @ $F02EE - STRING #327 @ $F3136
@@ -2640,6 +2962,8 @@
 //Power of Kaishin
 //みず　さかな　かいりゅうぞくなどは　
 //ポセイドンのちからで　パワーアップだ
+//TL: ???
+//Poseidon's strength is shared to boost the power of Aqua, Fish and Sea Serpent monsters
 // current address: $F315A
 
 //POINTER #328 @ $F02F0 - STRING #328 @ $F315A
@@ -2647,6 +2971,8 @@
 //Dragon Capture Jar
 //フィールドにいる　すべてのドラゴン　
 //ぞくのモンスターをふういんしてしまう
+//TL: ???
+//Seals all Dragon-Type monsters on the field.
 // current address: $F317E
 
 //POINTER #329 @ $F02F2 - STRING #329 @ $F317E
@@ -2654,6 +2980,8 @@
 //Forest
 //こんちゅう　けものがとくいとする　　
 //みどりいっぱいのフィールドにチェンジ
+//TL: ???
+//Changes the field to a verdant forest that benefits Insects and Beasts.
 // current address: $F31A2
 
 //POINTER #330 @ $F02F4 - STRING #330 @ $F31A2
@@ -2661,6 +2989,8 @@
 //Wasteland
 //きょうりゅう　アンデットがつよくなる
 //あれはてたフィールドにチェンジだ！　
+//TL: ???
+//Changes the field into a desolate wasteland that benefits Dinosaurs and Zombies!
 // current address: $F31C6
 
 //POINTER #331 @ $F02F6 - STRING #331 @ $F31C6
@@ -2668,6 +2998,8 @@
 //Mountain
 //ドラゴン　ちょうじゅうがとくいとする
 //だいさんみゃくにフィールドチェンジ！
+//TL: ???
+//Changes the field into a vast mountain range that benefits Dragons and Winged Beasts!
 // current address: $F31EA
 
 //POINTER #332 @ $F02F8 - STRING #332 @ $F31EA
@@ -2675,6 +3007,8 @@
 //Sogen
 //みわたすかぎりそうげんのフィールドに
 //チェンジ　せんしたちがパワーアップ！
+//TL: ???
+//Changes the field to a meadow, as far as the eye can see. Warriors power up!
 // current address: $F320E
 
 //POINTER #333 @ $F02FA - STRING #333 @ $F320E
@@ -2682,6 +3016,8 @@
 //Umi
 //フィールドをおおうなばらにチェンジ　
 //みずのモンスターがパワーアップだ！　
+//TL: ???
+//Changes the field to a sea. Water monsters power up!
 // current address: $F3232
 
 //POINTER #334 @ $F02FC - STRING #334 @ $F3232
@@ -2689,6 +3025,8 @@
 //Yami
 //あくま　まほうつかいがとくいとする　
 //くらやみのフィールドにチェンジ！　　
+//TL: ???
+//Transforms the field into darkness, benefiting Spellcasters!
 // current address: $F3256
 
 //POINTER #335 @ $F02FE - STRING #335 @ $F3256
@@ -2696,6 +3034,8 @@
 //Dark Hole
 //フィールドにそんざいする　すべての　
 //モンスターをようしゃなくすいこむ！　
+//TL: ???
+//Mercilessly inhales all monsters on the field!
 // current address: $F327A
 
 //POINTER #336 @ $F0300 - STRING #336 @ $F327A
@@ -2703,6 +3043,8 @@
 //Raigeki
 //あいてのモンスターすべてに　でんげき
 //をくらわせ　ぜんめつさせる！　　　　
+//TL: ???
+//Destroy every opposing monster with a stroke of lightning!
 // current address: $F329E
 
 //POINTER #337 @ $F0302 - STRING #337 @ $F329E
@@ -2710,6 +3052,8 @@
 //Mooyan Curry
 //ライフポイントが２００かいふく　　　
 //とってもおいしい　ビーフカレーだ　　
+//TL: ???
+//A delicious beef curry increases Life Points by 200.
 // current address: $F32C2
 
 //POINTER #338 @ $F0304 - STRING #338 @ $F32C2
@@ -2717,6 +3061,8 @@
 //Red Medicine
 //まほうつかいがちょうごうした　ライフ
 //ポイントを５００かいふくできるくすり
+//TL: ???
+//A magic potion that increases Life Points by 500.
 // current address: $F32E6
 
 //POINTER #339 @ $F0306 - STRING #339 @ $F32E6
@@ -2724,6 +3070,8 @@
 //Goblin's Secret Remedy
 //ライフポイントを１０００かいふく　　
 //するといわれる　ゴブりンのもつくすり
+//TL: ???
+//A goblin's herb that increases Life Points by 1000.
 // current address: $F330A
 
 //POINTER #340 @ $F0308 - STRING #340 @ $F330A
@@ -2731,6 +3079,8 @@
 //Soul of the Pure
 //てんしがみずからきずつけあつめた　ち
 //ライフポイントを２０００かいふくする
+//TL: ???
+//The blood of an angel that she collected by injuring herself. It restores 2000 Life Points.
 // current address: $F332E
 
 //POINTER #341 @ $F030A - STRING #341 @ $F332E
@@ -2738,6 +3088,8 @@
 //Dian Keto the Cure Master
 //どんなきずもいやしてくれる　かみさま
 //ライフポイントが５０００もかいふく！
+//TL: ???
+//A deity that heals any kind of injury. Restores 5000 Life Points!
 // current address: $F3352
 
 //POINTER #342 @ $F030C - STRING #342 @ $F3352
@@ -2745,6 +3097,8 @@
 //Sparks
 //ひのこをふらせて　あいてのライフ　　
 //ポイントに２００のダメージをあたえる
+//TL: ???
+//A shower of sparks inflicts 200 points of damage to your opponent's Life Points.
 // current address: $F3376
 
 //POINTER #343 @ $F030E - STRING #343 @ $F3376
@@ -2752,6 +3106,8 @@
 //Hinotama
 //ひのたまをなげつけ　あいてのライフ　
 //ポイントに５００のダメージをあたえる
+//TL: ???
+//A fireball inflicts 500 points of damage to your opponent's Life Points.
 // current address: $F339A
 
 //POINTER #344 @ $F0310 - STRING #344 @ $F339A
@@ -2759,6 +3115,8 @@
 //Final Flame
 //ひあぶりのけいにかけ　あいてのライフ
 //を１０００ポイントげんしょうさせる　
+//TL: ???
+//A burning at the stake reduces the opponent's Life Points by 1000.
 // current address: $F33BE
 
 //POINTER #345 @ $F0312 - STRING #345 @ $F33BE
@@ -2766,6 +3124,8 @@
 //Ookazi
 //１にちもえつづけるおおかじで　あいて
 //のライフポイントに２０００のダメージ
+//TL: ???
+//A huge blaze that burns all day inflicts 2000 damage to your opponent's Life Points.
 // current address: $F33E2
 
 //POINTER #346 @ $F0314 - STRING #346 @ $F33E2
@@ -2773,6 +3133,8 @@
 //Tremendous Fire
 //あいてのライフポイントを５０００も　
 //うばう　しゃくねつじごくをはっせい　
+//TL: ???
+//Generates a blazing hell that takes 5000 of your opponent's Life Points.
 // current address: $F3406
 
 //POINTER #347 @ $F0316 - STRING #347 @ $F3406
@@ -2780,6 +3142,8 @@
 //Swords of Revealing Light
 //てきのモンスターが　みえるようになり
 //さらに　てきは３ターンうごけない！　
+//TL: ???
+//Enemy monsters are revealed and your opponent cannot attack for three turns.
 // current address: $F342A
 
 //POINTER #348 @ $F0318 - STRING #348 @ $F342A
@@ -2787,6 +3151,8 @@
 //Spellbinding Circle
 //ろくぼうせいの　のろいで　あいての　
 //モンスターは　すべてパワーダウン　　
+//TL: ???
+//The curse of the hexagram reduces the power of all the opponent's monsters.
 // current address: $F344E
 
 //POINTER #349 @ $F031A - STRING #349 @ $F344E
@@ -2794,6 +3160,8 @@
 //Dark-Piercing Light
 //まばゆいひかりで　フィールドの　　　
 //モンスターが　すべてみえるようになる
+//TL: ???
+//A dazzling light reveals all monsters on the field.
 // current address: $F3472
 
 //POINTER #350 @ $F031C - STRING #350 @ $F3472
@@ -2801,6 +3169,8 @@
 //Yaranzo
 //たからばこの　ふたをあけようとする　
 //とうぞくを　はこからとびだしおそう　
+//TL: ???
+//A monster that attacks anybody who attempts to open its lid.
 // current address: $F3496
 
 //POINTER #351 @ $F031E - STRING #351 @ $F3496
@@ -2808,6 +3178,8 @@
 //Kanan the Swordmistress
 //チョウようにまい　ハチのようにさす　
 //けんとたてをてにした　おんなせんし　
+//TL: ???
+//A lady warrior armed with sword and shield, she floats like a butterfly and stings like a bee.
 // current address: $F34BA
 
 //POINTER #352 @ $F0320 - STRING #352 @ $F34BA
@@ -2815,6 +3187,8 @@
 //Takriminos
 //からだにヒレをもち　すいちゅうでも　
 //じゆうにうごける　かいりゅうのなかま
+//TL: ???
+//A relative of sea serpents that has fins on its body. It can move about freely in water.
 // current address: $F34DE
 
 //POINTER #353 @ $F0322 - STRING #353 @ $F34DE
@@ -2840,6 +3214,8 @@
 //Super War-Lion
 //とてもきょうぼうなライオン　するどく
 //のびたかぎづめで　あいてをひきさく　
+//TL: ???
+//A very vicious lion that tears opponents apart with sharp and long claws.
 // current address: $F354A
 
 //POINTER #356 @ $F0328 - STRING #356 @ $F354A
@@ -2856,6 +3232,8 @@
 //Seiyaryu
 //せいなるほのおで　あしきものをやきは
 //らう　しんせいなちからをもつドラゴン
+//TL: ???
+//A mystical dragon that burns away the wicked with its mystic flames.
 // current address: $F3592
 
 //POINTER #358 @ $F032C - STRING #358 @ $F3592
@@ -2863,6 +3241,8 @@
 //Three-Legged Zombies
 //ほそっちょと　でぶっちょの　なかよし
 //ガイコツ２ふたりぐみ　あるきにくそう
+//TL: ???
+//A pair of two friendly skeletons, lean and fat, that travel with extreme difficulty.
 // current address: $F35B6
 
 //POINTER #359 @ $F032E - STRING #359 @ $F35B6
@@ -2870,6 +3250,8 @@
 //Zera the Mant
 //おおきなからだと　かぎづめでこうげき
 //かなりつよい　きょうあくなモンスター
+//TL: ???
+//A huge, brutal monster that attacks with razor-sharp claws.
 // current address: $F35DA
 
 //POINTER #360 @ $F0330 - STRING #360 @ $F35DA
@@ -2886,6 +3268,8 @@
 //Millennium Shield
 //せんねんアイテムのひとつ　どんなに　
 //つよいこうげきでも　ふせげるという　
+//TL: ???
+//A Millennium Item. It can block any powerful attack.
 // current address: $F3622
 
 //POINTER #362 @ $F0334 - STRING #362 @ $F3622
@@ -2893,6 +3277,8 @@
 //Fairy's Gift
 //だれもが　しあわせになれるという　　
 //まほうをふりまきながら　とびまわる　
+//TL: ???
+//Flies around spreading magic that makes everyone happy.
 // current address: $F3646
 
 //POINTER #363 @ $F0336 - STRING #363 @ $F3646
@@ -2900,6 +3286,8 @@
 //Black Luster Soldier
 //ブルーアイズホワイトドラゴンとおなじ
 //のうりょくをもつ　さいきょうのせんし
+//TL: ???
+//A powerful warrior with the same capabilities as the legendary B.eye White Dragon.
 // current address: $F366A
 
 //POINTER #364 @ $F0338 - STRING #364 @ $F366A
@@ -2907,4 +3295,6 @@
 //Fiend's Mirror
 //あくのかがみ　うつるものをすべてを　
 //かがみのなかのせかいへすいこむ　　
+//TL: ???
+//An arcane glass that draws its enemies in to the mirror world.
 // current address: $F368D
