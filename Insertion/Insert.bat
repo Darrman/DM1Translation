@@ -4,6 +4,7 @@
 )
 
 perl ..\abcde.pl -cm abcde::Atlas "DM1.gb" "script/cardname.txt"
+perl ..\abcde.pl -cm abcde::Atlas "DM1.gb" "script/carddesc.txt"
 perl ..\abcde.pl -cm abcde::Atlas "DM1.gb" "script/dueltext.txt"
 perl ..\abcde.pl -cm abcde::Atlas "DM1.gb" "script/dialogue.txt"
 perl ..\abcde.pl -cm abcde::Atlas "DM1.gb" "script/bank1.txt"

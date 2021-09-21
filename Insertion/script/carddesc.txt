@@ -2,7 +2,7 @@
 
 // Define required TABLE variables and load the corresponding tables
 #VAR(Table_0, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_0)
+#ADDTBL("text.tbl", Table_0)
 
 //BLOCK #003 NAME:		Card Descriptions
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -14,6 +14,10 @@
 //Credit is assigned by whoever added the translation to the page.
 //I then cut them down to fit limitations myself.
 
+//Character limit: 18x2.
+//Lines are padded, don't try to save space
+//Pointers seem to be real but they just show the next 36 characters
+
 //POINTER #0 @ $F0060 - STRING #0 @ $F033A
 #W16($F0060)
 //Blue-Eyes White Dragon
@@ -21,6 +25,8 @@
 //なかてにはいらない　ちょうレアカード
 //TL: ???
 //An incredibly rare and difficult-to-obtain card with the highest ATK and DEF.
+A very rare card. 
+The best Atk/Def. 
 // current address: $F035E
 
 //POINTER #1 @ $F0062 - STRING #1 @ $F035E
@@ -30,6 +36,8 @@
 //みをまもり　とてもしゅびがたかい　　
 //TL: Konami
 //A delicate elf that lacks offense, but has a terrific defense backed by mystical power.
+Low attack yet has
+terrific defence. 
 // current address: $F0382
 
 //POINTER #2 @ $F0064 - STRING #2 @ $F0382
@@ -39,6 +47,8 @@
 //なぐりかかってくる　ようちゅうい　　
 //TL: Konami
 //A one-eyed behemoth with thick, powerful arms made for delivering punishing blows.
+One-eyed behemoth.
+Has strong arms.  
 // current address: $F03A6
 
 //POINTER #3 @ $F0066 - STRING #3 @ $F03A6
@@ -48,6 +58,8 @@
 //うちにひめるちからは　はかりしれない
 //TL: Konami
 //Much more than just a child, this dragon is gifted with untapped power.
+More than a child.
+Has untapped power
 // current address: $F03CA
 
 //POINTER #4 @ $F0068 - STRING #4 @ $F03CA
@@ -57,6 +69,8 @@
 //こうげきをする　にげあしもすばやい　
 //TL: Konami
 //A very elusive creature that looks like a harmless statue until it attacks.
+Is like a statue  
+until it attacks. 
 // current address: $F03EE
 
 //POINTER #5 @ $F006A - STRING #5 @ $F03EE
@@ -66,6 +80,8 @@
 //くらやみからおそってくる　きをつけろ
 //TL: Konami
 //A playful little fiend that lurks in the dark, waiting to attack an unwary enemy.
+Waits in darkness 
+to attack enemies.
 // current address: $F0412
 
 //POINTER #6 @ $F006C - STRING #6 @ $F0412
@@ -75,6 +91,8 @@
 //からきゅうこうかして　てきをこうげき
 //TL: Konami
 //A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue.
+Guards hill forts.
+Attacks by diving.
 // current address: $F0436
 
 //POINTER #7 @ $F006E - STRING #7 @ $F0436
@@ -84,6 +102,8 @@
 //かさから　きんしをふりまき　こうげき
 //TL: Konami
 //Found in humid regions, this creature attacks enemies with a lethal rain of poison spores.
+Found when humid. 
+Rains toxic spores
 // current address: $F045A
 
 //POINTER #8 @ $F0070 - STRING #8 @ $F045A
@@ -93,6 +113,8 @@
 //かずがあつまると　やっかいなカード　
 //TL: Konami
 //Powerful in groups, this animal spirit can be found in the wastelands.
+A spirit found in 
+the wastelands.   
 // current address: $F047E
 
 //POINTER #9 @ $F0072 - STRING #9 @ $F047E
@@ -102,6 +124,8 @@
 //ドラゴン　めはあまりよくない　　　　
 //TL: Konami
 //A dragon that dwells in the depths of darkness, its vulnerability lies in its poor eyesight.
+Dragon in darkness
+Has poor eyesight.
 // current address: $F04A2
 
 //POINTER #10 @ $F0074 - STRING #10 @ $F04A2
@@ -111,6 +135,8 @@
 //きょうりゅう　とっしんこうげきをする
 //TL: ???
 //With a body covered in sword-like thorns, nothing dares stand in the way of this charging monster.
+Covered in thorns.
+None block its way
 // current address: $F04C6
 
 //POINTER #11 @ $F0076 - STRING #11 @ $F04C6
@@ -120,6 +146,9 @@
 //はかいする　なぜ２ごうかはふめい　　
 //TL: ???
 //Crushes all comers with his spiked club. It is not known why he is called "Number 2".
+//Well that doesn't work with dub names... "We do not know of other Battleguards?"
+Crushes all comers
+with his club.    
 // current address: $F04EA
 
 //POINTER #12 @ $F0078 - STRING #12 @ $F04EA
@@ -129,6 +158,8 @@
 //こうげき　やまでのほうげきはつよい　
 //TL: Konami
 //Capable of firing cannonballs from its mouth for long-range attacks, this creature is particularly effective in mountain battles.
+Fires cannon from 
+mouth.Best in mtns
 // current address: $F050E
 
 //POINTER #13 @ $F007A - STRING #13 @ $F050E
@@ -138,6 +169,8 @@
 //つきだし　とっしんしてこうげき　　　
 //TL: Konami
 //A bull monster often found in the woods, it charges enemy monsters with a pair of deadly horns.
+A woodland bull.  
+Charges with horns
 // current address: $F0532
 
 //POINTER #14 @ $F007C - STRING #14 @ $F0532
@@ -147,6 +180,8 @@
 //ほのおを　はなつけんで　こうげきする
 //TL: ???
 //A fighter gifted with the power of fire. Attacks enemies with a sword that launches flames.
+Fights with fire's
+power and sword.  
 // current address: $F0556
 
 //POINTER #15 @ $F007E - STRING #15 @ $F0556
@@ -156,6 +191,8 @@
 //どうみてもよわいが　かなりやくにたつ
 //TL: ???
 //A sorcerer capable of bending time to his will. Though not powerful at first glance, appearances can be deceiving.
+Bends time at will
+Beware appearances
 // current address: $F057A
 
 //POINTER #16 @ $F0080 - STRING #16 @ $F057A
@@ -165,6 +202,8 @@
 //とくと　むげんのちからをえられる　　
 //TL: Konami
 //A forbidden right leg sealed by magic. Whosoever breaks this seal will know infinite power.
+Right leg sealed  
+away.Break it and…
 // current address: $F059E
 
 //POINTER #17 @ $F0082 - STRING #17 @ $F059E
@@ -174,6 +213,8 @@
 //とくと　むげんのちからをえられる　　
 //TL: Konami
 //A forbidden left leg sealed by magic. Whosoever breaks this seal will know infinite power.
+Left leg sealed   
+away.Break it and…
 // current address: $F05C2
 
 //POINTER #18 @ $F0084 - STRING #18 @ $F05C2
@@ -183,6 +224,8 @@
 //とくと　むげんのちからをえられる　　
 //TL: Konami
 //A forbidden right arm sealed by magic. Whosoever breaks this seal will know infinite power.
+Right arm sealed  
+away.Break it and…
 // current address: $F05E6
 
 //POINTER #19 @ $F0086 - STRING #19 @ $F05E6
@@ -192,6 +235,8 @@
 //とくと　むげんのちからをえられる　　
 //TL: Konami
 //A forbidden left arm sealed by magic. Whosoever breaks this seal will know infinite power.
+Left arm sealed   
+away.Break it and…
 // current address: $F060A
 
 //POINTER #20 @ $F0088 - STRING #20 @ $F060A
@@ -201,6 +246,8 @@
 //すべてあつめると　ふういんがとける　
 //TL: ???
 //If all five cards gather in the hand of the player, they win.
+If all of Exodia's
+in hand: Auto-win.
 // current address: $F062E
 
 //POINTER #21 @ $F008A - STRING #21 @ $F062E
@@ -210,6 +257,8 @@
 //あくまぞくでは　かなりのレアカード　
 //TL: ???
 //Among the Fiend class of monsters, this is a pretty rare card.
+One of the rarest 
+of the fiends.    
 // current address: $F0652
 
 //POINTER #22 @ $F008C - STRING #22 @ $F0652
@@ -219,6 +268,8 @@
 //じめんから　とつぜんあらわれこうげき
 //TL: ???
 //A monster worm created by the darkness. It appears suddenly.
+Worm from the dark
+Appears suddenly. 
 // current address: $F0676
 
 //POINTER #23 @ $F008E - STRING #23 @ $F0676
@@ -228,6 +279,8 @@
 //こうげきはよわいがあつまるとたいへん
 //TL: Konami
 //A skeletal ghost that isn't strong but can mean trouble in large numbers.
+A weak skeleton.  
+Trouble in numbers
 // current address: $F069A
 
 //POINTER #24 @ $F0090 - STRING #24 @ $F069A
@@ -237,6 +290,8 @@
 //いがいにつよい　つのにはちゅうい　　
 //TL: Konami
 //A small fiend that dwells in the dark, its single horn makes it a formidable opponent.
+Lives in the dark.
+Has a single horn.
 // current address: $F06BE
 
 //POINTER #25 @ $F0092 - STRING #25 @ $F06BE
@@ -246,6 +301,8 @@
 //オノひとふりで　なんでもなぎたおす　
 //TL: Konami
 //A monster with tremendous power, it destroys enemies with a swing of its axe.
+Kills enemies with
+a swing of its axe
 // current address: $F06E2
 
 //POINTER #26 @ $F0094 - STRING #26 @ $F06E2
@@ -255,6 +312,8 @@
 //しゅびりょくは　かなりつよい　　　　
 //TL: ???
 //What this creature lacks in size it makes up for in defense when battling in the meadow.
+Small,but has good
+defence in meadows
 // current address: $F0706
 
 //POINTER #27 @ $F0096 - STRING #27 @ $F0706
@@ -264,6 +323,8 @@
 //ふというでの　ひとふりにちゅうい　　
 //TL: Konami
 //Protected by a solid body of rock, this monster throws a bone-shattering punch.
+Protected by its  
+rock body.        
 // current address: $F072A
 
 //POINTER #28 @ $F0098 - STRING #28 @ $F072A
@@ -273,6 +334,8 @@
 //うごきまわる　がんじょうなせんし　　
 //TL: ???
 //A solid warrior that can move swiftly over rough terrain.
+Can move quickly  
+over rough terrain
 // current address: $F074E
 
 //POINTER #29 @ $F009A - STRING #29 @ $F074E
@@ -282,6 +345,8 @@
 //すばやく　するどいこうげきをくりだす
 //TL: ???
 //It appears weak, but it strikes with quick, sharp stabs.
+Seems weak,but can
+stab rapidly.     
 // current address: $F0772
 
 //POINTER #30 @ $F009C - STRING #30 @ $F0772
@@ -291,6 +356,8 @@
 //ほのおをはき　こころをじゃあくにする
 //TL: Konami
 //A vicious, fire-breathing dragon whose wicked flame corrupts the souls of its victims.
+Its flame corrupts
+its foes' souls.  
 // current address: $F0796
 
 //POINTER #31 @ $F009E - STRING #31 @ $F0796
@@ -300,6 +367,8 @@
 //カード　２つのあたまでどうじこうげき
 //TL: ???
 //An unusual and rarely seen two-headed dragon.
+A strange dragon  
+with two heads.   
 // current address: $F07BA
 
 //POINTER #32 @ $F00A0 - STRING #32 @ $F07BA
@@ -309,6 +378,8 @@
 //せんし　こんぼうのこうげきはつよいぞ
 //TL: ???
 //A warrior that detests battles without a clear outcome. A blow from its huge club is extremely powerful.
+It hates unclear  
+battles. Uses club
 // current address: $F07DE
 
 //POINTER #33 @ $F00A2 - STRING #33 @ $F07DE
@@ -318,6 +389,8 @@
 //ふしぎなうごきで　こうげきをかわす　
 //TL: ???
 //A sinister clown that appears as if from nowhere silently. It deftly evades attacks using strange motions.
+Clown from nowhere
+Strange evasion.  
 // current address: $F0802
 
 //POINTER #34 @ $F00A4 - STRING #34 @ $F0802
@@ -327,6 +400,8 @@
 //しゅびりょくともに　さいこうクラス　
 //TL: Konami
 //The ultimate wizard in terms of attack and defense.
+The strongest mage
+regarding Atk/Def.
 // current address: $F0826
 
 //POINTER #35 @ $F00A6 - STRING #35 @ $F0826
@@ -336,6 +411,8 @@
 //めをあわせると　いしにされてしまう　
 //TL: ???
 //A monster with the head of a poisonous snake. One look will turn an unwary opponent to stone.
+Has a snake's head
+Petrifies enemies.
 // current address: $F084A
 
 //POINTER #36 @ $F00A8 - STRING #36 @ $F084A
@@ -345,6 +422,8 @@
 //くわわり　はげしいこうげきをしかける
 //TL: ???
 //The knight's power and the Dragon's speed combine for best effect.
+Gaias power&Dragon
+speed combined.   
 // current address: $F086E
 
 //POINTER #37 @ $F00AA - STRING #37 @ $F086E
@@ -354,6 +433,8 @@
 //きし　とっしんこうげきに　ちゅうい　
 //TL: Konami
 //A knight whose horse travels faster than the wind. His battle-charge is a force to be reckoned with.
+Rides faster than 
+wind.Beware charge
 // current address: $F0892
 
 //POINTER #38 @ $F00AC - STRING #38 @ $F0892
@@ -363,6 +444,8 @@
 //つかったこうげきは　きょうりょくだ　
 //TL: Konami
 //A wicked dragon that taps into dark forces to execute a powerful attack.
+Uses dark forces  
+for strong attack.
 // current address: $F08B6
 
 //POINTER #39 @ $F00AE - STRING #39 @ $F08B6
@@ -372,6 +455,8 @@
 //しゅびりょくは　かなりのものがある　
 //TL: ???
 //A jar carved with strange patterns. It has a particularly high defense factor.
+A jar carved with 
+strange patterns. 
 // current address: $F08DA
 
 //POINTER #40 @ $F00B0 - STRING #40 @ $F08DA
@@ -381,6 +466,8 @@
 //すばやいうごきで　てきをほんろうする
 //TL: Konami
 //An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks.
+Sword-wielding elf
+Baffles his foes. 
 // current address: $F08FE
 
 //POINTER #41 @ $F00B2 - STRING #41 @ $F08FE
@@ -390,6 +477,8 @@
 //かわす　まぼろしのレアカード　　　　
 //TL: ???
 //Manipulates enemies attacks with the power of illusion. A very rare card.
+Manipulates foes  
+with illusions.   
 // current address: $F0922
 
 //POINTER #42 @ $F00B4 - STRING #42 @ $F0922
@@ -399,6 +488,8 @@
 //つよい　こうげきりょくを　もっている
 //TL: ???
 //A very average looking fighter with an unusually high attack factor.
+Looks average but 
+has high attack.  
 // current address: $F0946
 
 //POINTER #43 @ $F00B6 - STRING #43 @ $F0946
@@ -408,6 +499,8 @@
 //やみでのこうげきは　きょうりょくだ　
 //TL: Konami
 //A deadly doll gifted with mystical power, it is particularly powerful when attacking against dark forces.
+A powerful doll.  
+Best against dark.
 // current address: $F096A
 
 //POINTER #44 @ $F00B8 - STRING #44 @ $F096A
@@ -417,6 +510,8 @@
 //あまくみると　かんでんするぞ　　　　
 //TL: Konami
 //A creature that electrocutes opponents with bolts of lightning.
+Electrocutes foes 
+with lightning.   
 // current address: $F098E
 
 //POINTER #45 @ $F00BA - STRING #45 @ $F098E
@@ -426,6 +521,8 @@
 //はんぱなこうげきは　はじきかえす　　
 //TL: Konami
 //This monster's tough hide deflects almost any attack.
+Tough hide blocks 
+almost any attack.
 // current address: $F09B2
 
 //POINTER #46 @ $F00BC - STRING #46 @ $F09B2
@@ -435,6 +532,8 @@
 //つのによるこうげきは　きょうりょくだ
 //TL: ???
 //Not as tough as it looks in terms of defense. This monster's sharp horn gives it an edge when attacking.
+Weaker than it    
+looks defensively.
 // current address: $F09D6
 
 //POINTER #47 @ $F00BE - STRING #47 @ $F09D6
@@ -444,6 +543,8 @@
 //ちからを　はっきすることができる　　
 //TL: ???
 //A small 3-eyed demon who can wield the power of darkness.
+A three-eyed demon
+with dark powers. 
 // current address: $F09FA
 
 //POINTER #48 @ $F00C0 - STRING #48 @ $F09FA
@@ -453,6 +554,8 @@
 //しゅびともに　いがいとつよい　　　　
 //TL: ???
 //A giant ant that dwells in the jungle. Powerful in terms of both attack and defense factor.
+Giant ant from the
+jungle. Powerful. 
 // current address: $F0A1E
 
 //POINTER #49 @ $F00C2 - STRING #49 @ $F0A1E
@@ -462,6 +565,8 @@
 //もりのなかは　かれらの　らくえんだ　
 //TL: Konami
 //Usually found traveling in swarms, this creature's ideal environment is the forest.
+Found in swarms.  
+Lives in forests. 
 // current address: $F0A42
 
 //POINTER #50 @ $F00C4 - STRING #50 @ $F0A42
@@ -471,6 +576,8 @@
 //かみつかれたら　ひとたまりもないぞ　
 //TL: Konami
 //A lizard with a very tough hide and a vicious bite.
+Lizard with tough 
+hide and bite.    
 // current address: $F0A66
 
 //POINTER #51 @ $F00C6 - STRING #51 @ $F0A66
