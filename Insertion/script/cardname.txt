@@ -2083,8 +2083,8 @@ Megirus
 //POINTER #271 @ $462D - STRING #271 @ $4FAC
 #W16($462D)
 //マブラス
-//Marvelus
-Marvelus
+//Mavelus
+Mavelus
 // current address: $4FB0
 
 //POINTER #272 @ $462F - STRING #272 @ $4FB0

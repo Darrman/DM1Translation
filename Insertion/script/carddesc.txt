@@ -587,6 +587,8 @@ hide and bite.
 //かたいからだの　まもりはきょうりょく
 //TL: Konami
 //A massive beetle with a tough carapace and a dangerous horn.
+Massive beetle w/ 
+a dangerous horn. 
 // current address: $F0A8A
 
 //POINTER #52 @ $F00C8 - STRING #52 @ $F0A8A
@@ -596,6 +598,8 @@ hide and bite.
 //をする　むれでおそわれると　たいへん
 //TL: Konami
 //A huge bee with exceptional strength that's particularly dangerous in a swarm.
+A bee that is very
+dangerous in swarm
 // current address: $F0AAE
 
 //POINTER #53 @ $F00CA - STRING #53 @ $F0AAE
@@ -605,6 +609,8 @@ hide and bite.
 //こうげき　しゅびが　いがいとたかいぞ
 //TL: Konami
 //A large, spherical roach that attacks its enemies by rolling over them.
+A spherical roach.
+Rolls over enemies
 // current address: $F0AD2
 
 //POINTER #54 @ $F00CC - STRING #54 @ $F0AD2
@@ -614,6 +620,8 @@ hide and bite.
 //かなりつよい　ノミとあなどるときけん
 //TL: Konami
 //A massive flea that feeds on the blood of its enemies.
+Massive flea that 
+feeds on blood.   
 // current address: $F0AF6
 
 //POINTER #55 @ $F00CE - STRING #55 @ $F0AF6
@@ -623,6 +631,8 @@ hide and bite.
 //せいちょうすると　きょだいなガになる
 //TL: ???
 //Very weak as a larvae. However, it grows to become an enormous moth.
+Weak larva.Becomes
+an enormous moth. 
 // current address: $F0B1A
 
 //POINTER #56 @ $F00D0 - STRING #56 @ $F0B1A
@@ -632,6 +642,8 @@ hide and bite.
 //こうげき　もりではかなりきょうりょく
 //TL: ???
 //A huge moth that attacks by scattering flurries of toxic dust. It is quite powerful when encountered in a forest.
+Moth that attacks 
+by spreading dust 
 // current address: $F0B3E
 
 //POINTER #57 @ $F00D2 - STRING #57 @ $F0B3E
@@ -641,6 +653,8 @@ hide and bite.
 //でてくると　とっても　じゃまだ　　　
 //TL: ???
 //By itself, this creature may not seem like much. But in the dark, it attacks in numbers as a formidable force.
+Weak alone, but is
+strong in numbers.
 // current address: $F0B62
 
 //POINTER #58 @ $F00D4 - STRING #58 @ $F0B62
@@ -650,6 +664,8 @@ hide and bite.
 //はかあらしを　ようしゃなく　こうげき
 //TL: Konami
 //A mammoth that protects the graves of its pack and is absolutely merciless when facing grave-robbers.
+Defends graves. No
+mercy for thieves.
 // current address: $F0B86
 
 //POINTER #59 @ $F00D6 - STRING #59 @ $F0B86
@@ -659,6 +675,8 @@ hide and bite.
 //くちでかみつかれたら　のがれられない
 //TL: Konami
 //A giant white shark with razor-sharp teeth.
+A giant shark with
+razor-sharp teeth.
 // current address: $F0BAA
 
 //POINTER #60 @ $F00D8 - STRING #60 @ $F0BAA
@@ -668,6 +686,8 @@ hide and bite.
 //よくきくはなで　えものをさがす　　　
 //TL: ???
 //A rarely seen wolf with a powerful nose for catching the scent of an enemy.
+Wolf w/ good nose 
+for smelling foes.
 // current address: $F0BCE
 
 //POINTER #61 @ $F00DA - STRING #61 @ $F0BCE
@@ -677,6 +697,8 @@ hide and bite.
 //かれいにまい　するどくこうげきをする
 //TL: Konami
 //This human-shaped animal with wings is beautiful to watch but deadly in battle.
+Beautiful to watch
+Deadly in battle. 
 // current address: $F0BF2
 
 //POINTER #62 @ $F00DC - STRING #62 @ $F0BF2
@@ -686,6 +708,8 @@ hide and bite.
 //やすむまもなく　こうげきをしかける　
 //TL: ???
 //Three fierce sisters who relentlessly attack as a team.
+Sisters who attack
+fiercely as a team
 // current address: $F0C16
 
 //POINTER #63 @ $F00DE - STRING #63 @ $F0C16
@@ -695,6 +719,8 @@ hide and bite.
 //うごきから　くりだすこうげきはつよい
 //TL: Konami
 //A fast and powerful axe-wielding beast-warrior.
+Fast and strong   
+beast-warrior.    
 // current address: $F0C3A
 
 //POINTER #64 @ $F00E0 - STRING #64 @ $F0C3A
@@ -704,6 +730,8 @@ hide and bite.
 //うつくしいが　せいかくはきょうぼう　
 //TL: Konami
 //A snow wolf that's beautiful to the eye, but absolutely vicious in battle.
+Looks beautiful.  
+Vicious in battle.
 // current address: $F0C5E
 
 //POINTER #65 @ $F00E2 - STRING #65 @ $F0C5E
@@ -713,6 +741,8 @@ hide and bite.
 //いわをもくだく　つよいちからをもつ　
 //TL: Konami
 //A man-hunter with powerful arms that can crush boulders.
+Man-hunter w/ arms
+that crush rocks. 
 // current address: $F0C82
 
 //POINTER #66 @ $F00E4 - STRING #66 @ $F0C82
@@ -722,6 +752,8 @@ hide and bite.
 //グレートモスのさいしゅうけいたいだ！
 //TL: ???
 //The final incarnation of the ultimate insect, the Great Moth!
+Final form of the 
+mighty Great Moth.
 // current address: $F0CA6
 
 //POINTER #67 @ $F00E6 - STRING #67 @ $F0CA6
@@ -731,6 +763,8 @@ hide and bite.
 //オノのこうげきは　かなりきょうりょく
 //TL: Konami
 //An axe-swinging beast-warrior with the head of a dragon.
+Beast-warrior with
+a dragon's head.  
 // current address: $F0CCA
 
 //POINTER #68 @ $F00E8 - STRING #68 @ $F0CCA
@@ -740,6 +774,8 @@ hide and bite.
 //ときをへて　せいちょうしたすがた　　
 //TL: ???
 //A dragon that has grown and developed over a thousand years.
+A dragon that grew
+over 1000 years.  
 // current address: $F0CEE
 
 //POINTER #69 @ $F00EA - STRING #69 @ $F0CEE
@@ -749,6 +785,8 @@ hide and bite.
 //からとつぜんあらわれ　こうげきをする
 //TL: ???
 //A massive squid that suddenly appears from the depths of the sea to attack unwary enemies.
+Massive squid that
+attacks from water
 // current address: $F0D12
 
 //POINTER #70 @ $F00EC - STRING #70 @ $F0D12
@@ -758,6 +796,8 @@ hide and bite.
 //からだで　すがたをかくにんしにくい　
 //TL: Konami
 //An almost invisible, semi-transparent jellyfish that drifts in the sea.
+Near-invisible.   
+Floats in the sea.
 // current address: $F0D36
 
 //POINTER #71 @ $F00EE - STRING #71 @ $F0D36
@@ -767,6 +807,8 @@ hide and bite.
 //しんかさせることができる　　　　　　
 //TL: ???
 //It can take in an insect larva and make it evolve into maturity.
+Takes insect larva
+and evolves it.   
 // current address: $F0D5A
 
 //POINTER #72 @ $F00F0 - STRING #72 @ $F0D5A
@@ -776,6 +818,8 @@ hide and bite.
 //つなみをおこして　すべてをのみこむ　
 //TL: Konami
 //A sea dragon known as the King of the Ocean, it attacks its enemies with huge tidal waves.
+King of the Ocean.
+Attacks w/ waves. 
 // current address: $F0D7E
 
 //POINTER #73 @ $F00F2 - STRING #73 @ $F0D7E
@@ -785,6 +829,8 @@ hide and bite.
 //こうげきは　だいちをゆるがす　　　　
 //TL: Konami
 //A giant warrior made of stone. A punch from this creature has earth-shaking results.
+Made from stone.  
+Punch shakes earth
 // current address: $F0DA2
 
 //POINTER #74 @ $F00F4 - STRING #74 @ $F0DA2
@@ -794,6 +840,8 @@ hide and bite.
 //をパクりとたべる　にくしょくのはな　
 //TL: Konami
 //A meat-eating plant that is attractive to the eye but dangerous when approached.
+Attactive to see  
+Do not approach.  
 // current address: $F0DC6
 
 //POINTER #75 @ $F00F6 - STRING #75 @ $F0DC6
@@ -803,6 +851,8 @@ hide and bite.
 //ワニ　かたいうろこでこうげきをはじく
 //TL: ???
 //A vicious crocodile with intelligence. Hard scales from a natural armor for this creature.
+Vicious crocodile 
+with intelligence.
 // current address: $F0DEA
 
 //POINTER #76 @ $F00F8 - STRING #76 @ $F0DEA
@@ -812,6 +862,8 @@ hide and bite.
 //からだでしめつけるこうげきにちゅうい
 //TL: Konami
 //A devious snake with a thick body that wraps around an enemy monster and squeezes the life out of it.
+Wraps around foes 
+and sqeezes them. 
 // current address: $F0E0E
 
 //POINTER #77 @ $F00FA - STRING #77 @ $F0E0E
@@ -821,6 +873,8 @@ hide and bite.
 //ふりまわすこうげきは　かなりつよい　
 //TL: Konami
 //An axe-wielding monster of tremendous strength and agility.
+Strong and agile  
+axe-wielder.      
 // current address: $F0E32
 
 //POINTER #78 @ $F00FC - STRING #78 @ $F0E32
@@ -830,6 +884,8 @@ hide and bite.
 //とつげきこうげきは　きょうれつだ　　
 //TL: Konami
 //Nothing stands in the way of this spike-covered dinosaur!
+Nothing will block
+spiked dinosaur.
 // current address: $F0E56
 
 //POINTER #79 @ $F00FE - STRING #79 @ $F0E56
@@ -839,6 +895,8 @@ hide and bite.
 //するどいかぎづめで　こうげきする　　
 //TL: Konami
 //Fast on its feet, this dinosaur rips enemies to shreds with its sharp claws.
+Rips enemies to   
+shreds with claws.
 // current address: $F0E7A
 
 //POINTER #80 @ $F0100 - STRING #80 @ $F0E7A
@@ -848,6 +906,8 @@ hide and bite.
 //きょうりゅう　そのこうげきはつよい　
 //TL: Konami
 //A powerful dragon with teeth that can grind almost anything to dust.
+Teeth can grind   
+most items to dust
 // current address: $F0E9E
 
 //POINTER #81 @ $F0102 - STRING #81 @ $F0E9E
@@ -857,6 +917,8 @@ hide and bite.
 //まぼろしの　ちょうレアカードだ！　　
 //TL: ???
 //A very rare card with high-level ATK factor.
+Very rare and with
+high attack power.
 // current address: $F0EC2
 
 //POINTER #82 @ $F0104 - STRING #82 @ $F0EC2
@@ -866,6 +928,8 @@ hide and bite.
 //ものを　おおいかくしてしまう　　　　
 //TL: ???
 //A creature that can generate darkness to envelop all that exists around it.
+Generates darkness
+that surrounds it 
 // current address: $F0EE6
 
 //POINTER #83 @ $F0106 - STRING #83 @ $F0EE6
@@ -875,6 +939,8 @@ hide and bite.
 //きりさく　しゅびりょくはかなりたかい
 //TL: ???
 //This monster boasts a strong defense and massive scythe that cuts through almost anything.
+Its scythe can cut
+through many items
 // current address: $F0F0A
 
 //POINTER #84 @ $F0108 - STRING #84 @ $F0F0A
@@ -884,6 +950,8 @@ hide and bite.
 //まわりのものを　すべてはかいする　　
 //TL: Konami
 //Wields the power of darkness to destroy its enemies.
+Destroys enemies  
+with dark power.  
 // current address: $F0F2E
 
 //POINTER #85 @ $F010A - STRING #85 @ $F0F2E
@@ -893,6 +961,8 @@ hide and bite.
 //じゃらの　ながいうでで　なぐりかかる
 //TL: ???
 //A winged creature that flies about freely in full darkness. It punches foes with its long and hairy arms.
+Flies in darkness.
+Punches with arms.
 // current address: $F0F52
 
 //POINTER #86 @ $F010C - STRING #86 @ $F0F52
@@ -902,6 +972,9 @@ hide and bite.
 //やみのほのおをはき　こうげきする　　
 //TL: Konami
 //A fire-breathing monster that dwells in the netherworld.
+//Netherworld? Shadow Realm? Hell? Be consistent.
+Fire-breather from
+the netherworld.  
 // current address: $F0F76
 
 //POINTER #87 @ $F010E - STRING #87 @ $F0F76
@@ -911,6 +984,8 @@ hide and bite.
 //くらやみでのしゅびは　そうとうかたい
 //TL: Konami
 //A fiend guarding the treasures of the netherworld, it's most at home in the dark.
+Guards netherworld
+treasures.        
 //
 // current address: $F0F9A
 
@@ -921,6 +996,8 @@ hide and bite.
 //とばし　こうらで　こうげきをはじく　
 //TL: ???
 //Well-protected by its shell, this monster flings projectiles from its catapult.
+Flings projectiles
+from its catapult.
 // current address: $F0FBE
 
 //POINTER #89 @ $F0112 - STRING #89 @ $F0FBE
@@ -930,6 +1007,8 @@ hide and bite.
 //ぎゃくてんのちからを　あたえるめがみ
 //TL: ???
 //Uses her holy power to protect the weak. This goddess has the power of reversal.
+Holy power defends
+weak and reverses.
 // current address: $F0FE2
 
 //POINTER #90 @ $F0114 - STRING #90 @ $F0FE2
@@ -939,6 +1018,8 @@ hide and bite.
 //はしるのがはやく　だれもおいつけない
 //TL: Konami
 //Half man and half horse, this monster is known for its extreme speed.
+Half man & horse. 
+Extremely fast.   
 // current address: $F1006
 
 //POINTER #91 @ $F0116 - STRING #91 @ $F1006
@@ -948,6 +1029,8 @@ hide and bite.
 //きょうりょくなこうげきをしかけてくる
 //TL: ???
 //A powerful and unstoppable combination of bull and horse.
+Unstoppable combo 
+of bull and horse.
 // current address: $F102A
 
 //POINTER #92 @ $F0118 - STRING #92 @ $F102A
@@ -957,6 +1040,8 @@ hide and bite.
 //すきをついて　いあいぬきでこうげき　
 //TL: ???
 //Prefers to face enemies one-on-one. His swiftly drawn blade delivers a quick and immediate finish.
+Faces foes 1-on-1.
+Kills them quickly
 // current address: $F104E
 
 //POINTER #93 @ $F011A - STRING #93 @ $F104E
@@ -966,6 +1051,8 @@ hide and bite.
 //ドラゴン　しかしまだこうげきはつよい
 //TL: Konami
 //This weakened dragon can no longer fly, but is still a deadly force to be reckoned with.
+Can't fly but is  
+still deadly.     
 // current address: $F1072
 
 //POINTER #94 @ $F011C - STRING #94 @ $F1072
@@ -975,6 +1062,8 @@ hide and bite.
 //おどりをみていると　ちからがぬける　
 //TL: ???
 //A malevolent clown that dances in the circus of darkness. Those that see its dance lose energy and strength.
+Dances in circus. 
+Saps witness power
 // current address: $F1096
 
 //POINTER #95 @ $F011E - STRING #95 @ $F1096
@@ -984,6 +1073,8 @@ hide and bite.
 //やみくもにふりまわすカタナにちゅうい
 //TL: ???
 //A warrior raised from the beyond. Blindly swings a sharp blade with devastating force.
+Raised from beyond
+Blindly attacks.  
 // current address: $F10BA
 
 //POINTER #96 @ $F0120 - STRING #96 @ $F10BA
@@ -993,6 +1084,8 @@ hide and bite.
 //はくいきはふれるものをふしょくさせる
 //TL: Konami
 //A dragon revived by sorcery. Its breath is highly corrosive.
+Revived by magic. 
+Corrosive breath. 
 // current address: $F10DE
 
 //POINTER #97 @ $F0122 - STRING #97 @ $F10DE
@@ -1002,6 +1095,8 @@ hide and bite.
 //フラフラとしたおどりでしへといざなう
 //TL: Konami
 //A clown revived by the powers of darkness. Its deadly dance has sent many monsters to their graves.
+Revived by dark.  
+Dance killed many.
 // current address: $F1102
 
 //POINTER #98 @ $F0124 - STRING #98 @ $F1102
@@ -1011,6 +1106,8 @@ hide and bite.
 //をふっておそってくる　かなりてごわい
 //TL: ???
 //This pumpkin king strikes at its enemies with its long tentacles.
+Pumpkin king, uses
+tentacles to fight
 // current address: $F1126
 
 //POINTER #99 @ $F0126 - STRING #99 @ $F1126
@@ -1020,6 +1117,8 @@ hide and bite.
 //たたかいぬく　かくとうせんし　　　　
 //TL: ???
 //A grappling warrior who does not use any weapons and fights with bare hands.
+Grappler who will 
+fight bare-handed.
 // current address: $F114A
 
 //POINTER #100 @ $F0128 - STRING #100 @ $F114A
@@ -1029,6 +1128,8 @@ hide and bite.
 //ほのおをふきだし　こうげきする　　　
 //TL: ???
 //The wings of this creature shimmer with red-black flames. It attacks by making fire erupt from all over its body.
+Red-black wings.  
+Attacks w/fire.   
 // current address: $F116E
 
 //POINTER #101 @ $F012A - STRING #101 @ $F116E
@@ -1038,6 +1139,8 @@ hide and bite.
 //めにみえない　やみのちからでこうげき
 //TL: ???
 //A shadow mask created by the hands of a dark mage.
+Mask created with 
+dark mage's hands.
 // current address: $F1192
 
 //POINTER #102 @ $F012C - STRING #102 @ $F1192
@@ -1047,6 +1150,8 @@ hide and bite.
 //われずに　ダメージをふせいでくれる　
 //TL: Konami
 //A wicked mirror that blocks off the damaging effects of an attack.
+Mirror that blocks
+damage from attack
 // current address: $F11B6
 
 //POINTER #103 @ $F012E - STRING #103 @ $F11B6
@@ -1056,6 +1161,8 @@ hide and bite.
 //まほうつかいのちからが　あがるという
 //TL: ???
 //A curtain woven by the hands of a sorcerer. It is said to enhance the power of magic users.
+Woven by sorcerer.
+May power up mages
 // current address: $F11DA
 
 //POINTER #104 @ $F0130 - STRING #104 @ $F11DA
@@ -1065,6 +1172,8 @@ hide and bite.
 //なかまどうしで　あらそいだす　　　　
 //TL: Konami
 //Small but vicious, this monster even attacks its own kind.
+Vicious & attacks 
+its own kind.     
 // current address: $F11FE
 
 //POINTER #105 @ $F0132 - STRING #105 @ $F11FE
@@ -1074,6 +1183,8 @@ hide and bite.
 //きげんがわるいと　あらしになる　　　
 //TL: Konami
 //A free-spirited wind elemental that flits about as it desires. It brings storms when it becomes upset.
+When upset, storms
+appear.           
 // current address: $F1222
 
 //POINTER #106 @ $F0134 - STRING #106 @ $F1222
@@ -1083,6 +1194,8 @@ hide and bite.
 //くる　ゆだんすると　はさまれるぞ　　
 //TL: ???
 //Uses both physical and shadow forms to attack, making it a difficult creature to overcome.
+Attacks with both
+physical/shadows.
 // current address: $F1246
 
 //POINTER #107 @ $F0136 - STRING #107 @ $F1246
@@ -1092,6 +1205,8 @@ hide and bite.
 //いけるものを　しへとさそう　はかば　
 //TL: ???
 //A final resting place that enhances the power of the doomed and drains that of the living.
+Powers up the dead
+Drains away living
 // current address: $F126A
 
 //POINTER #108 @ $F0138 - STRING #108 @ $F126A
@@ -1101,6 +1216,8 @@ hide and bite.
 //みとおすことができるめがみ　　　　　
 //TL: ???
 //A goddess that has a divine third eye on her forehead. The divine eye gives her all-seeing powers.
+3rd eye gives all-
+seeing powers.    
 // current address: $F128E
 
 //POINTER #109 @ $F013A - STRING #109 @ $F128E
@@ -1110,6 +1227,8 @@ hide and bite.
 //サムライ　てにするカタナはよくきれる
 //TL: ???
 //A samurai from the Far East armed with a razor-sharp sword.
+Samurai from Far  
+East w/sharp sword
 // current address: $F12B2
 
 //POINTER #110 @ $F013C - STRING #110 @ $F12B2
@@ -1119,6 +1238,8 @@ hide and bite.
 //にらまれたら　しからのがれられない　
 //TL: ???
 //The angel of death. This being must never be angered. To earn its wrath is to know death.
+Never anger it.   
+Anger it and die. 
 // current address: $F12D6
 
 //POINTER #111 @ $F013E - STRING #111 @ $F12D6
@@ -1128,6 +1249,8 @@ hide and bite.
 //おのれのエネルギーとするあくま　　　
 //TL: ???
 //A demon that fuels its power by feeding on the souls of other creatures.
+Fuels its power by
+feeding on souls. 
 // current address: $F12FA
 
 //POINTER #112 @ $F0140 - STRING #112 @ $F12FA
@@ -1137,6 +1260,8 @@ hide and bite.
 //みかけない　きちょうないきもの　　　
 //TL: Konami
 //Entirely gray, this beast has rarely been seen by mortal eyes.
+All grey, few have
+seen this beast.  
 // current address: $F131E
 
 //POINTER #113 @ $F0142 - STRING #113 @ $F131E
@@ -1146,6 +1271,8 @@ hide and bite.
 //ぜんしんが　まっしろなシーフ　　　　
 //TL: ???
 //White silk hat and white tuxedo. Entire body is a pure-white thief.
+This thief wears  
+pure white clothes
 // current address: $F1342
 
 //POINTER #114 @ $F0144 - STRING #114 @ $F1342
@@ -1155,6 +1282,8 @@ hide and bite.
 //おおきなカマの　こうげきはつよい　　
 //TL: ???
 //A magic-user that controls chaos and wields a mighty sickle.
+Controls chaos and
+wields a sickle.  
 // current address: $F1366
 
 //POINTER #115 @ $F0146 - STRING #115 @ $F1366
@@ -1164,6 +1293,8 @@ hide and bite.
 //３ぼんもある　どくのしっぽをさす　　
 //TL: ???
 //A creature that generates nightmares to haunt an opponent, it attacks with three poisonous tails.
+Makes nightmares  
+to haunt opponents
 // current address: $F138A
 
 //POINTER #116 @ $F0148 - STRING #116 @ $F138A
@@ -1173,6 +1304,8 @@ hide and bite.
 //もち　たさいなこうげきをしかけてくる
 //TL: ???
 //A spirit of the book with infinite knowledge and an endless variety of attack strategies.
+Book spirit that  
+knows all.        
 // current address: $F13AE
 
 //POINTER #117 @ $F014A - STRING #117 @ $F13AE
@@ -1182,6 +1315,8 @@ hide and bite.
 //してくれる　かわいらしいこびと　　　
 //TL: ???
 //A cute elf that assists against enemies while remaining hidden from sight.
+Helps against foes
+but stays hidden. 
 // current address: $F13D2
 
 //POINTER #118 @ $F014C - STRING #118 @ $F13D2
@@ -1191,6 +1326,8 @@ hide and bite.
 //つかいが　グサりとはんけつをくだす　
 //TL: Konami
 //This fiend passes judgment on enemies that are locked in coffins.
+Passes judgement  
+on foes in coffins
 // current address: $F13F6
 
 //POINTER #119 @ $F014E - STRING #119 @ $F13F6
@@ -1200,6 +1337,8 @@ hide and bite.
 //ゆめのなかへ　さそいこむ　　　　　　
 //TL: ???
 //Its sweet dancing lulls the viewer to an eternal sleep.
+Its dance lulls   
+viewers to sleep. 
 // current address: $F141A
 
 //POINTER #120 @ $F0150 - STRING #120 @ $F141A
@@ -1209,6 +1348,8 @@ hide and bite.
 //めをさますと　てがつけられない　　　
 //TL: ???
 //Frequently found sleeping, it becomes uncontrollable when awakened.
+Usually sleeps,un-
+controllable awake
 // current address: $F143E
 
 //POINTER #121 @ $F0152 - STRING #121 @ $F143E
@@ -1218,6 +1359,8 @@ hide and bite.
 //こうげきする　しゅびはかなりひくい　
 //TL: ???
 //This dragon is conjured from a picture scroll to attack enemies. It has a pretty low defense factor.
+Dragon conjured   
+from a scroll.    
 // current address: $F1462
 
 //POINTER #122 @ $F0154 - STRING #122 @ $F1462
@@ -1227,6 +1370,8 @@ hide and bite.
 //そだてられたはな　とてもきょうぼう　
 //TL: ???
 //A malignant flower grown in polluted soil with dark powers. It is extremely wild and vicious.
+Grows in polluted 
+soil w/dark powers
 // current address: $F1486
 
 //POINTER #123 @ $F0156 - STRING #123 @ $F1486
@@ -1236,6 +1381,8 @@ hide and bite.
 //はかいだけを　もくてきとした　きかい
 //TL: ???
 //A machine that was found in the ruins of an ancient culture. It appears to have been made solely to destroy.
+Found in ruins.   
+Made only to kill.
 // current address: $F14AA
 
 //POINTER #124 @ $F0158 - STRING #124 @ $F14AA
@@ -1245,6 +1392,8 @@ hide and bite.
 //から　せいなるひかりをはっする　　　
 //TL: Konami
 //This long-tailed bird blinds its enemies with mystical light.
+Long-tailed bird. 
+Blind foes w/light
 // current address: $F14CE
 
 //POINTER #125 @ $F015A - STRING #125 @ $F14CE
@@ -1254,6 +1403,8 @@ hide and bite.
 //そのたたかいをみたものはだれもいない
 //TL: ???
 //An imposing angel that is claimed to be the god of battle. No one, however, has been witness to it in battle.
+Claims to be god  
+of battle.No proof
 // current address: $F14F2
 
 //POINTER #126 @ $F015C - STRING #126 @ $F14F2
@@ -1263,6 +1414,8 @@ hide and bite.
 //しのびよる　あんさつせんもんのせんし
 //TL: Konami
 //A silent and deadly warrior specializing in assassinations.
+Silent and deadly.
+Assassinates foes.
 // current address: $F1516
 
 //POINTER #127 @ $F015E - STRING #127 @ $F1516
@@ -1272,6 +1425,8 @@ hide and bite.
 //まりょくで　あいてをみりょうする　　
 //TL: ???
 //A sorcerer who lives on the moon and attacks opponents with the power of lunar light.
+Lives on the moon.
+Attack w/moonlight
 // current address: $F153A
 
 //POINTER #128 @ $F0160 - STRING #128 @ $F153A
@@ -1281,6 +1436,8 @@ hide and bite.
 //さめることのない　ねむりをさそう　　
 //TL: Konami
 //A child-like creature that controls a sleep fiend to beckon enemies into eternal slumber.
+Lures enemies to  
+eternal slumber.  
 // current address: $F155E
 
 //POINTER #129 @ $F0162 - STRING #129 @ $F155E
@@ -1290,6 +1447,8 @@ hide and bite.
 //てんきがかわりやすいのはコイツのせい
 //TL: Konami
 //This creature controls weather and is often the cause of mountain storms.
+Controls weather. 
+Causes mt.storms. 
 // current address: $F1582
 
 //POINTER #130 @ $F0164 - STRING #130 @ $F1582
@@ -1299,6 +1458,8 @@ hide and bite.
 //ふしぎないきもの　ヤりでこうげきする
 //TL: Konami
 //With the head of a fish and the legs of an octopus, this strange creature attacks enemies by flinging spears.
+Fish head, octopus
+legs, atk.w/spears
 // current address: $F15A6
 
 //POINTER #131 @ $F0166 - STRING #131 @ $F15A6
@@ -1308,6 +1469,8 @@ hide and bite.
 //から　とつぜんあらわれたゾンビ　　　
 //TL: Konami
 //A zombie that suddenly appeared from plot #13 - an empty grave.
+Appeared from plot
+13: empty grave.  
 // current address: $F15CA
 
 //POINTER #132 @ $F0168 - STRING #132 @ $F15CA
@@ -1317,6 +1480,8 @@ hide and bite.
 //かっちゅうに　みをつつんでいるきし　
 //TL: ???
 //A warrior protected by a shell that can even deflect the heat of burning flames.
+Has a shell that  
+deflects heat.    
 // current address: $F15EE
 
 //POINTER #133 @ $F016A - STRING #133 @ $F15EE
@@ -1326,6 +1491,8 @@ hide and bite.
 //ことができる　といわれているくさり　
 //TL: ???
 //A mystical chain that is believed capable of binding its enemies and preventing their attacks.
+Said to bind foes 
+and stop attacks. 
 // current address: $F1612
 
 //POINTER #134 @ $F016C - STRING #134 @ $F1612
@@ -1335,6 +1502,8 @@ hide and bite.
 //いけるものを　なかへとひきずりこむ　
 //TL: ???
 //Arms that reach out from the Swamp of Chaos to drag down the damned.
+Reach from swamps 
+to pull the damned
 // current address: $F1636
 
 //POINTER #135 @ $F016E - STRING #135 @ $F1636
@@ -1344,6 +1513,8 @@ hide and bite.
 //みをつつんだ　しをつかさどるあくま　
 //TL: Konami
 //Dressed in a night-black tuxedo, this creature presides over the darkness.
+In a black tuxedo,
+presides over dark
 // current address: $F165A
 
 //POINTER #136 @ $F0170 - STRING #136 @ $F165A
@@ -1353,6 +1524,8 @@ hide and bite.
 //からうでをのばし　こうげきをしかける
 //TL: Konami
 //This monster twists reality and reaches between dimensions to attack its enemies.
+Moves between di- 
+mensions to fight 
 // current address: $F167E
 
 //POINTER #137 @ $F0172 - STRING #137 @ $F167E
@@ -1361,7 +1534,9 @@ hide and bite.
 //ドラゴンのたましいをもつ　せきぞうの
 //せんし　じまんのけんでてきをきりさく
 //TL: ???
-//A stone statue of a warrior with the soul of a dragon. It cleaves foes with its prized sword.	
+//A stone statue of a warrior with the soul of a dragon. It cleaves foes with its prized sword.
+Statue with dragon
+soul. Uses sword. 
 // current address: $F16A2
 
 //POINTER #138 @ $F0174 - STRING #138 @ $F16A2
@@ -1371,6 +1546,8 @@ hide and bite.
 //ゾンビにかえてしまうといわれている　
 //TL: ???
 //A creature rumored to turn enemies in to zombies with a strange ray that emanates from its eyes.
+Zombifies enemies 
+with a eye ray.
 // current address: $F16C6
 
 //POINTER #139 @ $F0176 - STRING #139 @ $F16C6
@@ -1380,6 +1557,8 @@ hide and bite.
 //せんにん　おたまじゃくしでこうげき　
 //TL: ???
 //A frog that has lived thousands of years. It attacks with tadpoles.
+Lived for 1000 yrs
+Attacks w/tadpoles
 // current address: $F16EA
 
 //POINTER #140 @ $F0178 - STRING #140 @ $F16EA
@@ -1388,7 +1567,9 @@ hide and bite.
 //やみのちからで　しんかしたカタツムり
 //てやあしがあり　はやくうごける　　　
 //TL: ???
-//A snail evolved with the powers of darkness. Having arms and legs, it can move very quickly.	
+//A snail evolved with the powers of darkness. Having arms and legs, it can move very quickly.
+Snail with arms   
+and legs.Move fast
 // current address: $F170E
 
 //POINTER #141 @ $F017A - STRING #141 @ $F170E
@@ -1398,6 +1579,8 @@ hide and bite.
 //じざいにつくりだし　こうげきする　　
 //TL: ???
 //Attacks enemies with fire-related spells, such as the "Sea of Flames" and "Wall of Fire".
+Attacks with fire 
+magic.            
 // current address: $F1732
 
 //POINTER #142 @ $F017C - STRING #142 @ $F1732
@@ -1407,6 +1590,8 @@ hide and bite.
 //りングからでてくる　１つめのまじん　
 //TL: ???
 //The first in a line of lords that appear from a space-time ring that can appear anywhere.
+First of many who 
+appear from rings.
 // current address: $F1756
 
 //POINTER #143 @ $F017E - STRING #143 @ $F1756
@@ -1416,6 +1601,8 @@ hide and bite.
 //おこし　しゅういのものをふきとばす　
 //TL: ???
 //Controls the air currents to create violent winds and tornadoes to blow away anything nearby.
+Controls air to   
+blow away anything
 // current address: $F177A
 
 //POINTER #144 @ $F0180 - STRING #144 @ $F177A
@@ -1425,6 +1612,8 @@ hide and bite.
 //つえをふって　あいてをみりょうする　
 //TL: ???
 //A suave and debonair thief who swaddles himself in a black cape. He enchants enemies by exquisitely twirling his cape.
+Thief who wears   
+black. Twirls cape
 // current address: $F179E
 
 //POINTER #145 @ $F0182 - STRING #145 @ $F179E
@@ -1434,6 +1623,8 @@ hide and bite.
 //おてら　ちかづくものをすいこむ　　　
 //TL: Konami
 //A mysterious temple of skulls and bones that pulls in unsuspecting enemies.
+Mysterious temple 
+that pulls in foes
 // current address: $F17C2
 
 //POINTER #146 @ $F0184 - STRING #146 @ $F17C2
@@ -1443,6 +1634,8 @@ hide and bite.
 //せんし　からをとばしてこうげきする　
 //TL: Konami
 //A warrior hidden within an egg that attacks enemies by flinging eggshells.
+Hidden in an egg  
+Attacks w/eggshell
 // current address: $F17E6
 
 //POINTER #147 @ $F0186 - STRING #147 @ $F17E6
@@ -1452,6 +1645,8 @@ hide and bite.
 //かなしばりで　てきのうごきをふうじる
 //TL: Konami
 //A shadow that dwells in the dark, paralyzing its opponents and rendering them harmless.
+Paralyses foes and
+they are harmless 
 // current address: $F180A
 
 //POINTER #148 @ $F0188 - STRING #148 @ $F180A
@@ -1461,6 +1656,8 @@ hide and bite.
 //よびだしたものに　ふくじゅうする　　
 //TL: Konami
 //This spirit emerges from the mystic lamp and obeys the wishes of its summoner.
+Comes from a lamp 
+and obeys summoner
 // current address: $F182E
 
 //POINTER #149 @ $F018A - STRING #149 @ $F182E
@@ -1470,6 +1667,8 @@ hide and bite.
 //しれないかっこうをした　ばけもの　　
 //TL: ???
 //A mysterious creature that dwells below the sea.
+Mysterious, lives 
+beneath the sea.  
 // current address: $F1852
 
 //POINTER #150 @ $F018C - STRING #150 @ $F1852
@@ -1479,6 +1678,8 @@ hide and bite.
 //ほのおのそくばくで　うごきをふうじる
 //TL: Konami
 //Armed with the Sword of Crimson Flames, this warrior can bind a monster with fiery restraints.
+Binds monsters w/ 
+firey restraints. 
 // current address: $F1876
 
 //POINTER #151 @ $F018E - STRING #151 @ $F1876
@@ -1488,6 +1689,8 @@ hide and bite.
 //もぐり　てきのましたからこうげきする
 //TL: ???
 //A creature that melts into the earth then melds with an opponent's shadow, and attacks from below.
+Melts into earth  
+Melds with shadows
 // current address: $F189A
 
 //POINTER #152 @ $F0190 - STRING #152 @ $F189A
@@ -1497,6 +1700,8 @@ hide and bite.
 //うばおうとする　しにがみ　　　　　　
 //TL: ???
 //A grim reaper that steals souls with hellish slashes.
+Steals souls with 
+hellish slashes.  
 // current address: $F18BE
 
 //POINTER #153 @ $F0192 - STRING #153 @ $F18BE
@@ -1505,7 +1710,9 @@ hide and bite.
 //ほのおのやをてにするしにがみ　その　
 //やにあたると　ひだるまになるぞ　　　
 //TL: ???
-//A grim reaper with flaming arrows that burn an enemies to a crisp.
+//A grim reaper with flaming arrows that burn enemies to a crisp.
+Fire arrows burn  
+enemies to a crisp
 // current address: $F18E2
 
 //POINTER #154 @ $F0194 - STRING #154 @ $F18E2
@@ -1515,6 +1722,8 @@ hide and bite.
 //ながいうでをからませ　しめあげる　　
 //TL: Konami
 //A fast-moving, bird-like creature that strangles opposing monsters with its long, thin arms.
+Strangles foes w/ 
+long, thin arms.  
 // current address: $F1906
 
 //POINTER #155 @ $F0196 - STRING #155 @ $F1906
@@ -1524,6 +1733,8 @@ hide and bite.
 //ソルジャータックルをしかけてくる　　
 //TL: Konami
 //A living suit of armor that attacks enemies with a bone-jarring tackle.
+Attacks foes with 
+bone-break tackle.
 // current address: $F192A
 
 //POINTER #156 @ $F0198 - STRING #156 @ $F192A
@@ -1533,6 +1744,8 @@ hide and bite.
 //はなからかえんをふき　こうげきする　
 //TL: Konami
 //A fire-breathing plant found growing near volcanoes.
+Breathes fire.    
+Grows by volcanos
 // current address: $F194E
 
 //POINTER #157 @ $F019A - STRING #157 @ $F194E
@@ -1542,6 +1755,8 @@ hide and bite.
 //しょくしゅで　こうげきしてくる　　　
 //TL: Konami
 //Man-eating plant with poison feelers for attacking enemies.
+Man-eating plant. 
+Attack w/feelers. 
 // current address: $F1972
 
 //POINTER #158 @ $F019C - STRING #158 @ $F1972
@@ -1551,6 +1766,8 @@ hide and bite.
 //かいてんしながら　くちばしでこうげき
 //TL: Konami
 //This beast coils like a snake, and strikes quickly with its snapping beak.
+Coils like a snake
+Strikes w/beak.   
 // current address: $F1996
 
 //POINTER #159 @ $F019E - STRING #159 @ $F1996
@@ -1560,6 +1777,8 @@ hide and bite.
 //じりょくをはっし　だれもにげられない
 //TL: Konami
 //Specializing in combination attacks, this warrior uses magnetism to block an enemy's escape.
+Uses magnetism to 
+block enemy escape
 // current address: $F19BA
 
 //POINTER #160 @ $F01A0 - STRING #160 @ $F19BA
@@ -1569,6 +1788,8 @@ hide and bite.
 //コーティングされたよろいはがんじょう
 //TL: Konami
 //Specializing in combination attacks, this warrior is equipped with a tough, magnetically coated armor.
+Wears magnetically
+coated armour.    
 // current address: $F19DE
 
 //POINTER #161 @ $F01A2 - STRING #161 @ $F19DE
@@ -1578,6 +1799,8 @@ hide and bite.
 //みずからのものとする　あくののうみそ
 //TL: ???
 //A parasite brain that preys on the knowledge and intelligence of its opponents.
+Preys on its foes'
+knowledge.
 // current address: $F1A02
 
 //POINTER #162 @ $F01A4 - STRING #162 @ $F1A02
@@ -1587,6 +1810,8 @@ hide and bite.
 //をみせ　こんらんしたところをこうげき
 //TL: Konami
 //A creature with sapphire eyes that mesmerizes and confuses enemies.
+With sapphire eyes
+it confuses foes. 
 // current address: $F1A26
 
 //POINTER #163 @ $F01A6 - STRING #163 @ $F1A26
@@ -1596,6 +1821,8 @@ hide and bite.
 //いざなうことをとくいとするじゃしん　
 //TL: Konami
 //A wicked entity that manipulates enemies towards a path of destruction.
+Manipulates foes  
+to destruction.   
 // current address: $F1A4A
 
 //POINTER #164 @ $F01A8 - STRING #164 @ $F1A4A
@@ -1605,6 +1832,8 @@ hide and bite.
 //をくだし　はげしいこうげきをくわえる
 //TL: ???
 //The hand of final judgement is capable of intense attacks against the enemy.
+Can intensely     
+attack its enemy. 
 // current address: $F1A6E
 
 //POINTER #165 @ $F01AA - STRING #165 @ $F1A6E
@@ -1614,6 +1843,8 @@ hide and bite.
 //にんぎょうつかい　　　　　　　　　　
 //TL: ???
 //A puppet master that manipulates enemies during battle.
+Puppet master that
+manipulates foes. 
 // current address: $F1A92
 
 //POINTER #166 @ $F01AC - STRING #166 @ $F1A92
@@ -1623,6 +1854,8 @@ hide and bite.
 //なかに　なにかが　ひそんでいるらしい
 //TL: ???
 //A very fragile ancient jar. Something appears to lurk within.
+Fragile jar. Some-
+thing lurks within
 // current address: $F1AB6
 
 //POINTER #167 @ $F01AE - STRING #167 @ $F1AB6
@@ -1632,6 +1865,8 @@ hide and bite.
 //あらゆるものを　いっしゅんでけしさる
 //TL: ???
 //Intense flames of the dark world obliterates everything instantly.
+Dark world flames 
+obliterate all.   
 // current address: $F1ADA
 
 //POINTER #168 @ $F01B0 - STRING #168 @ $F1ADA
@@ -1641,6 +1876,8 @@ hide and bite.
 //しはいするほどのちからがあったという
 //TL: Konami
 //It's said that this King of the Netherworld once had the power to rule over the dark.
+Once had the power
+to rule over dark.
 // current address: $F1AFE
 
 //POINTER #169 @ $F01B2 - STRING #169 @ $F1AFE
@@ -1649,7 +1886,9 @@ hide and bite.
 //てんかいで　ハープをかなでるせいれい
 //そのねいろはまわりのこころをなごます
 //TL: Konami
-//A spirit that soothes the soul with the music of its heavenly harp.	
+//A spirit that soothes the soul with the music of its heavenly harp.
+Soothes soul with 
+its harp music.   
 // current address: $F1B22
 
 //POINTER #170 @ $F01B4 - STRING #170 @ $F1B22
@@ -1659,6 +1898,8 @@ hide and bite.
 //たくさんのめでさいみんじゅつをかける
 //TL: ???
 //This creature is covered with hypnotic eyes for mesmerizing its enemies.
+Covered in eyes   
+that mesmerise    
 // current address: $F1B46
 
 //POINTER #171 @ $F01B6 - STRING #171 @ $F1B46
@@ -1668,6 +1909,8 @@ hide and bite.
 //りょうてとおで　３れんこうげきをする
 //TL: Konami
 //A strange warrior who manipulates three deadly blades with both hands and his tail.
+Wields 3 blades   
+with hands & tail 
 // current address: $F1B6A
 
 //POINTER #172 @ $F01B8 - STRING #172 @ $F1B6A
@@ -1677,6 +1920,8 @@ hide and bite.
 //じぶんのすがたを　かくすことができる
 //TL: Konami
 //This monster bends light to hide its image from the eyes of opponents.
+Hides itself by   
+bending light     
 // current address: $F1B8E
 
 //POINTER #173 @ $F01BA - STRING #173 @ $F1B8E
@@ -1686,6 +1931,8 @@ hide and bite.
 //かぜのやいばで　あいてをきりきざむ　
 //TL: ???
 //A possessed tornado that rages out of control in wastelands. It tears at its foes with razor-sharp winds.
+Rages in wasteland
+Tears away w/winds
 // current address: $F1BB2
 
 //POINTER #174 @ $F01BC - STRING #174 @ $F1BB2
@@ -1695,6 +1942,8 @@ hide and bite.
 //やみでのたたかいに　すぐれている　　
 //TL: ???
 //A fallen angel that has been banished from the heavens. It is highly skilled at the use of dark powers for lighting.
+Fell & banished   
+from the heavens. 
 // current address: $F1BD6
 
 //POINTER #175 @ $F01BE - STRING #175 @ $F1BD6
@@ -1704,6 +1953,8 @@ hide and bite.
 //はばたかせ　ほのおのかぜをおこす　　
 //TL: Konami
 //An eye engulfed in flames that flaps its wings to create hot blasts of air.
+Flaps its wings to
+create hot blasts.
 // current address: $F1BFA
 
 //POINTER #176 @ $F01C0 - STRING #176 @ $F1BFA
@@ -1713,6 +1964,8 @@ hide and bite.
 //とてもきょうぼうで　ひとになつかない
 //TL: Konami
 //Protected by a spiked shell, this turtle has a very nasty disposition.
+Has spiked shell. 
+Nasty disposition.
 // current address: $F1C1E
 
 //POINTER #177 @ $F01C2 - STRING #177 @ $F1C1E
@@ -1722,6 +1975,8 @@ hide and bite.
 //あいてをくしざしにすることができる　
 //TL: ???
 //Can freely extend its arms to skewer its foe with its sharp claws.
+Extends its arms  
+to skewer its foe.
 // current address: $F1C42
 
 //POINTER #178 @ $F01C4 - STRING #178 @ $F1C42
@@ -1731,6 +1986,8 @@ hide and bite.
 //できるまほうつかい　　　　　　　　　
 //TL: Konami
 //A sorcerer that can paralyze an enemy with a single curse.
+Paralyses enemy w/
+a single curse.   
 // current address: $F1C66
 
 //POINTER #179 @ $F01C6 - STRING #179 @ $F1C66
@@ -1740,6 +1997,8 @@ hide and bite.
 //をまきちらす　ちかづいてはいけない　
 //TL: ???
 //A female being that lurks in a flower to cast toxic dust. She is very dangerous and must not be approached.
+Lurks in a flower.
+Do not approach.  
 // current address: $F1C8A
 
 //POINTER #180 @ $F01C8 - STRING #180 @ $F1C8A
@@ -1749,6 +2008,8 @@ hide and bite.
 //をはっして　こうげきする　　　　　　
 //TL: ???
 //It emits a powerful ray from a crystal to attack.
+Emits ray from a  
+crystal to attack.
 // current address: $F1CAE
 
 //POINTER #181 @ $F01CA - STRING #181 @ $F1CAE
@@ -1758,6 +2019,8 @@ hide and bite.
 //かまで　てきをきりきざむせんし　　　
 //TL: Konami
 //This warrior's fatal dance is performed with a lethal sickle.
+Fatal dance done  
+w/lethal sickle.  
 // current address: $F1CD2
 
 //POINTER #182 @ $F01CC - STRING #182 @ $F1CD2
@@ -1767,6 +2030,8 @@ hide and bite.
 //せいなるちからに　まもられている　　
 //TL: ???
 //This creature may look slim and weak, but it is protected by a sacred force.
+Protected by a    
+sacred force.     
 // current address: $F1CF6
 
 //POINTER #183 @ $F01CE - STRING #183 @ $F1CF6
@@ -1776,6 +2041,8 @@ hide and bite.
 //ハトをだしてこうげきもする　　　　　
 //TL: Konami
 //A creature that defeats its enemies using sleight-of-hand.
+Kills foes using  
+sleight-of-hand.  
 // current address: $F1D1A
 
 //POINTER #184 @ $F01D0 - STRING #184 @ $F1D1A
@@ -1785,6 +2052,8 @@ hide and bite.
 //だましながらたたかうせんし　　　　　
 //TL: Konami
 //This warrior transforms into various creatures to confuse enemies in battle.
+Transforms into   
+various creatures.
 // current address: $F1D3E
 
 //POINTER #185 @ $F01D2 - STRING #185 @ $F1D3E
@@ -1794,6 +2063,8 @@ hide and bite.
 //ことのできる　とりのけもの　　　　　
 //TL: Konami
 //A bird-beast that summons reinforcements with a hand mirror.
+Summons reinforce-
+ments w/mirror.   
 // current address: $F1D62
 
 //POINTER #186 @ $F01D4 - STRING #186 @ $F1D62
@@ -1803,6 +2074,8 @@ hide and bite.
 //しょうかんもできるぶきみなモンスター
 //TL: Konami
 //This weird monster has a portal in its belly that brings reinforcements from the farthest reaches of the netherworld.
+Has a portal that 
+summons from hell.
 // current address: $F1D86
 
 //POINTER #187 @ $F01D6 - STRING #187 @ $F1D86
@@ -1812,6 +2085,8 @@ hide and bite.
 //わるいやつ　くちからはレーザーをはく
 //TL: Konami
 //This two-headed creature spits laser blasts at its enemies.
+Spits laser blasts
+at its enemies.   
 // current address: $F1DAA
 
 //POINTER #188 @ $F01D8 - STRING #188 @ $F1DAA
@@ -1821,6 +2096,8 @@ hide and bite.
 //しっぽをもっている　ばけねこ　　　　
 //TL: ???
 //A feline monster that has angelic wings and a long tail.
+A cat with angelic
+wings & long tail.
 // current address: $F1DCE
 
 //POINTER #189 @ $F01DA - STRING #189 @ $F1DCE
@@ -1830,6 +2107,8 @@ hide and bite.
 //じゅもんをきくと　きがとおくなる　　
 //TL: ???
 //A magician who places the curse of death. Anyone that listens to its spell chants grows faint.
+Mage who places   
+death curses.     
 // current address: $F1DF2
 
 //POINTER #190 @ $F01DC - STRING #190 @ $F1DF2
@@ -1839,6 +2118,8 @@ hide and bite.
 //なんでもとかすきけんなあめをふらせる
 //TL: Konami
 //An electric cloud creature, its acid rain makes it very dangerous.
+Electric cloud.  
+Acid rain danger. 
 // current address: $F1E16
 
 //POINTER #191 @ $F01DE - STRING #191 @ $F1E16
@@ -1848,6 +2129,8 @@ hide and bite.
 //まけ　だれでもこころをひらいてしまう
 //TL: Konami
 //Enemies' hearts will melt at the sight of this small fairy's cuteness.
+Hearts melt at the
+fairy's cuteness. 
 // current address: $F1E3A
 
 //POINTER #192 @ $F01E0 - STRING #192 @ $F1E3A
@@ -1857,6 +2140,8 @@ hide and bite.
 //みをまもり　するどいきばでこうげき　
 //TL: Konami
 //A tiger encased in a protective shell that attacks with razor-sharp fangs.
+Tiger in shell.   
+Attacks w/fangs.  
 // current address: $F1E5E
 
 //POINTER #193 @ $F01E2 - STRING #193 @ $F1E5E
@@ -1866,6 +2151,8 @@ hide and bite.
 //ほど　つよくないが　ゆだんはきんもつ
 //TL: ???
 //A swamp-dwelling minion of the dark forces. While it is not as strong as it looks, don't treat it lightly.
+Swamp dweller of  
+the dark.         
 // current address: $F1E82
 
 //POINTER #194 @ $F01E4 - STRING #194 @ $F1E82
@@ -1875,6 +2162,8 @@ hide and bite.
 //こうげきをしかけてくる　ゆだんするな
 //TL: Konami
 //This monster splits in two and attacks from opposite sides.
+Splits in two and 
+attacks from sides
 // current address: $F1EA6
 
 //POINTER #195 @ $F01E6 - STRING #195 @ $F1EA6
@@ -1884,6 +2173,8 @@ hide and bite.
 //まもっている　アンモナイトのせんし　
 //TL: Konami
 //An ammonite warrior that has protected the seas throughout history.
+Ammonite that has 
+defended the seas.
 // current address: $F1ECA
 
 //POINTER #196 @ $F01E8 - STRING #196 @ $F1ECA
@@ -1893,6 +2184,8 @@ hide and bite.
 //こうげきする　アンデットモンスター　
 //TL: ???
 //This undead monster attacks by launching missile-like arms.
+Attacks by using  
+missile-like arms.
 // current address: $F1EEE
 
 //POINTER #197 @ $F01EA - STRING #197 @ $F1EEE
@@ -1902,6 +2195,8 @@ hide and bite.
 //しあわせにする　ちいさなてんし　　　
 //TL: Konami
 //Enemies become overjoyed when struck by the Heart Ray emitted from the forehead of this tiny cherub.
+Enemies in bliss  
+when hit by heart.
 // current address: $F1F12
 
 //POINTER #198 @ $F01EC - STRING #198 @ $F1F12
@@ -1911,6 +2206,8 @@ hide and bite.
 //すべりながら　てきにむかってとつげき
 //TL: ???
 //A penguin-like creature that slides on its belly to deliver a blow with its outstretched sword.
+Slides on belly to
+strike with sword.
 // current address: $F1F36
 
 //POINTER #199 @ $F01EE - STRING #199 @ $F1F36
@@ -1920,6 +2217,8 @@ hide and bite.
 //からだをいっぱいにつかいこうげきする
 //TL: Konami
 //A very small dragon known for its vicious attacks.
+Small dragon known
+for vicious attack
 // current address: $F1F5A
 
 //POINTER #200 @ $F01F0 - STRING #200 @ $F1F5A
@@ -1929,6 +2228,8 @@ hide and bite.
 //せいかくはひじょうにきょうぼうである
 //TL: Konami
 //A savage beast that carries a big bamboo stick for beating down its enemies.
+Savage beast. Uses
+a bamboo stick.   
 // current address: $F1F7E
 
 //POINTER #201 @ $F01F2 - STRING #201 @ $F1F7E
@@ -1938,6 +2239,8 @@ hide and bite.
 //どんぐりをなげつけて　こうげきする　
 //TL: ???
 //A ferocious marmot that has the horn and wings of a fiend. It attacks by hurling acorns.
+Has fiendish horn.
+Attacks w/acorns. 
 // current address: $F1FA2
 
 //POINTER #202 @ $F01F4 - STRING #202 @ $F1FA2
@@ -1947,6 +2250,8 @@ hide and bite.
 //あつまってできた　おんりょう　　　　
 //TL: ???
 //A ghost made by gathering spirits unable to pass on to the next world.
+Made up of spirits
+unable to pass on.
 // current address: $F1FC6
 
 //POINTER #203 @ $F01F6 - STRING #203 @ $F1FC6
@@ -1956,6 +2261,8 @@ hide and bite.
 //はやさで　めだまのたまをはっしゃする
 //TL: ???
 //This cannon-like demon fires eyeballs so fast they can't be seen.
+Cannon demon fires
+eyeballs rapidly. 
 // current address: $F1FEA
 
 //POINTER #204 @ $F01F8 - STRING #204 @ $F1FEA
@@ -1965,6 +2272,8 @@ hide and bite.
 //もうどくガスをはき　こうげきをする　
 //TL: ???
 //A disgusting muddy monster. It attacks by spewing toxic gas.
+Disgusting muddy  
+monster. Atk.w/gas
 // current address: $F200E
 
 //POINTER #205 @ $F01FA - STRING #205 @ $F200E
@@ -1974,6 +2283,8 @@ hide and bite.
 //はなれたところでも　こうげきできる　
 //TL: Konami
 //With whip-like arms, this creature can attack enemies from a distance.
+Can attack enemies
+from a distance.  
 // current address: $F2032
 
 //POINTER #206 @ $F01FC - STRING #206 @ $F2032
@@ -1983,6 +2294,8 @@ hide and bite.
 //なき　きのよわいあいてをおどろかせる
 //TL: Konami
 //This monster stuns its enemies with a massive beak and ear-piercing wails.
+Stuns foes with   
+beak and wails.   
 // current address: $F2056
 
 //POINTER #207 @ $F01FE - STRING #207 @ $F2056
@@ -1992,6 +2305,8 @@ hide and bite.
 //あたらない　とてもちいさなてんし　　
 //TL: Konami
 //A quick-moving and tiny fairy that's very difficult to hit.
+A fast and tiny   
+fairy. Hard to hit
 // current address: $F207A
 
 //POINTER #208 @ $F0200 - STRING #208 @ $F207A
@@ -2001,6 +2316,8 @@ hide and bite.
 //ふりまわし　こうげきをしてくる　　　
 //TL: ???
 //This creature attacks by swinging around its sickle-like arms.
+Swings its sickle 
+arms to attack.   
 // current address: $F209E
 
 //POINTER #209 @ $F0202 - STRING #209 @ $F209E
@@ -2010,6 +2327,8 @@ hide and bite.
 //そのからだで　たいあたりしてくる　　
 //TL: ???
 //An intensely hot flame creature that rams anything that stands in its way.
+Flame creature.   
+Rams anything.    
 // current address: $F20C2
 
 //POINTER #210 @ $F0204 - STRING #210 @ $F20C2
@@ -2019,6 +2338,8 @@ hide and bite.
 //させている　なかせたときはきけん　　
 //TL: Konami
 //This monster stores electricity within his body, and can unleash it with catastrophic power.
+Stores electricity
+in body, unleashes
 // current address: $F20E6
 
 //POINTER #211 @ $F0206 - STRING #211 @ $F20E6
@@ -2028,6 +2349,8 @@ hide and bite.
 //からビームをはっしゃしてこうげきする
 //TL: ???
 //A huge monster that attacks by firing a beam from its single eye.
+Attacks by firing 
+beam from its eye.
 // current address: $F210A
 
 //POINTER #212 @ $F0208 - STRING #212 @ $F210A
@@ -2037,6 +2360,8 @@ hide and bite.
 //みずのかべをつくり　てきをおしつぶす
 //TL: Konami
 //A wizard of the waters that conjures a liquid wall to crush any enemies that oppose him.
+Conjures liquid   
+wall to crush foes
 // current address: $F212E
 
 //POINTER #213 @ $F020A - STRING #213 @ $F212E
@@ -2046,6 +2371,8 @@ hide and bite.
 //するどいきれあじの　めいとうをもつ　
 //TL: Konami
 //Serving as a double for the Ruler of the Blue Flame, he's a master swordsman that wields a fine blade.
+Blue Flame Ruler's
+double.           
 // current address: $F2152
 
 //POINTER #214 @ $F020C - STRING #214 @ $F2152
@@ -2055,6 +2382,8 @@ hide and bite.
 //まわりのほのおは　すべてをやきつくす
 //TL: ???
 //A ghost of someone who was burned to death. The flames enshrouding its body burn everything.
+Ghost of someone. 
+Burned to death.  
 // current address: $F2176
 
 //POINTER #215 @ $F020E - STRING #215 @ $F2176
@@ -2064,6 +2393,8 @@ hide and bite.
 //かりて　あいてのうごきをふうじる　　
 //TL: Konami
 //A spirit of the forest powered by the surrounding trees and wildlife.
+Forest spirit.    
+Powered by trees. 
 // current address: $F219A
 
 //POINTER #216 @ $F0210 - STRING #216 @ $F219A
@@ -2073,6 +2404,8 @@ hide and bite.
 //うまれる　ちょうレアなあくまりゅう　
 //TL: ???
 //A rare creature from the fusion of an uncommon beast and a vicious dragon.
+Fusion of a fiend 
+and a dragon.     
 // current address: $F21BE
 
 //POINTER #217 @ $F0212 - STRING #217 @ $F21BE
@@ -2082,6 +2415,8 @@ hide and bite.
 //ちくでんし　せなかのくちからほうでん
 //TL: Konami
 //A dinosaur with two deadly jaws, it stores electricity in its horn and releases high voltage bolts from the mouth on its back.
+Keeps electricity 
+in its horn.      
 // current address: $F21E2
 
 //POINTER #218 @ $F0214 - STRING #218 @ $F21E2
@@ -2091,6 +2426,8 @@ hide and bite.
 //いう　おおかまをもった　けものせんし
 //TL: Konami
 //This beast-warrior swings a massive scythe that feeds on the souls of the slain.
+Uses a scythe and 
+feeds on souls.   
 // current address: $F2206
 
 //POINTER #219 @ $F0216 - STRING #219 @ $F2206
@@ -2100,6 +2437,8 @@ hide and bite.
 //まどうし　すがおをみたものはいない　
 //TL: ???
 //A mysterious wizard whose face remains forever hidden behind a strange mask.
+Wizard with face  
+forever hidden.   
 // current address: $F222A
 
 //POINTER #220 @ $F0218 - STRING #220 @ $F222A
@@ -2109,6 +2448,8 @@ hide and bite.
 //いとをはき　うごきをふうじこめる　　
 //TL: Konami
 //A massive, intelligent spider that traps enemies with webbing.
+Large,smart spider
+that traps w/webs.
 // current address: $F224E
 
 //POINTER #221 @ $F021A - STRING #221 @ $F224E
@@ -2118,6 +2459,8 @@ hide and bite.
 //よびだすにはいけにえがひつようという
 //TL: Konami
 //This monster only appears when a midnight tribute is made.
+Appears when a    
+sacrifice is made.
 // current address: $F2272
 
 //POINTER #222 @ $F021C - STRING #222 @ $F2272
@@ -2127,6 +2470,8 @@ hide and bite.
 //おおつなみをおこし　すべてをのみこむ
 //TL: ???
 //A gigantic sea serpent that emergens in storms. It creates towering tidal waves that swallow everything.
+Appears in storms.
+Waves swallow all.
 // current address: $F2296
 
 //POINTER #223 @ $F021E - STRING #223 @ $F2296
@@ -2136,6 +2481,8 @@ hide and bite.
 //そこなしのおとしあなが　とくいわざ　
 //TL: ???
 //A warrior that excels in laying traps such as bottomless pits.
+Best at laying    
+traps like pits.  
 // current address: $F22BA
 
 //POINTER #224 @ $F0220 - STRING #224 @ $F22BA
@@ -2145,6 +2492,8 @@ hide and bite.
 //できたものは　ちからをえられるという
 //TL: Konami
 //Whoever resists the curse of this blade will gain untold power.
+Resist its curse  
+and gain power.   
 // current address: $F22DE
 
 //POINTER #225 @ $F0222 - STRING #225 @ $F22DE
@@ -2154,6 +2503,8 @@ hide and bite.
 //とらえ　どくばりをさす　サソりせんし
 //TL: ???
 //Swift and vicious, this monster grabs its victim with its pincers and attack the captive with its poison stinger.
+Grabs victims with
+pincers and stings
 // current address: $F2302
 
 //POINTER #226 @ $F0224 - STRING #226 @ $F2302
@@ -2163,6 +2514,8 @@ hide and bite.
 //ヒトデ　くちからようかいえきをはく　
 //TL: Konami
 //A rabid starfish that spits a lethal acid that can melt almost anything.
+Spits acid that   
+melts anything.   
 // current address: $F2326
 
 //POINTER #227 @ $F0226 - STRING #227 @ $F2326
@@ -2172,6 +2525,8 @@ hide and bite.
 //もののてにより　よみがえったしかばね
 //TL: Konami
 //A living corpse of wood re-animated by the power of darkness.
+Corpse revived by 
+dark powers.      
 // current address: $F234A
 
 //POINTER #228 @ $F0228 - STRING #228 @ $F234A
@@ -2181,6 +2536,8 @@ hide and bite.
 //みじかくするかわり　ちからをあたえる
 //TL: ???
 //An angel who controls life. This creature grants power instead of shortening life.
+Angel who extends 
+life, not end it. 
 // current address: $F236E
 
 //POINTER #229 @ $F022A - STRING #229 @ $F236E
@@ -2190,6 +2547,8 @@ hide and bite.
 //さかな　せいかくはとてもきょうぼう　
 //TL: ???
 //An unusual and ferocious fish with the head of a beast.
+An unusual fish   
+with beast head.  
 // current address: $F2392
 
 //POINTER #230 @ $F022C - STRING #230 @ $F2392
@@ -2199,6 +2558,8 @@ hide and bite.
 //カマで　きようにこうげきをかわす　　
 //TL: ???
 //An unpleasantly smiling demon that wields a scythe to avoid enemy blows.
+Smiling demon with
+a scythe to dodge.
 // current address: $F23B6
 
 //POINTER #231 @ $F022E - STRING #231 @ $F23B6
@@ -2208,6 +2569,8 @@ hide and bite.
 //こうげきする　せいぶつへいき　　　　
 //TL: ???
 //A biological weapon that attacks by firing projectiles from its mouth.
+Bio-weapon that   
+fires projectiles.
 // current address: $F23DA
 
 //POINTER #232 @ $F0230 - STRING #232 @ $F23DA
@@ -2217,6 +2580,8 @@ hide and bite.
 //ねているあいだに　いのちをうばう　　
 //TL: Konami
 //A fiend said to dwell in the world of dreams, it attacks enemies in their sleep.
+Lives in the dream
+world.Atk.sleepers
 // current address: $F23FE
 
 //POINTER #233 @ $F0232 - STRING #233 @ $F23FE
@@ -2226,6 +2591,8 @@ hide and bite.
 //かずおおくの　くびをはねてきたおんな
 //TL: ???
 //Despite her beauty, this woman's katana has claimed many heads.
+Has claimed many  
+heads with katana.
 // current address: $F2422
 
 //POINTER #234 @ $F0234 - STRING #234 @ $F2422
@@ -2235,6 +2602,8 @@ hide and bite.
 //もりのしょくぶつをあやつり　こうげき
 //TL: ???
 //A warrior that has long resided in the forest and manipulates plants of the forest to attack.
+Lives in forests. 
+Uses plants to atk
 // current address: $F2446
 
 //POINTER #235 @ $F0236 - STRING #235 @ $F2446
@@ -2244,6 +2613,8 @@ hide and bite.
 //きょかのないものは　ようしゃなくきる
 //TL: ???
 //A warrior that guards the entrance to the netherworld. It cuts down mercilessly anyone without the authority to pass.
+Guards entrance to
+netherworld.      
 // current address: $F246A
 
 //POINTER #236 @ $F0238 - STRING #236 @ $F246A
@@ -2253,6 +2624,8 @@ hide and bite.
 //たからものをまもる　つちにんぎょう　
 //TL: Konami
 //An earthen figure that protects the tomb of an ancient ruler.
+Protects ancient  
+rulers' tombs.    
 // current address: $F248E
 
 //POINTER #237 @ $F023A - STRING #237 @ $F248E
@@ -2262,6 +2635,8 @@ hide and bite.
 //こうげき　みのなかのミルクはおいしい
 //TL: ???
 //An animated palm tree. It attacks by dropping fruit that contain tasty milk.
+Palm tree. Drops  
+fruit with milk.  
 // current address: $F24B2
 
 //POINTER #238 @ $F023C - STRING #238 @ $F24B2
@@ -2271,6 +2646,9 @@ hide and bite.
 //ちまつりにあげることがいきがい　　　
 //TL: ???
 //A female fighter who serves darkness. It is worth living to bring an opponent to a blood festival.
+Lives to bring an 
+enemy to festival.
+
 // current address: $F24D6
 
 //POINTER #239 @ $F023E - STRING #239 @ $F24D6
@@ -2280,6 +2658,8 @@ hide and bite.
 //ジャンプして　かぎづめでこうげき　　
 //TL: ???
 //A monster who grew a leg in the eyeball. It can jump high and attacks with its claws.
+Grew a leg in eye.
+Jumps high.       
 // current address: $F24FA
 
 //POINTER #240 @ $F0240 - STRING #240 @ $F24FA
@@ -2289,6 +2669,8 @@ hide and bite.
 //まかいに　くんりんする　あんさつしゃ
 //TL: ???
 //Armed with a blade named Psycho Sword, this assassin reigns over the Dark World.
+Rules over dark.  
+Wields PsychoSword
 // current address: $F251E
 
 //POINTER #241 @ $F0242 - STRING #241 @ $F251E
@@ -2298,6 +2680,8 @@ hide and bite.
 //あいてのうんめいが　けっていする　　
 //TL: Konami
 //Decides the fate of an opponent when the candle on its fingertip burns out.
+When candle burns,
+decide foe's fate.
 // current address: $F2542
 
 //POINTER #242 @ $F0244 - STRING #242 @ $F2542
@@ -2307,6 +2691,8 @@ hide and bite.
 //きりでつつみこみ　しかいをうばう　　
 //TL: Konami
 //A sea-dwelling spirit that takes away sight by clouding the area in fog.
+Blinds by covering
+area in fog.      
 // current address: $F2566
 
 //POINTER #243 @ $F0246 - STRING #243 @ $F2566
@@ -2316,6 +2702,8 @@ hide and bite.
 //ものすごいねつでちかづくものはとける
 //TL: ???
 //A monster born from magma. Its intense beat melts anything that comes close.
+Born from magma.  
+Melts any nearby. 
 // current address: $F258A
 
 //POINTER #244 @ $F0248 - STRING #244 @ $F258A
@@ -2325,6 +2713,8 @@ hide and bite.
 //あくま　ダークボムで　ばくはこうげき
 //TL: Konami
 //An eyeball fiend created by a servant of the wicked, it uses "Dark Blasts" to blow away its enemies.
+Eyeball from a    
+wicked servant.   
 // current address: $F25AE
 
 //POINTER #245 @ $F024A - STRING #245 @ $F25AE
@@ -2334,6 +2724,8 @@ hide and bite.
 //たましいを　ぬかれてしまう　　　　　
 //TL: ???
 //Steals the souls of those slain by its sword.
+Steals souls of   
+those it kills.   
 // current address: $F25D2
 
 //POINTER #246 @ $F024C - STRING #246 @ $F25D2
@@ -2343,6 +2735,8 @@ hide and bite.
 //おおつなみをおこして　こうげきする　
 //TL: Konami
 //An amphibian capable of calling up a massive tidal wave from the dark seas to wipe out enemy monsters.
+Calls tidal waves 
+to wipe out foes. 
 // current address: $F25F6
 
 //POINTER #247 @ $F024E - STRING #247 @ $F25F6
@@ -2352,6 +2746,8 @@ hide and bite.
 //ちゅうじつなけもの　コンビはかんぺき
 //TL: ???
 //A beast master and its loyal servant. The combination they form is perfect.
+Master and servant
+make perfect combo
 // current address: $F261A
 
 //POINTER #248 @ $F0250 - STRING #248 @ $F261A
@@ -2361,6 +2757,8 @@ hide and bite.
 //りゅうにかえて　こうげきしてくる　　
 //TL: Konami
 //Transforms the water overflowing from a jar into attacking dragons.
+Overflowing water 
+becomes a dragon. 
 // current address: $F263E
 
 //POINTER #249 @ $F0252 - STRING #249 @ $F263E
@@ -2370,6 +2768,8 @@ hide and bite.
 //ふれるものをなんでもこおらせてしまう
 //TL: ???
 //A warrior whose whole body is made of ice. His touch will freeze anything.
+Made up of ice.   
+Touch and freeze. 
 // current address: $F2662
 
 //POINTER #250 @ $F0254 - STRING #250 @ $F2662
@@ -2379,6 +2779,8 @@ hide and bite.
 //おぼれさせる　うつくしいにんぎょ　　
 //TL: Konami
 //A beautiful mermaid that lures voyagers to a watery grave.
+Lures voyagers to 
+a watery grave.   
 // current address: $F2686
 
 //POINTER #251 @ $F0256 - STRING #251 @ $F2686
@@ -2388,6 +2790,8 @@ hide and bite.
 //うらはらに　すばやくてきをひっかく　
 //TL: ???
 //A cat fairy. Despite her adorable appearance, she quickly claws on her enemies.
+Cute, but quickly 
+claws her enemies.
 // current address: $F26AA
 
 //POINTER #252 @ $F0258 - STRING #252 @ $F26AA
@@ -2397,6 +2801,8 @@ hide and bite.
 //あこがれのまじょになったてんし　　　
 //TL: ???
 //Although destined to be an angel, this creature chose the way of the witch instead.
+Meant to be angel.
+Became a witch.   
 // current address: $F26CE
 
 //POINTER #253 @ $F025A - STRING #253 @ $F26CE
@@ -2406,6 +2812,8 @@ hide and bite.
 //あくま　はらのあなはなんでもすいこむ
 //TL: Konami
 //An imperfect monster with a belly vortex that sucks in opponents of any size.
+Vortex sucks in   
+any opponent.     
 // current address: $F26F2
 
 //POINTER #254 @ $F025C - STRING #254 @ $F26F2
@@ -2415,6 +2823,8 @@ hide and bite.
 //なっている　しゅびはかなりたかい　　
 //TL: Konami
 //This creature is shielded with a tough hide of hair and is excellent at defending itself.
+Shielded with hair
+Good at defence.  
 // current address: $F2716
 
 //POINTER #255 @ $F025E - STRING #255 @ $F2716
@@ -2424,6 +2834,8 @@ hide and bite.
 //くうかんにあいてをとじこめる　　　　
 //TL: ???
 //A monster capable of creating dimensional rifts to trap its enemies.
+Makes dimensional 
+rifts to trap foes
 // current address: $F273A
 
 //POINTER #256 @ $F0260 - STRING #256 @ $F273A
@@ -2432,7 +2844,9 @@ hide and bite.
 //からだが　いしのようにかたい　けで　
 //おおわれており　まもりがかたい　　　
 //TL: ???
-//With a body armored by rock-hard fur, this monster features excellent defense capabilities.	
+//With a body armored by rock-hard fur, this monster features excellent defense capabilities.
+Rock-hard fur lets
+it defend well.   
 // current address: $F275E
 
 //POINTER #257 @ $F0262 - STRING #257 @ $F275E
@@ -2442,6 +2856,8 @@ hide and bite.
 //あいてをジワジワとひきずりこむ　　　
 //TL: ???
 //This creature changes the ground at its feet into quicksand to ensnare its enemies.
+Turns ground into 
+quicksand to trap.
 // current address: $F2782
 
 //POINTER #258 @ $F0264 - STRING #258 @ $F2782
@@ -2451,6 +2867,8 @@ hide and bite.
 //つかいわけ　たさいなこうげきをする　
 //TL: Konami
 //Armed with an array of magic wands, this creature is capable of multiple attacks.
+With magic wands, 
+has many attacks. 
 // current address: $F27A6
 
 //POINTER #259 @ $F0266 - STRING #259 @ $F27A6
@@ -2460,6 +2878,8 @@ hide and bite.
 //あかりのカーテンでこうげきをふせぐ　
 //TL: ???
 //A beautiful goddess guarded by the moon. Her lunar curtain can block attacks.
+Goddess guarded by
+moon.Def.w/curtain
 // current address: $F27CA
 
 //POINTER #260 @ $F0268 - STRING #260 @ $F27CA
@@ -2469,6 +2889,8 @@ hide and bite.
 //かけ　こうげきをよけるあくまのかがみ
 //TL: Konami
 //A wicked mirror that hypnotizes enemies, diverting attacks from their intended targets.
+Hypnotises foes,  
+diverting attacks.
 // current address: $F27EE
 
 //POINTER #261 @ $F026A - STRING #261 @ $F27EE
@@ -2478,6 +2900,8 @@ hide and bite.
 //トカゲにまたがり　たたかうせんし　　
 //TL: ???
 //A dwarf who serves the traveler Aile. He rides a lizard warrior into battle.
+Serves Aile. Rides
+a lizard to battle
 // current address: $F2812
 
 //POINTER #262 @ $F026C - STRING #262 @ $F2812
@@ -2487,6 +2911,8 @@ hide and bite.
 //あいてをせきかして　はかいする　　　
 //TL: Konami
 //A golem formed by boulders, this monster turns its enemies to stone and crushes them to dust.
+Petrifies foes and
+turns them to dust
 // current address: $F2836
 
 //POINTER #263 @ $F026E - STRING #263 @ $F2836
@@ -2496,6 +2922,8 @@ hide and bite.
 //おおきなはねで　こうげきをふせぐ　　
 //TL: Konami
 //This fairy in an eggshell uses massive wings to blow back almost any projectile attack.
+Uses wings to stop
+any projectile.   
 // current address: $F285A
 
 //POINTER #264 @ $F0270 - STRING #264 @ $F285A
@@ -2505,6 +2933,8 @@ hide and bite.
 //おおつなみをよび　てきをのみこむ　　
 //TL: ???
 //Grand King of the Seven Seas. Able to summon massive tidal waves to drown the enemy.
+King of the sea.  
+Drowns foes w/wave
 // current address: $F287E
 
 //POINTER #265 @ $F0272 - STRING #265 @ $F287E
@@ -2514,6 +2944,8 @@ hide and bite.
 //そのつるぎさばきは　かなりのうでまえ
 //TL: ???
 //A queen who is skilled at the use and handling of many swords. Her sword-fighting ability is considerable.
+Queen who can use 
+many swords.      
 // current address: $F28A2
 
 //POINTER #266 @ $F0274 - STRING #266 @ $F28A2
@@ -2523,6 +2955,8 @@ hide and bite.
 //だし　あいてをきりきざむせんし　　　
 //TL: ???
 //A warrior who creates a vacuum at high speed to tear at the foe.
+Creates vacuum to 
+tear at foes.     
 // current address: $F28C6
 
 //POINTER #267 @ $F0276 - STRING #267 @ $F28C6
@@ -2532,6 +2966,8 @@ hide and bite.
 //てをよびだし　くらやみへひきずりこむ
 //TL: Konami
 //This wizard worships the darkness, and is served by a sinister hand that drags its enemies into oblivion.
+Worships the dark.
+Hand drags to doom
 // current address: $F28EA
 
 //POINTER #268 @ $F0278 - STRING #268 @ $F28EA
@@ -2541,6 +2977,8 @@ hide and bite.
 //はかいのあらしをよびだして　こうげき
 //TL: ???
 //A dark god of destruction that was born in the realm of darkness. It attacks by summoning a destructive storm.
+Born in dark realm
+Attacks w/storm.  
 // current address: $F290E
 
 //POINTER #269 @ $F027A - STRING #269 @ $F290E
@@ -2550,6 +2988,8 @@ hide and bite.
 //よびだし　さまざまなものをふきとばす
 //TL: Konami
 //A spirit that controls rain and is capable of summoning hurricanes to blow the enemy away.
+Controls rain and 
+summons hurricanes
 // current address: $F2932
 
 //POINTER #270 @ $F027C - STRING #270 @ $F2932
@@ -2559,6 +2999,8 @@ hide and bite.
 //はなち　あいてにダメージをあたえる　
 //TL: Konami
 //The fatal beams from the eyes of this monster result in grim destruction.
+Beams from eyes   
+cause destruction.
 // current address: $F2956
 
 //POINTER #271 @ $F027E - STRING #271 @ $F2956
@@ -2568,6 +3010,8 @@ hide and bite.
 //くちからほのおをはき　まわりをやく　
 //TL: ???
 //A type of a fiery bird that makes its home in high mountains. It sprays fire from its mouth to burn everything around it.
+Lives in mountains
+Sprays flames.    
 // current address: $F297A
 
 //POINTER #272 @ $F0280 - STRING #272 @ $F297A
@@ -2577,6 +3021,8 @@ hide and bite.
 //さまざまな　こうげきをふせぐ　　　　
 //TL: ???
 //It uses its vast knowledge to avoid many kinds of attack.
+Uses knowledge to 
+avoid many attacks
 // current address: $F299E
 
 //POINTER #273 @ $F0282 - STRING #273 @ $F299E
@@ -2586,6 +3032,8 @@ hide and bite.
 //くらす　もりをおさめる　わかきおう　
 //TL: Konami
 //This youthful king of the forests lives in a green world, abundant with trees and wildlife.
+Lives in a green  
+world with trees. 
 // current address: $F29C2
 
 //POINTER #274 @ $F0284 - STRING #274 @ $F29C2
@@ -2595,6 +3043,8 @@ hide and bite.
 //ダメだが　うみでもつかえたらしい　　
 //TL: ???
 //A surface battle robot. It appears to have been usable in the sea, but no longer.
+Battle robot. Once
+usable in the sea.
 // current address: $F29E6
 
 //POINTER #275 @ $F0286 - STRING #275 @ $F29E6
@@ -2604,6 +3054,8 @@ hide and bite.
 //かまいたちと　ねつこうせんでこうげき
 //TL: Konami
 //The Sun and the North Wind join hands to deliver a devastating combination of heat and gale-force winds.
+Sun and wind join 
+together.         
 // current address: $F2A0A
 
 //POINTER #276 @ $F0288 - STRING #276 @ $F2A0A
@@ -2613,6 +3065,8 @@ hide and bite.
 //うつったものがうまれるといわれている
 //TL: ???
 //An egg laid by a Gorgon. It is sad that whatever is reflected in its eye is what will hatch.
+Laid by Gorgon.   
+Reflection hatches
 // current address: $F2A2E
 
 //POINTER #277 @ $F028A - STRING #277 @ $F2A2E
@@ -2622,6 +3076,8 @@ hide and bite.
 //わからない　ちいさな　ようちゅう　　
 //TL: ???
 //Nobody has any idea what creature may spawn from this mysterious larva.
+Nobody knows what 
+will spawn from it
 // current address: $F2A52
 
 //POINTER #278 @ $F028C - STRING #278 @ $F2A52
@@ -2631,6 +3087,8 @@ hide and bite.
 //けむりでおおい　みえなくしてしまう　
 //TL: Konami
 //A fiend that dwells in a blinding curtain of smoke.
+Fiend dwells in a 
+curtain of smoke. 
 // current address: $F2A76
 
 //POINTER #279 @ $F028E - STRING #279 @ $F2A76
@@ -2640,6 +3098,8 @@ hide and bite.
 //からまもるおうひ　しゅびはかたい　　
 //TL: Konami
 //While the king is away, this queen protects his throne with a mighty defense.
+King is away so   
+queen defends.    
 // current address: $F2A9A
 
 //POINTER #280 @ $F0290 - STRING #280 @ $F2A9A
@@ -2649,6 +3109,8 @@ hide and bite.
 //そのぼうそうは　だれにもとめられない
 //TL: Konami
 //Nothing can stop the mad attack of this powerful creature.
+Nothing can stop  
+its attack.       
 // current address: $F2ABE
 
 //POINTER #281 @ $F0292 - STRING #281 @ $F2ABE
@@ -2658,6 +3120,8 @@ hide and bite.
 //さいみんじゅつをかけ　すいまをさそう
 //TL: Konami
 //A monstrous sheep with a long tail for hypnotizing enemies.
+Hypnotises foes   
+with its long tail
 // current address: $F2AE2
 
 //POINTER #282 @ $F0294 - STRING #282 @ $F2AE2
@@ -2667,6 +3131,8 @@ hide and bite.
 //ついて　こうげきしてくるきかい　　　
 //TL: Konami
 //This machine generates illusions that leave an enemy wide open to attacks.
+Makes illusions to
+leave foe open.   
 // current address: $F2B06
 
 //POINTER #283 @ $F0296 - STRING #283 @ $F2B06
@@ -2676,6 +3142,8 @@ hide and bite.
 //ゆがんだちからを　うみだすまどうし　
 //TL: ???
 //A magician that merges yin and yang together to create a distorted force.
+Merges yin & yang 
+to make distortion
 // current address: $F2B2A
 
 //POINTER #284 @ $F0298 - STRING #284 @ $F2B2A
@@ -2685,6 +3153,8 @@ hide and bite.
 //はきだし　あいてをこおりづけにする　
 //TL: Konami
 //A snake with a single eye that blows an icy breath to freeze its opponents.
+Blows icy breath  
+to freeze foes.   
 // current address: $F2B4E
 
 //POINTER #285 @ $F029A - STRING #285 @ $F2B4E
@@ -2694,6 +3164,8 @@ hide and bite.
 //きかい　こわすのは　たいへんだ　　　
 //TL: Konami
 //An indestructible mechanoid created for the sole purpose of guarding the gateways.
+A machine created 
+to guard gateways.
 // current address: $F2B72
 
 //POINTER #286 @ $F029C - STRING #286 @ $F2B72
@@ -2703,6 +3175,8 @@ hide and bite.
 //すごいスピードで　とつげきしてくる　
 //TL: ???
 //An ogre that has been possessed by a black shadow. It attacks at an astounding speed.
+Ogre possessed by 
+a black shadow.   
 // current address: $F2B96
 
 //POINTER #287 @ $F029E - STRING #287 @ $F2B96
@@ -2712,6 +3186,8 @@ hide and bite.
 //だすオブジェで　てきをおしつぶす　　
 //TL: ???
 //An evil artist that crushes foes with artistic objects.
+Evil artist that  
+crushes with art. 
 // current address: $F2BBA
 
 //POINTER #288 @ $F02A0 - STRING #288 @ $F2BBA
@@ -2721,6 +3197,8 @@ hide and bite.
 //ものにへんしんするスライム　　　　　
 //TL: Konami
 //A slime that can morph and adopt the shape and size of any monster it chooses.
+Morphs into any   
+monster it wants. 
 // current address: $F2BDE
 
 //POINTER #289 @ $F02A2 - STRING #289 @ $F2BDE
@@ -2730,6 +3208,8 @@ hide and bite.
 //みかづきのような　ほこでこうげき　　
 //TL: ???
 //A servant of the moon goddess, this warrior wields a pike with a spectacular crescent-shaped blade.
+Serve moon goddess
+Has cresent pike. 
 // current address: $F2C02
 
 //POINTER #290 @ $F02A4 - STRING #290 @ $F2C02
@@ -2739,6 +3219,8 @@ hide and bite.
 //ほのおをじざいにあやつりこうげきする
 //TL: Konami
 //A malevolent creature wrapped in flames that attacks enemies with intense fire.
+Evil creature     
+wrapped in flames.
 // current address: $F2C26
 
 //POINTER #291 @ $F02A6 - STRING #291 @ $F2C26
@@ -2748,6 +3230,8 @@ hide and bite.
 //こうげきのダメージを　ふせぐカッパ　
 //TL: ???
 //A kappa with a myriad of powers to shield it from enemy attacks.
+Kappa with many   
+powers to defend. 
 // current address: $F2C4A
 
 //POINTER #292 @ $F02A8 - STRING #292 @ $F2C4A
@@ -2757,6 +3241,8 @@ hide and bite.
 //いわれる　でんせつのけんごう　　　　
 //TL: ???
 //A legendary swordsman, said to have killed a hundred men.
+Said to have      
+killed hundred men
 // current address: $F2C6E
 
 //POINTER #293 @ $F02AA - STRING #293 @ $F2C6E
@@ -2766,6 +3252,8 @@ hide and bite.
 //そらから　てきをなんどもきりつける　
 //TL: ???
 //A winged knight that gained power through dragon equipment. It hacks at foes from the sky, diving repeatedly.
+Gained strength   
+from dragon equip.
 // current address: $F2C92
 
 //POINTER #294 @ $F02AC - STRING #294 @ $F2C92
@@ -2775,6 +3263,8 @@ hide and bite.
 //だいしっぱいして　うまれたばけもの　
 //TL: Konami
 //A monster created from a major accident in an underground lab.
+Created from a    
+major lab accident
 // current address: $F2CB6
 
 //POINTER #295 @ $F02AE - STRING #295 @ $F2CB6
@@ -2784,6 +3274,8 @@ hide and bite.
 //なく　とつげきにもつかえる　　　　　
 //TL: Konami
 //This dragon wears a shield not only for its own protection, but also for ramming its enemies.
+Has shield to ram 
+its enemies.      
 // current address: $F2CDA
 
 //POINTER #296 @ $F02B0 - STRING #296 @ $F2CDA
@@ -2793,6 +3285,8 @@ hide and bite.
 //くるったように　てきをはかいする　　
 //TL: ???
 //A mechanical warrior that was built with the powers of darkness. It destroys its foes with demented determination.
+Built with dark   
+powers. Determined
 // current address: $F2CFE
 
 //POINTER #297 @ $F02B2 - STRING #297 @ $F2CFE
@@ -2802,6 +3296,8 @@ hide and bite.
 //ふたつのくちで　てきをかみくだく　　
 //TL: Konami
 //A two-headed dragon with a pair of jaws that can tear an enemy to shreds.
+Two-headed dragon.
+Jaws tear foes up.
 // current address: $F2D22
 
 //POINTER #298 @ $F02B4 - STRING #298 @ $F2D22
@@ -2811,6 +3307,8 @@ hide and bite.
 //おんぷの　かまをつかい　こうげきする
 //TL: Konami
 //A maiden that uses sound to her advantage, she wields a scythe that's shaped like a musical note.
+Uses sound to her 
+advantage w/scythe
 // current address: $F2D46
 
 //POINTER #299 @ $F02B6 - STRING #299 @ $F2D46
@@ -2819,6 +3317,8 @@ hide and bite.
 //しっぽが　ながいとり　そのしっぽで　
 //くうちゅうから　こうげきする　　　　
 //A vicious bird that attacks from the skies with its whip-like tail.
+Bird attacks from 
+sky with whip tail
 // current address: $F2D6A
 
 //POINTER #300 @ $F02B8 - STRING #300 @ $F2D6A
@@ -2828,6 +3328,8 @@ hide and bite.
 //だせるけん　やみのものにはつかえない
 //TL: ???
 //An enchanted sword that can draw out the powers of a warrior. It cannot be used by servants of the dark.
+EQUIP: Warriors, 
+unless Dark.     
 // current address: $F2D8E
 
 //POINTER #301 @ $F02BA - STRING #301 @ $F2D8E
@@ -2837,6 +3339,8 @@ hide and bite.
 //ちからをえて　パワーアップできる　　
 //TL: ???
 //A warrior who has sold their soul to evil can be strengthened with the power of darkness.
+EQUIP: Warriors   
+that turned evil  
 // current address: $F2DB2
 
 //POINTER #302 @ $F02BC - STRING #302 @ $F2DB2
@@ -2846,6 +3350,8 @@ hide and bite.
 //６０パーセントパワーアップするぞ！　
 //TL: ???
 //Fiends and other monsters of the dark power up by 60%!
+EQUIP: Fiends and 
+other dark.       
 // current address: $F2DD6
 
 //POINTER #303 @ $F02BE - STRING #303 @ $F2DD6
@@ -2855,6 +3361,8 @@ hide and bite.
 //つねにさいこうのちからをはっきできる
 //TL: ???
 //Fiends and Beast-Warriors can constantly use their maximum strength.
+EQUIP: Fiends and 
+Beast-Warriors.   
 // current address: $F2DFA
 
 //POINTER #304 @ $F02C0 - STRING #304 @ $F2DFA
@@ -2864,6 +3372,8 @@ hide and bite.
 //きょうりょくなレーザーをうてる　　　
 //TL: ???
 //If equipped by an insect, etc. it can fire powerful beams.
+EQUIP: Insects.   
+Fires strong beams
 // current address: $F2E1E
 
 //POINTER #305 @ $F02C2 - STRING #305 @ $F2E1E
@@ -2873,6 +3383,8 @@ hide and bite.
 //こんちゅうなどが　そうびかのう　　　
 //TL: ???
 //Shoots intense flames. Can only be equipped with insects, etc.
+EQUIP: Insects.   
+Shoots flames.    
 // current address: $F2E42
 
 //POINTER #306 @ $F02C4 - STRING #306 @ $F2E42
@@ -2882,6 +3394,8 @@ hide and bite.
 //せいれいのはなつ　せいなるひかり　　
 //TL: ???
 //The holy light of the spirit powers up elves.
+EQUIP: Elves. Holy
+light powers up.  
 // current address: $F2E66
 
 //POINTER #307 @ $F02C6 - STRING #307 @ $F2E66
@@ -2892,7 +3406,8 @@ hide and bite.
 //TL: ???
 //Increases the power of Beasts and other fanged monsters.
 // current address: $F2E8A
-
+EQUIP: Beasts and 
+fanged monsters.  
 //POINTER #308 @ $F02C8 - STRING #308 @ $F2E8A
 #W16($F02C8)
 //Steel Shell
@@ -2900,6 +3415,8 @@ hide and bite.
 //もたないものには　こうかがないという
 //TL: ???
 //Boosts the power of shelled monsters. Said to have no effect on those without shells.
+EQUIP: Shells.    
+No effect without.
 // current address: $F2EAE
 
 //POINTER #309 @ $F02CA - STRING #309 @ $F2EAE
@@ -2909,6 +3426,8 @@ hide and bite.
 //しょくぶつたちは　パワーアップだ！　
 //TL: ???
 //Vile microbes boosts the power of Plants in the woods!
+EQUIP: Plants.    
+Vile microbes used
 // current address: $F2ED2
 
 //POINTER #310 @ $F02CC - STRING #310 @ $F2ED2
@@ -2918,6 +3437,8 @@ hide and bite.
 //まほうつかいなどは　パワーアップする
 //TL: ???
 //Dark wizards are powered up when wearing this pendant.
+EQUIP:Dark wizards
+Wear the pendant. 
 // current address: $F2EF6
 
 //POINTER #311 @ $F02CE - STRING #311 @ $F2EF6
@@ -2927,6 +3448,8 @@ hide and bite.
 //アップできる　ぎんのゆみや　　　　　
 //TL: ???
 //A silver bow, when equipped can power up a fairy, etc.
+EQUIP: Fairy      
+                  
 // current address: $F2F1A
 
 //POINTER #312 @ $F02D0 - STRING #312 @ $F2F1A
@@ -2936,6 +3459,8 @@ hide and bite.
 //やみのモンスターには　こうかがないぞ
 //TL: ???
 //Increases the power of horned creatures. Has no effect on Dark monsters.
+EQUIP: Horned. No 
+effect on Dark.   
 // current address: $F2F3E
 
 //POINTER #313 @ $F02D2 - STRING #313 @ $F2F3E
@@ -2945,6 +3470,8 @@ hide and bite.
 //やみのモンスターが　パワーアップだ！
 //TL: ???
 //Increases the power of Dark monsters with horns on their head!
+EQUIP: Horned Dark
+monsters.         
 // current address: $F2F62
 
 //POINTER #314 @ $F02D4 - STRING #314 @ $F2F62
@@ -2954,6 +3481,8 @@ hide and bite.
 //できるという　でんせつのたからもの　
 //TL: ???
 //A legendary treasure that increases the power of dragons.
+EQUIP: Dragons.   
+Legendary treasure
 // current address: $F2F86
 
 //POINTER #315 @ $F02D6 - STRING #315 @ $F2F86
@@ -2963,6 +3492,8 @@ hide and bite.
 //などが　そうびするとパワーアップだ！
 //TL: ???
 //A whip for paralyzing enemies. Increases power when equipped with female etc.
+EQUIP: Females.   
+Paralyses enemies.
 // current address: $F2FAA
 
 //POINTER #316 @ $F02D8 - STRING #316 @ $F2FAA
@@ -2972,6 +3503,8 @@ hide and bite.
 //せいかくがかわってパワーアップするぞ
 //TL: ???
 //Increases the power of female monsters by changing their attitudes!
+EQUIP: Females.   
+Changes attitude. 
 // current address: $F2FCE
 
 //POINTER #317 @ $F02DA - STRING #317 @ $F2FCE
@@ -2981,6 +3514,8 @@ hide and bite.
 //ぶんしんして　こうげきをかけられるぞ
 //TL: ???
 //Creates the doppelgangers of Harpie Lady for three-pronged attacks.
+Turns one Harpie  
+Lady into three.  
 // current address: $F2FF2
 
 //POINTER #318 @ $F02DC - STRING #318 @ $F2FF2
@@ -2990,6 +3525,8 @@ hide and bite.
 //などは　パワーアップしてきょうぼうか
 //TL: ???
 //Magical powers of the moonlight increases the power of Beasts and makes them savage.
+EQUIP: Beasts.    
+Turns them savage.
 // current address: $F3016
 
 //POINTER #319 @ $F02DE - STRING #319 @ $F3016
@@ -2999,6 +3536,8 @@ hide and bite.
 //ひょうじにして　しゅびにできなくする
 //TL: ???
 //Forces an opponent's Defense Position monster into Attack Position.
+Forces foe Defence
+monsters to Attack
 // current address: $F303A
 
 //POINTER #320 @ $F02E0 - STRING #320 @ $F303A
@@ -3008,6 +3547,8 @@ hide and bite.
 //あくまのちからでパワーアップする　　
 //TL: ???
 //Female and Dark monsters are powered up by demonic forces.
+EQUIP: Female/Dark
+Demonic force.    
 // current address: $F305E
 
 //POINTER #321 @ $F02E2 - STRING #321 @ $F305E
@@ -3017,6 +3558,8 @@ hide and bite.
 //アンデットなどは　パワーアップする　
 //TL: ???
 //Mystic forces from the crystal increase the power of Zombies.
+EQUIP: Zombies.   
+Force from crystal
 // current address: $F3082
 
 //POINTER #322 @ $F02E4 - STRING #322 @ $F3082
@@ -3026,6 +3569,8 @@ hide and bite.
 //ほん　こころのあしきものはよめない　
 //TL: ???
 //A magic book for increasing the power of magicians. It cannot be read by anyone with evil in their heart.
+EQUIP: Magicians. 
+Evil can't read it
 // current address: $F30A6
 
 //POINTER #323 @ $F02E6 - STRING #323 @ $F30A6
@@ -3035,6 +3580,8 @@ hide and bite.
 //モンスターは　パワーアップするゾ！　
 //TL: ???
 //Increases the power of Thunder, Rock and Pyro monsters!
+EQUIP: Thunder,   
+Rock, Pyro.       
 // current address: $F30CA
 
 //POINTER #324 @ $F02E8 - STRING #324 @ $F30CA
@@ -3044,6 +3591,8 @@ hide and bite.
 //アップしてくれる　かいぞうこうじょう
 //TL: ???
 //A manufacturing facility that tunes up all Machine monsters.
+EQUIP: Machines.  
+Tunes them up.    
 // current address: $F30EE
 
 //POINTER #325 @ $F02EA - STRING #325 @ $F30EE
@@ -3053,6 +3602,8 @@ hide and bite.
 //きょうりゅうなどは　パワーアップ！　
 //TL: ???
 //Absorbs the sun's energy to increase the power of Dinosaurs!
+EQUIP: Dinosaurs. 
+Absorb sun energy.
 // current address: $F3112
 
 //POINTER #326 @ $F02EC - STRING #326 @ $F3112
@@ -3062,6 +3613,8 @@ hide and bite.
 //かぜのえんごをうけて　パワーアップ　
 //TL: ???
 //The winds provide support to increase the power of Winged Beasts and other flying monsters!
+EQUIP:WingedBeasts
+Winds give support
 // current address: $F3136
 
 //POINTER #327 @ $F02EE - STRING #327 @ $F3136
@@ -3070,7 +3623,10 @@ hide and bite.
 //みず　さかな　かいりゅうぞくなどは　
 //ポセイドンのちからで　パワーアップだ
 //TL: ???
-//Poseidon's strength is shared to boost the power of Aqua, Fish and Sea Serpent monsters
+//Poseidon's strength is shared to boost the power of Aqua, Fish and Sea Serpent monsters.
+//Card name change means Poseidon is no longer relevant
+EQUIP: Aqua, Fish,
+Sea Serpent.      
 // current address: $F315A
 
 //POINTER #328 @ $F02F0 - STRING #328 @ $F315A
@@ -3080,6 +3636,8 @@ hide and bite.
 //ぞくのモンスターをふういんしてしまう
 //TL: ???
 //Seals all Dragon-Type monsters on the field.
+Seals all Dragons 
+away in the jar.  
 // current address: $F317E
 
 //POINTER #329 @ $F02F2 - STRING #329 @ $F317E
@@ -3089,6 +3647,8 @@ hide and bite.
 //みどりいっぱいのフィールドにチェンジ
 //TL: ???
 //Changes the field to a verdant forest that benefits Insects and Beasts.
+FIELD: Forest. For
+Insects, Beasts.  
 // current address: $F31A2
 
 //POINTER #330 @ $F02F4 - STRING #330 @ $F31A2
@@ -3098,6 +3658,8 @@ hide and bite.
 //あれはてたフィールドにチェンジだ！　
 //TL: ???
 //Changes the field into a desolate wasteland that benefits Dinosaurs and Zombies!
+FIELD: Wasteland. 
+Dinosaurs, Zombies
 // current address: $F31C6
 
 //POINTER #331 @ $F02F6 - STRING #331 @ $F31C6
@@ -3107,6 +3669,8 @@ hide and bite.
 //だいさんみゃくにフィールドチェンジ！
 //TL: ???
 //Changes the field into a vast mountain range that benefits Dragons and Winged Beasts!
+FIELD: Mountain.  
+Dragons,WingBeasts
 // current address: $F31EA
 
 //POINTER #332 @ $F02F8 - STRING #332 @ $F31EA
@@ -3116,6 +3680,8 @@ hide and bite.
 //チェンジ　せんしたちがパワーアップ！
 //TL: ???
 //Changes the field to a meadow, as far as the eye can see. Warriors power up!
+FIELD: Meadow. For
+Warriors.         
 // current address: $F320E
 
 //POINTER #333 @ $F02FA - STRING #333 @ $F320E
@@ -3125,6 +3691,8 @@ hide and bite.
 //みずのモンスターがパワーアップだ！　
 //TL: ???
 //Changes the field to a sea. Water monsters power up!
+FIELD: Sea. For   
+water monsters.   
 // current address: $F3232
 
 //POINTER #334 @ $F02FC - STRING #334 @ $F3232
@@ -3134,6 +3702,8 @@ hide and bite.
 //くらやみのフィールドにチェンジ！　　
 //TL: ???
 //Transforms the field into darkness, benefiting Spellcasters!
+FIELD: Darkness.  
+For Magicians.    
 // current address: $F3256
 
 //POINTER #335 @ $F02FE - STRING #335 @ $F3256
@@ -3143,6 +3713,8 @@ hide and bite.
 //モンスターをようしゃなくすいこむ！　
 //TL: ???
 //Mercilessly inhales all monsters on the field!
+Inhales every     
+monster on field. 
 // current address: $F327A
 
 //POINTER #336 @ $F0300 - STRING #336 @ $F327A
@@ -3152,6 +3724,8 @@ hide and bite.
 //をくらわせ　ぜんめつさせる！　　　　
 //TL: ???
 //Destroy every opposing monster with a stroke of lightning!
+Destroys all enemy
+monsters on field.
 // current address: $F329E
 
 //POINTER #337 @ $F0302 - STRING #337 @ $F329E
@@ -3161,6 +3735,8 @@ hide and bite.
 //とってもおいしい　ビーフカレーだ　　
 //TL: ???
 //A delicious beef curry increases Life Points by 200.
+Tasty beef curry. 
+Restores 200 LP.  
 // current address: $F32C2
 
 //POINTER #338 @ $F0304 - STRING #338 @ $F32C2
@@ -3170,6 +3746,8 @@ hide and bite.
 //ポイントを５００かいふくできるくすり
 //TL: ???
 //A magic potion that increases Life Points by 500.
+A magic potion.   
+Restores 500 LP.  
 // current address: $F32E6
 
 //POINTER #339 @ $F0306 - STRING #339 @ $F32E6
@@ -3179,6 +3757,8 @@ hide and bite.
 //するといわれる　ゴブりンのもつくすり
 //TL: ???
 //A goblin's herb that increases Life Points by 1000.
+A goblin's herb.  
+Restores 1,000 LP.
 // current address: $F330A
 
 //POINTER #340 @ $F0308 - STRING #340 @ $F330A
@@ -3188,6 +3768,8 @@ hide and bite.
 //ライフポイントを２０００かいふくする
 //TL: ???
 //The blood of an angel that she collected by injuring herself. It restores 2000 Life Points.
+Angel's blood.    
+Restores 2,000 LP.
 // current address: $F332E
 
 //POINTER #341 @ $F030A - STRING #341 @ $F332E
@@ -3197,6 +3779,8 @@ hide and bite.
 //ライフポイントが５０００もかいふく！
 //TL: ???
 //A deity that heals any kind of injury. Restores 5000 Life Points!
+Heals any injury. 
+Restores 5,000 LP.
 // current address: $F3352
 
 //POINTER #342 @ $F030C - STRING #342 @ $F3352
@@ -3206,6 +3790,8 @@ hide and bite.
 //ポイントに２００のダメージをあたえる
 //TL: ???
 //A shower of sparks inflicts 200 points of damage to your opponent's Life Points.
+A spark shower.   
+200 LP damage.    
 // current address: $F3376
 
 //POINTER #343 @ $F030E - STRING #343 @ $F3376
@@ -3215,6 +3801,8 @@ hide and bite.
 //ポイントに５００のダメージをあたえる
 //TL: ???
 //A fireball inflicts 500 points of damage to your opponent's Life Points.
+A fireball deals  
+500 LP damage.    
 // current address: $F339A
 
 //POINTER #344 @ $F0310 - STRING #344 @ $F339A
@@ -3224,6 +3812,8 @@ hide and bite.
 //を１０００ポイントげんしょうさせる　
 //TL: ???
 //A burning at the stake reduces the opponent's Life Points by 1000.
+Burn at the stake.
+1,000 LP damage.  
 // current address: $F33BE
 
 //POINTER #345 @ $F0312 - STRING #345 @ $F33BE
@@ -3233,6 +3823,8 @@ hide and bite.
 //のライフポイントに２０００のダメージ
 //TL: ???
 //A huge blaze that burns all day inflicts 2000 damage to your opponent's Life Points.
+Fire burns all day
+2,000 LP damage.  
 // current address: $F33E2
 
 //POINTER #346 @ $F0314 - STRING #346 @ $F33E2
@@ -3242,6 +3834,8 @@ hide and bite.
 //うばう　しゃくねつじごくをはっせい　
 //TL: ???
 //Generates a blazing hell that takes 5000 of your opponent's Life Points.
+Blazing hell deals
+5,000 LP damage.  
 // current address: $F3406
 
 //POINTER #347 @ $F0316 - STRING #347 @ $F3406
@@ -3251,6 +3845,8 @@ hide and bite.
 //さらに　てきは３ターンうごけない！　
 //TL: ???
 //Enemy monsters are revealed and your opponent cannot attack for three turns.
+Enemies cannot    
+attack for 3 turns
 // current address: $F342A
 
 //POINTER #348 @ $F0318 - STRING #348 @ $F342A
@@ -3260,6 +3856,8 @@ hide and bite.
 //モンスターは　すべてパワーダウン　　
 //TL: ???
 //The curse of the hexagram reduces the power of all the opponent's monsters.
+Hexagram's curse  
+weakens all foes. 
 // current address: $F344E
 
 //POINTER #349 @ $F031A - STRING #349 @ $F344E
@@ -3269,6 +3867,8 @@ hide and bite.
 //モンスターが　すべてみえるようになる
 //TL: ???
 //A dazzling light reveals all monsters on the field.
+Dazzling light    
+shows all monsters
 // current address: $F3472
 
 //POINTER #350 @ $F031C - STRING #350 @ $F3472
@@ -3278,6 +3878,8 @@ hide and bite.
 //とうぞくを　はこからとびだしおそう　
 //TL: ???
 //A monster that attacks anybody who attempts to open its lid.
+Attacks any who   
+try to open lid   
 // current address: $F3496
 
 //POINTER #351 @ $F031E - STRING #351 @ $F3496
@@ -3287,6 +3889,9 @@ hide and bite.
 //けんとたてをてにした　おんなせんし　
 //TL: ???
 //A lady warrior armed with sword and shield, she floats like a butterfly and stings like a bee.
+//Call it a hunch but I doubt Muhammed Ali is being quoted here
+Floats lightly and
+stings sharply.   
 // current address: $F34BA
 
 //POINTER #352 @ $F0320 - STRING #352 @ $F34BA
@@ -3296,6 +3901,8 @@ hide and bite.
 //じゆうにうごける　かいりゅうのなかま
 //TL: ???
 //A relative of sea serpents that has fins on its body. It can move about freely in water.
+Related to sea    
+serpents. Has fins
 // current address: $F34DE
 
 //POINTER #353 @ $F0322 - STRING #353 @ $F34DE
@@ -3305,6 +3912,8 @@ hide and bite.
 //チャックのくちで　ガブりとかみつく　
 //TL: Konami
 //It may look like a harmless stuffed animal, but its zipper mouth deals a deadly bite.
+Looks harmless but
+zip mouth bites.  
 // current address: $F3502
 
 //POINTER #354 @ $F0324 - STRING #354 @ $F3502
@@ -3314,6 +3923,8 @@ hide and bite.
 //んマシン　なぞのきんぞくでできている
 //TL: Konami
 //Made of mysterious metal, this monster is a doomsday machine from the edge of the universe.
+Doomsday machine  
+from edge of space
 // current address: $F3526
 
 //POINTER #355 @ $F0326 - STRING #355 @ $F3526
@@ -3323,6 +3934,8 @@ hide and bite.
 //のびたかぎづめで　あいてをひきさく　
 //TL: ???
 //A very vicious lion that tears opponents apart with sharp and long claws.
+Tears foes apart  
+with sharp claws. 
 // current address: $F354A
 
 //POINTER #356 @ $F0328 - STRING #356 @ $F354A
@@ -3332,6 +3945,8 @@ hide and bite.
 //あたりいちめんをほのおのうみにする！
 //TL: Konami
 //This monster has three fire-breathing heads and can form a sea of blazing flames.
+Three heads that  
+breath fire.      
 // current address: $F356E
 
 //POINTER #357 @ $F032A - STRING #357 @ $F356E
@@ -3341,6 +3956,8 @@ hide and bite.
 //らう　しんせいなちからをもつドラゴン
 //TL: ???
 //A mystical dragon that burns away the wicked with its mystic flames.
+Burns away wicked 
+with mystic flames
 // current address: $F3592
 
 //POINTER #358 @ $F032C - STRING #358 @ $F3592
@@ -3350,6 +3967,8 @@ hide and bite.
 //ガイコツ２ふたりぐみ　あるきにくそう
 //TL: ???
 //A pair of two friendly skeletons, lean and fat, that travel with extreme difficulty.
+Two skeletons that
+struggle to move. 
 // current address: $F35B6
 
 //POINTER #359 @ $F032E - STRING #359 @ $F35B6
@@ -3359,6 +3978,8 @@ hide and bite.
 //かなりつよい　きょうあくなモンスター
 //TL: ???
 //A huge, brutal monster that attacks with razor-sharp claws.
+Brutal monster    
+that uses claws   
 // current address: $F35DA
 
 //POINTER #360 @ $F0330 - STRING #360 @ $F35DA
@@ -3368,6 +3989,8 @@ hide and bite.
 //はねでそらをとぶ　めずらしいペンギン
 //TL: Konami
 //A very rare penguin that takes to the air with ears shaped like wings.
+Takes to the air  
+with wing-like ear
 // current address: $F35FE
 
 //POINTER #361 @ $F0332 - STRING #361 @ $F35FE
@@ -3377,6 +4000,8 @@ hide and bite.
 //つよいこうげきでも　ふせげるという　
 //TL: ???
 //A Millennium Item. It can block any powerful attack.
+Millennium Item.  
+Block strong blows
 // current address: $F3622
 
 //POINTER #362 @ $F0334 - STRING #362 @ $F3622
@@ -3386,6 +4011,8 @@ hide and bite.
 //まほうをふりまきながら　とびまわる　
 //TL: ???
 //Flies around spreading magic that makes everyone happy.
+Spreads magic that
+makes all happy.  
 // current address: $F3646
 
 //POINTER #363 @ $F0336 - STRING #363 @ $F3646
@@ -3395,6 +4022,8 @@ hide and bite.
 //のうりょくをもつ　さいきょうのせんし
 //TL: ???
 //A powerful warrior with the same capabilities as the legendary B.eye White Dragon.
+Warrior as strong 
+as Blue-Eyes.     
 // current address: $F366A
 
 //POINTER #364 @ $F0338 - STRING #364 @ $F366A
@@ -3404,4 +4033,6 @@ hide and bite.
 //かがみのなかのせかいへすいこむ　　
 //TL: ???
 //An arcane glass that draws its enemies in to the mirror world.
+Draws enemies to  
+the mirror world. 
 // current address: $F368D
