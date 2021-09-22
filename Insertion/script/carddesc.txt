@@ -885,7 +885,7 @@ axe-wielder.
 //TL: Konami
 //Nothing stands in the way of this spike-covered dinosaur!
 Nothing will block
-spiked dinosaur.
+spiked dinosaur.  
 // current address: $F0E56
 
 //POINTER #79 @ $F00FE - STRING #79 @ $F0E56
@@ -1194,8 +1194,8 @@ appear.
 //くる　ゆだんすると　はさまれるぞ　　
 //TL: ???
 //Uses both physical and shadow forms to attack, making it a difficult creature to overcome.
-Attacks with both
-physical/shadows.
+Attacks with both 
+physical/shadows. 
 // current address: $F1246
 
 //POINTER #107 @ $F0136 - STRING #107 @ $F1246
@@ -1547,7 +1547,7 @@ soul. Uses sword.
 //TL: ???
 //A creature rumored to turn enemies in to zombies with a strange ray that emanates from its eyes.
 Zombifies enemies 
-with a eye ray.
+with a eye ray.   
 // current address: $F16C6
 
 //POINTER #139 @ $F0176 - STRING #139 @ $F16C6
@@ -1745,7 +1745,7 @@ bone-break tackle.
 //TL: Konami
 //A fire-breathing plant found growing near volcanoes.
 Breathes fire.    
-Grows by volcanos
+Grows by volcanos.
 // current address: $F194E
 
 //POINTER #157 @ $F019A - STRING #157 @ $F194E
@@ -1800,7 +1800,7 @@ coated armour.
 //TL: ???
 //A parasite brain that preys on the knowledge and intelligence of its opponents.
 Preys on its foes'
-knowledge.
+knowledge.        
 // current address: $F1A02
 
 //POINTER #162 @ $F01A4 - STRING #162 @ $F1A02
@@ -2118,7 +2118,7 @@ death curses.
 //なんでもとかすきけんなあめをふらせる
 //TL: Konami
 //An electric cloud creature, its acid rain makes it very dangerous.
-Electric cloud.  
+Electric cloud.   
 Acid rain danger. 
 // current address: $F1E16
 
@@ -3328,8 +3328,8 @@ sky with whip tail
 //だせるけん　やみのものにはつかえない
 //TL: ???
 //An enchanted sword that can draw out the powers of a warrior. It cannot be used by servants of the dark.
-EQUIP: Warriors, 
-unless Dark.     
+EQUIP: Warriors,  
+unless Dark.      
 // current address: $F2D8E
 
 //POINTER #301 @ $F02BA - STRING #301 @ $F2D8E
