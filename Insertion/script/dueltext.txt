@@ -110,11 +110,11 @@ Card became[Page]
 #W16($14996)
 #W16($14998)
 #W16($1499A)
-//More fusion? Various dupe pointers.
+//Petit Moth and evolutions' effect
 //[CardNum]は　[CardName]にしんかした[Page]
 //[Exit]
 //
-Fusion:[CardNum][Line]
+Evolved into[Line]
 [CardName][Page][Exit]
 // current address: $14A96
 
@@ -164,6 +164,7 @@ ing Light wore off[Page][Exit]
 //POINTER #16 @ $149A0 - STRING #16 @ $14AEC
 #W16($149A0)
 //Legendary Sword
+//Unused, uses generic equip line
 //でんせつのけんをつかった[Line]
 //モンスターはパワーアップした[Page]
 //[Exit]
@@ -177,7 +178,7 @@ up.[Page][Exit]
 
 //POINTER #17 @ $149A2 - STRING #17 @ $14B09
 #W16($149A2)
-//Elegant Egotist?
+//Elegant Egotist
 //[CardNum]をつかった[Page]
 //[CardName]はぶんしんして　<$B7>になった[Page]
 //[Exit]
@@ -194,8 +195,9 @@ now <$B7>.[Exit]
 //あいては　こうげきしかできない[Page]
 //[Exit]
 //
-Used Stop Defence.[Line]
-You must attack.[Page][Exit]
+Used Stop Defence.[Page]
+All enemies must[Line]
+attack next turn.[Page][Exit]
 // current address: $14B3D
 
 //POINTER #19 @ $149A6 - STRING #19 @ $14B3D
@@ -302,7 +304,8 @@ pyro power down.[Page][Exit]
 Used Yami.[Line]
 Field now Dark.[Page]
 Fiend, spellcaster[Line]
-power up.[Page][Exit]
+power up.[Page]
+Fairy powers down.[Page][Exit]
 // current address: $14CDD
 
 //POINTER #26 @ $149B4 - STRING #26 @ $14CDD
@@ -529,6 +532,7 @@ powered up.[Page][Exit]
 //POINTER #44 @ $149D8 - STRING #44 @ $14F40
 #W16($149D8)
 //Failed equip
+//Seems to fail silently, unused?
 //[CardNum]をつかった[Page]
 //しかし　パワーアップはできなかった[Page]
 //[Exit]

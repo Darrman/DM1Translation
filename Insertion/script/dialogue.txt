@@ -383,6 +383,7 @@ Weevil wins[Page][Exit]
 
 //POINTER #34 @ $3C0E1 - STRING #34 @ $3C76F
 #W16($3C0E1)
+//Lost to Mai
 //あははは　そのていどのカードでは[Line]
 //わたしの　ハーピィは[Line]
 //たおせないわよ！！[Page]
@@ -393,6 +394,7 @@ Mai wins[Page][Exit]
 
 //POINTER #35 @ $3C0E3 - STRING #35 @ $3C796
 #W16($3C0E3)
+//Lost to Rex
 //むりむりー！　ワイのダイナソー[Line]
 //カードを　たおそう　おもうなら[Line]
 //ひょうがきにでも　せなむりやで！！[Page]
@@ -403,6 +405,7 @@ Rex wins[Page][Exit]
 
 //POINTER #36 @ $3C0E5 - STRING #36 @ $3C7C9
 #W16($3C0E5)
+//Lost to Mako
 //ワハハハ！　そんなカードじゃ[Line]
 //うみを　こうりゃくすることなんぞ[Line]
 //できはせんぞよ！！[Page]
@@ -413,6 +416,7 @@ Mako wins[Page][Exit]
 
 //POINTER #37 @ $3C0E7 - STRING #37 @ $3C7F4
 #W16($3C0E7)
+//Lost to Yami
 //ゲームの　こころえ　ってもんが[Line]
 //わかったら　またあいてに[Line]
 //してやるぜ！！　でなおしてきな！！[Page]
@@ -423,6 +427,7 @@ Yami wins[Page][Exit]
 
 //POINTER #38 @ $3C0E9 - STRING #38 @ $3C824
 #W16($3C0E9)
+//Lost to Yugi
 //やったー！　ボクの　かちだー！！[Line]
 //ボクに　まけるようじゃ　まだまだだね[Line]
 //なんどでも　ちょうせん　まってるよ[Page]
@@ -433,6 +438,7 @@ Yugi wins[Page][Exit]
 
 //POINTER #39 @ $3C0EB - STRING #39 @ $3C85B
 #W16($3C0EB)
+//Lost to Joey
 //おっしゃあ　！　いけるぜ！！[Line]
 //なんどでも　かかってきやがれ！！[Line]
 //（なんとか　じりきで　かてたぜ⋯）[Page]
@@ -443,6 +449,7 @@ Joey wins[Page][Exit]
 
 //POINTER #40 @ $3C0ED - STRING #40 @ $3C88E
 #W16($3C0ED)
+//Lost to Kaiba
 //なんて　レベルのひくい　たたかい[Line]
 //なんだ⋯　きさまには　じめんを[Line]
 //はいつくばるすがたが　おにあいだ！[Page]
@@ -453,6 +460,7 @@ Kaiba wins[Page][Exit]
 
 //POINTER #41 @ $3C0EF - STRING #41 @ $3C8C2
 #W16($3C0EF)
+//Lost to Mokuba
 //おまえは　みじめやろうだぜ[Line]
 //ギャハハハー！[Page]
 //[Exit]
@@ -462,6 +470,7 @@ Mokuba wins[Page][Exit]
 
 //POINTER #42 @ $3C0F1 - STRING #42 @ $3C8D9
 #W16($3C0F1)
+//Lost to Tristan
 //オッシャ！　オレの　かちだぜ！！[Line]
 //しょしんしゃのオレに　まけるとは[Line]
 //あんたは　ちょうしょしんしゃだな！[Page]
@@ -472,6 +481,7 @@ Tristan wins[Page][Exit]
 
 //POINTER #43 @ $3C0F3 - STRING #43 @ $3C90E
 #W16($3C0F3)
+//Lost to Bakura
 //どうやら　ボクのかちのようだね[Line]
 //デュエルにかてば　カードがもらえるよ[Line]
 //めげずに　なんどもデュエルをしてね[Page]
@@ -482,6 +492,7 @@ Bakura wins[Page][Exit]
 
 //POINTER #44 @ $3C0F5 - STRING #44 @ $3C944
 #W16($3C0F5)
+//Lost to Puppeteer
 //ククク⋯　あきらめろ！[Line]
 //おまえにかちめはない！[Page]
 //[Exit]
@@ -491,6 +502,7 @@ Puppeteer wins[Page][Exit]
 
 //POINTER #45 @ $3C0F7 - STRING #45 @ $3C95D
 #W16($3C0F7)
+//Lost to Panik
 //ざんねんだったな！　やみくもに[Line]
 //こうげきしても　オレのモンスターを[Line]
 //たおすことはできんぞ！[Page]
@@ -501,6 +513,7 @@ Panik wins[Page][Exit]
 
 //POINTER #46 @ $3C0F9 - STRING #46 @ $3C98C
 #W16($3C0F9)
+//Lost to Keith
 //たしょうは　たおしがいの　あるやつ[Line]
 //かと　おもったが　こんなこんじょうの[Line]
 //ねえ　やろうだとはなあ⋯[Page]
@@ -511,6 +524,7 @@ Keith wins[Page][Exit]
 
 //POINTER #47 @ $3C0FB - STRING #47 @ $3C9BF
 #W16($3C0FB)
+//Lost to Pegasus
 //ミレニアム・アイの　ちからで[Line]
 //わたしには　ユーのせんりゃくが[Line]
 //てにとるように　わかりマース！[Page]
@@ -521,6 +535,7 @@ Pegasus wins[Page][Exit]
 
 //POINTER #48 @ $3C0FD - STRING #48 @ $3C9EF
 #W16($3C0FD)
+//Lost to Simon
 //ほんとうに　たいせつなカードには[Line]
 //こころがやどるんじゃよ　なにものにも[Line]
 //かえられない　こころがの！[Page]
@@ -542,6 +557,7 @@ Weevil defeated[Page][Exit]
 
 //POINTER #50 @ $3C101 - STRING #50 @ $3CA50
 #W16($3C101)
+//Mai defeated
 //まけたの⋯　わたしが！！[Line]
 //しろうとの　まぐれよネ！[Line]
 //つぎはまけないわ　かくごしなさい！[Page]
@@ -552,6 +568,7 @@ Mai defeated[Page][Exit]
 
 //POINTER #51 @ $3C103 - STRING #51 @ $3CA7D
 #W16($3C103)
+//Rex defeated
 //なっ⋯　なんやと！　ワイの[Line]
 //ダイナソーカードがやられた⋯！[Line]
 //つぎは　まけんで！　かくごしいや！[Page]
@@ -562,6 +579,7 @@ Rex defeated[Page][Exit]
 
 //POINTER #52 @ $3C105 - STRING #52 @ $3CAAE
 #W16($3C105)
+//Mako defeated
 //うみには　かみがすんでいるんじゃ！[Line]
 //おこらせたら　とんでもないめに[Line]
 //あうんじゃあ！　つぎはまけんぜよ！[Page]
@@ -572,6 +590,7 @@ Mako defeated[Page][Exit]
 
 //POINTER #53 @ $3C107 - STRING #53 @ $3CAE3
 #W16($3C107)
+//Yami defeated
 //くそ！[Line]
 //まだ　ゲームはおわってないぜ！[Page]
 //[Exit]
@@ -581,6 +600,7 @@ Yami defeated[Page][Exit]
 
 //POINTER #54 @ $3C109 - STRING #54 @ $3CAF8
 #W16($3C109)
+//Yugi defeated
 //こんどこそ　ボクは　じーちゃんに[Line]
 //もらった　このカードを　しんじて⋯[Line]
 //かならず　かってみせるよ！！[Page]
@@ -591,6 +611,7 @@ Yugi defeated[Page][Exit]
 
 //POINTER #55 @ $3C10B - STRING #55 @ $3CB2B
 #W16($3C10B)
+//Joey defeated
 //くそっ　テメーいつか　アワふかせて[Line]
 //やっからな！　おぼえとけ！！[Page]
 //[Exit]
@@ -600,6 +621,7 @@ Joey defeated[Page][Exit]
 
 //POINTER #56 @ $3C10D - STRING #56 @ $3CB4D
 #W16($3C10D)
+//Kaiba defeated
 //オレたちにかわって　うんめいを[Line]
 //きめるのは⋯　カードのみ！！[Line]
 //つぎはかならずかつ！[Page]
@@ -610,6 +632,7 @@ Kaiba defeated[Page][Exit]
 
 //POINTER #57 @ $3C10F - STRING #57 @ $3CB78
 #W16($3C10F)
+//Mokuba defeated
 //まて⋯！[Line]
 //オレはしんじないぞ！[Line]
 //オレがまけるわけないんだ！！[Page]
@@ -620,6 +643,7 @@ Mokuba defeated[Page][Exit]
 
 //POINTER #58 @ $3C111 - STRING #58 @ $3CB98
 #W16($3C111)
+//Tristan defeated
 //くそー！　オレのまけだ！！[Line]
 //もう１かい　やろうぜ！！[Page]
 //[Exit]
@@ -629,6 +653,7 @@ Tristan defeated[Page][Exit]
 
 //POINTER #59 @ $3C113 - STRING #59 @ $3CBB4
 #W16($3C113)
+//Bakura defeated
 //あれ　ボクのまけだね　このちょうしで[Line]
 //どんどん　カードをふやして　じぶん[Line]
 //だけの　デッキを　くみたてよう[Page]
@@ -639,6 +664,7 @@ Bakura defeated[Page][Exit]
 
 //POINTER #60 @ $3C115 - STRING #60 @ $3CBEA
 #W16($3C115)
+//Puppeteer defeated
 //まさか⋯　やられるとは[Line]
 //なあに　きせきは　２どもおこらんさ[Page]
 //[Exit]
@@ -648,6 +674,7 @@ Puppeteer defeated[Page][Exit]
 
 //POINTER #61 @ $3C117 - STRING #61 @ $3CC09
 #W16($3C117)
+//Panik defeated
 //こんどこそ　やみのちからで[Line]
 //かくじつに　きさまを　しとめる！！[Page]
 //[Exit]
@@ -657,6 +684,7 @@ Panik defeated[Page][Exit]
 
 //POINTER #62 @ $3C119 - STRING #62 @ $3CC2A
 #W16($3C119)
+//Keith defeated
 //カード・プロフェッサーとよばれた[Line]
 //オレの　かんぺきな　せんじゅつが[Line]
 //やぶられるとは⋯[Page]
@@ -667,6 +695,7 @@ Keith defeated[Page][Exit]
 
 //POINTER #63 @ $3C11B - STRING #63 @ $3CC56
 #W16($3C11B)
+//Pegasus defeated
 //オーノー！！　イッツァ[Line]
 //アクシデーント！！　ユーとは[Line]
 //ふたたび　たたかうよかんがします⋯[Page]
@@ -677,6 +706,7 @@ Pegasus defeated[Page][Exit]
 
 //POINTER #64 @ $3C11D - STRING #64 @ $3CC84
 #W16($3C11D)
+//Simon defeated
 //カードのつかいかたは　まだまだだが[Line]
 //なかなかやりおるな　このつぎは[Line]
 //まけはせんぞ⋯[Page]
@@ -698,6 +728,7 @@ Weevil 5x win[Page][Exit]
 
 //POINTER #66 @ $3C121 - STRING #66 @ $3CCE5
 #W16($3C121)
+//Beat Mai five times
 //ウソ⋯　５かいも　まけたの？　この[Line]
 //わたしが！　でも　いずれあなたとは[Line]
 //けっちゃくをつけるわよ！[Page]
@@ -708,6 +739,7 @@ Mai 5x win[Page][Exit]
 
 //POINTER #67 @ $3C123 - STRING #67 @ $3CD17
 #W16($3C123)
+//Beat Rex five times
 //ワイが　５かいも　まけたやとー！！[Line]
 //ちっ⋯　まずいで⋯　ちょっと[Line]
 //ちょうし　づかしてもうたワ⋯[Page]
@@ -718,6 +750,7 @@ Rex 5x win[Page][Exit]
 
 //POINTER #68 @ $3C125 - STRING #68 @ $3CD48
 #W16($3C125)
+//Beat Mako five times
 //くあーっ！　５かいめの　まけじゃあ！[Line]
 //また　いちから　やりなおしじゃ！[Line]
 //これからも　デュエルしてくれよな[Page]
@@ -728,6 +761,7 @@ Mako 5x win[Page][Exit]
 
 //POINTER #69 @ $3C127 - STRING #69 @ $3CD7E
 #W16($3C127)
+//Beat Yami five times
 //くそ！[Line]
 //まだ　ゲームはおわってないぜ！[Page]
 //[Exit]
@@ -737,6 +771,7 @@ Yami 5x win[Page][Exit]
 
 //POINTER #70 @ $3C129 - STRING #70 @ $3CD93
 #W16($3C129)
+//Beat Yugi five times
 //あららー　もう５かいも　まけちゃった[Line]
 //よわいからって　ムシしないで[Line]
 //これからも　ボクとデュエルしてね[Page]
@@ -747,6 +782,7 @@ Yugi 5x win[Page][Exit]
 
 //POINTER #71 @ $3C12B - STRING #71 @ $3CDC7
 #W16($3C12B)
+//Beat Joey five times
 //くっそー　もう５かいも　まけちまった[Line]
 //いつかけっちゃく　つけてやるかんなー[Line]
 //おぼえてろ！！[Page]
@@ -757,6 +793,7 @@ Joey 5x win[Page][Exit]
 
 //POINTER #72 @ $3C12D - STRING #72 @ $3CDF6
 #W16($3C12D)
+//Beat Kaiba five times
 //くっ　オ⋯　オレの　ブルーアイズが⋯[Line]
 //もう５かいも　まけただとっ！　バカな[Line]
 //オレは　まだデュエルできるぜ！[Page]
@@ -767,6 +804,7 @@ Kaiba 5x win[Page][Exit]
 
 //POINTER #73 @ $3C12F - STRING #73 @ $3CE2D
 #W16($3C12F)
+//Beat Mokuba five times
 //まけた⋯！[Line]
 //このオレが　５かいも⋯！！[Line]
 //くっ⋯　ウソだ　ウソだ！！[Page]
@@ -777,6 +815,7 @@ Mokuba 5x win[Page][Exit]
 
 //POINTER #74 @ $3C131 - STRING #74 @ $3CE50
 #W16($3C131)
+//Beat Tristan five times
 //くそー！　もう５かい　まけちまったぜ[Line]
 //これからも　なんどでも　あいてを[Line]
 //してくれよな！！[Page]
@@ -787,6 +826,7 @@ Tristan 5x win[Page][Exit]
 
 //POINTER #75 @ $3C133 - STRING #75 @ $3CE7E
 #W16($3C133)
+//Beat Bakura five times
 //５かい　まけちゃったね[Line]
 //レアなカードをもとめて　どんどん[Line]
 //デュエルをしてくれると　うれしいな[Page]
@@ -797,6 +837,7 @@ Bakura 5x win[Page][Exit]
 
 //POINTER #76 @ $3C135 - STRING #76 @ $3CEAE
 #W16($3C135)
+//Beat Puppeteer five times
 //まさか⋯　もう５かいも　まけたのか[Line]
 //な⋯　なぜ⋯　なぜだ　⋯[Page]
 //[Exit]
@@ -806,6 +847,7 @@ Puppeteer 5x win[Page][Exit]
 
 //POINTER #77 @ $3C137 - STRING #77 @ $3CECE
 #W16($3C137)
+//Beat Panik five times
 //くそっ！　もう５かい　まけたのか！[Line]
 //この　やみ　があるかぎり[Line]
 //オレは　むてきのはずだっ！！[Page]
@@ -816,6 +858,7 @@ Panik 5x win[Page][Exit]
 
 //POINTER #78 @ $3C139 - STRING #78 @ $3CEFD
 #W16($3C139)
+//Beat Keith five times
 //ふはいでんせつを　うちたてた　この[Line]
 //バンデット・キースさまが　５かいも[Line]
 //まけただとっ⋯　そんなバカなっ！[Page]
@@ -826,6 +869,7 @@ Keith 5x win[Page][Exit]
 
 //POINTER #79 @ $3C13B - STRING #79 @ $3CF33
 #W16($3C13B)
+//Beat Pegasus five times
 //この　ミレニアム・アイの　ちから[Line]
 //マインド・スキャンを　５かいも[Line]
 //みやぶられるとは⋯[Page]
@@ -836,6 +880,7 @@ Pegasus 5x win[Page][Exit]
 
 //POINTER #80 @ $3C13D - STRING #80 @ $3CF5F
 #W16($3C13D)
+//Beat Simon five times
 //なんと⋯　ワシの５かいめのまけじゃ⋯[Line]
 //さきにすすむがよい　これからも[Line]
 //カードを　たいせつにするんじゃぞ[Page]
@@ -847,6 +892,7 @@ Simon 5x win[Page][Exit]
 //POINTER #81 @ $3C13F - STRING #81 @ $3CF94
 #W16($3C13F)
 //Not enough cards for link
+//Speaker: Tea
 //もっているカードが　５０まいよりすく[Line]
 //ないみたいだわ[Page]
 //５０まいいじょうカードをあつめたら[Line]
@@ -859,16 +905,20 @@ Come back later.[Page][Exit]
 
 //POINTER #82 @ $3C141 - STRING #82 @ $3CFCA
 #W16($3C141)
+//Exodia victory
 //い[Pause]か[Pause]り[Pause]の[Pause]ご[Pause]う[Pause]か[Line]
 //[Pause][Pause][Pause]エ[Pause][Pause]ク[Pause][Pause]ゾ[Pause][Pause]ー[Pause][Pause]ド[Pause][Pause]・[Pause][Pause]フ[Pause][Pause]レ[Pause][Pause]イ[Pause][Pause]ム[Pause][Pause][Page]
 //[Exit]
 //
-F[Pause]i[Pause]l[Pause]l[Pause]e[Pause]r[Pause][Page][Exit]
+E[Pause]x[Pause]o[Pause]d[Pause]i[Pause]a[Pause]...[Line]
+O[Pause]b[Pause]l[Pause]i[Pause]t[Pause]e[Pause]r[Pause]a[Pause]t[Pause]e[Pause]![Line]
+(Placeholder)[Page][Exit]
 // current address: $3CFFB
 
 //POINTER #83 @ $3C143 - STRING #83 @ $3CFFB
 #W16($3C143)
 //Intro text
+//Speaker: Dark Yugi
 //ゆうぎおうデュエルモンスターズ　の[Line]
 //せかいへようこそ！[Page]
 //ゲームをはじめるまえに　きみの[Line]
@@ -887,6 +937,7 @@ What's your name?[Page]
 //POINTER #84 @ $3C145 - STRING #84 @ $3D074
 #W16($3C145)
 //Password screen
+//Speaker: Dark Yugi
 //ここは　パスワードにゅうりょく[Line]
 //モード[Page]
 //これからパスワードをにゅうりょくしてもらう[Page]
@@ -899,6 +950,7 @@ Password entry[Page][Exit]
 //POINTER #85 @ $3C147 - STRING #85 @ $3D0BC
 #W16($3C147)
 //Correct password
+//Speaker: Dark Yugi
 //パスワードはただしいようだ[Line]
 //きみにカードをプレゼントしよう[Page]
 //[Exit]
@@ -909,6 +961,7 @@ Here's your card.[Page][Exit]
 //POINTER #86 @ $3C149 - STRING #86 @ $3D0DB
 #W16($3C149)
 //Already received
+//Speaker: Dark Yugi
 //パスワードはただしいようだが[Line]
 //そのパスワードは　まえにかいせき[Line]
 //されているようだね[Page]
@@ -921,6 +974,7 @@ No duplicates![Page][Exit]
 #W16($3C14B)
 #W16($3C14D)
 //Incorrect password
+//Speaker: Dark Yugi
 //パスワードはちがっているようだ[Line]
 //パスワードはただしく　にゅうりょく[Line]
 //してくれよ[Page]
@@ -960,6 +1014,8 @@ Pointer 90: [CardNum][Line]
 
 //POINTER #91 @ $3C153 - STRING #91 @ $3D189
 #W16($3C153)
+//Duel victory
+//Speaker: Tea
 //デュエルにかったので[CardNum][CardName]をてにいれたよ[Page]
 //つぎのデュエルも　がんばってね[Page]
 //[Exit]
@@ -971,6 +1027,8 @@ was obtained.[Page][Exit]
 
 //POINTER #92 @ $3C155 - STRING #92 @ $3D1AE
 #W16($3C155)
+//Victory bonus
+//Speaker: Tea
 //デュエルにかちつづけたので　とくべつに[CardNum][CardName]をプレゼントするね[Page]
 //どんどん　かちつづけてね[Page]
 //[Exit]
