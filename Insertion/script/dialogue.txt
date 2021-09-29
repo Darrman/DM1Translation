@@ -996,20 +996,26 @@ Try again.[Page][Exit]
 //POINTER #89 @ $3C14F - STRING #89 @ $3D159
 #W16($3C14F)
 //Various post-duel scenarios
+//PvP victory
+//Speaker: Tea
 //デュエルにかったね　あいてから[CardNum][CardName]をうばいとったよ[Page]
 //[Exit]
 //
-Pointer 89: [CardNum][Line]
-[CardName][Page][Exit]
+You won! [CardNum][Line]
+[CardName][Line]
+is yours.[Page][Exit]
 // current address: $3D174
 
 //POINTER #90 @ $3C151 - STRING #90 @ $3D174
 #W16($3C151)
+//PvP defeat
+//Speaker: Tea
 //あなたのまけね[CardNum][CardName]をあいてにとられたわ[Page]
 //[Exit]
 //
-Pointer 90: [CardNum][Line]
-[CardName][Page][Exit]
+You lost. [CardNum][Line]
+[CardName][Line]
+has been taken.[Page][Exit]
 // current address: $3D189
 
 //POINTER #91 @ $3C153 - STRING #91 @ $3D189
@@ -1040,6 +1046,7 @@ was obtained.[Page][Exit]
 
 //POINTER #93 @ $3C157 - STRING #93 @ $3D1DB
 #W16($3C157)
+//Communication bonus
 //たくさんのひとと　つうしんたいせん[Line]
 //をしたので　とくべつに[CardNum][CardName]をあげるね[Page]
 //これからも　たくさんのひととデュエルしてね[Page]

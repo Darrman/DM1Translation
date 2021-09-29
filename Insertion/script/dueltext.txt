@@ -101,7 +101,7 @@ Enemy is thinking[Page][Exit]
 //[CardNum]になった[Page]
 //[Exit]
 //
-Card became[Page]
+Card became[Line]
 [CardNum][Page][Exit]
 // current address: $14A8A
 
