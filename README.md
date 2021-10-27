@@ -9,7 +9,11 @@ Card descriptions are based off of the descriptions found on Yugipedia,
 shortened down to fit by myself.
 In-duel text describes the effects that occur, but requires proper revision.
 The in-game credits remain entirely in Japanese.
-Translation credits are below.
+
+Patching Instructions:
+Apply "DM1.ips" to a clean rom of Yu-Gi-Oh Duel Monsters.
+I recommend using Lunar IPS, available from Romhacking.net.
+Ensure that the rom has been removed from any zip before patching.
 
 Credits:
 Hacking: Darrman
