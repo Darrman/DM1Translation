@@ -158,7 +158,7 @@ ing Light active[Page][Exit]
 //[Exit]
 //
 Swords of Reveal-[Line]
-ing Light wore off[Page][Exit]
+ing Light's gone[Page][Exit]
 // current address: $14AEC
 
 //POINTER #16 @ $149A0 - STRING #16 @ $14AEC
@@ -183,9 +183,16 @@ up.[Page][Exit]
 //[CardName]はぶんしんして　<$B7>になった[Page]
 //[Exit]
 //
-Used[CardNum].[Line]
-[CardName] is[Page]
-now <$B7>.[Exit]
+//Using the proper variables results in poorly placed linebreaks
+//The var for "Harpie Lady" can compress Sisters too
+//Used[CardNum].[Line]
+//[CardName] is[Page]
+//now <$B7>.[Exit]
+Used Elegant[Line]
+Egotist.[Page]
+[CardName] became[Line]
+[CardName][Page]
+Sisters.[Page][Exit]
 // current address: $14B20
 
 //POINTER #18 @ $149A4 - STRING #18 @ $14B20
@@ -400,7 +407,7 @@ LP restored.[Page][Exit]
 //[Exit]
 //
 Used Sparks.[Line]
-Attacked enemy LP.[Page][Exit]
+Attacked enemy LP[Page][Exit]
 // current address: $14DE5
 
 //POINTER #34 @ $149C4 - STRING #34 @ $14DE5
@@ -411,7 +418,7 @@ Attacked enemy LP.[Page][Exit]
 //[Exit]
 //
 Used Hinotama.[Line]
-Attacked enemy LP.[Page][Exit]
+Attacked enemy LP[Page][Exit]
 // current address: $14E06
 
 //POINTER #35 @ $149C6 - STRING #35 @ $14E06
@@ -422,7 +429,7 @@ Attacked enemy LP.[Page][Exit]
 //[Exit]
 //
 Used Final Flame.[Line]
-Attacked enemy LP.[Page][Exit]
+Attacked enemy LP[Page][Exit]
 // current address: $14E26
 
 //POINTER #36 @ $149C8 - STRING #36 @ $14E26
@@ -433,7 +440,7 @@ Attacked enemy LP.[Page][Exit]
 //[Exit]
 //
 Used Ookazi.[Line]
-Attacked enemy LP.[Page][Exit]
+Attacked enemy LP[Page][Exit]
 // current address: $14E48
 
 //POINTER #37 @ $149CA - STRING #37 @ $14E48

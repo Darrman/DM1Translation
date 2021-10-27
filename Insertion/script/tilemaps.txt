@@ -16,9 +16,10 @@
 <$D8><$D8><$D8><$D8><$D8><$D9>
 
 //Name entry, "are you sure"
-#JMP($107FE)
+#JMP($107EC)
 //2どと かえられません
 //このなまえで いいですか?
+<$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3>
 Can't change   Yes
 name once         
 selected. OK?  No 

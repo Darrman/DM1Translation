@@ -1052,8 +1052,9 @@ was obtained.[Page][Exit]
 //これからも　たくさんのひととデュエルしてね[Page]
 //[Exit]
 //
-Pointer 93: [CardNum][Line]
-[CardName][Page][Exit]
+Comm. bonus! [CardNum][Line]
+[CardName][Line]
+was obtained.[Page][Exit]
 // current address: $3D217
 
 //POINTER #94 @ $3C159 - STRING #94 @ $3D217
