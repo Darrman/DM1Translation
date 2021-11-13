@@ -32,7 +32,13 @@ Please try again.[Page][Exit]
 //オレを　５かい　たおさないかぎり[Line]
 //ここから　さきには　すすませないぜ[Page]
 //[Exit]
+
+//LAZER:
 //Ohyohyo! I am Insector Haga/Weevil Underwood. Unless you beat me five times, you can't move on.
+//DELTA:
+//Hyohyo, I'm Weevil Underwood.
+//Unless you beat me 5 times,
+//you're not going anywhere.
 //
 Ohyohyo! I am [Line]
 //Insector Haga.[Page]
@@ -53,7 +59,12 @@ First Weevil[Page][Exit]
 //５かいも　たおせるかしら？[Page]
 //[Exit]
 
+//LAZER:
 //I'm Mai Kujaku/Valentine. *laugh* You think you can beat me five times, rookie boy?
+//DELTA:
+//The name's Mai Valentine.
+//Hee hee... Can an amateur kid
+//beat me 5 times?
 //First Mai[Page][Exit]
 // current address: $3C1E2
 
@@ -65,7 +76,12 @@ First Weevil[Page][Exit]
 //５かいも　ワイにかてるかな[Page]
 //[Exit]
 
+//LAZER:
 //The name's Dinosaur Ryuzaki/Rex Raptor! My Dinosaur Cards will flatten you before you beat me five times!
+//DELTA:
+//I'm Rex Raptor!
+//My dinosaur cards will crush you.
+//Beat me 5 times, seriously?
 First Rex[Page][Exit]
 // current address: $3C215
 
@@ -77,7 +93,13 @@ First Rex[Page][Exit]
 //オレは　５かいも　まけないぜよ[Page]
 //[Exit]
 
+//LAZER:
 //I'm Ryota Kajiki/Mako Tsunami, an ocean Duelist! Beating me five times won't be so easy!
+//DELTA:
+//I'm Mako Tsunami,
+//Duelist of the Sea!
+//I won't lose 5 times so easily.
+
 //I'm Ryota Kajiki,[Line]
 I'm Mako Tsunami,[Line]
 an ocean Duelist![Page]
@@ -95,7 +117,13 @@ so easy![Page]
 //なかに　そんざいする　もうひとりの[Line]
 //ゆうぎ　だ[Page]
 //[Exit]
+
+//LAZER:
 //I am Yami Yugi. Another soul dwelling inside of Yugi Muto.
+//DELTA:
+//I'm Yami Yugi.
+//Another Yugi existing within
+//Yugi Muto.
 //
 I am Yami Yugi.[Line]
 Another soul[Line]
@@ -112,7 +140,13 @@ of Yugi Muto.[Page]
 //ボクたちと　デュエルをして　５かい[Line]
 //ずつ　かつと　さきにすすめるよ[Page]
 //[Exit]
+
+//LAZER:
 // I'm Yugi Muto, nice to meet you. You'll need to win five duels against each of us to move on.
+//DELTA:
+//I'm Yugi Muto. Nice to meet you.
+//Duel with each of us 5 times.
+//That's how you advance.
 //
 I'm Yugi Muto.[Line] 
 Nice to meet you.[Page]
@@ -131,7 +165,12 @@ us to move on.[Page]
 //めざすおとこ　じょうのうち　だ！！[Line]
 //さきにいくには　オレを５かいたおせ[Page]
 //[Exit]
+//LAZER:
 //Name's Jonouchi/Joey Wheeler, and I wanna be a Duelist who stands on his own two feet! You gotta beat me five times to move on!
+//DELTA:
+//I'm Joey Wheeler,
+//an aspiring Duelist.
+//Beat me five times to advance.
 //
 [Page]
 You gotta beat me [Line]
@@ -149,7 +188,12 @@ First Joey[Page][Exit]
 //ブルーアイズに　５かい　かつことなど[Line]
 //ふかのうだ　あきらめろ　ハハハ⋯[Page]
 //[Exit]
+//LAZER:
 //I am Seto Kaiba. Defeating my Blue-Eyes five times is impossible, so give up now. Ha ha hah...
+//DELTA:
+//I'm Seto Kaiba.
+//My Blue-Eyes won't lose 5 times.
+//Give up. Hahaha...
 //
 I am Seto Kaiba.[Line]
 Defeating my [Line]
@@ -168,7 +212,12 @@ Ha ha hah... [Page]
 //レーションの　ふくしゃちょうだ[Line]
 //５かい　かてれば　さきにすすめるぜ[Page]
 //[Exit]
+//LAZER:
 //I'm Mokuba Kaiba, vice president of Kaiba Corp. Beat me five times to move forward.
+//DELTA:
+//I'm Mokuba Kaiba,
+//Kaiba Corporation's vice president.
+//If you win 5 times, you can advance.	
 //
 I'm Mokuba Kaiba, [Line]
 vice president of [Line]
@@ -187,7 +236,12 @@ forward.[Page]
 //オレたち　４にんに　５かいずつかてば[Line]
 //さらにさきへ　すすめるようになるぜ[Page]
 //[Exit]
+//LAZER:
 //I am Honda, the star of Japan!/Tristan, the rising star! You'll need to beat all four of us 5 times each to move on.
+//DELTA:
+//I'm Tristan, Star of Japan.
+//If you beat the 4 of us 5 times each,
+//you can advance.
 //
 //I am Honda, the [Line]
 //star of Japan! [Line]
@@ -209,7 +263,12 @@ to move on.[Page]
 //ボクたちと　デュエルをして　５かい[Line]
 //ずつ　かつと　さきにすすめるよ[Page]
 //[Exit]
+//LAZER:
 //My name is Ryou Bakura. You'll need to win five duels against each of us to move on.
+//DELTA:
+//My name is Ryou Bakura.
+//Duel with each of us 5 times.
+//That's how you advance.
 //
 My name is[Line]
 Ryou Bakura.[Page]
@@ -227,7 +286,12 @@ us to move on.[Page]
 //しかく　ししゃのふくわじゅつし　だ[Line]
 //オレに　５かいかてるかね　キキキ⋯[Page]
 //[Exit]
+//LAZER:
 //I am the Ventriloquist of the Dead/Puppeteer of Doom, an assassin sent here to defeat you. You can't beat me five times. Kikiki...
+//DELTA:
+//I'm the Puppeteer of Doom,
+//an assassin sent to kill you.
+//Try to win 5 times. Kee kee kee...
 //
 First Puppeteer[Page][Exit]
 // current address: $3C3EB
@@ -239,7 +303,12 @@ First Puppeteer[Page][Exit]
 //きさまは　にげばのない　もうもくの[Line]
 //えもの！　オレに５かい　かてるか！[Page]
 //[Exit]
+//LAZER:
 //I am the Player Killer of Darkness!/PaniK the Eliminator! And you are blind prey with nowhere to run! You'll never beat me five times!
+//DELTA:
+//I'm the Eliminator, PaniK.
+//You're blind prey with no escape!
+//Try to beat me five times!
 //
 //I am the [Line]
 //Player Killer[Line]
@@ -263,7 +332,12 @@ First Panik[Page][Exit]
 //バンデット・キース　とよんでいる[Line]
 //このオレに　５かいもかてるわけねえ[Page]
 //[Exit]
+//LAZER:
 //I'm Keith Howard, but they all call me Bandit Keith! There's no way you can beat me five times!
+//DELTA:
+//I'm Keith Howard.
+//Call me Bandit Keith.
+//You can't beat me 5 times.
 //
 First Keith[Page][Exit]
 // current address: $3C455
@@ -275,8 +349,13 @@ First Keith[Page][Exit]
 //クロフォード　マジックのうみのおやの[Line]
 //わたしに　５かいも　かてますカー？[Page]
 //[Exit]
+//LAZER:
 //I am Pegasus J. Crawford/Maximillion Pegasus. Can you defeat the creator of [Magic]*/Duel Monsters in five duels?
 //*in the manga, the game was originally called 'Magic and Wizards' before getting changed to 'Duel Monsters' later on & in most adaptations.*
+//DELTA:
+//I'm Maximillion Pegasus,
+//the creator of Magic.
+//Can you beat me 5 times?
 //
 //I am Pegasus J. [Line]
 //Crawford, creator [Line]
@@ -298,7 +377,12 @@ First Pegasus[Page][Exit]
 //すむ　せんにんじゃ　おぬしは　ワシを[Line]
 //５かい　たおせるかの？[Page]
 //[Exit]
+//LAZER:
 //I am Simon/Shimon/Siamun Muran, a hermit living in the mountains. Can you best me five times in a duel? [Page][Exit]
+//DELTA:
+//I am Simon Muran,
+//a hermit living in the mountains.
+//Can you beat me 5 times?
 //
 //I am Shimon Muran,[Line]
 I am Siamun Muran, [Line]
@@ -317,7 +401,12 @@ duel? [Page][Exit]
 //インセクトぐんだんで　フィールドを[Line]
 //うめつくしてやるよ！！[Page]
 //[Exit]
+//LAZER:
 //The one winning this battle will be me! I'll flood the Field with my Insect Army!!
+//DELTA:
+//I will dominate this battle!
+//I'll fill the field with
+//my Insect Army!!
 //
 Weevil battle[Page][Exit]
 // current address: $3C4EF
@@ -329,7 +418,12 @@ Weevil battle[Page][Exit]
 //みんなようしゃしない⋯[Line]
 //つぶすわよ！[Page]
 //[Exit]
+//LAZER:
 //I don't show mercy to people who get in my way... I crush them!
+//DELTA:
+//I don't show mercy to those
+//who stand in my way...
+//I crush them!
 //
 Mai battle[Page][Exit]
 // current address: $3C515
@@ -340,7 +434,10 @@ Mai battle[Page][Exit]
 //ワイのダイナソーカードで[Line]
 //おまえをふみつぶしたるわ！[Page]
 //[Exit]
+//LAZER:
 //My Dinosaur Cards will flatten you!
+//DELTA:
+//My Dinosaur cards will crush you!
 //
 My Dinosaur Cards [Line]
 will flatten you![Page][Exit]
@@ -354,7 +451,12 @@ will flatten you![Page][Exit]
 //これから　うみのおそろしさを[Line]
 //あじあわせてやるぜよ！！[Page]
 //[Exit]
+//LAZER:
 //This Duel will bring you down! I'll give you a taste of the horrors of the ocean!
+//DELTA:
+//I'll defeat you in this Duel!
+//When we're through, you will
+//have experienced the terror of the sea.
 //
 Mako battle[Page][Exit]
 // current address: $3C561
@@ -474,7 +576,12 @@ we still can.[Page]
 //キキキ⋯　きょうこそ　おまえを[Line]
 //たおしてやる！！[Page]
 //[Exit]
+//LAZER:
 //Kikiki... Today, I will defeat you!!
+//DELTA:
+//Kee Kee Kee...
+//Today is the day
+//I k-k-kill you!!
 //
 Puppeteer battle[Page][Exit]
 // current address: $3C67E
