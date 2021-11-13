@@ -7,7 +7,9 @@
 //BLOCK #001 NAME:		Dialogue
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($3C15D, $3D240) // Jump to insertion point
+//#JMP($3C15D, $3D240) // Jump to insertion point
+//Rest of the bank seems to be full of rubbish
+#JMP($3C15D, $3FFFF)
 #HDR($38000) // Difference between ROM and RAM addresses for pointer value calculations
 
 //Character limit: 18 per line, three lines a screen
@@ -65,6 +67,13 @@ can't move on.[Page]
 //The name's Mai Valentine.
 //Hee hee... Can an amateur kid
 //beat me 5 times?
+The name's Mai[Line]
+Valentine. Hee[Line]
+hee…[Page]
+You think you can[Line]
+beat me 5 times,[Line]
+rookie boy?[Page][Exit]
+
 //First Mai[Page][Exit]
 // current address: $3C1E2
 
@@ -82,7 +91,12 @@ can't move on.[Page]
 //I'm Rex Raptor!
 //My dinosaur cards will crush you.
 //Beat me 5 times, seriously?
-First Rex[Page][Exit]
+I'm Rex Raptor! My[Line]
+dinosaur cards'll[Line]
+flatten you![Page]
+You'll never beat[Line]
+me five times.[Page][Exit]
+//First Rex[Page][Exit]
 // current address: $3C215
 
 //POINTER #4 @ $3C0A5 - STRING #4 @ $3C215
@@ -102,7 +116,8 @@ First Rex[Page][Exit]
 
 //I'm Ryota Kajiki,[Line]
 I'm Mako Tsunami,[Line]
-an ocean Duelist![Page]
+Duellist of the[Line]
+Sea![Page]
 Beating me five[Line]
 times won't be[Line]
 so easy![Page]
@@ -125,7 +140,7 @@ so easy![Page]
 //Another Yugi existing within
 //Yugi Muto.
 //
-I am Yami Yugi.[Line]
+I am Yami Yugi.[Page]
 Another soul[Line]
 dwelling inside[Line]
 of Yugi Muto.[Page]
@@ -150,7 +165,7 @@ of Yugi Muto.[Page]
 //
 I'm Yugi Muto.[Line] 
 Nice to meet you.[Page]
-Win five Duels [Line]
+Win five duels[Line]
 against each of[Line]
 us to move on.[Page]
 [Exit]
@@ -172,9 +187,11 @@ us to move on.[Page]
 //an aspiring Duelist.
 //Beat me five times to advance.
 //
-[Page]
-You gotta beat me [Line]
-five times to [Line]
+I'm Joey Wheeler,[Line]
+and I wanna stand[Line]
+on my own feet![Page]
+You gotta beat me[Line]
+five times to[Line]
 move on![Page]
 [Exit]
 
@@ -220,7 +237,7 @@ Ha ha hah...[Page]
 //If you win 5 times, you can advance.	
 //
 I'm Mokuba Kaiba,[Line]
-vice president of[Line]
+vice-president of[Line]
 Kaiba Corp.[Page]
 Beat me five[Line]
 times to move[Line]
@@ -243,12 +260,14 @@ forward.[Page]
 //If you beat the 4 of us 5 times each,
 //you can advance.
 //
+//Somewhat of a break but when everyone else uses full names to introduce themselves,
+//Tristan kind of sticks out
 //I am Honda, the[Line]
 //star of Japan![Line]
-I am Tristan,[Line]
-the rising star![Line]
-You'll need to[Page]
-beat all four of[Line]
+I am Tristan[Line]
+Taylor, the Star[Line]
+of Japan![Page]
+Beat all four of[Line]
 us 5 times each[Line] 
 to move on.[Page]
 [Exit]
@@ -272,7 +291,7 @@ to move on.[Page]
 //
 My name is[Line]
 Ryou Bakura.[Page]
-Win five Duels[Line]
+Win five duels[Line]
 against each of[Line]
 us to move on.[Page]
 [Exit]
@@ -293,7 +312,13 @@ us to move on.[Page]
 //an assassin sent to kill you.
 //Try to win 5 times. Kee kee kee...
 //
-First Puppeteer[Page][Exit]
+I am the Puppeteer[Line]
+of Doom, sent to[Line]
+assassinate you.[Page]
+You can't beat me[Line]
+five times. Kee[Line]
+kee kee…[Page][Exit]
+//First Puppeteer[Page][Exit]
 // current address: $3C3EB
 
 //POINTER #13 @ $3C0B7 - STRING #13 @ $3C3EB
@@ -310,11 +335,11 @@ First Puppeteer[Page][Exit]
 //You're blind prey with no escape!
 //Try to beat me five times!
 //
-//I am the [Line]
+//I am the[Line]
 //Player Killer[Line]
 //of Darkness![Page]
 I am PaniK,[Line]
-the Dark [Line]
+the Dark[Line]
 Eliminator![Page]
 And you are blind[Line]
 prey with nowhere[Line]
@@ -339,7 +364,13 @@ First Panik[Page][Exit]
 //Call me Bandit Keith.
 //You can't beat me 5 times.
 //
-First Keith[Page][Exit]
+I'm Keith Howard,[Line]
+but they call me[Line]
+Bandit Keith.[Page]
+There's no way you[Line]
+can beat me five[Line]
+times![Page][Exit]
+//First Keith[Page][Exit]
 // current address: $3C455
 
 //POINTER #15 @ $3C0BB - STRING #15 @ $3C455
@@ -385,7 +416,7 @@ First Pegasus[Page][Exit]
 //Can you beat me 5 times?
 //
 //I am Shimon Muran,[Line]
-I am Siamun Muran,[Line]
+I am Simon Muran,[Line]
 a hermit living[Line]
 in the mountains.[Page]
 Can you best me[Line]
@@ -408,7 +439,12 @@ duel?[Page][Exit]
 //I'll fill the field with
 //my Insect Army!!
 //
-Weevil battle[Page][Exit]
+I will dominate[Line]
+this battle![Page]
+My Insect Army[Line]
+will fill the[Line]
+field![Page][Exit]
+//Weevil battle[Page][Exit]
 // current address: $3C4EF
 
 //POINTER #18 @ $3C0C1 - STRING #18 @ $3C4EF
@@ -425,7 +461,10 @@ Weevil battle[Page][Exit]
 //who stand in my way...
 //I crush them!
 //
-Mai battle[Page][Exit]
+Anyone who stands[Line]
+in my way… will[Line]
+get crushed![Exit]
+//Mai battle[Page][Exit]
 // current address: $3C515
 
 //POINTER #19 @ $3C0C3 - STRING #19 @ $3C515
@@ -439,7 +478,7 @@ Mai battle[Page][Exit]
 //DELTA:
 //My Dinosaur cards will crush you!
 //
-My Dinosaur Cards[Line]
+My dinosaur cards[Line]
 will flatten you![Page][Exit]
 //Rex battle[Page][Exit]
 // current address: $3C531
@@ -458,7 +497,13 @@ will flatten you![Page][Exit]
 //When we're through, you will
 //have experienced the terror of the sea.
 //
-Mako battle[Page][Exit]
+This duel will[Line]
+bring you down![Page]
+When we're through[Line]
+you'll fear and[Line]
+respect the sea.[Page][Exit]
+
+//Mako battle[Page][Exit]
 // current address: $3C561
 
 //POINTER #21 @ $3C0C7 - STRING #21 @ $3C561
@@ -485,10 +530,9 @@ not running away![Page][Exit]
 //[Exit]
 //I made a promise to my Grandpa! I'll beat you with his cards!
 //
-I made a promise[Line]
-to my Grandpa that[Line]
+I promised Grandpa[Line]
 I'd beat you with[Line]
-these cards![Page][Exit]
+his cards![Page][Exit]
 //Yugi battle[Page][Exit]
 // current address: $3C5A8
 
@@ -518,7 +562,7 @@ Bring it on![Page][Exit]
 Hmph. Don't hold[Line]
 back on me.[Page]
 Come at me with[Line]
-the best Deck[Line]
+the best deck[Line]
 you've got.[Page]
 [Exit]
 //Kaiba battle[Page][Exit]
@@ -533,10 +577,9 @@ you've got.[Page]
 //Big brother, it's all my fault... I'm gonna take you down!
 //
 //Mokuba battle[Page][Exit]
-Big brother, it's [Line]
-all my fault...[Page]
-I'm gonna take [Page]
-you down![Page]
+Seto, it's all my[Line]
+fault… I'm gonna[Line]
+take you down![Page]
 [Exit]
 // current address: $3C613
 
@@ -549,7 +592,10 @@ you down![Page]
 //[Exit]
 //I accept this Duel! I'll show you the pride of the star of Japan!
 //
-Tristan battle[Page][Exit]
+I accept this[Line]
+duel! I'll show[Line]
+you my pride![Page][Exit]
+//Tristan battle[Page][Exit]
 // current address: $3C638
 
 //POINTER #27 @ $3C0D3 - STRING #27 @ $3C638
@@ -562,10 +608,10 @@ Tristan battle[Page][Exit]
 //Let the Duel begin! Let's try to get the hang of dueling while we still can.
 //
 //Bakura battle[Page][Exit]
-Let the Duel[Line]
+Let the duel[Line]
 begin! Let's try[Line]
 to get the hang[Page]
-of dueling while[Line]
+of duelling while[Line]
 we still can.[Page]
 [Exit]
 // current address: $3C664
@@ -583,7 +629,10 @@ we still can.[Page]
 //Today is the day
 //I k-k-kill you!!
 //
-Puppeteer battle[Page][Exit]
+Kee kee kee…[Line]
+Today's the day I[Line]
+k-k-kill you![Page][Exit]
+//Puppeteer battle[Page][Exit]
 // current address: $3C67E
 
 //POINTER #29 @ $3C0D7 - STRING #29 @ $3C67E
@@ -595,7 +644,10 @@ Puppeteer battle[Page][Exit]
 //[Exit]
 //It's time to Duel... Hehehe... Darkness is what gives my cards their power!!
 //
-Panik battle[Page][Exit]
+It's time to duel…[Line]
+Hehehe… Darkness[Line]
+gives me power![Page]
+//Panik battle[Page][Exit]
 // current address: $3C6AC
 
 //POINTER #30 @ $3C0D9 - STRING #30 @ $3C6AC
@@ -607,7 +659,12 @@ Panik battle[Page][Exit]
 //[Exit]
 //I'll beat you to a pulp, and your body will know the terror of a Duel!
 //
-Keith battle[Page][Exit]
+I'll beat you to a[Line]
+pulp,[Page]
+and your body will[Line]
+know the terror of[Line]
+a duel![Page][Exit]
+//Keith battle[Page][Exit]
 // current address: $3C6DD
 
 //POINTER #31 @ $3C0DB - STRING #31 @ $3C6DD
@@ -640,7 +697,7 @@ be a Game Master,[Line]
 do you?[Page]
 Then you must[Line]
 cherish each one[Line]
-of your cards...[Page][Exit]
+of your cards…[Page][Exit]
 //
 //Simon battle[Page][Exit]
 // current address: $3C740
@@ -654,7 +711,13 @@ of your cards...[Page][Exit]
 //[Exit]
 //Hyohyo! You don't even count as a threat! Remake your deck and come back later!
 //
-Weevil wins[Page][Exit]
+//Weevil wins[Page][Exit]
+Hyohyo! You don't[Line]
+even count as a[Line]
+threat![Page]
+Remake your deck[Line]
+and come back[Line]
+later![Page]
 // current address: $3C76F
 
 //POINTER #34 @ $3C0E1 - STRING #34 @ $3C76F
@@ -667,7 +730,7 @@ Weevil wins[Page][Exit]
 //Ahahaha! You'll never beat my Harpy with cards like those!
 //
 You'll never beat[Line]
-my Harpy with[Line]
+my Harpies with[Line]
 cards like that![Page][Exit]
 //Mai wins[Page][Exit]
 // current address: $3C796
@@ -681,6 +744,9 @@ cards like that![Page][Exit]
 //[Exit]
 //No chance! If you wanna beat my Dinosaur Cards, you'll hafta wait through an Ice Age!
 //
+If you wanna beat[Line]
+my dinosaurs, wait[Line]
+for an Ice Age![Page][Exit]
 Rex wins[Page][Exit]
 // current address: $3C7C9
 
@@ -693,7 +759,10 @@ Rex wins[Page][Exit]
 //[Exit]
 //Wahaha! You'll never conquer the ocean with cards like those!
 //
-Mako wins[Page][Exit]
+Wahaha! You'll[Line]
+never conquer the[Line]
+ocean like that![Page][Exit]
+//Mako wins[Page][Exit]
 // current address: $3C7F4
 
 //POINTER #37 @ $3C0E7 - STRING #37 @ $3C7F4
@@ -705,7 +774,13 @@ Mako wins[Page][Exit]
 //[Exit]
 //I will face you again once you gain an understanding of the game! So 
 //
-Yami wins[Page][Exit]
+I will face you[Line]
+again once you[Line]
+gain an under-[Page]
+standing of the[Line]
+game.[Page][Exit]
+//Yami wins[Page][Exit]
+
 // current address: $3C824
 
 //POINTER #38 @ $3C0E9 - STRING #38 @ $3C824
@@ -717,7 +792,12 @@ Yami wins[Page][Exit]
 //[Exit]
 //Yes! I won! If you can't beat me, you're not ready. But I'm always up for a challenge.
 //
-Yugi wins[Page][Exit]
+Yes! I won! If you[Line]
+can't beat me,[Line]
+you're not ready.[Page]
+But I'm always up[Line]
+for a challenge.[Page][Exit]
+//Yugi wins[Page][Exit]
 // current address: $3C85B
 
 //POINTER #39 @ $3C0EB - STRING #39 @ $3C85B
@@ -729,7 +809,12 @@ Yugi wins[Page][Exit]
 //[Exit]
 //Yeah, I did it! Come back and try me anytime! (Somehow I did it on my own...)
 //
-Joey wins[Page][Exit]
+Yeah, I did it![Line]
+Come back and try[Line]
+me any time![Page]
+(Somehow I did it[Line]
+on my own…)[Page][Exit]
+//Joey wins[Page][Exit]
 // current address: $3C88E
 
 //POINTER #40 @ $3C0ED - STRING #40 @ $3C88E
@@ -741,7 +826,10 @@ Joey wins[Page][Exit]
 //[Exit]
 //What a pitiful battle... Stay on the ground where you belong!
 //
-Kaiba wins[Page][Exit]
+That was pitiful…[Line]
+Stay on the ground[Line]
+where you belong![Page][Exit]
+//Kaiba wins[Page][Exit]
 // current address: $3C8C2
 
 //POINTER #41 @ $3C0EF - STRING #41 @ $3C8C2
@@ -752,7 +840,9 @@ Kaiba wins[Page][Exit]
 //[Exit]
 //You're a miserable bastard! Gyahahaha!
 //
-Mokuba wins[Page][Exit]
+You're a miserable[Line]
+loser! Gyahahaha![Page][Exit]
+//Mokuba wins[Page][Exit]
 // current address: $3C8D9
 
 //POINTER #42 @ $3C0F1 - STRING #42 @ $3C8D9
@@ -764,7 +854,12 @@ Mokuba wins[Page][Exit]
 //[Exit]
 //Yes! I won!! Losing to a beginner like me must make you a super-beginner!
 //
-Tristan wins[Page][Exit]
+Yes! I won! Losing[Line]
+to a beginner like[Line]
+me?[Page]
+That must make you[Line]
+a super-beginner![Page][Exit]
+//Tristan wins[Page][Exit]
 // current address: $3C90E
 
 //POINTER #43 @ $3C0F3 - STRING #43 @ $3C90E
@@ -776,7 +871,15 @@ Tristan wins[Page][Exit]
 //[Exit]
 //Looks like I've won this Duel. When you win a Duel, you'll receive a card, so don't be afraid to Duel again and again.
 //
-Bakura wins[Page][Exit]
+Looks like I've[Line]
+won the duel.[Page]
+When you win a[Line]
+duel, you'll get[Line]
+a card.[Page]
+Don't be afraid to[Line]
+duel again and[Line]
+again.[Page][Exit]
+//Bakura wins[Page][Exit]
 // current address: $3C944
 
 //POINTER #44 @ $3C0F5 - STRING #44 @ $3C944
@@ -819,6 +922,8 @@ beat my monsters![Page]
 //[Exit]
 //I thought you'd be tough to beat, but I didn't expect you to be such a gutless wimp!
 //
+I thought you'd be[Line]
+tough to beat.[Page]
 I didn't expect[Line]
 you to be such a[Line]
 gutless wimp![Page][Exit]
@@ -851,7 +956,11 @@ my Millenium Eye![Page][Exit]
 //[Exit]
 //Within a card that is truly cherished lies a heart. A heart that nothing can alter!
 //
-Simon wins[Page][Exit]
+Within a cherished[Line]
+card lies a heart.[Page]
+A heart that none[Line]
+can alter![Page][Exit]
+//Simon wins[Page][Exit]
 // current address: $3CA22
 
 //POINTER #49 @ $3C0FF - STRING #49 @ $3CA22
@@ -862,8 +971,13 @@ Simon wins[Page][Exit]
 //うらをかいていたのか⋯[Page]
 //[Exit]
 //Gyoeeh... My Insect Army was annihilated. I'll have to alter my strategy...
+Gyoeeh… My Insect[Line]
+Army was[Line]
+annihilated.[Page]
+I'll have to alter[Line]
+my strategy…[Page][Exit]
 //
-Weevil defeated[Page][Exit]
+//Weevil defeated[Page][Exit]
 // current address: $3CA50
 
 //POINTER #50 @ $3C101 - STRING #50 @ $3CA50
@@ -875,7 +989,12 @@ Weevil defeated[Page][Exit]
 //[Exit]
 //Defeated... Me!? Beginner's luck! I won't lose next time, so be ready!
 //
-Mai defeated[Page][Exit]
+Me, defeated?![Line]
+Beginner's luck![Page]
+I won't lose next[Line]
+time, so be ready![Line]
+[Page][Exit]
+//Mai defeated[Page][Exit]
 // current address: $3CA7D
 
 //POINTER #51 @ $3C103 - STRING #51 @ $3CA7D
