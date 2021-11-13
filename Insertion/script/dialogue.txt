@@ -43,12 +43,12 @@ Please try again.[Page][Exit]
 Ohyohyo! I am [Line]
 //Insector Haga.[Page]
 Weevil Underwood.[Page]
-Unless you beat [Line]
-me 5 times, you [Line]
+Unless you beat[Line]
+me 5 times, you[Line]
 can't move on.[Page]
 //[Exit]
 //
-First Weevil[Page][Exit]
+//First Weevil[Page][Exit]
 // current address: $3C1B0
 
 //POINTER #2 @ $3C0A1 - STRING #2 @ $3C1B0
@@ -127,7 +127,7 @@ so easy![Page]
 //
 I am Yami Yugi.[Line]
 Another soul[Line]
-dwelling inside [Line]
+dwelling inside[Line]
 of Yugi Muto.[Page]
 [Exit]
 //First Yami[Page][Exit]
@@ -151,7 +151,7 @@ of Yugi Muto.[Page]
 I'm Yugi Muto.[Line] 
 Nice to meet you.[Page]
 Win five Duels [Line]
-against each of [Line]
+against each of[Line]
 us to move on.[Page]
 [Exit]
 
@@ -178,7 +178,7 @@ five times to [Line]
 move on![Page]
 [Exit]
 
-First Joey[Page][Exit]
+//First Joey[Page][Exit]
 // current address: $3C2DD
 
 //POINTER #8 @ $3C0AD - STRING #8 @ $3C2DD
@@ -196,11 +196,11 @@ First Joey[Page][Exit]
 //Give up. Hahaha...
 //
 I am Seto Kaiba.[Line]
-Defeating my [Line]
+Defeating my[Line]
 Blue-Eyes 5 times[Page]
 is impossible,[Line]
-so give up now. [Line]
-Ha ha hah... [Page]
+so give up now.[Line]
+Ha ha hah...[Page]
 [Exit]
 //First Kaiba[Page][Exit]
 // current address: $3C314
@@ -219,11 +219,11 @@ Ha ha hah... [Page]
 //Kaiba Corporation's vice president.
 //If you win 5 times, you can advance.	
 //
-I'm Mokuba Kaiba, [Line]
-vice president of [Line]
+I'm Mokuba Kaiba,[Line]
+vice president of[Line]
 Kaiba Corp.[Page]
-Beat me five [Line]
-times to move [Line]
+Beat me five[Line]
+times to move[Line]
 forward.[Page]
 [Exit]
 //First Mokuba[Page][Exit]
@@ -243,12 +243,12 @@ forward.[Page]
 //If you beat the 4 of us 5 times each,
 //you can advance.
 //
-//I am Honda, the [Line]
-//star of Japan! [Line]
-I am Tristan, [Line]
+//I am Honda, the[Line]
+//star of Japan![Line]
+I am Tristan,[Line]
 the rising star![Line]
 You'll need to[Page]
-beat all four of [Line]
+beat all four of[Line]
 us 5 times each[Line] 
 to move on.[Page]
 [Exit]
@@ -272,8 +272,8 @@ to move on.[Page]
 //
 My name is[Line]
 Ryou Bakura.[Page]
-Win five Duels [Line]
-against each of [Line]
+Win five Duels[Line]
+against each of[Line]
 us to move on.[Page]
 [Exit]
 //First Bakura[Page][Exit]
@@ -316,9 +316,9 @@ First Puppeteer[Page][Exit]
 I am PaniK,[Line]
 the Dark [Line]
 Eliminator![Page]
-And you are blind [Line]
-prey with nowhere [Line]
-to run! [Page]
+And you are blind[Line]
+prey with nowhere[Line]
+to run![Page]
 You'll never beat[Line]
 me five times![Page]
 
@@ -357,14 +357,14 @@ First Keith[Page][Exit]
 //the creator of Magic.
 //Can you beat me 5 times?
 //
-//I am Pegasus J. [Line]
-//Crawford, creator [Line]
-I am Maximillion [Line]
-Pegasus, creator [Line]
+//I am Pegasus J.[Line]
+//Crawford, creator[Line]
+I am Maximillion[Line]
+Pegasus, creator[Line]
 of Duel Monsters.[Page]
-You believe you [Line]
-can best me in [Line]
-five duels? [Page]
+You believe you[Line]
+can best me in[Line]
+five duels?[Page]
 [Exit]
 
 First Pegasus[Page][Exit]
@@ -385,12 +385,12 @@ First Pegasus[Page][Exit]
 //Can you beat me 5 times?
 //
 //I am Shimon Muran,[Line]
-I am Siamun Muran, [Line]
-a hermit living [Line]
+I am Siamun Muran,[Line]
+a hermit living[Line]
 in the mountains.[Page]
-Can you best me [Line]
-five times in a [Line]
-duel? [Page][Exit]
+Can you best me[Line]
+five times in a[Line]
+duel?[Page][Exit]
 //First Simon[Page][Exit]
 // current address: $3C4BD
 
@@ -439,7 +439,7 @@ Mai battle[Page][Exit]
 //DELTA:
 //My Dinosaur cards will crush you!
 //
-My Dinosaur Cards [Line]
+My Dinosaur Cards[Line]
 will flatten you![Page][Exit]
 //Rex battle[Page][Exit]
 // current address: $3C531
@@ -471,8 +471,8 @@ Mako battle[Page][Exit]
 //Hmm... I must commend you for not running away from me!
 //
 //Yami battle[Page][Exit]
-Hmm... I'll give [Line]
-you credit for [Line]
+Hmm... I'll give[Line]
+you credit for[Line]
 not running away![Page][Exit]
 // current address: $3C57D
 
@@ -501,8 +501,8 @@ these cards![Page][Exit]
 //[Exit]
 //The manly Jonouchi will beat you fair and square! Bring it on!
 //
-I'll beat you [Line]
-fair and square. [Line]
+I'll beat you[Line]
+fair and square.[Line]
 Bring it on![Page][Exit]
 //Joey battle[Page][Exit]
 // current address: $3C5D2
@@ -515,11 +515,11 @@ Bring it on![Page][Exit]
 //[Exit]
 //Hmph. Don't hold back on me. Come at me with the best Deck you've got.
 //
-Hmph. Don't hold [Line]
+Hmph. Don't hold[Line]
 back on me.[Page]
-Come at me with [Line]
-the best Deck [Line]
-you've got. [Page]
+Come at me with[Line]
+the best Deck[Line]
+you've got.[Page]
 [Exit]
 //Kaiba battle[Page][Exit]
 // current address: $3C5F7
@@ -534,7 +534,7 @@ you've got. [Page]
 //
 //Mokuba battle[Page][Exit]
 Big brother, it's [Line]
-all my fault... [Page]
+all my fault...[Page]
 I'm gonna take [Page]
 you down![Page]
 [Exit]
@@ -562,9 +562,9 @@ Tristan battle[Page][Exit]
 //Let the Duel begin! Let's try to get the hang of dueling while we still can.
 //
 //Bakura battle[Page][Exit]
-Let the Duel [Line]
-begin! Let's try [Line]
-to get the hang [Page]
+Let the Duel[Line]
+begin! Let's try[Line]
+to get the hang[Page]
 of dueling while[Line]
 we still can.[Page]
 [Exit]
@@ -619,9 +619,9 @@ Keith battle[Page][Exit]
 //[Exit]
 //You are no match for me... For I can scan your mind.
 //
-You are no match [Line]
-for me. I can [Line]
-scan your mind. [Page][Exit]
+You are no match[Line]
+for me. I can[Line]
+scan your mind.[Page][Exit]
 //
 //Pegasus battle[Page][Exit]
 // current address: $3C70F
@@ -635,11 +635,11 @@ scan your mind. [Page][Exit]
 //[Exit]
 //Hoho. You wish to be a Game Master, do you? Then you must cherish each one of your cards...
 //
-Hoho. You wish to [Line] 
-be a Game Master, [Line]
-do you? [Page]
-Then you must [Line]
-cherish each one [Line]
+Hoho. You wish to[Line]
+be a Game Master,[Line]
+do you?[Page]
+Then you must[Line]
+cherish each one[Line]
 of your cards...[Page][Exit]
 //
 //Simon battle[Page][Exit]
@@ -666,8 +666,8 @@ Weevil wins[Page][Exit]
 //[Exit]
 //Ahahaha! You'll never beat my Harpy with cards like those!
 //
-You'll never beat [Line]
-my Harpy with [Line]
+You'll never beat[Line]
+my Harpy with[Line]
 cards like that![Page][Exit]
 //Mai wins[Page][Exit]
 // current address: $3C796
@@ -803,8 +803,8 @@ You cannot win![Page][Exit]
 //[Exit]
 //Too bad! Blind attacks won't beat my monsters!
 //
-Too bad! Blind [Line]
-attacks won't [Line]
+Too bad! Blind[Line]
+attacks won't[Line]
 beat my monsters![Page]
 [Exit]
 //Panik wins[Page][Exit]
@@ -819,8 +819,8 @@ beat my monsters![Page]
 //[Exit]
 //I thought you'd be tough to beat, but I didn't expect you to be such a gutless wimp!
 //
-I didn't expect [Line]
-you to be such a [Line]
+I didn't expect[Line]
+you to be such a[Line]
 gutless wimp![Page][Exit]
 //
 //Keith wins[Page][Exit]
@@ -835,8 +835,8 @@ gutless wimp![Page][Exit]
 //[Exit]
 //I can see right through your strategy with the power of my Millenium Eye!
 //
-I can see right [Line]
-through you with [Line]
+I can see right[Line]
+through you with[Line]
 my Millenium Eye![Page][Exit]
 //
 //Pegasus wins[Page][Exit]
@@ -1206,7 +1206,7 @@ Panik 5x win[Page][Exit]
 //[Exit]
 //Bandit Keith, the undefeated legend, has lost five times? Outrageous!
 //
-Bandit Keith has [Line]
+Bandit Keith has[Line]
 lost five times!?[Line]
 Outrageous![Page][Exit]
 
@@ -1247,9 +1247,9 @@ Simon 5x win[Page][Exit]
 //[Exit]
 //It looks like haven't gotten 50 cards yet. Come back here once you have over 50 cards.
 //
-Come back here [Line]
-when you have [Line]
-over 50 cards. [Page][Exit]
+Come back here[Line]
+when you have[Line]
+over 50 cards.[Page][Exit]
 You need 50 cards![Page]
 Come back later.[Page][Exit]
 // current address: $3CFCA
@@ -1288,14 +1288,14 @@ O[Pause]b[Pause]l[Pause]i[Pause]t[Pause]e[Pause]r[Pause]a[Pause]t[Pause]e[Pause]
 Welcome to the[Line]
 world of Yu-Gi-Oh![Line]
 Duel Monsters![Page]
-Before we begin, [Line]
-you'll need to [Line]
+Before we begin,[Line]
+you'll need to[Line]
 pick a Duel Name.[Page]
 This will be your[Line]
 name as a Duelist[Line]
 in this world.[Page]
-You can only do [Line]
-this once, so [Line]
+You can only do[Line]
+this once, so[Line]
 choose carefully.[Page]
 //[Exit]
 //
@@ -1315,10 +1315,10 @@ choose carefully.[Page]
 //[Exit]
 //This is the Password Entry mode. Enter your password now. Once you've finished typing, select END.
 //
-This is the [Line]
-Password Entry [Line]
+This is the[Line]
+Password Entry[Line]
 mode.[Page]
-Enter your [Line]
+Enter your[Line]
 password now.[Page]
 Once you've[Line]
 finished typing,[Line]
@@ -1337,9 +1337,9 @@ select END.[Page]
 //[Exit]
 //This password is correct. This card is for you.
 //
-This password is [Line]
-correct. This [Line]
-card is for you. [Page]
+This password is[Line]
+correct. This[Line]
+card is for you.[Page]
 [Exit]
 //Here's your card.[Page][Exit]
 // current address: $3D0DB
@@ -1354,11 +1354,11 @@ card is for you. [Page]
 //[Exit]
 //This password is correct, but you have already used this password before. 
 //
-This password is [Line]
-correct, but you [Line]
-have already [Page]
-used this password [Line]
-before. [Page]
+This password is[Line]
+correct, but you[Line]
+have already[Page]
+used this password[Line]
+before.[Page]
 [Exit]
 //
 No duplicates![Page][Exit]
@@ -1375,9 +1375,9 @@ No duplicates![Page][Exit]
 //[Exit]
 //This password is incorrect. Try entering it again.
 //
-This password is [Line]
-incorrect. Try [Line]
-entering again. [Page]
+This password is[Line]
+incorrect. Try[Line]
+entering again.[Page]
 [Exit]
 
 Try again.[Page][Exit]
@@ -1470,9 +1470,9 @@ Pointer 93: [CardNum][Line]
 //[Exit]
 //You cannot link or trade with the Super Game Boy 2.
 //
-You cannot link [Line]
-or trade with the [Line]
-Super Game Boy 2. [Page]
+You cannot link[Line]
+or trade with the[Line]
+Super Game Boy 2.[Page]
 [Exit]
 
 //No Super Game Boy[Line]
