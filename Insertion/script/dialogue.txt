@@ -47,8 +47,7 @@ Ohyohyo! I am [Line]
 Weevil Underwood.[Page]
 Unless you beat[Line]
 me 5 times, you[Line]
-can't move on.[Page]
-//[Exit]
+can't move on.[Page][Exit]
 //
 //First Weevil[Page][Exit]
 // current address: $3C1B0
@@ -163,7 +162,7 @@ of Yugi Muto.[Page]
 //Duel with each of us 5 times.
 //That's how you advance.
 //
-I'm Yugi Muto.[Line] 
+I'm Yugi Muto.[Line]
 Nice to meet you.[Page]
 Win five duels[Line]
 against each of[Line]
@@ -268,8 +267,8 @@ I am Tristan[Line]
 Taylor, the Star[Line]
 of Japan![Page]
 Beat all four of[Line]
-us 5 times each[Line] 
-to move on.[Page]
+us five times[Line]
+each to move on.[Page]
 [Exit]
 
 //First Tristan[Page][Exit]
@@ -345,10 +344,10 @@ And you are blind[Line]
 prey with nowhere[Line]
 to run![Page]
 You'll never beat[Line]
-me five times![Page]
+me five times![Page][Exit]
 
-First Panik[Page][Exit]
-// current address: $3C420
+//First Panik[Page][Exit]
+// current address: $3C420f
 
 //POINTER #14 @ $3C0B9 - STRING #14 @ $3C420
 #W16($3C0B9)
@@ -463,7 +462,7 @@ field![Page][Exit]
 //
 Anyone who stands[Line]
 in my way… will[Line]
-get crushed![Exit]
+get crushed![Page][Exit]
 //Mai battle[Page][Exit]
 // current address: $3C515
 
@@ -516,7 +515,7 @@ respect the sea.[Page][Exit]
 //Hmm... I must commend you for not running away from me!
 //
 //Yami battle[Page][Exit]
-Hmm... I'll give[Line]
+Hmm… I'll give[Line]
 you credit for[Line]
 not running away![Page][Exit]
 // current address: $3C57D
@@ -646,7 +645,7 @@ k-k-kill you![Page][Exit]
 //
 It's time to duel…[Line]
 Hehehe… Darkness[Line]
-gives me power![Page]
+gives me power![Page][Exit]
 //Panik battle[Page][Exit]
 // current address: $3C6AC
 
@@ -717,7 +716,7 @@ even count as a[Line]
 threat![Page]
 Remake your deck[Line]
 and come back[Line]
-later![Page]
+later![Page][Exit]
 // current address: $3C76F
 
 //POINTER #34 @ $3C0E1 - STRING #34 @ $3C76F
@@ -747,7 +746,7 @@ cards like that![Page][Exit]
 If you wanna beat[Line]
 my dinosaurs, wait[Line]
 for an Ice Age![Page][Exit]
-Rex wins[Page][Exit]
+//Rex wins[Page][Exit]
 // current address: $3C7C9
 
 //POINTER #36 @ $3C0E5 - STRING #36 @ $3C7C9
@@ -1497,8 +1496,8 @@ cards.[Page][Exit]
 Come back here[Line]
 when you have[Line]
 over 50 cards.[Page][Exit]
-You need 50 cards![Page]
-Come back later.[Page][Exit]
+//You need 50 cards![Page]
+//Come back later.[Page][Exit]
 // current address: $3CFCA
 
 //POINTER #82 @ $3C141 - STRING #82 @ $3CFCA
@@ -1512,9 +1511,10 @@ Come back later.[Page][Exit]
 //Raging [Pause]Hellfire...[Line]
 //E[Pause]x[Pause]o[Pause]d[Pause]-[Pause]F[Pause]l[Pause]a[Pause]m[Pause]e[Pause]![Page]
 //[Exit]
-E[Pause]x[Pause]o[Pause]d[Pause]i[Pause]a[Pause]...[Line]
-O[Pause]b[Pause]l[Pause]i[Pause]t[Pause]e[Pause]r[Pause]a[Pause]t[Pause]e[Pause]![Line]
-(Placeholder)[Page][Exit]
+//Let's split the difference here.
+R[Pause]a[Pause]g[Pause]i[Pause]n[Pause]g [Pause]H[Pause]e[Pause]l[Pause]l[Pause]f[Pause]i[Pause]r[Pause]e[Pause]…[Line]
+E[Pause]x[Pause]o[Pause]d[Pause]i[Pause]a[Pause]…[Line]
+O[Pause]b[Pause]l[Pause]i[Pause]t[Pause]e[Pause]r[Pause]a[Pause]t[Pause]e[Pause]![Page][Exit]
 // current address: $3CFFB
 
 //POINTER #83 @ $3C143 - STRING #83 @ $3CFFB
@@ -1539,12 +1539,11 @@ Before we begin,[Line]
 you'll need to[Line]
 pick a Duel Name.[Page]
 This will be your[Line]
-name as a Duelist[Line]
+name as a duellist[Line]
 in this world.[Page]
 You can only do[Line]
 this once, so[Line]
-choose carefully.[Page]
-//[Exit]
+choose carefully.[Page][Exit]
 //
 //Welcome to Yugioh.[Page]
 //What's your name?[Page]
@@ -1569,7 +1568,7 @@ Enter your[Line]
 password now.[Page]
 Once you've[Line]
 finished typing,[Line]
-select END.[Page]
+select End.[Page]
 [Exit]
 //
 //Password entry[Page][Exit]
@@ -1608,7 +1607,7 @@ used this password[Line]
 before.[Page]
 [Exit]
 //
-No duplicates![Page][Exit]
+//No duplicates![Page][Exit]
 // current address: $3D106
 
 //POINTER #87 @ $3C14B - STRING #87 @ $3D106
@@ -1627,7 +1626,7 @@ incorrect. Try[Line]
 entering again.[Page]
 [Exit]
 
-Try again.[Page][Exit]
+//Try again.[Page][Exit]
 // current address: $3D12F
 
 //POINTER #88 @ $3C14D - STRING #88 @ $3D12F
@@ -1649,9 +1648,11 @@ Try again.[Page][Exit]
 //[Exit]
 //This Duel is yours! You took [CardNum][CardName] from your opponent.
 //
-You won! [CardNum][Line]
-[CardName][Line]
-is yours.[Page][Exit]
+You won! You took[Line]
+[CardNum][Line]
+[CardName][Page]
+from your[Line]
+opponent.[Page][Exit]
 // current address: $3D174
 
 //POINTER #90 @ $3C151 - STRING #90 @ $3D174
@@ -1676,9 +1677,11 @@ has been taken.[Page][Exit]
 //[Exit]
 //For winning this duel, you obtained [CardNum][CardName]. Good luck in your next duel!
 //
-Duel victory![CardNum][Line]
+For winning, [CardNum][Line]
 [CardName][Line]
-was obtained.[Page][Exit]
+was obtained.[Page]
+Good luck in your[Line]
+next duel![Page][Exit]
 // current address: $3D1AE
 
 //POINTER #92 @ $3C155 - STRING #92 @ $3D1AE
@@ -1689,10 +1692,14 @@ was obtained.[Page][Exit]
 //どんどん　かちつづけてね[Page]
 //[Exit]
 //For winning so many Duels in a row, you get a special present:[CardNum][CardName]. Keep it up!
-//
-Victory bonus![CardNum][Line]
+//Thankfully it's not really consecutive
+
+For winning so[Line]
+many duels, take[Line]
+this gift:[Page]
+[CardNum][Line]
 [CardName][Line]
-was obtained.[Page][Exit]
+Keep it up![Page][Exit]
 
 
 // current address: $3D1DB
@@ -1706,8 +1713,12 @@ was obtained.[Page][Exit]
 //For linking with so many people, here's a special [CardNum][CardName] for you! Keep on dueling with others!
 //
 //Communication bonus
-Pointer 93: [CardNum][Line]
-[CardName][Page][Exit]
+For linking with[Line]
+so many people,[Line]
+here's a special[Page]
+[CardNum][Line]
+[CardName][Line]
+Keep duelling![Page][Exit]
 // current address: $3D217
 
 //POINTER #94 @ $3C159 - STRING #94 @ $3D217
