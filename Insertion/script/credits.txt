@@ -12,537 +12,537 @@
 #JMP($F44B8, $F6E5A) // Jump to insertion point
 
 //Block Range: $F44B8 - $F6E5B
-//                    
-//  オりジナルキャラクターデザイン   
-//                    
-//  オりジナルモンスターデザイン    
-//                    
-//      たかはし かずき      
-//                    
-//                    
-//                    
-//  グームデザイン・ディレクション   
-//                    
-//      やまだ のぶひろ      
-//                    
-//                    
-//                    
-//  プログラム             
-//                    
-//      やまだ のぶひろ      
-//                    
-//      ちだ たくり        
-//                    
-//                    
-//                    
-//  グラフィックディレクション     
-//                    
-//      はしもと かなこ      
-//                    
-//                    
-//                    
-//  サウンド              
-//                    
-//      かみお けんいち      
-//                    
-//                    
-//                    
-//  モンスターデザイン         
-//             	       
-//      ・・・           
-//          "         
-//      いっすんほうし       
-//                    
-//      いつもり なゆ       
-//       "            
-//      エウァ１４         
-//                    
-//      エス・エー         
-//                    
-//      エフ            
-//         "" "       
-//      くされけとうしん      
-//                    
-//      サイコーくん        
-//                    
-//      シエル           
-//      。             
-//      ヒーマン          
-//      。"            
-//      ヒクモン          
-//       "            
-//      ひしり りゅうか      
-//         "          
-//      ふりんし          
-//      。 。           
-//      ホンホコタヌキ       
-//        "           
-//      みかけやま こてん     
-//                    
-//      ムラカミ          
-//        ""          
-//      ゆうきシュニア       
-//                    
-//      あおい たかひろ      
-//                    
-//      あおき たかゆき      
-//        "           
-//      あかほし みさき      
-//                    
-//      あさの ゆうすけ      
-//       "            
-//      あたち としろう      
-//       "            
-//      あへ ひろゆき       
-//        "           
-//      あんさい あきら      
-//        "           
-//      あんさい しん       
-//        "     "     
-//      いけかみ きょうし     
-//        "           
-//      いけた よういち      
-//                    
-//      いしい あつし       
-//        "           
-//      いしさか けいた      
-//       "            
-//      いすた まさたか      
-//                    
-//      いちかわ ひろゆき     
-//                    
-//      いとう ゆういち      
-//        "           
-//      いなかき りょう      
-//             "      
-//      いまむら こうし      
-//                    
-//      いわこし たけし      
-//             "      
-//      いわさか まなふ      
-//                    
-//      いわさき れいな      
-//        "           
-//      うえた けんたろう     
-//        "           
-//      うえた ひろし       
-//       "            
-//      えとたに みほ       
-//                    
-//      おおいし ほたけ      
-//                    
-//      おおしろ みわこ      
-//                    
-//      おおや ともみ       
-//             "      
-//      おかむら せいしゅ     
-//            "       
-//      おくむら かすや      
-//       "   " "      
-//      おさき ひてかす      
-//              "     
-//      おちあい ひろのふ     
-//        "           
-//      おのてら まさし      
-//                    
-//      かたおか てつや      
-//        "   "       
-//      かたきり はしめ      
-//                    
-//      かとう しゅんすけ     
-//            "       
-//      かとう ゆうし       
-//       "  "         
-//      かとた かくし       
-//             "      
-//      かないわ こうし      
-//           "        
-//      かねこ ひてき       
-//                    
-//      かみこうす ひろたけ    
-//                    
-//      かみこうす りょうすけ   
-//                    
-//      かわさき こうへい     
-//                    
-//      かわはら ともひさ     
-//                    
-//      きたい まさき       
-//       "            
-//      きと しゅうへい      
-//           "        
-//      きむら しけひろ      
-//           "        
-//      くさみち こうき      
-//        "           
-//      くにかた          
-//       " "          
-//      くほ しゅんこ       
-//       "            
-//      くほた まり        
-//        "           
-//      くまかや もりたか     
-//                    
-//      くらの まさと       
-//            "       
-//      くらもと かすや      
-//                    
-//      くわはら おさむ      
-//        "           
-//      こうかく なお       
-//        "           
-//      こうたき まもる      
-//       "            
-//      こしま しん        
-//       "            
-//      こしま よしのり      
-//                    
-//      こたけ まこと       
-//                    
-//      こにし たかゆき      
-//        "           
-//      こまは しんすけ      
-//                    
-//      こみなみ たかなお     
-//        "           
-//      こんとう みゆき      
-//                    
-//      さいき ゆうき       
-//           "        
-//      さいとう しゅん      
-//                    
-//      さいとう ちえみ      
-//                    
-//      さいとう つかさ      
-//                    
-//      さいとう てつなり     
-//           "        
-//      ささき かすみ       
-//                    
-//      ささき かつひと      
-//                    
-//      さそう ともひこ      
-//                    
-//      さとう かおり       
-//                    
-//      さとう けいすけ      
-//          "         
-//      さとう こう        
-//             "      
-//      さとう ひろかす      
-//                    
-//      さるわたり たくみ     
-//                    
-//      しいな かつゆき      
-//        "           
-//      しおさき りょうた     
-//       "            
-//      しけひさ としあき     
-//       "            
-//      しけまつ さとひろ     
-//                    
-//      しも りょうすけ      
-//        "           
-//      しもた たけし       
-//         "   "      
-//      しんなへ けんし      
-//       "            
-//      すかい あつし       
-//       "            
-//      すき なおと        
-//       "            
-//      すきた おおか       
-//       "   "        
-//      すすき かすほ       
-//       "   "        
-//      すすき かすや       
-//       "   "        
-//      すすき かすゆき      
-//                    
-//      せきね あきら       
-//                    
-//      そうま ひとし       
-//         "  "       
-//      そとかと かすき      
-//           "        
-//      たかはし しゅん      
-//                    
-//      たかはし ふみひと     
-//                    
-//      たかはま なりとも     
-//                    
-//      たしろ ゆうこ       
-//       "            
-//      たたの こたろう      
-//             "      
-//      たてやま けんし      
-//                    
-//      たなか けんしろう     
-//        "   "       
-//      たなへ ゆうし       
-//                    
-//      たむら ゆういちろう    
-//                    
-//      たるした けんた      
-//        "           
-//      つかた こうへい      
-//                    
-//      つちや あきひろ      
-//                    
-//      つつみ ともこ       
-//                    
-//      つるみ ともひろ      
-//       "            
-//      とた まさやす       
-//       "            
-//      とは たけし        
-//                    
-//      とみた けいすけ      
-//           "        
-//      とみやま たいち      
-//                    
-//      とやま ともたか      
-//                    
-//      なかお あつし       
-//                    
-//      なかお ゆうた       
-//       "            
-//      なかお りゅうた      
-//        "           
-//      なかしま たくみ      
-//       "            
-//      なかた まさき       
-//                    
-//      なかつる まゆ       
-//                    
-//      なかにし よういち     
-//                    
-//      なかもと あきこ      
-//                    
-//      なかや しゅか       
-//       "            
-//      なかや ひろし       
-//                    
-//      にしさと みき       
-//                    
-//      にしむら あきこ      
-//                    
-//      にしむら たくろう     
-//                    
-//      にった まりこ       
-//                    
-//      にのみや しゅんいちろう  
-//       "            
-//      のくち るり        
-//              "     
-//      ののむら まさかす     
-//                    
-//      はたの ひろのり      
-//                    
-//      はまの たくや       
-//                    
-//      はやし きいち       
-//             "      
-//      はやたけ ゆうし      
-//        "  "        
-//      はらた ひてあき      
-//           "        
-//      ひさかわ しゅん      
-//       "            
-//      ひた ゆうや        
-//                    
-//      ひら としあき       
-//                    
-//      ひろの まさき       
-//         "          
-//      ふくなか やよい      
-//       "            
-//      ふしい たけし       
-//       "            
-//      ふした けんいち      
-//       "            
-//      ふした ちえ        
-//       "            
-//      ふした まさとし      
-//       "            
-//      ふした みつまさ      
-//       "            
-//      ふしはら かつひと     
-//       "     "      
-//      ふしよし えいし      
-//             "      
-//      ふたみ としかす      
-//                    
-//      ふるかわ あさみ      
-//                    
-//      ふるかわ さとし      
-//        "           
-//      ふるたか ゆうき      
-//                    
-//      ほかり しょうたろう    
-//                    
-//      ほそめ けいすけ      
-//        "  "        
-//      ほんさわ こう       
-//            "       
-//      まえしま ひてふみ     
-//        "           
-//      まえた かよ        
-//        "           
-//      ますた けんた       
-//                    
-//      まつうら なお       
-//        "           
-//      まつさわ けいすけ     
-//        "           
-//      まつた あゆみ       
-//         "          
-//      みつなか まさひろ     
-//                    
-//      みやさと かいり      
-//                    
-//      むかい さおり       
-//             "      
-//      むらい きょうし      
-//                    
-//      むらの まさゆき      
-//        "           
-//      もちつき ゆうま      
-//                    
-//      もとやま せいいち     
-//                    
-//      もりた しゅんいち     
-//            "       
-//      もんま せいし       
-//        "           
-//      やまさき しょうた     
-//        "           
-//      やまさき ひろし      
-//        "           
-//      やまた けいすけ      
-//        "           
-//      やまた たいし       
-//        "           
-//      やまた ゆきひさ      
-//                    
-//      やまもと いくお      
-//             "      
-//      やまもと けんし      
-//                    
-//      やまもと ひろき      
-//                    
-//      やまもと まさひろ     
-//       " "          
-//      ゆひやと やすし      
-//        "           
-//      よしさき ゆきお      
-//        "           
-//      よしさわ みゆき      
-//        "  "        
-//      よした かすや       
-//        "           
-//      よした たくみ       
-//        "           
-//      よした よしひろ      
-//       "            
-//      よた たろう        
-//         "          
-//      わたなへ たかゆき     
-//                    
-//                    
-//                    
-//  モンスターノーツ          
-//                    
-//      シモムラ ケイタ      
-//                    
-//                    
-//                    
-//  スペシャルサンクス         
-//                    
-//      とりしま かずひこ     
-//                    
-//      たかはし としまさ     
-//                    
-//      へいし よしひさ      
-//                    
-//      たけだ ふゆと       
-//                    
-//      しま ともゆき       
-//                    
-//                    
-//                    
-//      よしくら ひでお      
-//                    
-//      こんどう ゆう       
-//                    
-//      まちだ むねはる      
-//                    
-//      やまもと じゅんじ     
-//                    
-//                    
-//                    
-//      ライトりンクミュージック  
-//                    
-//      アイ・ティー・エル     
-//                    
-//                    
-//                    
-//      ところ みちこ       
-//                    
-//      ふくい ひろゆき      
-//                    
-//      わたなべ つとむ      
-//                    
-//      ひらた ひでひろ      
-//                    
-//                    
-//                    
-//      なかやま かつひろ     
-//                    
-//      さかい まさと       
-//                    
-//      やぎ よしこ        
-//                    
-//      せきぐち ようこ      
-//                    
-//                    
-//                    
-//  プロデューサー           
-//                    
-//      しもむら さとし      
-//                    
-//                    
-//                    
-//  エグゼクティブプロデューサー    
-//                    
-//      きたうえ かずみ      
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//        おわり         
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    
-//                   
+                    
+Original Character
+Design
+Original Monster
+Design 
+                    
+Kazuki Takahashi
+                    
+                                        
+Game Design
+Direction
+                    
+Nobuhiro Yamada
+                    
+                    
+Program
+                    
+Nobuhiro Yamada
+                    
+Takuri Chida
+                    
+                    
+                    
+Graphic Direction
+                    
+Kanako Hashimoto
+                    
+                    
+                    
+Sound
+                    
+Kenichi Kamio
+                    
+                    
+                    
+Monster Design
+             	       
+...
+                    
+Issunboshi
+                    
+Nayu Itsumori
+                    
+Eva 14
+                    
+S. A.
+                    
+F
+                    
+Kushige Doujin
+                    
+Psycho-kun
+                    
+Ciel
+                    
+Peaman
+                    
+Pigmon
+                    
+Ryuka Hijiri
+                    
+Furinji
+                    
+Pompoko Tanuki
+         	           
+Koten Mikageyama
+                    
+Murakami
+                    
+Yugi Junior
+                    
+Takahiro Aoi
+                    
+Takayuki Aoki
+                    
+Misaki Akaboshi
+                    
+Yusuke Asano
+                    
+Toshiro Adachi
+                    
+Hiroyuki Abe
+                    
+Akira Anzai
+                    
+Shin Anzai
+                    
+Kyoji Ikegami
+                    
+Yoichi Ikeda
+                    
+Atsushi Ishii
+                    
+Keita Ishizaka
+                    
+Masataki Izuta
+                    
+Hiroyuki Ichikawa
+                    
+Ito Yuichi
+                    
+Ryo Inagaki
+                    
+Koji Imamura
+                    
+Takeshi Iwakoshi
+                    
+Manabu Iwasaka
+                    
+Reina Iwasaki
+                    
+Kentaro Ueda
+                    
+Hiroshi Ueda
+                    
+Miho Edotani
+                    
+Hotake Oishi
+                    
+Miwako Oshiro
+                    
+Tomomi Oya
+                    
+Seiju Okamura
+                    
+Kazuya Okumura
+                    
+Hidekazu Ozaki
+                    
+Hironobu Ochiai
+                    
+Masashi Onodera
+                    
+Tetsuya Kataoka
+                    
+Hajime Katagiri
+                    
+Shunsuke Kato
+                    
+Yuji Kato
+                    
+Gakushi Kadota
+                    
+Koji Kanaiwa
+                    
+Hideki Kaneko
+                    
+Hirotake Kamikosu
+                    
+Ryosuke Kamikosu
+                    
+Kohei Kawasaki
+                    
+Tomohisa Kawahara
+                    
+Masaki Kitai
+                    
+Shuhei Kido
+                    
+Shigehiro Kimura
+                    
+Goki Kusamichi
+                    
+Kunigata
+                    
+Junko Kubo
+                    
+Mari Kubota
+                    
+Moritaka Kumagaya
+                    
+Masato Kurano
+                    
+Kazuya Kuramoto
+                    
+Osamu Kuwahara
+                    
+Nao Kogaku
+                    
+Mamoru Kodaki
+                    
+Shin Kojima
+                    
+Yoshinori Kojima
+                    
+Makoto Kotake
+                    
+Takayuki Konishi
+                    
+Shinsuke Komaba
+                    
+Takanao Kominami
+                    
+Miyuki Kondo
+                    
+Yuki Saiki
+                    
+Jun Saito
+                    
+Chiemi Saito
+                    
+Tsukasa Saito
+                    
+Tetsunari Saito
+                    
+Kazumi Sasaki
+                    
+Katsuhito Sasaki
+                    
+Tomohiko Saso
+                    
+Kaori Sato
+                    
+Keisuke Sato
+                    
+Go Sato
+                    
+Hirokazu Sato
+                    
+Takumi Saruwatari
+                    
+Katsuyuki Shiina
+                    
+Ryota Shiozaki
+                    
+Toshiaki Shigehisa
+                    
+Satohiro Shigematsu
+                    
+Ryosuke Shimo
+         	           
+Takeshi Shimoda
+                    
+Kenji Shinnabe
+                    
+Atsushi Sugai
+                    
+Naoto Sugi
+                    
+Oka Sugita
+                    
+Gasuho Suzuki
+                    
+Gasuya Suzuki
+                    
+Gasuyuki Suzuki
+                    
+Akira Sekine
+                    
+Hitoshi Soma
+                    
+Kazuki Sotokado
+                    
+Jun Takahashi
+                    
+Fumihito Takahashi
+                    
+Naritomo Takahama
+                    
+Yuko Tashiro
+                    
+Kotaro Tadano
+                    
+Kenji Tateyama
+                    
+Kenshiro Tanaka
+                    
+Yuji Tanabe
+                    
+Yuichiro Tamura
+                    
+Kenta Tarushita
+                    
+Kohei Tsukada
+                    
+Akihiro Tsuchiya
+                    
+Tomoko Tsutsumi
+                    
+Tomohiro Tsurumi
+                    
+Masayasu Toda
+                    
+Takeshi Toba
+                    
+Keisuke Tomita
+                    
+Daichi Tomiyama
+                    
+Tomotaka Toyama
+                    
+Atsushi Nakao
+                    
+Yuta Nakao
+                    
+Ryuta Nagao
+                    
+Takumi Nakajima
+                    
+Masaki Nagata
+                    
+Mayu Nakatsuru
+                    
+Yoichi Nakanishi
+                    
+Akiko Nakamoto
+                    
+Shuka Nakaya
+                    
+Hiroshi Nagaya
+                    
+Miki Nishisato
+                    
+Akiko Nishimura
+                    
+Takuro Nishimura
+                    
+Mariko Nita
+                    
+Shunichiro Ninomiya
+                    
+Ruri Noguchi
+                    
+Masagasu Nonomura
+                    
+Hironori Hatano
+                    
+Takuya Hamano
+                    
+Kiichi Hayashi
+                    
+Yuji Hayatake
+                    
+Hideaki Harada
+                    
+Jun Hisakawa
+                    
+Yuya Hida
+                    
+Toshiaki Hira
+                    
+Masaki Hirono
+                    
+Yayoi Fukunaga
+                    
+Takeshi Fujii
+                    
+Kenichi Fujita
+                    
+Chie Fujita
+                    
+Masatoshi Fujita
+                    
+Mitsumasa Fujita
+                    
+Katsuhito Fujihara
+                    
+Eiji Fujiyoshi
+                    
+Toshikazu Futami
+                    
+Asami Furukawa
+                    
+Satoshi Furukawa
+                    
+Yuki Furudaka
+                    
+Shotaro Hokari
+                    
+Keisuke Hosome
+                    
+Go Honzawa
+                    
+Hidefumi Maeshima
+                    
+Kayo Maeda
+                    
+Kenta Masuda
+                    
+Nao Matsura
+                    
+Keisuke Matsuzawa
+                    
+Ayumi Matsuda
+                    
+Masahiro Mitsunaga
+                    
+Kairi Miyasato
+                    
+Saori Mukai
+                    
+Kyoji Murai
+                    
+Masayuki Murano
+                    
+Yuma Mochizuki
+                    
+Seiichi Motoyama
+                    
+Shunichi Morita
+                    
+Seiji Monma
+                    
+Shota Yamazaki
+                    
+Hiroshi Yamazaki
+                    
+Keisuke Yamada
+                    
+Taishi Yamada
+                    
+Yukihisa Yamada
+                    
+Ikuo Yamamoto
+                    
+Kenji Yamamoto
+                    
+Hiroki Yamamoto
+                    
+Masahiro Yamamoto
+                    
+Yasushi Yubiyado
+                    
+Yukio Yoshizaki
+                    
+Miyuki Yoshizawa
+                    
+Kazuya Yoshida
+                    
+Takumi Yoshida
+                    
+Yoshihiro Yoshida
+                    
+Taro Yoda
+                    
+Takayuki Watanabe
+                    
+                    
+                    
+Monster Notes
+                    
+Keita Shimomura
+                    
+                    
+                    
+Special Thanks
+                    
+Kazuhiko Torishima
+                    
+Toshimasa Takahashi
+                    
+Yoshihisa Heishi
+                    
+Fuyuto Takeda
+                    
+Tomoyuki Shima
+                    
+                    
+                    
+Hideo Yoshikura
+                    
+Yu Kondo
+                    
+Muneharu Machida
+                    
+Junji Yamamoto
+                    
+                    
+                    
+Light Link Music
+                    
+I. T. L.
+                    
+                    
+                    
+Michiko Tokoro
+                    
+Hiroyuki Fukui
+                    
+Tsutomu Watanabe
+                    
+Hidehiro Hirata
+                    
+                    
+                    
+Katsuhiro Nakayama
+                    
+Masato Sakai
+                    
+Yoshiko Yagi
+                    
+Yoko Sekiguchi
+                    
+                    
+                    
+Producer
+                    
+Satoshi Shimomura
+                    
+                    
+                    
+Executive Producer
+                    
+Kazumi Kitaue
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+The End
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   
 // current address: $F6E5B
