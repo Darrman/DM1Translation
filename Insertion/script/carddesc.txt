@@ -17,6 +17,7 @@
 //Character limit: 18x2.
 //Lines are padded, don't try to save space
 //Pointers seem to be real but they just show the next 36 characters
+//Combinations il, li, ll, l!, 's, 't have one-tile squashes
 
 //POINTER #0 @ $F0060 - STRING #0 @ $F033A
 #W16($F0060)
@@ -58,7 +59,7 @@ Has strong arms.
 //うちにひめるちからは　はかりしれない
 //TL: Konami
 //Much more than just a child, this dragon is gifted with untapped power.
-More than a child.
+More than a child. 
 Has untapped power
 // current address: $F03CA
 
@@ -69,8 +70,8 @@ Has untapped power
 //こうげきをする　にげあしもすばやい　
 //TL: Konami
 //A very elusive creature that looks like a harmless statue until it attacks.
-Is like a statue  
-until it attacks. 
+Is like a statue   
+until it attacks.  
 // current address: $F03EE
 
 //POINTER #5 @ $F006A - STRING #5 @ $F03EE
@@ -91,7 +92,7 @@ to attack enemies.
 //からきゅうこうかして　てきをこうげき
 //TL: Konami
 //A dragon commonly found guarding mountain fortresses. Its signature attack is a sweeping dive from out of the blue.
-Guards hill forts.
+Guards hill forts. 
 Attacks by diving.
 // current address: $F0436
 
@@ -147,7 +148,7 @@ None block its way
 //TL: ???
 //Crushes all comers with his spiked club. It is not known why he is called "Number 2".
 //Well that doesn't work with dub names... "We do not know of other Battleguards?"
-Crushes all comers
+Crushes all comers 
 with his club.    
 // current address: $F04EA
 
@@ -169,7 +170,7 @@ mouth.Best in mtns
 //つきだし　とっしんしてこうげき　　　
 //TL: Konami
 //A bull monster often found in the woods, it charges enemy monsters with a pair of deadly horns.
-A woodland bull.  
+A woodland bull.   
 Charges with horns
 // current address: $F0532
 
@@ -180,7 +181,7 @@ Charges with horns
 //ほのおを　はなつけんで　こうげきする
 //TL: ???
 //A fighter gifted with the power of fire. Attacks enemies with a sword that launches flames.
-Fights with fire's
+Fights with fire's 
 power and sword.  
 // current address: $F0556
 
@@ -191,7 +192,7 @@ power and sword.
 //どうみてもよわいが　かなりやくにたつ
 //TL: ???
 //A sorcerer capable of bending time to his will. Though not powerful at first glance, appearances can be deceiving.
-Bends time at will
+Bends time at will 
 Beware appearances
 // current address: $F057A
 
@@ -246,7 +247,7 @@ away.Break it and…
 //すべてあつめると　ふういんがとける　
 //TL: ???
 //If all five cards gather in the hand of the player, they win.
-If all of Exodia's
+If all of Exodia's  
 in hand: Auto-win.
 // current address: $F062E
 
@@ -301,7 +302,7 @@ Has a single horn.
 //オノひとふりで　なんでもなぎたおす　
 //TL: Konami
 //A monster with tremendous power, it destroys enemies with a swing of its axe.
-Kills enemies with
+Kills enemies with 
 a swing of its axe
 // current address: $F06E2
 
@@ -312,7 +313,7 @@ a swing of its axe
 //しゅびりょくは　かなりつよい　　　　
 //TL: ???
 //What this creature lacks in size it makes up for in defense when battling in the meadow.
-Small,but has good
+Small,but has good 
 defence in meadows
 // current address: $F0706
 
@@ -411,7 +412,7 @@ regarding Atk/Def.
 //めをあわせると　いしにされてしまう　
 //TL: ???
 //A monster with the head of a poisonous snake. One look will turn an unwary opponent to stone.
-Has a snake's head
+Has a snake's head.
 Petrifies enemies.
 // current address: $F084A
 
@@ -422,7 +423,7 @@ Petrifies enemies.
 //くわわり　はげしいこうげきをしかける
 //TL: ???
 //The knight's power and the Dragon's speed combine for best effect.
-Gaias power&Dragon
+Gaia's power&Dragon
 speed combined.   
 // current address: $F086E
 
@@ -478,7 +479,7 @@ Baffles his foes.
 //TL: ???
 //Manipulates enemies attacks with the power of illusion. A very rare card.
 Manipulates foes  
-with illusions.   
+with illusions.    
 // current address: $F0922
 
 //POINTER #42 @ $F00B4 - STRING #42 @ $F0922
@@ -499,7 +500,7 @@ has high attack.
 //やみでのこうげきは　きょうりょくだ　
 //TL: Konami
 //A deadly doll gifted with mystical power, it is particularly powerful when attacking against dark forces.
-A powerful doll.  
+A powerful doll.   
 Best against dark.
 // current address: $F096A
 
@@ -511,7 +512,7 @@ Best against dark.
 //TL: Konami
 //A creature that electrocutes opponents with bolts of lightning.
 Electrocutes foes 
-with lightning.   
+with lightning.    
 // current address: $F098E
 
 //POINTER #45 @ $F00BA - STRING #45 @ $F098E
@@ -610,7 +611,7 @@ dangerous in swarm
 //TL: Konami
 //A large, spherical roach that attacks its enemies by rolling over them.
 A spherical roach.
-Rolls over enemies
+Rolls over enemies.
 // current address: $F0AD2
 
 //POINTER #54 @ $F00CC - STRING #54 @ $F0AD2
@@ -643,7 +644,7 @@ an enormous moth.
 //TL: ???
 //A huge moth that attacks by scattering flurries of toxic dust. It is quite powerful when encountered in a forest.
 Moth that attacks 
-by spreading dust 
+by spreading dust.
 // current address: $F0B3E
 
 //POINTER #57 @ $F00D2 - STRING #57 @ $F0B3E
@@ -687,7 +688,7 @@ razor-sharp teeth.
 //TL: ???
 //A rarely seen wolf with a powerful nose for catching the scent of an enemy.
 Wolf w/ good nose 
-for smelling foes.
+for smelling foes. 
 // current address: $F0BCE
 
 //POINTER #61 @ $F00DA - STRING #61 @ $F0BCE
@@ -764,7 +765,7 @@ mighty Great Moth.
 //TL: Konami
 //An axe-swinging beast-warrior with the head of a dragon.
 Beast-warrior with
-a dragon's head.  
+a dragon's head.   
 // current address: $F0CCA
 
 //POINTER #68 @ $F00E8 - STRING #68 @ $F0CCA
@@ -840,7 +841,7 @@ Punch shakes earth
 //をパクりとたべる　にくしょくのはな　
 //TL: Konami
 //A meat-eating plant that is attractive to the eye but dangerous when approached.
-Attactive to see  
+Attractive to see 
 Do not approach.  
 // current address: $F0DC6
 
@@ -851,7 +852,7 @@ Do not approach.
 //ワニ　かたいうろこでこうげきをはじく
 //TL: ???
 //A vicious crocodile with intelligence. Hard scales from a natural armor for this creature.
-Vicious crocodile 
+A vicious crocodile
 with intelligence.
 // current address: $F0DEA
 
@@ -873,7 +874,7 @@ and sqeezes them.
 //ふりまわすこうげきは　かなりつよい　
 //TL: Konami
 //An axe-wielding monster of tremendous strength and agility.
-Strong and agile  
+Strong and agile   
 axe-wielder.      
 // current address: $F0E32
 
@@ -884,7 +885,7 @@ axe-wielder.
 //とつげきこうげきは　きょうれつだ　　
 //TL: Konami
 //Nothing stands in the way of this spike-covered dinosaur!
-Nothing will block
+Nothing will block 
 spiked dinosaur.  
 // current address: $F0E56
 
@@ -961,7 +962,7 @@ with dark power.
 //じゃらの　ながいうでで　なぐりかかる
 //TL: ???
 //A winged creature that flies about freely in full darkness. It punches foes with its long and hairy arms.
-Flies in darkness.
+Flies in darkness. 
 Punches with arms.
 // current address: $F0F52
 
@@ -996,7 +997,7 @@ treasures.
 //とばし　こうらで　こうげきをはじく　
 //TL: ???
 //Well-protected by its shell, this monster flings projectiles from its catapult.
-Flings projectiles
+Flings projectiles  
 from its catapult.
 // current address: $F0FBE
 
@@ -1030,7 +1031,7 @@ Extremely fast.
 //TL: ???
 //A powerful and unstoppable combination of bull and horse.
 Unstoppable combo 
-of bull and horse.
+of bull and horse. 
 // current address: $F102A
 
 //POINTER #92 @ $F0118 - STRING #92 @ $F102A
@@ -1041,7 +1042,7 @@ of bull and horse.
 //TL: ???
 //Prefers to face enemies one-on-one. His swiftly drawn blade delivers a quick and immediate finish.
 Faces foes 1-on-1.
-Kills them quickly
+Kills them quickly.
 // current address: $F104E
 
 //POINTER #93 @ $F011A - STRING #93 @ $F104E
@@ -1051,8 +1052,8 @@ Kills them quickly
 //ドラゴン　しかしまだこうげきはつよい
 //TL: Konami
 //This weakened dragon can no longer fly, but is still a deadly force to be reckoned with.
-Can't fly but is  
-still deadly.     
+Can't fly but is   
+still deadly.      
 // current address: $F1072
 
 //POINTER #94 @ $F011C - STRING #94 @ $F1072
@@ -1074,7 +1075,7 @@ Saps witness power
 //TL: ???
 //A warrior raised from the beyond. Blindly swings a sharp blade with devastating force.
 Raised from beyond
-Blindly attacks.  
+Blindly attacks.   
 // current address: $F10BA
 
 //POINTER #96 @ $F0120 - STRING #96 @ $F10BA
@@ -1096,7 +1097,7 @@ Corrosive breath.
 //TL: Konami
 //A clown revived by the powers of darkness. Its deadly dance has sent many monsters to their graves.
 Revived by dark.  
-Dance killed many.
+Dance killed many. 
 // current address: $F1102
 
 //POINTER #98 @ $F0124 - STRING #98 @ $F1102
@@ -1117,7 +1118,7 @@ tentacles to fight
 //たたかいぬく　かくとうせんし　　　　
 //TL: ???
 //A grappling warrior who does not use any weapons and fights with bare hands.
-Grappler who will 
+Grappler who will  
 fight bare-handed.
 // current address: $F114A
 
@@ -1140,7 +1141,7 @@ Attacks w/fire.
 //TL: ???
 //A shadow mask created by the hands of a dark mage.
 Mask created with 
-dark mage's hands.
+dark mage's hands. 
 // current address: $F1192
 
 //POINTER #102 @ $F012C - STRING #102 @ $F1192
@@ -1206,7 +1207,7 @@ physical/shadows.
 //TL: ???
 //A final resting place that enhances the power of the doomed and drains that of the living.
 Powers up the dead
-Drains away living
+Drains away living 
 // current address: $F126A
 
 //POINTER #108 @ $F0138 - STRING #108 @ $F126A
@@ -1216,7 +1217,7 @@ Drains away living
 //みとおすことができるめがみ　　　　　
 //TL: ???
 //A goddess that has a divine third eye on her forehead. The divine eye gives her all-seeing powers.
-3rd eye gives all-
+3rd eye gives all- 
 seeing powers.    
 // current address: $F128E
 
@@ -1260,7 +1261,7 @@ feeding on souls.
 //みかけない　きちょうないきもの　　　
 //TL: Konami
 //Entirely gray, this beast has rarely been seen by mortal eyes.
-All grey, few have
+All grey, few have 
 seen this beast.  
 // current address: $F131E
 
@@ -1305,7 +1306,7 @@ to haunt opponents
 //TL: ???
 //A spirit of the book with infinite knowledge and an endless variety of attack strategies.
 Book spirit that  
-knows all.        
+knows all attacks. 
 // current address: $F13AE
 
 //POINTER #117 @ $F014A - STRING #117 @ $F13AE
@@ -1337,7 +1338,7 @@ on foes in coffins
 //ゆめのなかへ　さそいこむ　　　　　　
 //TL: ???
 //Its sweet dancing lulls the viewer to an eternal sleep.
-Its dance lulls   
+Its dance lulls    
 viewers to sleep. 
 // current address: $F141A
 
@@ -1348,7 +1349,7 @@ viewers to sleep.
 //めをさますと　てがつけられない　　　
 //TL: ???
 //Frequently found sleeping, it becomes uncontrollable when awakened.
-Usually sleeps,un-
+Usually sleeps,un- 
 controllable awake
 // current address: $F143E
 
@@ -1360,7 +1361,7 @@ controllable awake
 //TL: ???
 //This dragon is conjured from a picture scroll to attack enemies. It has a pretty low defense factor.
 Dragon conjured   
-from a scroll.    
+from a scroll.     
 // current address: $F1462
 
 //POINTER #122 @ $F0154 - STRING #122 @ $F1462
@@ -1370,8 +1371,8 @@ from a scroll.
 //そだてられたはな　とてもきょうぼう　
 //TL: ???
 //A malignant flower grown in polluted soil with dark powers. It is extremely wild and vicious.
-Grows in polluted 
-soil w/dark powers
+Grows in polluted  
+soil w/dark powers 
 // current address: $F1486
 
 //POINTER #123 @ $F0156 - STRING #123 @ $F1486
@@ -1382,7 +1383,7 @@ soil w/dark powers
 //TL: ???
 //A machine that was found in the ruins of an ancient culture. It appears to have been made solely to destroy.
 Found in ruins.   
-Made only to kill.
+Made only to kill. 
 // current address: $F14AA
 
 //POINTER #124 @ $F0158 - STRING #124 @ $F14AA
@@ -1392,8 +1393,8 @@ Made only to kill.
 //から　せいなるひかりをはっする　　　
 //TL: Konami
 //This long-tailed bird blinds its enemies with mystical light.
-Long-tailed bird. 
-Blind foes w/light
+Long-tailed bird.  
+Blinds foes w/light 
 // current address: $F14CE
 
 //POINTER #125 @ $F015A - STRING #125 @ $F14CE
@@ -1414,7 +1415,7 @@ of battle.No proof
 //しのびよる　あんさつせんもんのせんし
 //TL: Konami
 //A silent and deadly warrior specializing in assassinations.
-Silent and deadly.
+Silent and deadly. 
 Assassinates foes.
 // current address: $F1516
 
@@ -1426,7 +1427,7 @@ Assassinates foes.
 //TL: ???
 //A sorcerer who lives on the moon and attacks opponents with the power of lunar light.
 Lives on the moon.
-Attack w/moonlight
+Attack w/moonlight 
 // current address: $F153A
 
 //POINTER #128 @ $F0160 - STRING #128 @ $F153A
@@ -1480,8 +1481,8 @@ Appeared from plot
 //かっちゅうに　みをつつんでいるきし　
 //TL: ???
 //A warrior protected by a shell that can even deflect the heat of burning flames.
-Has a shell that  
-deflects heat.    
+Has a shell that   
+deflects flames.  
 // current address: $F15EE
 
 //POINTER #133 @ $F016A - STRING #133 @ $F15EE
@@ -1503,7 +1504,7 @@ and stop attacks.
 //TL: ???
 //Arms that reach out from the Swamp of Chaos to drag down the damned.
 Reach from swamps 
-to pull the damned
+to pull the damned.
 // current address: $F1636
 
 //POINTER #135 @ $F016E - STRING #135 @ $F1636
@@ -1568,8 +1569,8 @@ Attacks w/tadpoles
 //てやあしがあり　はやくうごける　　　
 //TL: ???
 //A snail evolved with the powers of darkness. Having arms and legs, it can move very quickly.
-Snail with arms   
-and legs.Move fast
+Snail with arms and
+legs. Moves fast  
 // current address: $F170E
 
 //POINTER #141 @ $F017A - STRING #141 @ $F170E
@@ -1624,7 +1625,7 @@ black. Twirls cape
 //TL: Konami
 //A mysterious temple of skulls and bones that pulls in unsuspecting enemies.
 Mysterious temple 
-that pulls in foes
+that pulls in foes.
 // current address: $F17C2
 
 //POINTER #146 @ $F0184 - STRING #146 @ $F17C2
@@ -1635,7 +1636,7 @@ that pulls in foes
 //TL: Konami
 //A warrior hidden within an egg that attacks enemies by flinging eggshells.
 Hidden in an egg  
-Attacks w/eggshell
+Attacks w/eggshell.
 // current address: $F17E6
 
 //POINTER #147 @ $F0186 - STRING #147 @ $F17E6
@@ -1645,8 +1646,8 @@ Attacks w/eggshell
 //かなしばりで　てきのうごきをふうじる
 //TL: Konami
 //A shadow that dwells in the dark, paralyzing its opponents and rendering them harmless.
-Paralyses foes and
-they are harmless 
+Paralyses foes,   
+make them harmless
 // current address: $F180A
 
 //POINTER #148 @ $F0188 - STRING #148 @ $F180A
@@ -1667,7 +1668,7 @@ and obeys summoner
 //しれないかっこうをした　ばけもの　　
 //TL: ???
 //A mysterious creature that dwells below the sea.
-Mysterious, lives 
+Mysterious, lives  
 beneath the sea.  
 // current address: $F1852
 
@@ -1679,7 +1680,7 @@ beneath the sea.
 //TL: Konami
 //Armed with the Sword of Crimson Flames, this warrior can bind a monster with fiery restraints.
 Binds monsters w/ 
-firey restraints. 
+fiery restraints. 
 // current address: $F1876
 
 //POINTER #151 @ $F018E - STRING #151 @ $F1876
@@ -1701,7 +1702,7 @@ Melds with shadows
 //TL: ???
 //A grim reaper that steals souls with hellish slashes.
 Steals souls with 
-hellish slashes.  
+hellish slashes.   
 // current address: $F18BE
 
 //POINTER #153 @ $F0192 - STRING #153 @ $F18BE
@@ -1766,7 +1767,7 @@ Attack w/feelers.
 //かいてんしながら　くちばしでこうげき
 //TL: Konami
 //This beast coils like a snake, and strikes quickly with its snapping beak.
-Coils like a snake
+Coils like a snake. 
 Strikes w/beak.   
 // current address: $F1996
 
@@ -1788,7 +1789,7 @@ block enemy escape
 //コーティングされたよろいはがんじょう
 //TL: Konami
 //Specializing in combination attacks, this warrior is equipped with a tough, magnetically coated armor.
-Wears magnetically
+Wears magnetically-
 coated armour.    
 // current address: $F19DE
 
@@ -1854,7 +1855,7 @@ manipulates foes.
 //なかに　なにかが　ひそんでいるらしい
 //TL: ???
 //A very fragile ancient jar. Something appears to lurk within.
-Fragile jar. Some-
+Fragile jar. Some- 
 thing lurks within
 // current address: $F1AB6
 
@@ -1866,7 +1867,7 @@ thing lurks within
 //TL: ???
 //Intense flames of the dark world obliterates everything instantly.
 Dark world flames 
-obliterate all.   
+obliterate all.     
 // current address: $F1ADA
 
 //POINTER #168 @ $F01B0 - STRING #168 @ $F1ADA
@@ -1910,7 +1911,7 @@ that mesmerise
 //TL: Konami
 //A strange warrior who manipulates three deadly blades with both hands and his tail.
 Wields 3 blades   
-with hands & tail 
+with hands & tail  
 // current address: $F1B6A
 
 //POINTER #172 @ $F01B8 - STRING #172 @ $F1B6A
@@ -1921,7 +1922,7 @@ with hands & tail
 //TL: Konami
 //This monster bends light to hide its image from the eyes of opponents.
 Hides itself by   
-bending light     
+bending light      
 // current address: $F1B8E
 
 //POINTER #173 @ $F01BA - STRING #173 @ $F1B8E
@@ -1942,8 +1943,8 @@ Tears away w/winds
 //やみでのたたかいに　すぐれている　　
 //TL: ???
 //A fallen angel that has been banished from the heavens. It is highly skilled at the use of dark powers for lighting.
-Fell & banished   
-from the heavens. 
+Fell & banished    
+from the heavens.  
 // current address: $F1BD6
 
 //POINTER #175 @ $F01BE - STRING #175 @ $F1BD6
@@ -1964,7 +1965,7 @@ create hot blasts.
 //とてもきょうぼうで　ひとになつかない
 //TL: Konami
 //Protected by a spiked shell, this turtle has a very nasty disposition.
-Has spiked shell. 
+Has spiked shell.  
 Nasty disposition.
 // current address: $F1C1E
 
@@ -2041,7 +2042,7 @@ sacred force.
 //ハトをだしてこうげきもする　　　　　
 //TL: Konami
 //A creature that defeats its enemies using sleight-of-hand.
-Kills foes using  
+Kills foes using   
 sleight-of-hand.  
 // current address: $F1D1A
 
@@ -2075,7 +2076,7 @@ ments w/mirror.
 //TL: Konami
 //This weird monster has a portal in its belly that brings reinforcements from the farthest reaches of the netherworld.
 Has a portal that 
-summons from hell.
+summons from hell. 
 // current address: $F1D86
 
 //POINTER #187 @ $F01D6 - STRING #187 @ $F1D86
@@ -2096,8 +2097,8 @@ at its enemies.
 //しっぽをもっている　ばけねこ　　　　
 //TL: ???
 //A feline monster that has angelic wings and a long tail.
-A cat with angelic
-wings & long tail.
+A cat with angelic 
+wings & long tail. 
 // current address: $F1DCE
 
 //POINTER #189 @ $F01DA - STRING #189 @ $F1DCE
@@ -2130,7 +2131,7 @@ Acid rain danger.
 //TL: Konami
 //Enemies' hearts will melt at the sight of this small fairy's cuteness.
 Hearts melt at the
-fairy's cuteness. 
+fairy's cuteness.  
 // current address: $F1E3A
 
 //POINTER #192 @ $F01E0 - STRING #192 @ $F1E3A
@@ -2140,7 +2141,7 @@ fairy's cuteness.
 //みをまもり　するどいきばでこうげき　
 //TL: Konami
 //A tiger encased in a protective shell that attacks with razor-sharp fangs.
-Tiger in shell.   
+Tiger in shell.    
 Attacks w/fangs.  
 // current address: $F1E5E
 
@@ -2151,8 +2152,8 @@ Attacks w/fangs.
 //ほど　つよくないが　ゆだんはきんもつ
 //TL: ???
 //A swamp-dwelling minion of the dark forces. While it is not as strong as it looks, don't treat it lightly.
-Swamp dweller of  
-the dark.         
+Swamp dweller. It's 
+not that strong.  
 // current address: $F1E82
 
 //POINTER #194 @ $F01E4 - STRING #194 @ $F1E82
@@ -2162,7 +2163,7 @@ the dark.
 //こうげきをしかけてくる　ゆだんするな
 //TL: Konami
 //This monster splits in two and attacks from opposite sides.
-Splits in two and 
+Splits in two and  
 attacks from sides
 // current address: $F1EA6
 
@@ -2185,7 +2186,7 @@ defended the seas.
 //TL: ???
 //This undead monster attacks by launching missile-like arms.
 Attacks by using  
-missile-like arms.
+missile-like arms.  
 // current address: $F1EEE
 
 //POINTER #197 @ $F01EA - STRING #197 @ $F1EEE
@@ -2195,7 +2196,7 @@ missile-like arms.
 //しあわせにする　ちいさなてんし　　　
 //TL: Konami
 //Enemies become overjoyed when struck by the Heart Ray emitted from the forehead of this tiny cherub.
-Enemies in bliss  
+Enemies in bliss   
 when hit by heart.
 // current address: $F1F12
 
@@ -2206,7 +2207,7 @@ when hit by heart.
 //すべりながら　てきにむかってとつげき
 //TL: ???
 //A penguin-like creature that slides on its belly to deliver a blow with its outstretched sword.
-Slides on belly to
+Slides on belly to  
 strike with sword.
 // current address: $F1F36
 
@@ -2217,7 +2218,7 @@ strike with sword.
 //からだをいっぱいにつかいこうげきする
 //TL: Konami
 //A very small dragon known for its vicious attacks.
-Small dragon known
+Small dragon known 
 for vicious attack
 // current address: $F1F5A
 
@@ -2262,7 +2263,7 @@ unable to pass on.
 //TL: ???
 //This cannon-like demon fires eyeballs so fast they can't be seen.
 Cannon demon fires
-eyeballs rapidly. 
+eyeballs rapidly.  
 // current address: $F1FEA
 
 //POINTER #204 @ $F01F8 - STRING #204 @ $F1FEA
@@ -2295,7 +2296,7 @@ from a distance.
 //TL: Konami
 //This monster stuns its enemies with a massive beak and ear-piercing wails.
 Stuns foes with   
-beak and wails.   
+beak and wails.    
 // current address: $F2056
 
 //POINTER #207 @ $F01FE - STRING #207 @ $F2056
@@ -2360,8 +2361,8 @@ beam from its eye.
 //みずのかべをつくり　てきをおしつぶす
 //TL: Konami
 //A wizard of the waters that conjures a liquid wall to crush any enemies that oppose him.
-Conjures liquid   
-wall to crush foes
+Conjures liquid    
+wall to crush foes 
 // current address: $F212E
 
 //POINTER #213 @ $F020A - STRING #213 @ $F212E
@@ -2371,7 +2372,7 @@ wall to crush foes
 //するどいきれあじの　めいとうをもつ　
 //TL: Konami
 //Serving as a double for the Ruler of the Blue Flame, he's a master swordsman that wields a fine blade.
-Blue Flame Ruler's
+Blue Flame Ruler's 
 double.           
 // current address: $F2152
 
@@ -2471,7 +2472,7 @@ sacrifice is made.
 //TL: ???
 //A gigantic sea serpent that emergens in storms. It creates towering tidal waves that swallow everything.
 Appears in storms.
-Waves swallow all.
+Waves swallow all.  
 // current address: $F2296
 
 //POINTER #223 @ $F021E - STRING #223 @ $F2296
@@ -2482,7 +2483,7 @@ Waves swallow all.
 //TL: ???
 //A warrior that excels in laying traps such as bottomless pits.
 Best at laying    
-traps like pits.  
+traps like pits.   
 // current address: $F22BA
 
 //POINTER #224 @ $F0220 - STRING #224 @ $F22BA
@@ -2536,8 +2537,8 @@ dark powers.
 //みじかくするかわり　ちからをあたえる
 //TL: ???
 //An angel who controls life. This creature grants power instead of shortening life.
-Angel who extends 
-life, not end it. 
+Angel who extends,
+not ends, life.    
 // current address: $F236E
 
 //POINTER #229 @ $F022A - STRING #229 @ $F236E
@@ -2558,7 +2559,7 @@ with beast head.
 //カマで　きようにこうげきをかわす　　
 //TL: ???
 //An unpleasantly smiling demon that wields a scythe to avoid enemy blows.
-Smiling demon with
+Smiling demon with 
 a scythe to dodge.
 // current address: $F23B6
 
@@ -2570,7 +2571,7 @@ a scythe to dodge.
 //TL: ???
 //A biological weapon that attacks by firing projectiles from its mouth.
 Bio-weapon that   
-fires projectiles.
+fires projectiles. 
 // current address: $F23DA
 
 //POINTER #232 @ $F0230 - STRING #232 @ $F23DA
@@ -2636,7 +2637,7 @@ rulers' tombs.
 //TL: ???
 //An animated palm tree. It attacks by dropping fruit that contain tasty milk.
 Palm tree. Drops  
-fruit with milk.  
+fruit with milk.   
 // current address: $F24B2
 
 //POINTER #238 @ $F023C - STRING #238 @ $F24B2
@@ -2681,7 +2682,7 @@ Wields PsychoSword
 //TL: Konami
 //Decides the fate of an opponent when the candle on its fingertip burns out.
 When candle burns,
-decide foe's fate.
+decide foe's fate. 
 // current address: $F2542
 
 //POINTER #242 @ $F0244 - STRING #242 @ $F2542
@@ -2691,7 +2692,7 @@ decide foe's fate.
 //きりでつつみこみ　しかいをうばう　　
 //TL: Konami
 //A sea-dwelling spirit that takes away sight by clouding the area in fog.
-Blinds by covering
+Blinds by covering 
 area in fog.      
 // current address: $F2566
 
@@ -2713,7 +2714,7 @@ Melts any nearby.
 //あくま　ダークボムで　ばくはこうげき
 //TL: Konami
 //An eyeball fiend created by a servant of the wicked, it uses "Dark Blasts" to blow away its enemies.
-Eyeball from a    
+Eyeball from a     
 wicked servant.   
 // current address: $F25AE
 
@@ -2725,7 +2726,7 @@ wicked servant.
 //TL: ???
 //Steals the souls of those slain by its sword.
 Steals souls of   
-those it kills.   
+those it kills.    
 // current address: $F25D2
 
 //POINTER #246 @ $F024C - STRING #246 @ $F25D2
@@ -2735,7 +2736,7 @@ those it kills.
 //おおつなみをおこして　こうげきする　
 //TL: Konami
 //An amphibian capable of calling up a massive tidal wave from the dark seas to wipe out enemy monsters.
-Calls tidal waves 
+Calls tidal waves  
 to wipe out foes. 
 // current address: $F25F6
 
@@ -2846,7 +2847,7 @@ rifts to trap foes
 //TL: ???
 //With a body armored by rock-hard fur, this monster features excellent defense capabilities.
 Rock-hard fur lets
-it defend well.   
+it defend well.    
 // current address: $F275E
 
 //POINTER #257 @ $F0262 - STRING #257 @ $F275E
@@ -2900,8 +2901,8 @@ diverting attacks.
 //トカゲにまたがり　たたかうせんし　　
 //TL: ???
 //A dwarf who serves the traveler Aile. He rides a lizard warrior into battle.
-Serves Aile. Rides
-a lizard to battle
+Serves Aile. Rides 
+a lizard to battle 
 // current address: $F2812
 
 //POINTER #262 @ $F026C - STRING #262 @ $F2812
@@ -2923,7 +2924,7 @@ turns them to dust
 //TL: Konami
 //This fairy in an eggshell uses massive wings to blow back almost any projectile attack.
 Uses wings to stop
-any projectile.   
+any projectile.    
 // current address: $F285A
 
 //POINTER #264 @ $F0270 - STRING #264 @ $F285A
@@ -3077,7 +3078,7 @@ Reflection hatches
 //TL: ???
 //Nobody has any idea what creature may spawn from this mysterious larva.
 Nobody knows what 
-will spawn from it
+will spawn from it 
 // current address: $F2A52
 
 //POINTER #278 @ $F028C - STRING #278 @ $F2A52
@@ -3087,7 +3088,7 @@ will spawn from it
 //けむりでおおい　みえなくしてしまう　
 //TL: Konami
 //A fiend that dwells in a blinding curtain of smoke.
-Fiend dwells in a 
+Fiend dwells in a  
 curtain of smoke. 
 // current address: $F2A76
 
@@ -3121,7 +3122,7 @@ its attack.
 //TL: Konami
 //A monstrous sheep with a long tail for hypnotizing enemies.
 Hypnotises foes   
-with its long tail
+with its long tail 
 // current address: $F2AE2
 
 //POINTER #282 @ $F0294 - STRING #282 @ $F2AE2
@@ -3131,7 +3132,7 @@ with its long tail
 //ついて　こうげきしてくるきかい　　　
 //TL: Konami
 //This machine generates illusions that leave an enemy wide open to attacks.
-Makes illusions to
+Makes illusions to 
 leave foe open.   
 // current address: $F2B06
 
@@ -3186,7 +3187,7 @@ a black shadow.
 //だすオブジェで　てきをおしつぶす　　
 //TL: ???
 //An evil artist that crushes foes with artistic objects.
-Evil artist that  
+Evil artist that   
 crushes with art. 
 // current address: $F2BBA
 
@@ -3219,7 +3220,7 @@ Has cresent pike.
 //ほのおをじざいにあやつりこうげきする
 //TL: Konami
 //A malevolent creature wrapped in flames that attacks enemies with intense fire.
-Evil creature     
+Evil creature      
 wrapped in flames.
 // current address: $F2C26
 
@@ -3242,7 +3243,7 @@ powers to defend.
 //TL: ???
 //A legendary swordsman, said to have killed a hundred men.
 Said to have      
-killed hundred men
+killed hundred men.
 // current address: $F2C6E
 
 //POINTER #293 @ $F02AA - STRING #293 @ $F2C6E
@@ -3285,7 +3286,7 @@ its enemies.
 //くるったように　てきをはかいする　　
 //TL: ???
 //A mechanical warrior that was built with the powers of darkness. It destroys its foes with demented determination.
-Built with dark   
+Built with dark    
 powers. Determined
 // current address: $F2CFE
 
@@ -3318,7 +3319,7 @@ advantage w/scythe
 //くうちゅうから　こうげきする　　　　
 //A vicious bird that attacks from the skies with its whip-like tail.
 Bird attacks from 
-sky with whip tail
+sky with whip tail.
 // current address: $F2D6A
 
 //POINTER #300 @ $F02B8 - STRING #300 @ $F2D6A
@@ -3340,7 +3341,7 @@ unless Dark.
 //TL: ???
 //A warrior who has sold their soul to evil can be strengthened with the power of darkness.
 EQUIP: Warriors   
-that turned evil  
+that turned evil.  
 // current address: $F2DB2
 
 //POINTER #302 @ $F02BC - STRING #302 @ $F2DB2
@@ -3395,7 +3396,7 @@ Shoots flames.
 //TL: ???
 //The holy light of the spirit powers up elves.
 EQUIP: Elves. Holy
-light powers up.  
+light powers up.   
 // current address: $F2E66
 
 //POINTER #307 @ $F02C6 - STRING #307 @ $F2E66
@@ -3415,7 +3416,7 @@ fanged monsters.
 //もたないものには　こうかがないという
 //TL: ???
 //Boosts the power of shelled monsters. Said to have no effect on those without shells.
-EQUIP: Shells.    
+EQUIP: Shells.     
 No effect without.
 // current address: $F2EAE
 
@@ -3427,7 +3428,7 @@ No effect without.
 //TL: ???
 //Vile microbes boosts the power of Plants in the woods!
 EQUIP: Plants.    
-Vile microbes used
+Vile microbes used.
 // current address: $F2ED2
 
 //POINTER #310 @ $F02CC - STRING #310 @ $F2ED2
@@ -3570,7 +3571,7 @@ Force from crystal
 //TL: ???
 //A magic book for increasing the power of magicians. It cannot be read by anyone with evil in their heart.
 EQUIP: Magicians. 
-Evil can't read it
+Evil can't read it. 
 // current address: $F30A6
 
 //POINTER #323 @ $F02E6 - STRING #323 @ $F30A6
@@ -3636,7 +3637,7 @@ Sea Serpent.
 //ぞくのモンスターをふういんしてしまう
 //TL: ???
 //Seals all Dragon-Type monsters on the field.
-Seals all Dragons 
+Seals all Dragons  
 away in the jar.  
 // current address: $F317E
 
@@ -3724,7 +3725,7 @@ monster on field.
 //をくらわせ　ぜんめつさせる！　　　　
 //TL: ???
 //Destroy every opposing monster with a stroke of lightning!
-Destroys all enemy
+Destroys all enemy 
 monsters on field.
 // current address: $F329E
 
@@ -3757,7 +3758,7 @@ Restores 500 LP.
 //するといわれる　ゴブりンのもつくすり
 //TL: ???
 //A goblin's herb that increases Life Points by 1000.
-A goblin's herb.  
+A goblin's herb.    
 Restores 1,000 LP.
 // current address: $F330A
 
@@ -3768,7 +3769,7 @@ Restores 1,000 LP.
 //ライフポイントを２０００かいふくする
 //TL: ???
 //The blood of an angel that she collected by injuring herself. It restores 2000 Life Points.
-Angel's blood.    
+Angel's blood.     
 Restores 2,000 LP.
 // current address: $F332E
 
@@ -3801,7 +3802,7 @@ A spark shower.
 //ポイントに５００のダメージをあたえる
 //TL: ???
 //A fireball inflicts 500 points of damage to your opponent's Life Points.
-A fireball deals  
+A fireball deals   
 500 LP damage.    
 // current address: $F339A
 
@@ -3823,7 +3824,7 @@ Burn at the stake.
 //のライフポイントに２０００のダメージ
 //TL: ???
 //A huge blaze that burns all day inflicts 2000 damage to your opponent's Life Points.
-Fire burns all day
+Fire burns all day.
 2,000 LP damage.  
 // current address: $F33E2
 
@@ -3834,7 +3835,7 @@ Fire burns all day
 //うばう　しゃくねつじごくをはっせい　
 //TL: ???
 //Generates a blazing hell that takes 5000 of your opponent's Life Points.
-Blazing hell deals
+Blazing hell deals 
 5,000 LP damage.  
 // current address: $F3406
 
@@ -3856,7 +3857,7 @@ attack for 3 turns
 //モンスターは　すべてパワーダウン　　
 //TL: ???
 //The curse of the hexagram reduces the power of all the opponent's monsters.
-Hexagram's curse  
+Hexagram's curse   
 weakens all foes. 
 // current address: $F344E
 
@@ -3867,8 +3868,8 @@ weakens all foes.
 //モンスターが　すべてみえるようになる
 //TL: ???
 //A dazzling light reveals all monsters on the field.
-Dazzling light    
-shows all monsters
+Dazzling light shows
+all monsters.
 // current address: $F3472
 
 //POINTER #350 @ $F031C - STRING #350 @ $F3472
@@ -3879,7 +3880,7 @@ shows all monsters
 //TL: ???
 //A monster that attacks anybody who attempts to open its lid.
 Attacks any who   
-try to open lid   
+try to open its lid
 // current address: $F3496
 
 //POINTER #351 @ $F031E - STRING #351 @ $F3496
@@ -3890,7 +3891,7 @@ try to open lid
 //TL: ???
 //A lady warrior armed with sword and shield, she floats like a butterfly and stings like a bee.
 //Call it a hunch but I doubt Muhammed Ali is being quoted here
-Floats lightly and
+Floats lightly and 
 stings sharply.   
 // current address: $F34BA
 
@@ -3990,7 +3991,7 @@ that uses claws
 //TL: Konami
 //A very rare penguin that takes to the air with ears shaped like wings.
 Takes to the air  
-with wing-like ear
+with wing-like ears
 // current address: $F35FE
 
 //POINTER #361 @ $F0332 - STRING #361 @ $F35FE
@@ -4000,7 +4001,7 @@ with wing-like ear
 //つよいこうげきでも　ふせげるという　
 //TL: ???
 //A Millennium Item. It can block any powerful attack.
-Millennium Item.  
+A Millennium Item. 
 Block strong blows
 // current address: $F3622
 
@@ -4012,7 +4013,7 @@ Block strong blows
 //TL: ???
 //Flies around spreading magic that makes everyone happy.
 Spreads magic that
-makes all happy.  
+makes all happy.   
 // current address: $F3646
 
 //POINTER #363 @ $F0336 - STRING #363 @ $F3646

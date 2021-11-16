@@ -36,7 +36,7 @@ Insect
 //きょうりゅう
 Dinosaur
 //はちゅうるい
-Reptile 
+Reptile  
 //さかな　　
 Fish    
 //かいりゅう
@@ -66,7 +66,7 @@ Magic
 //インセクターはが
 //Insector Haga
 //Weevil Underwood
-Weevil  
+Weevil   
 //くじゃくまい　　
 //Mai Kujaku
 //Mai Valentine
@@ -126,7 +126,7 @@ YamiYugi
 LinkDuel
 //たいせんにんずう
 //opponents faced
-Dueled  
+Duelled  
 //なまえ　　　　
 Name   
 // current address: $54EE
@@ -147,7 +147,7 @@ Name
 //　　　　　　やま
 Mountain
 //　　　　そうげん
-  Plains
+  Meadow
 //　　　　　　うみ
      Sea
 //　　　　　　やみ
