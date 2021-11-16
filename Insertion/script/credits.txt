@@ -1,548 +1,549 @@
 //GAME NAME:		Yu-Gi-Oh: Duel Monsters
 
 // Define required TABLE variables and load the corresponding tables
-#VAR(Table_0, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/credits.tbl", Table_0)
+//#VAR(Table_0, TABLE)
+//#ADDTBL("credits.tbl", Table_0)
 #VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/GBA/Yugioh/DM1/DM1Translation/Extraction/text.tbl", Table_1)
+#ADDTBL("text.tbl", Table_1)
 
 //BLOCK #007 NAME:		Credits
-#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
 
 #JMP($F44B8, $F6E5A) // Jump to insertion point
 
 //Block Range: $F44B8 - $F6E5B
                     
-Original Character
-Design
-Original Monster
-Design 
+ Original Character 
+       Design       
+  Original Monster  
+       Design       
                     
-Kazuki Takahashi
+  Kazuki Takahashi  
                     
-                                        
-Game Design
-Direction
                     
-Nobuhiro Yamada
                     
+    Game Design     
+     Direction      
                     
-Program
+  Nobuhiro Yamada   
                     
-Nobuhiro Yamada
                     
-Takuri Chida
                     
+    Programming     
                     
+  Nobuhiro Yamada   
                     
-Graphic Direction
+    Takuri Chida    
                     
-Kanako Hashimoto
                     
                     
+ Graphic Direction  
                     
-Sound
+  Kanako Hashimoto  
                     
-Kenichi Kamio
                     
+       Sound        
                     
+   Kenichi Kamio    
                     
-Monster Design
-             	       
-...
                     
-Issunboshi
+   Monster Design   
                     
-Nayu Itsumori
+  ...               
+  Issunboshi        
+  Nayu Itsumori     
+  Eva 14            
+  S. A.             
                     
-Eva 14
+  F                 
+  Kushige Doujin    
+  Psycho-kun        
+  Ciel              
+  Peaman            
                     
-S. A.
+  Pigmon            
+  Ryuka Hijiri      
+  Furinji           
+  Pompoko Tanuki    
+  Koten Mikageyama  
                     
-F
+  Murakami          
+  Yugi Junior       
+  Takahiro Aoi      
+  Takayuki Aoki     
+  Misaki Akaboshi   
                     
-Kushige Doujin
+  Yusuke Asano      
+  Toshiro Adachi    
+  Hiroyuki Abe      
+  Akira Anzai       
+  Shin Anzai        
+                    
+  Kyoji Ikegami     
+  Yoichi Ikeda      
+  Atsushi Ishii     
+  Keita Ishizaka    
+  Masataki Izuta    
+                    
+  Hiroyuki Ichikawa 
+  Ito Yuichi        
+  Ryo Inagaki       
+  Koji Imamura      
+  Takeshi Iwakoshi  
+                    
+  Manabu Iwasaka    
+  Reina Iwasaki     
+  Kentaro Ueda      
+  Hiroshi Ueda      
+  Miho Edotani      
+                    
+  Hotake Oishi      
+  Miwako Oshiro     
+  Tomomi Oya        
+  Seiju Okamura     
+  Kazuya Okumura    
+                    
+  Hidekazu Ozaki    
+  Hironobu Ochiai   
+  Masashi Onodera   
+  Tetsuya Kataoka   
+  Hajime Katagiri   
+                    
+  Shunsuke Kato     
+  Yuji Kato         
+  Gakushi Kadota    
+  Koji Kanaiwa      
+  Hideki Kaneko     
+                    
+  Hirotake Kamikosu 
+  Ryosuke Kamikosu  
+  Kohei Kawasaki    
+  Tomohisa Kawahara 
+  Masaki Kitai      
+                    
+  Shuhei Kido       
+  Shigehiro Kimura  
+  Goki Kusamichi    
+  Kunigata          
+  Junko Kubo        
+                    
+  Mari Kubota       
+  Moritaka Kumagaya 
+  Masato Kurano     
+  Kazuya Kuramoto   
+  Osamu Kuwahara    
+                    
+  Nao Kogaku        
+  Mamoru Kodaki     
+  Shin Kojima       
+  Yoshinori Kojima  
+  Makoto Kotake     
+                    
+  Takayuki Konishi  
+  Shinsuke Komaba   
+  Takanao Kominami  
+  Miyuki Kondo      
+  Yuki Saiki        
+                    
+  Jun Saito         
+  Chiemi Saito      
+  Tsukasa Saito     
+  Tetsunari Saito   
+  Kazumi Sasaki     
+                    
+  Katsuhito Sasaki  
+  Tomohiko Saso     
+  Kaori Sato        
+  Keisuke Sato      
+  Go Sato           
+                    
+  Hirokazu Sato     
+  Takumi Saruwatari 
+  Katsuyuki Shiina  
+  Ryota Shiozaki    
+  Toshiaki Shigehisa
+                    
+  Satohiro          
+    Shigematsu      
+  Ryosuke Shimo     
+  Takeshi Shimoda   
+  Kenji Shinnabe    
+  Atsushi Sugai     
+                    
+  Naoto Sugi        
+  Oka Sugita        
+  Gasuho Suzuki     
+  Gasuya Suzuki     
+  Gasuyuki Suzuki   
+                    
+  Akira Sekine      
+  Hitoshi Soma      
+  Kazuki Sotokado   
+  Jun Takahashi     
+  Fumihito Takahashi
+                    
+  Naritomo Takahama 
+  Yuko Tashiro      
+  Kotaro Tadano     
+  Kenji Tateyama    
+  Kenshiro Tanaka   
+                    
+  Yuji Tanabe       
+  Yuichiro Tamura   
+  Kenta Tarushita   
+  Kohei Tsukada     
+  Akihiro Tsuchiya  
+                    
+  Tomoko Tsutsumi   
+  Tomohiro Tsurumi  
+  Masayasu Toda     
+  Takeshi Toba      
+  Keisuke Tomita    
+                    
+  Daichi Tomiyama   
+  Tomotaka Toyama   
+  Atsushi Nakao     
+  Yuta Nakao        
+  Ryuta Nagao       
+                    
+  Takumi Nakajima   
+  Masaki Nagata     
+  Mayu Nakatsuru    
+  Yoichi Nakanishi  
+  Akiko Nakamoto    
+                    
+  Shuka Nakaya      
+  Hiroshi Nagaya    
+  Miki Nishisato    
+  Akiko Nishimura   
+  Takuro Nishimura  
+                    
+  Mariko Nita       
+  Shunichiro        
+    Ninomiya        
+  Ruri Noguchi      
+  Masagasu Nonomura 
+  Hironori Hatano   
+                    
+  Takuya Hamano     
+  Kiichi Hayashi    
+  Yuji Hayatake     
+  Hideaki Harada    
+  Jun Hisakawa      
+                    
+  Yuya Hida         
+  Toshiaki Hira     
+  Masaki Hirono     
+  Yayoi Fukunaga    
+  Takeshi Fujii     
                     
-Psycho-kun
+  Kenichi Fujita    
+  Chie Fujita       
+  Masatoshi Fujita  
+  Mitsumasa Fujita  
+  Katsuhito Fujihara
                     
-Ciel
+  Eiji Fujiyoshi    
+  Toshikazu Futami  
+  Asami Furukawa    
+  Satoshi Furukawa  
+  Yuki Furudaka     
                     
-Peaman
+  Shotaro Hokari    
+  Keisuke Hosome    
+  Go Honzawa        
+  Hidefumi Maeshima 
+  Kayo Maeda        
                     
-Pigmon
+  Kenta Masuda      
+  Nao Matsura       
+  Keisuke Matsuzawa 
+  Ayumi Matsuda     
+  Masahiro Mitsunaga
                     
-Ryuka Hijiri
+  Kairi Miyasato    
+  Saori Mukai       
+  Kyoji Murai       
+  Masayuki Murano   
+  Yuma Mochizuki    
                     
-Furinji
+  Seiichi Motoyama  
+  Shunichi Morita   
+  Seiji Monma       
+  Shota Yamazaki    
+  Hiroshi Yamazaki  
                     
-Pompoko Tanuki
-         	           
-Koten Mikageyama
+  Keisuke Yamada    
+  Taishi Yamada     
+  Yukihisa Yamada   
+  Ikuo Yamamoto     
+  Kenji Yamamoto    
                     
-Murakami
+  Hiroki Yamamoto   
+  Masahiro Yamamoto 
+  Yasushi Yubiyado  
+  Yukio Yoshizaki   
+  Miyuki Yoshizawa  
                     
-Yugi Junior
+  Kazuya Yoshida    
+  Takumi Yoshida    
+  Yoshihiro Yoshida 
+  Taro Yoda         
+  Takayuki Watanabe 
                     
-Takahiro Aoi
                     
-Takayuki Aoki
                     
-Misaki Akaboshi
+   Monster Notes    
                     
-Yusuke Asano
+  Keita Shimomura   
                     
-Toshiro Adachi
                     
-Hiroyuki Abe
                     
-Akira Anzai
+   Special Thanks   
                     
-Shin Anzai
+ Kazuhiko Torishima 
                     
-Kyoji Ikegami
+ Toshimasa Takahashi
                     
-Yoichi Ikeda
+  Yoshihisa Heishi  
                     
-Atsushi Ishii
+   Fuyuto Takeda    
                     
-Keita Ishizaka
+   Tomoyuki Shima   
                     
-Masataki Izuta
                     
-Hiroyuki Ichikawa
                     
-Ito Yuichi
+   Hideo Yoshikura  
                     
-Ryo Inagaki
+      Yu Kondo      
                     
-Koji Imamura
+  Muneharu Machida  
                     
-Takeshi Iwakoshi
+   Junji Yamamoto   
                     
-Manabu Iwasaka
                     
-Reina Iwasaki
                     
-Kentaro Ueda
+  Light Link Music  
                     
-Hiroshi Ueda
+      I. T. L.      
                     
-Miho Edotani
                     
-Hotake Oishi
                     
-Miwako Oshiro
+   Michiko Tokoro   
                     
-Tomomi Oya
+   Hiroyuki Fukui   
                     
-Seiju Okamura
+  Tsutomu Watanabe  
                     
-Kazuya Okumura
+  Hidehiro Hirata   
                     
-Hidekazu Ozaki
                     
-Hironobu Ochiai
                     
-Masashi Onodera
+ Katsuhiro Nakayama 
                     
-Tetsuya Kataoka
+    Masato Sakai    
                     
-Hajime Katagiri
+    Yoshiko Yagi    
                     
-Shunsuke Kato
+   Yoko Sekiguchi   
                     
-Yuji Kato
                     
-Gakushi Kadota
                     
-Koji Kanaiwa
+    Translation     
+Fan translation's   
+credits all go here 
                     
-Hideki Kaneko
+Handle all this     
+when you're awake   
+- Darr              
                     
-Hirotake Kamikosu
                     
-Ryosuke Kamikosu
                     
-Kohei Kawasaki
                     
-Tomohisa Kawahara
                     
-Masaki Kitai
                     
-Shuhei Kido
                     
-Shigehiro Kimura
                     
-Goki Kusamichi
                     
-Kunigata
                     
-Junko Kubo
                     
-Mari Kubota
                     
-Moritaka Kumagaya
                     
-Masato Kurano
                     
-Kazuya Kuramoto
                     
-Osamu Kuwahara
                     
-Nao Kogaku
                     
-Mamoru Kodaki
                     
-Shin Kojima
                     
-Yoshinori Kojima
                     
-Makoto Kotake
                     
-Takayuki Konishi
                     
-Shinsuke Komaba
                     
-Takanao Kominami
                     
-Miyuki Kondo
                     
-Yuki Saiki
                     
-Jun Saito
                     
-Chiemi Saito
                     
-Tsukasa Saito
                     
-Tetsunari Saito
                     
-Kazumi Sasaki
                     
-Katsuhito Sasaki
                     
-Tomohiko Saso
                     
-Kaori Sato
                     
-Keisuke Sato
                     
-Go Sato
                     
-Hirokazu Sato
                     
-Takumi Saruwatari
                     
-Katsuyuki Shiina
                     
-Ryota Shiozaki
                     
-Toshiaki Shigehisa
                     
-Satohiro Shigematsu
                     
-Ryosuke Shimo
-         	           
-Takeshi Shimoda
                     
-Kenji Shinnabe
                     
-Atsushi Sugai
                     
-Naoto Sugi
                     
-Oka Sugita
                     
-Gasuho Suzuki
                     
-Gasuya Suzuki
                     
-Gasuyuki Suzuki
                     
-Akira Sekine
                     
-Hitoshi Soma
                     
-Kazuki Sotokado
                     
-Jun Takahashi
                     
-Fumihito Takahashi
                     
-Naritomo Takahama
                     
-Yuko Tashiro
                     
-Kotaro Tadano
                     
-Kenji Tateyama
                     
-Kenshiro Tanaka
                     
-Yuji Tanabe
                     
-Yuichiro Tamura
                     
-Kenta Tarushita
                     
-Kohei Tsukada
                     
-Akihiro Tsuchiya
                     
-Tomoko Tsutsumi
                     
-Tomohiro Tsurumi
                     
-Masayasu Toda
                     
-Takeshi Toba
                     
-Keisuke Tomita
                     
-Daichi Tomiyama
                     
-Tomotaka Toyama
                     
-Atsushi Nakao
                     
-Yuta Nakao
                     
-Ryuta Nagao
                     
-Takumi Nakajima
                     
-Masaki Nagata
                     
-Mayu Nakatsuru
                     
-Yoichi Nakanishi
                     
-Akiko Nakamoto
                     
-Shuka Nakaya
                     
-Hiroshi Nagaya
                     
-Miki Nishisato
                     
-Akiko Nishimura
                     
-Takuro Nishimura
                     
-Mariko Nita
                     
-Shunichiro Ninomiya
                     
-Ruri Noguchi
                     
-Masagasu Nonomura
                     
-Hironori Hatano
                     
-Takuya Hamano
                     
-Kiichi Hayashi
                     
-Yuji Hayatake
                     
-Hideaki Harada
                     
-Jun Hisakawa
                     
-Yuya Hida
                     
-Toshiaki Hira
                     
-Masaki Hirono
                     
-Yayoi Fukunaga
                     
-Takeshi Fujii
                     
-Kenichi Fujita
                     
-Chie Fujita
                     
-Masatoshi Fujita
                     
-Mitsumasa Fujita
                     
-Katsuhito Fujihara
                     
-Eiji Fujiyoshi
                     
-Toshikazu Futami
                     
-Asami Furukawa
                     
-Satoshi Furukawa
                     
-Yuki Furudaka
                     
-Shotaro Hokari
                     
-Keisuke Hosome
                     
-Go Honzawa
                     
-Hidefumi Maeshima
                     
-Kayo Maeda
                     
-Kenta Masuda
                     
-Nao Matsura
                     
-Keisuke Matsuzawa
                     
-Ayumi Matsuda
                     
-Masahiro Mitsunaga
                     
-Kairi Miyasato
                     
-Saori Mukai
                     
-Kyoji Murai
                     
-Masayuki Murano
                     
-Yuma Mochizuki
                     
-Seiichi Motoyama
                     
-Shunichi Morita
                     
-Seiji Monma
                     
-Shota Yamazaki
                     
-Hiroshi Yamazaki
                     
-Keisuke Yamada
                     
-Taishi Yamada
                     
-Yukihisa Yamada
                     
-Ikuo Yamamoto
                     
-Kenji Yamamoto
                     
-Hiroki Yamamoto
                     
-Masahiro Yamamoto
                     
-Yasushi Yubiyado
                     
-Yukio Yoshizaki
                     
-Miyuki Yoshizawa
                     
-Kazuya Yoshida
                     
-Takumi Yoshida
                     
-Yoshihiro Yoshida
                     
-Taro Yoda
                     
-Takayuki Watanabe
                     
+(Fan translation    
+credit zone ends    
+on THIS LINE!)      
                     
                     
-Monster Notes
                     
-Keita Shimomura
+      Producer      
                     
+  Satoshi Shimomura 
                     
                     
-Special Thanks
                     
-Kazuhiko Torishima
+ Executive Producer 
                     
-Toshimasa Takahashi
+    Kazumi Kitaue   
                     
-Yoshihisa Heishi
                     
-Fuyuto Takeda
                     
-Tomoyuki Shima
                     
                     
                     
-Hideo Yoshikura
                     
-Yu Kondo
                     
-Muneharu Machida
                     
-Junji Yamamoto
                     
                     
                     
-Light Link Music
                     
-I. T. L.
                     
                     
                     
-Michiko Tokoro
                     
-Hiroyuki Fukui
                     
-Tsutomu Watanabe
                     
-Hidehiro Hirata
+       The End      
                     
                     
                     
-Katsuhiro Nakayama
                     
-Masato Sakai
                     
-Yoshiko Yagi
                     
-Yoko Sekiguchi
                     
                     
                     
-Producer
-                    
-Satoshi Shimomura
-                    
-                    
-                    
-Executive Producer
-                    
-Kazumi Kitaue
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-The End
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                   
 // current address: $F6E5B
+//The above must be line 548
