@@ -153,3 +153,86 @@ Mountain
 //　　　　　　やみ
 Darkness
 // current address: $43D4
+
+//Assembly: Trunk name drawing
+//0x5A4E:
+//3E10		ld a,10
+//CD500F	call 0f50
+//3E24		ld a,24
+//CD500F
+//3E38
+//CD500F
+//3E80
+//0E08		ld c,08
+//CD500F
+
+//Assembly: Deck name drawing
+//0xC9F3
+//3E 4F
+//CD 50 0F
+//3E 6D
+//CD 50 0F 
+//3E 43 
+//CD 50 0F
+//3E 80
+//0E 08
+
+#JMP($5A4E)
+<$CD><$00><$3F>
+//call 3f00
+<$00><$00>
+//nop x2
+<$00><$00><$00><$00><$00>
+//nop rest of this stuff out
+<$00><$00><$00><$00><$00>
+<$3E><$80>
+<$0E><$06>
+//ld c,06 ;reduce the amount of spaces
+
+#JMP($C9F3)
+<$CD><$1B><$3F>
+//call 3f1b
+<$00><$00>
+//nop x2
+<$00><$00><$00><$00><$00>
+//nop rest of this stuff out
+<$00><$00><$00><$00><$00>
+<$3E><$80>
+<$0E><$07>
+//ld c,07 ;reduce the amount of spaces
+
+
+#JMP($3F00)
+<$3E><$1E>
+//T
+<$CD><$50><$0F>
+<$3E><$36>
+//r
+<$CD><$50><$0F>
+<$3E><$39>
+//u
+<$CD><$50><$0F>
+<$3E><$32>
+//n
+<$CD><$50><$0F>
+<$3E><$2F>
+//k
+<$CD><$50><$0F>
+<$C9>
+//ret
+
+#JMP($3F1B)
+<$3E><$0E>
+//D
+<$CD><$50><$0F>
+<$3E><$29>
+//e
+<$CD><$50><$0F>
+<$3E><$27>
+//c
+<$CD><$50><$0F>
+<$3E><$2F>
+//k
+<$CD><$50><$0F>
+<$C9>
+//ret
