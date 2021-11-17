@@ -272,3 +272,23 @@ Records
 //<$18><$38><$16><$3C><$0D><$FF><$20>
 D Win<$FF>P
 
+//Records assembly: screen 1, first time
+#JMP($114DF)
+//People duelled
+//<$3E><$20><$22> #ld a,20; ldi (hl),a
+//<$3E><$38><$22>
+<$3E>P<$22>
+<$3E> <$22>
+
+#JMP($1151A)
+//Multiplayer duels
+//3E 18 22 3E 38 22
+<$3E>D<$22>
+<$3E> <$22>
+
+#JMP($1153F)
+//Multiplayer wins
+//3E 16 22 3E 3C 22 36 0D
+<$3E>W<$22>
+<$3E>i<$22>
+<$36>n
