@@ -15,6 +15,7 @@
                     
  Original Character 
        Design       
+                    
   Original Monster  
        Design       
                     
@@ -350,160 +351,159 @@
                     
                     
     Translation     
-Fan translation's   
-credits all go here 
                     
-Handle all this     
-when you're awake   
-- Darr              
+     Lazermutt4     
                     
+      Deltaneos     
                     
+ Users of Yugipedia 
                     
                     
                     
+      Hacking       
                     
+      Darrman       
                     
                     
                     
+      Graphics      
                     
+     Graphicus      
                     
+      Darrman       
                     
                     
                     
+   Documentation    
                     
+    Mantidactyle    
                     
+     Dinoguy1000    
                     
                     
                     
+     Tools Used     
                     
+  abcde             
+  by abw            
+  Text Insertion    
                     
+  BGB               
+  by Bas Steendijk  
+  Debugging         
                     
+  HxD               
+  by Mael Horz      
+  Hex Editing       
                     
+  Notepad++         
+  by Don Ho         
+  File Editing       
                     
+  Github Desktop    
+  Version Control   
                     
                     
                     
+   Special Thanks   
                     
+     Yugipedia      
                     
+   Romhacking.net   
                     
+     Fire Emblem    
+      Universe      
                     
                     
                     
+Characters are named
                     
+in accordance to the
                     
+English dub names    
                     
+used by 4Kids.      
                     
                     
                     
+Card names are based
                     
+off of their names  
                     
+in the Yu-Gi-Oh!    
                     
+Trading Card Game by
                     
+Konami, and are then
                     
+edited down to fit. 
                     
                     
                     
+Some card text is   
                     
+derived from their  
                     
+TCG equivalents.    
                     
                     
                     
+This work is an     
                     
+unofficial fan      
                     
+translation of      
                     
+Yu-Gi-Oh! Duel      
                     
+Monsters. It is not 
                     
+for profit or sale. 
                     
                     
                     
+Do not purchase any 
                     
+physical copies of  
                     
+this product.       
                     
                     
                     
+Yu-Gi-Oh was created
                     
+by Kazuki Takahashi,
                     
+and originally       
                     
+published in Weekly  
                     
+Shonen Jump by      
                     
+Shueisha.           
                     
                     
                     
+All video games are  
                     
+developed and       
                     
+published by Konami. 
                     
                     
                     
+   Yu-Gi-Oh Duel    
+      Monsters      
                     
+   C. 1998 Konami   
                     
+   Fan Translation  
                     
+    2021 Darrman    
                     
+   romhacking.net/  
+ translations/6337/ 
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-(Fan translation    
-credit zone ends    
-on THIS LINE!)      
                     
                     
                     

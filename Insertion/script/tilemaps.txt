@@ -153,9 +153,10 @@ selected. OK?  No
 //Multiplayer, waiting
 #JMP($2BB1B)
 //たいせんあいてが そうさちんうです
+
 <$D2><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D3><$D4>
-<$D5>Enemy is thinking.<$D6>
-<$D5>                  <$D6>
+<$D5>Your opponent     <$D6>
+<$D5>is in control.    <$D6>
 <$D5>                  <$D6>
 <$D7><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D8><$D9>
 
@@ -189,13 +190,13 @@ selected. OK?  No
  Weekly Shonen Jump 
                     
   Terminology from  
-  4Kids English dub 
+  4Kids English dub  
    and Konami TCG   
                     
    UNOFFICIAL FAN   
-     TRANSLATION    
-                    
-  WORK IN PROGRESS  
+    TRANSLATION     
+ Credits in Readme  
+    NOT FOR SALE    
                     
                     
 //Pegasus name
