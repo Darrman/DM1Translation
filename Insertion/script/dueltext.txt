@@ -44,7 +44,9 @@ Communicating...[Page][Exit]
 //[Page]
 //[Exit]
 //
-Pointer 3[Page][Exit]
+Choose a card[Line]
+from your hand.[Page][Exit]
+//Pointer 3[Page][Exit]
 // current address: $14A14
 
 //POINTER #4 @ $14988 - STRING #4 @ $14A14
@@ -91,7 +93,9 @@ Trade complete.[Page][Exit]
 //Opponent thinking?
 //たいせんあいてが　そうさちゅうです[Exit]
 //
-Enemy is thinking[Page][Exit]
+Your opponent [Line]
+is in control.[Page][Exit]
+//Enemy is thinking[Page][Exit]
 // current address: $14A73
 
 //POINTER #9 @ $14992 - STRING #9 @ $14A73
@@ -101,6 +105,8 @@ Enemy is thinking[Page][Exit]
 //[CardNum]になった[Page]
 //[Exit]
 //
+Comm. Fusion[Line]
+has occurred.[Page]
 Card became[Line]
 [CardNum][Page][Exit]
 // current address: $14A8A
@@ -277,7 +283,7 @@ beasts power up.[Page][Exit]
 //[Exit]
 //
 Used Sogen.[Line]
-Field now Plain.[Page]
+Field now Meadow.[Page]
 Warriors power up.[Page][Exit]
 // current address: $14C5C
 
@@ -310,9 +316,10 @@ pyro power down.[Page][Exit]
 //
 Used Yami.[Line]
 Field now Dark.[Page]
-Fiend, spellcaster[Line]
+Fiends, magicians[Line]
 power up.[Page]
-Fairy powers down.[Page][Exit]
+Fairies power[Line]
+down.[Page][Exit]
 // current address: $14CDD
 
 //POINTER #26 @ $149B4 - STRING #26 @ $14CDD
@@ -506,8 +513,8 @@ revealed.[Page][Exit]
 //つうしんエラー　バッファがあふれました[Page]
 //[Exit]
 //
-Communication[Line]
-error:bufr.ovrflow[Page][Exit]
+Comm. Error:[Line]
+Buffer overflow.[Page][Exit]
 // current address: $14F19
 
 //POINTER #42 @ $149D4 - STRING #42 @ $14F19

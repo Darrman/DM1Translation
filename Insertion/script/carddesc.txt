@@ -3858,7 +3858,7 @@ attack for 3 turns
 //TL: ???
 //The curse of the hexagram reduces the power of all the opponent's monsters.
 Hexagram's curse   
-weakens all foes. 
+weakens all foes.  
 // current address: $F344E
 
 //POINTER #349 @ $F031A - STRING #349 @ $F344E
@@ -3869,7 +3869,7 @@ weakens all foes.
 //TL: ???
 //A dazzling light reveals all monsters on the field.
 Dazzling light shows
-all monsters.
+all monsters.      
 // current address: $F3472
 
 //POINTER #350 @ $F031C - STRING #350 @ $F3472
